@@ -9820,11 +9820,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 414.02 214.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -9839,15 +9839,6 @@
 			)
 		)
 		(property "Part Number" "73251-2121"
-			(at 414.02 214.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 414.02 214.63 0)
 			(effects
 				(font
@@ -9914,11 +9905,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILTER HIGHPASS WLAN&BLUETOOTH"
 			(at 289.56 97.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -9933,15 +9924,6 @@
 			)
 		)
 		(property "Part Number" "DEA162400HT-8004B1"
-			(at 289.56 97.79 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FILTER HIGHPASS WLAN&BLUETOOTH"
 			(at 289.56 97.79 0)
 			(effects
 				(font
@@ -10014,11 +9996,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FILTER LOW PASS 1880MHZ 0603 SMD"
 			(at 289.56 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10033,15 +10015,6 @@
 			)
 		)
 		(property "Part Number" "LP0603A1880ANTR"
-			(at 289.56 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FILTER LOW PASS 1880MHZ 0603 SMD"
 			(at 289.56 58.42 0)
 			(effects
 				(font
@@ -10182,11 +10155,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 107.95 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 334.01 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10201,15 +10174,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 334.01 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 334.01 113.03 0)
 			(effects
 				(font
@@ -10617,11 +10581,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 311.15 93.98 0)
+		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+			(at 267.97 93.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10636,15 +10600,6 @@
 			)
 		)
 		(property "Part Number" "CL05C470JB5NNNC"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -10788,11 +10743,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 135.89 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 187.96 96.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10807,15 +10762,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -10959,11 +10905,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
 			(at 172.72 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -10978,15 +10924,6 @@
 			)
 		)
 		(property "Part Number" "CL05C331JB5NNNC"
-			(at 172.72 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -11062,11 +10999,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 179.07 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11081,15 +11018,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT470R"
-			(at 179.07 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -11167,11 +11095,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 58.42 0)
+		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
+			(at 167.64 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11186,15 +11114,6 @@
 			)
 		)
 		(property "Part Number" "CL05C331JB5NNNC"
-			(at 167.64 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -11270,11 +11189,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 191.77 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11289,15 +11208,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT470R"
-			(at 191.77 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -11507,11 +11417,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 8.2PF 50V C0G/NPO 0402"
 			(at 203.2 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11526,15 +11436,6 @@
 			)
 		)
 		(property "Part Number" "CC0402CRNPO9BN8R2"
-			(at 203.2 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 8.2PF 50V C0G/NPO 0402"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -11612,11 +11513,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 180PF 50V C0G/NPO 0402"
 			(at 210.82 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11631,15 +11532,6 @@
 			)
 		)
 		(property "Part Number" "CC0402JRNPO9BN181"
-			(at 210.82 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 180PF 50V C0G/NPO 0402"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -11715,16 +11607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
+		(property "Description" "RES 22K OHM 5% 1/16W 0402"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -11733,7 +11616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ223X"
+		(property "Manufacturer" "Yageo"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -11742,7 +11625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22K OHM 1/10W 5% 0402 SMD"
+		(property "Part Number" "RC0402JR-0722KL"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -11820,11 +11703,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 208.28 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 83.82 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11839,15 +11722,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 83.82 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 83.82 105.41 0)
 			(effects
 				(font
@@ -11925,11 +11799,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 129.54 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -11944,15 +11818,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 129.54 208.28 0)
 			(effects
 				(font
@@ -12030,11 +11895,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 208.28 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 139.7 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12049,15 +11914,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 139.7 208.28 0)
 			(effects
 				(font
@@ -12135,11 +11991,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.05 208.28 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 93.98 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12154,15 +12010,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 93.98 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -12240,11 +12087,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 208.28 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 93.98 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12259,15 +12106,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 93.98 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -12345,11 +12183,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 208.28 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 139.7 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12364,15 +12202,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 139.7 208.28 0)
 			(effects
 				(font
@@ -12514,11 +12343,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 51K OHM 1% 0.0625W 0402"
 			(at 176.53 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12533,15 +12362,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT51K0"
-			(at 176.53 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 51K OHM 1% 0.0625W 0402"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -12749,11 +12569,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 175.26 106.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12768,15 +12588,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -12854,11 +12665,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 127 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 170.18 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12873,15 +12684,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12959,11 +12761,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 127 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 170.18 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12978,15 +12780,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -13064,11 +12857,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 127 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 170.18 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13083,15 +12876,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -13169,11 +12953,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 170.18 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13188,15 +12972,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -13536,11 +13311,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 180.34 106.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13555,15 +13330,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -13771,11 +13537,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 403.86 223.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13790,15 +13556,6 @@
 			)
 		)
 		(property "Part Number" "LXES15AAA1-100"
-			(at 403.86 223.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 403.86 223.52 0)
 			(effects
 				(font
@@ -14074,11 +13831,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 135.89 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 187.96 96.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14093,15 +13850,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -14177,11 +13925,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 256.54 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14196,15 +13944,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 256.54 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 256.54 83.82 0)
 			(effects
 				(font
@@ -14285,11 +14024,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 265.43 101.6 0)
+		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+			(at 308.61 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14304,15 +14043,6 @@
 			)
 		)
 		(property "Part Number" "CL05C470JB5NNNC"
-			(at 308.61 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
 			(at 308.61 101.6 0)
 			(effects
 				(font
@@ -14388,11 +14118,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra Low Profile 0805 Balun 50 to 100 ohm Balanced"
 			(at 86.36 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14407,15 +14137,6 @@
 			)
 		)
 		(property "Part Number" "B0310J50100AHF"
-			(at 86.36 102.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra Low Profile 0805 Balun 50 to 100 ohm Balanced"
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -14554,11 +14275,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ultra Low Profile 0805 Balun 50 to 100 ohm Balanced"
 			(at 148.59 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14573,15 +14294,6 @@
 			)
 		)
 		(property "Part Number" "B0310J50100AHF"
-			(at 148.59 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra Low Profile 0805 Balun 50 to 100 ohm Balanced"
 			(at 148.59 149.86 0)
 			(effects
 				(font
@@ -14654,11 +14366,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 43.18 171.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14673,15 +14385,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 43.18 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 43.18 171.45 0)
 			(effects
 				(font
@@ -14828,11 +14531,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 163.83 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at 41.91 295.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14847,15 +14550,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 41.91 295.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 295.91 0)
 			(effects
 				(font
@@ -14933,11 +14627,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 157.48 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at -90.17 166.37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14952,15 +14646,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at -90.17 166.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at -90.17 166.37 0)
 			(effects
 				(font
@@ -15038,11 +14723,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 71.12 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at 41.91 110.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15057,15 +14742,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -15141,11 +14817,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 43.18 43.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15160,15 +14836,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -15249,11 +14916,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 29.21 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at 30.48 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15268,15 +14935,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 30.48 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 30.48 20.32 0)
 			(effects
 				(font
@@ -15418,11 +15076,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 322.58 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15437,15 +15095,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 322.58 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 322.58 80.01 0)
 			(effects
 				(font
@@ -15527,11 +15176,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 400.05 97.79 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 185.42 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15546,15 +15195,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 185.42 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -15633,11 +15273,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 313.69 62.23 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 505.46 189.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15652,15 +15292,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 505.46 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 505.46 189.23 0)
 			(effects
 				(font
@@ -15739,11 +15370,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 265.43 62.23 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 457.2 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15758,15 +15389,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 457.2 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 457.2 143.51 0)
 			(effects
 				(font
@@ -15844,11 +15466,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 69.85 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 431.8 8.89 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15863,15 +15485,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 431.8 8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 431.8 8.89 0)
 			(effects
 				(font
@@ -15950,11 +15563,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 262.89 50.8 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 320.04 -237.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15969,15 +15582,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 320.04 -237.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 320.04 -237.49 0)
 			(effects
 				(font
@@ -16187,11 +15791,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 185.42 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 29.21 265.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16206,15 +15810,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 29.21 265.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 29.21 265.43 0)
 			(effects
 				(font
@@ -16359,11 +15954,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 151.13 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 106.68 -137.16 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16378,15 +15973,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 106.68 -137.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 106.68 -137.16 0)
 			(effects
 				(font
@@ -16465,11 +16051,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 49.53 21.59 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 106.68 -266.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16484,15 +16070,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 106.68 -266.7 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 106.68 -266.7 0)
 			(effects
 				(font
@@ -16636,11 +16213,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 57.15 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 29.21 137.16 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16655,15 +16232,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 29.21 137.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 29.21 137.16 0)
 			(effects
 				(font
@@ -16949,11 +16517,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 77.47 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 127 -210.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16968,15 +16536,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 127 -210.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 127 -210.82 0)
 			(effects
 				(font
@@ -17054,11 +16613,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 105.41 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 220.98 219.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17073,15 +16632,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 220.98 219.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -17223,11 +16773,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 60.96 91.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17242,15 +16792,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 60.96 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 60.96 91.44 0)
 			(effects
 				(font
@@ -17397,11 +16938,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 114.3 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 140.97 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17416,15 +16957,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 140.97 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -17500,11 +17032,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 236.22 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17519,15 +17051,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 236.22 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 236.22 55.88 0)
 			(effects
 				(font
@@ -17608,11 +17131,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 147.32 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 271.78 168.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17627,15 +17150,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 271.78 168.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 271.78 168.91 0)
 			(effects
 				(font
@@ -17711,11 +17225,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 173.99 161.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17730,15 +17244,6 @@
 			)
 		)
 		(property "Part Number" "SKY13453-385LF"
-			(at 173.99 161.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RF SWITCH 6GHZ 6QFN"
 			(at 173.99 161.29 0)
 			(effects
 				(font
@@ -17819,11 +17324,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 96.52 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 215.9 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17838,15 +17343,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 215.9 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 215.9 252.73 0)
 			(effects
 				(font
@@ -17924,11 +17420,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 229.87 36.83 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 12.7 80.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17943,15 +17439,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 12.7 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 12.7 80.01 0)
 			(effects
 				(font
@@ -18228,11 +17715,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 360.68 81.28 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 533.4 255.27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18247,15 +17734,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 533.4 255.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 533.4 255.27 0)
 			(effects
 				(font
@@ -18331,11 +17809,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 383.54 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18350,15 +17828,6 @@
 			)
 		)
 		(property "Part Number" "SKY13317-373LF"
-			(at 383.54 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 383.54 87.63 0)
 			(effects
 				(font
@@ -18448,11 +17917,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 400.05 77.47 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at 41.91 120.65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18467,15 +17936,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 41.91 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -18553,11 +18013,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 367.03 97.79 0)
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+			(at 41.91 163.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18572,15 +18032,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 41.91 163.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -18656,11 +18107,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WIDEBAND SYNTHESIZER/VCO WITH INTEGRATED 6GHz MIXER"
 			(at 135.89 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18675,15 +18126,6 @@
 			)
 		)
 		(property "Part Number" "RFFC5072TR7"
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WIDEBAND SYNTHESIZER/VCO WITH INTEGRATED 6GHz MIXER"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -18852,11 +18294,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 232.41 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18871,15 +18313,6 @@
 			)
 		)
 		(property "Part Number" "SKY13317-373LF"
-			(at 232.41 187.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 232.41 187.96 0)
 			(effects
 				(font
@@ -18967,11 +18400,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 347.98 210.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18986,15 +18419,6 @@
 			)
 		)
 		(property "Part Number" "SKY13317-373LF"
-			(at 347.98 210.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20 MHz-6.0 GHz pHEMT GaAs SP3T Switch"
 			(at 347.98 210.82 0)
 			(effects
 				(font
@@ -19082,11 +18506,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 223.52 0)
+		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
+			(at 217.17 370.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19101,15 +18525,6 @@
 			)
 		)
 		(property "Part Number" "BRL1608T100M"
-			(at 217.17 370.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 217.17 370.84 0)
 			(effects
 				(font
@@ -19178,11 +18593,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 242.57 229.87 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 318.77 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19197,15 +18612,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 318.77 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 318.77 190.5 0)
 			(effects
 				(font
@@ -19284,11 +18690,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 368.3 214.63 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 328.93 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19303,15 +18709,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 328.93 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -19519,11 +18916,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1-6 GHz 3 V, 14 dBm Amplifier"
 			(at 228.6 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19538,15 +18935,6 @@
 			)
 		)
 		(property "Part Number" "MGA-81563-TR1G"
-			(at 228.6 243.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1-6 GHz 3 V, 14 dBm Amplifier"
 			(at 228.6 243.84 0)
 			(effects
 				(font
@@ -19835,11 +19223,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 297.18 198.12 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 185.42 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19854,15 +19242,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 185.42 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -19940,11 +19319,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 269.24 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19959,15 +19338,6 @@
 			)
 		)
 		(property "Part Number" "YJL2301C"
-			(at 269.24 215.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 269.24 215.9 0)
 			(effects
 				(font
@@ -20039,11 +19409,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 175.26 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 160.02 255.27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20058,15 +19428,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 160.02 255.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 160.02 255.27 0)
 			(effects
 				(font
@@ -20211,11 +19572,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 142.24 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 175.26 62.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20230,15 +19591,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 175.26 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -20383,11 +19735,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 245.11 41.91 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 240.03 -38.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20402,15 +19754,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 240.03 -38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 240.03 -38.1 0)
 			(effects
 				(font
@@ -20555,11 +19898,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 78.74 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 316.23 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20574,15 +19917,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 316.23 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 316.23 73.66 0)
 			(effects
 				(font
@@ -20727,11 +20061,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 331.47 66.04 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 388.62 -222.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20746,15 +20080,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 388.62 -222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 388.62 -222.25 0)
 			(effects
 				(font
@@ -20964,11 +20289,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 104.14 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 402.59 109.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20983,15 +20308,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 402.59 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 402.59 109.22 0)
 			(effects
 				(font
@@ -21136,11 +20452,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 410.21 92.71 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 698.5 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21155,15 +20471,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 698.5 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 698.5 149.86 0)
 			(effects
 				(font
@@ -21241,11 +20548,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 359.41 95.25 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 71.12 152.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21260,15 +20567,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -21478,11 +20776,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 345.44 92.71 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 57.15 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21497,15 +20795,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -21583,11 +20872,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 312.42 215.9 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 24.13 273.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21602,15 +20891,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 24.13 273.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 24.13 273.05 0)
 			(effects
 				(font
@@ -21820,11 +21100,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 326.39 218.44 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 38.1 275.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21839,15 +21119,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 38.1 275.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 38.1 275.59 0)
 			(effects
 				(font
@@ -21926,11 +21197,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 373.38 205.74 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 316.23 494.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21945,15 +21216,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 316.23 494.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 316.23 494.03 0)
 			(effects
 				(font
@@ -22097,11 +21359,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 195.58 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at -80.01 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22116,15 +21378,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at -80.01 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at -80.01 252.73 0)
 			(effects
 				(font
@@ -22335,11 +21588,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 171.45 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 200.66 459.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22354,15 +21607,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 200.66 459.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 200.66 459.74 0)
 			(effects
 				(font
@@ -22441,11 +21685,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 260.35 185.42 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 203.2 473.71 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22460,15 +21704,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 203.2 473.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 203.2 473.71 0)
 			(effects
 				(font
@@ -22678,11 +21913,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 95.25 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at -33.02 255.27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22697,15 +21932,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at -33.02 255.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at -33.02 255.27 0)
 			(effects
 				(font
@@ -22783,11 +22009,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 158.75 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 132.08 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22802,15 +22028,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 132.08 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 132.08 254 0)
 			(effects
 				(font
@@ -22886,11 +22103,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 121.92 0)
+		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
+			(at 205.74 394.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22905,15 +22122,6 @@
 			)
 		)
 		(property "Part Number" "BRL1608T100M"
-			(at 205.74 394.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 205.74 394.97 0)
 			(effects
 				(font
@@ -22980,11 +22188,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 129.54 0)
+		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
+			(at 198.12 402.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22999,15 +22207,6 @@
 			)
 		)
 		(property "Part Number" "BRL1608T100M"
-			(at 198.12 402.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 198.12 402.59 0)
 			(effects
 				(font
@@ -23077,11 +22276,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 251.46 229.87 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 414.02 198.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23096,15 +22295,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 414.02 198.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 414.02 198.12 0)
 			(effects
 				(font
@@ -23183,11 +22373,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 325.12 182.88 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 487.68 151.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23202,15 +22392,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 487.68 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 487.68 151.13 0)
 			(effects
 				(font
@@ -23289,11 +22470,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 309.88 168.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23308,15 +22489,6 @@
 			)
 		)
 		(property "Part Number" "YJL2301C"
-			(at 309.88 168.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 309.88 168.91 0)
 			(effects
 				(font
@@ -23520,11 +22692,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 320.04 163.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23539,15 +22711,6 @@
 			)
 		)
 		(property "Part Number" "CL05A105KP5NNNC"
-			(at 320.04 163.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -23625,11 +22788,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 332.74 182.88 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 408.94 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23644,15 +22807,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 408.94 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 408.94 143.51 0)
 			(effects
 				(font
@@ -23728,11 +22882,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 176.53 0)
+		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
+			(at 314.96 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23747,15 +22901,6 @@
 			)
 		)
 		(property "Part Number" "BRL1608T100M"
-			(at 314.96 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 314.96 111.76 0)
 			(effects
 				(font
@@ -23822,11 +22967,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1-6 GHz 3 V, 14 dBm Amplifier"
 			(at 346.71 154.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23841,15 +22986,6 @@
 			)
 		)
 		(property "Part Number" "MGA-81563-TR1G"
-			(at 346.71 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1-6 GHz 3 V, 14 dBm Amplifier"
 			(at 346.71 154.94 0)
 			(effects
 				(font
@@ -23937,11 +23073,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 273.05 205.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23956,15 +23092,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 273.05 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 273.05 205.74 0)
 			(effects
 				(font
@@ -24040,11 +23167,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 306.07 160.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24059,15 +23186,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 306.07 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 306.07 160.02 0)
 			(effects
 				(font
@@ -24871,11 +23989,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 257.81 209.55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24890,15 +24008,6 @@
 			)
 		)
 		(property "Part Number" "CL05A105KP5NNNC"
-			(at 257.81 209.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -25048,11 +24157,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BOARD SHIELD 2INX1.5IN FRAME"
 			(at 44.45 228.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -25067,15 +24176,6 @@
 			)
 		)
 		(property "Part Number" "BMI-S-230-F-R"
-			(at 44.45 228.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BOARD SHIELD 2INX1.5IN FRAME"
 			(at 44.45 228.6 0)
 			(effects
 				(font
@@ -25210,11 +24310,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BOARD SHIELD 2INX1.5IN COVER"
 			(at 44.45 212.09 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -25229,15 +24329,6 @@
 			)
 		)
 		(property "Part Number" "BMI-S-230-C"
-			(at 44.45 212.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BOARD SHIELD 2INX1.5IN COVER"
 			(at 44.45 212.09 0)
 			(effects
 				(font
@@ -26883,11 +25974,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 185.42 255.27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -26902,15 +25993,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 185.42 255.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 185.42 255.27 0)
 			(effects
 				(font
@@ -27053,11 +26135,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 290.83 231.14 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 307.34 345.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -27072,15 +26154,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 307.34 345.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 307.34 345.44 0)
 			(effects
 				(font
@@ -27159,11 +26232,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 223.52 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 251.46 262.89 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -27178,15 +26251,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 251.46 262.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 251.46 262.89 0)
 			(effects
 				(font
@@ -27265,11 +26329,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 304.8 140.97 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 191.77 22.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -27284,15 +26348,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 191.77 22.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 191.77 22.86 0)
 			(effects
 				(font
@@ -27371,11 +26426,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 359.41 168.91 0)
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+			(at 444.5 336.55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -27390,15 +26445,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 444.5 336.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 444.5 336.55 0)
 			(effects
 				(font
@@ -28310,11 +27356,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 242.57 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 448.31 185.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28329,15 +27375,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 448.31 185.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 448.31 185.42 0)
 			(effects
 				(font
@@ -28415,11 +27452,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 255.27 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 236.22 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28434,15 +27471,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 236.22 215.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 236.22 215.9 0)
 			(effects
 				(font
@@ -28520,11 +27548,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PC TEST POINT TIN SMD"
 			(at 66.04 248.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28539,15 +27567,6 @@
 			)
 		)
 		(property "Part Number" "S1751-46R"
-			(at 66.04 248.92 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT TIN SMD"
 			(at 66.04 248.92 0)
 			(effects
 				(font
@@ -28749,11 +27768,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 388.62 176.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28768,15 +27787,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 388.62 176.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 388.62 176.53 0)
 			(effects
 				(font
@@ -28852,11 +27862,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 394.97 207.01 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28871,15 +27881,6 @@
 			)
 		)
 		(property "Part Number" "BRL1608T100M"
-			(at 394.97 207.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INDUCTR 10UH 220MA 20% 0603 SMD"
 			(at 394.97 207.01 0)
 			(effects
 				(font
@@ -28948,11 +27949,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 402.59 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28967,15 +27968,6 @@
 			)
 		)
 		(property "Part Number" "CL05A105KP5NNNC"
-			(at 402.59 180.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -29054,11 +28046,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 392.43 185.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -29073,15 +28065,6 @@
 			)
 		)
 		(property "Part Number" "YJL2301C"
-			(at 392.43 185.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 392.43 185.42 0)
 			(effects
 				(font
@@ -30390,11 +29373,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18 OHM 5% 1/16W 0402"
 			(at 317.5 176.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -30409,15 +29392,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0718RL"
-			(at 317.5 176.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 1/16W 0402"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -30651,11 +29625,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18 OHM 5% 1/16W 0402"
 			(at 261.62 223.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -30670,15 +29644,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0718RL"
-			(at 261.62 223.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 18 OHM 5% 1/16W 0402"
 			(at 261.62 223.52 0)
 			(effects
 				(font

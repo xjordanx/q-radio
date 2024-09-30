@@ -5423,6 +5423,126 @@
 				)
 			)
 		)
+		(symbol "praline:3V3FPGA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3FPGA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3FPGA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3FPGA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 80.01 27.94)
@@ -5509,7 +5629,7 @@
 		(uuid "275ec75a-8966-4e61-a32c-14a0b57eb393")
 	)
 	(junction
-		(at 388.62 186.69)
+		(at 391.16 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b6cd35e-9c91-45e5-8561-fc8ff07c8223")
@@ -5557,7 +5677,7 @@
 		(uuid "39a29f21-274f-418c-bcc7-5cc8e660210b")
 	)
 	(junction
-		(at 388.62 194.31)
+		(at 391.16 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b7f6ae1-b835-4fbc-8f6f-9c70eb4440a9")
@@ -6094,6 +6214,168 @@
 		(at 228.6 116.84)
 		(uuid "d9255e92-9906-4001-ac23-2d368938d4d1")
 	)
+	(bus_entry
+		(at 375.92 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046c4d2e-e01f-4526-9a64-b85516675208")
+	)
+	(bus_entry
+		(at 358.14 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7986d6-2f24-4952-b88e-7cdcd47fe923")
+	)
+	(bus_entry
+		(at 415.29 142.24)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e684d5-1df4-4516-bb22-7e6013dc48c3")
+	)
+	(bus_entry
+		(at 415.29 132.08)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27478d16-b64e-41c8-8b8d-4eb1ab93a3b1")
+	)
+	(bus_entry
+		(at 373.38 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308a6cf7-99a0-414f-8715-4e4cec2cca06")
+	)
+	(bus_entry
+		(at 415.29 134.62)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c97c555-058e-4fe2-9ab5-f96aa8e73266")
+	)
+	(bus_entry
+		(at 353.06 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce90466-4a49-4544-8d90-7b5dc8400ef3")
+	)
+	(bus_entry
+		(at 355.6 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a92ab5-7694-4524-80de-33b454189d58")
+	)
+	(bus_entry
+		(at 370.84 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4296ea-6b7d-4ce0-a8b3-c25d2472503f")
+	)
+	(bus_entry
+		(at 378.46 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f80051-f872-4680-b380-f3c95d820648")
+	)
+	(bus_entry
+		(at 415.29 129.54)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceea299-fb64-4178-98aa-b8eb68efa34c")
+	)
+	(bus_entry
+		(at 415.29 161.29)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb359aa-2472-4442-9160-607658eb2142")
+	)
+	(bus_entry
+		(at 360.68 181.61)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccb92c2-4f60-4a4a-a50e-0499d53a81a3")
+	)
+	(bus_entry
+		(at 415.29 124.46)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce701b38-7a19-42f5-b4dd-5ad5302ebbc4")
+	)
+	(bus_entry
+		(at 415.29 163.83)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d509124f-c8ed-456e-a0b3-899b76005c9d")
+	)
+	(bus_entry
+		(at 415.29 137.16)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db309c17-5c48-4407-8510-f82c944fe952")
+	)
+	(bus_entry
+		(at 415.29 127)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc20dee0-f05e-4b36-882e-d4d05e64494e")
+	)
+	(bus_entry
+		(at 415.29 139.7)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6f408f-36be-4daf-bd9e-2337411d4268")
+	)
 	(wire
 		(pts
 			(xy 58.42 204.47) (xy 93.98 204.47)
@@ -6176,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 161.29) (xy 353.06 156.21)
+			(xy 353.06 179.07) (xy 353.06 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6216,16 +6498,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 156.21) (xy 365.76 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097cb700-29ac-4b76-9fd9-4ffd8ebd9666")
-	)
-	(wire
-		(pts
 			(xy 134.62 204.47) (xy 148.59 204.47)
 		)
 		(stroke
@@ -6246,6 +6518,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 168.91) (xy 370.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b15e527-435a-4455-8590-0865c81da515")
+	)
+	(wire
+		(pts
 			(xy 294.64 210.82) (xy 292.1 210.82)
 		)
 		(stroke
@@ -6253,6 +6535,16 @@
 			(type default)
 		)
 		(uuid "0b92d19a-7eac-4040-bf5e-cdd7d3e49039")
+	)
+	(wire
+		(pts
+			(xy 365.76 171.45) (xy 365.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c250585-ea2e-4799-8a9d-1c7dab8b22ad")
 	)
 	(wire
 		(pts
@@ -6314,6 +6606,16 @@
 		)
 		(uuid "10e7f43c-d835-46cb-aa6d-2998aacd1fac")
 	)
+	(bus
+		(pts
+			(xy 415.29 137.16) (xy 415.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a9bb44-fef2-4a83-b8a4-39ac2386959f")
+	)
 	(wire
 		(pts
 			(xy 302.26 92.71) (xy 302.26 95.25)
@@ -6346,7 +6648,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 134.62) (xy 397.51 134.62)
+			(xy 394.97 134.62) (xy 412.75 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6356,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 194.31) (xy 396.24 194.31)
+			(xy 391.16 208.28) (xy 398.78 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6413,6 +6715,16 @@
 			(type default)
 		)
 		(uuid "1723a52b-75b1-42e4-b6d7-73b438376084")
+	)
+	(wire
+		(pts
+			(xy 373.38 166.37) (xy 370.84 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172d5624-9da0-4977-8f13-25f06ed62e36")
 	)
 	(wire
 		(pts
@@ -6486,16 +6798,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 156.21) (xy 373.38 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b347986-6493-4590-8d97-ae3d2f014dfc")
-	)
-	(wire
-		(pts
 			(xy 21.59 138.43) (xy 21.59 140.97)
 		)
 		(stroke
@@ -6556,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 156.21) (xy 350.52 161.29)
+			(xy 350.52 156.21) (xy 350.52 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6583,16 +6885,6 @@
 			(type default)
 		)
 		(uuid "20bdab93-0607-4b1b-8ae8-5748a7241921")
-	)
-	(wire
-		(pts
-			(xy 74.93 138.43) (xy 74.93 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22cd2eae-ea2f-4fae-a17a-d6da2434d743")
 	)
 	(wire
 		(pts
@@ -6736,7 +7028,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 138.43) (xy 90.17 140.97)
+			(xy 67.31 138.43) (xy 67.31 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6826,6 +7118,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 156.21) (xy 368.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31182156-748c-4815-b83b-c2d3c9e5846e")
+	)
+	(wire
+		(pts
 			(xy 76.2 234.95) (xy 76.2 237.49)
 		)
 		(stroke
@@ -6853,6 +7155,16 @@
 			(type default)
 		)
 		(uuid "323ebbaa-7b00-4143-af32-1a7759997c1d")
+	)
+	(bus
+		(pts
+			(xy 360.68 181.61) (xy 370.84 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e67f3a-b0f1-457a-af98-86d8c78f97d4")
 	)
 	(wire
 		(pts
@@ -6883,6 +7195,16 @@
 			(type default)
 		)
 		(uuid "36477f4a-c08b-4297-a0db-528ef5914d0c")
+	)
+	(wire
+		(pts
+			(xy 375.92 161.29) (xy 412.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e46d3c-6a62-4f5b-9616-2618d38446bc")
 	)
 	(wire
 		(pts
@@ -6956,16 +7278,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 191.77) (xy 248.92 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2da870-4f57-48ca-90b9-8b137f9c3f25")
-	)
-	(wire
-		(pts
 			(xy 320.04 205.74) (xy 307.34 205.74)
 		)
 		(stroke
@@ -6986,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 196.85) (xy 386.08 194.31)
+			(xy 388.62 210.82) (xy 388.62 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7033,6 +7345,16 @@
 			(type default)
 		)
 		(uuid "403118b9-ca3f-4989-b2e6-2a7b704dd439")
+	)
+	(bus
+		(pts
+			(xy 370.84 181.61) (xy 373.38 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410e7a3d-536a-4346-b7a5-52760a986609")
 	)
 	(wire
 		(pts
@@ -7244,6 +7566,16 @@
 		)
 		(uuid "4f283830-d355-49c8-b71d-a2089b9a9826")
 	)
+	(bus
+		(pts
+			(xy 375.92 181.61) (xy 378.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fde24fd-6dd8-4471-a0a1-ec573338b074")
+	)
 	(wire
 		(pts
 			(xy 311.15 26.67) (xy 318.77 26.67)
@@ -7323,16 +7655,6 @@
 			(type default)
 		)
 		(uuid "53337647-f7cd-48bf-8d6c-6c301a235e75")
-	)
-	(wire
-		(pts
-			(xy 248.92 201.93) (xy 248.92 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5381fd0f-29b6-43b0-b8b3-12103a4388a9")
 	)
 	(wire
 		(pts
@@ -7464,6 +7786,16 @@
 		)
 		(uuid "58ffc7fc-01b0-4db2-b1ee-efc9985169bf")
 	)
+	(bus
+		(pts
+			(xy 415.29 124.46) (xy 415.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5933d2d8-5c27-4fa3-b9f4-052b2cac1202")
+	)
 	(wire
 		(pts
 			(xy 228.6 129.54) (xy 231.14 129.54)
@@ -7566,7 +7898,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 129.54) (xy 397.51 129.54)
+			(xy 394.97 129.54) (xy 412.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7714,6 +8046,26 @@
 		)
 		(uuid "6afac73c-7ee9-4593-9c21-c678c12f86d4")
 	)
+	(bus
+		(pts
+			(xy 415.29 163.83) (xy 415.29 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b82ae66-8aff-4221-84f8-98552fb0e84b")
+	)
+	(wire
+		(pts
+			(xy 370.84 166.37) (xy 370.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbe188b-5f6c-4480-bebc-17abb1373e73")
+	)
 	(wire
 		(pts
 			(xy 368.3 62.23) (xy 330.2 62.23)
@@ -7773,6 +8125,16 @@
 			(type default)
 		)
 		(uuid "7040c1e8-557e-43ad-9a13-dd923a9905a8")
+	)
+	(wire
+		(pts
+			(xy 378.46 156.21) (xy 378.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cc59f1-f1cd-4898-86d7-f843584ebcb3")
 	)
 	(wire
 		(pts
@@ -7846,7 +8208,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 194.31) (xy 388.62 194.31)
+			(xy 388.62 208.28) (xy 391.16 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7866,7 +8228,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 139.7) (xy 397.51 139.7)
+			(xy 394.97 139.7) (xy 412.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8014,6 +8376,16 @@
 		)
 		(uuid "802490b4-d2cd-420d-a303-050707cdd062")
 	)
+	(bus
+		(pts
+			(xy 373.38 181.61) (xy 375.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80325828-0ce1-4fd2-8790-52461d2c09dc")
+	)
 	(wire
 		(pts
 			(xy 96.52 224.79) (xy 99.06 224.79)
@@ -8023,6 +8395,16 @@
 			(type default)
 		)
 		(uuid "803f76aa-93d9-4b08-b80c-219f7d9f9420")
+	)
+	(wire
+		(pts
+			(xy 373.38 179.07) (xy 373.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809467e5-dc73-42fc-9987-a49334c27d5d")
 	)
 	(wire
 		(pts
@@ -8056,7 +8438,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 137.16) (xy 397.51 137.16)
+			(xy 394.97 137.16) (xy 412.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8123,6 +8505,16 @@
 			(type default)
 		)
 		(uuid "866c038c-c569-42e8-9d65-2d4fabe8b9fd")
+	)
+	(bus
+		(pts
+			(xy 353.06 181.61) (xy 355.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87208c9e-87ce-4293-bbc4-652ccdd67908")
 	)
 	(wire
 		(pts
@@ -8193,16 +8585,6 @@
 			(type default)
 		)
 		(uuid "892ff938-d22c-40b0-b209-e8a62d0f5e66")
-	)
-	(wire
-		(pts
-			(xy 368.3 156.21) (xy 368.3 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896e4f0d-808a-46a6-a359-ee80d9a326ed")
 	)
 	(wire
 		(pts
@@ -8404,15 +8786,15 @@
 		)
 		(uuid "91b57329-7215-4e7a-a413-74f79d8e6ee4")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 71.12 140.97) (xy 71.12 138.43)
+			(xy 358.14 181.61) (xy 360.68 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92303e24-50bd-4420-8be3-992cafee3af4")
+		(uuid "926c57cb-bf68-45e4-a1ee-c54cbf4e8e3d")
 	)
 	(wire
 		(pts
@@ -8424,9 +8806,19 @@
 		)
 		(uuid "92828634-20a4-42e3-af88-eb93b10b372a")
 	)
+	(bus
+		(pts
+			(xy 378.46 181.61) (xy 379.73 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fd1dd2-bf14-4214-8014-9d451a735bf2")
+	)
 	(wire
 		(pts
-			(xy 394.97 132.08) (xy 397.51 132.08)
+			(xy 394.97 132.08) (xy 412.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8436,7 +8828,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 124.46) (xy 397.51 124.46)
+			(xy 394.97 124.46) (xy 412.75 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8456,6 +8848,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 156.21) (xy 373.38 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943aae9f-d14c-40c7-af5e-d4c756d3f6b5")
+	)
+	(wire
+		(pts
 			(xy 137.16 118.11) (xy 137.16 121.92)
 		)
 		(stroke
@@ -8466,16 +8868,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 156.21) (xy 378.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a8e6b6-292b-48e9-b866-ccd78e884dfc")
-	)
-	(wire
-		(pts
 			(xy 27.94 250.19) (xy 38.1 250.19)
 		)
 		(stroke
@@ -8483,6 +8875,16 @@
 			(type default)
 		)
 		(uuid "961e81c7-05bd-4d08-97c3-e41e2e27d3f5")
+	)
+	(bus
+		(pts
+			(xy 415.29 134.62) (xy 415.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969e1fc8-1e63-4681-8128-cebad2a8ba1d")
 	)
 	(wire
 		(pts
@@ -8596,7 +8998,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 161.29) (xy 358.14 156.21)
+			(xy 358.14 179.07) (xy 358.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8686,6 +9088,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 163.83) (xy 375.92 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a0785a-32d9-4d98-a7df-ca00fa80d4f6")
+	)
+	(wire
+		(pts
 			(xy 149.86 149.86) (xy 154.94 149.86)
 		)
 		(stroke
@@ -8693,6 +9105,16 @@
 			(type default)
 		)
 		(uuid "a0a35318-214a-4d56-986e-6c011bdfed82")
+	)
+	(wire
+		(pts
+			(xy 368.3 179.07) (xy 368.3 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d69a57-6fff-4c69-98b4-5b0c6b851742")
 	)
 	(wire
 		(pts
@@ -8726,23 +9148,13 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 186.69) (xy 396.24 186.69)
+			(xy 391.16 200.66) (xy 398.78 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2733eb2-c329-4037-bc9b-b1da5e880b36")
-	)
-	(wire
-		(pts
-			(xy 370.84 156.21) (xy 370.84 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a277fe74-4665-4343-9596-7bb577c4f430")
 	)
 	(wire
 		(pts
@@ -8803,6 +9215,16 @@
 			(type default)
 		)
 		(uuid "a3d11e42-962a-407b-b6d2-72c066b415cb")
+	)
+	(wire
+		(pts
+			(xy 368.3 168.91) (xy 370.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50a2e89-ac51-4a67-b1a3-797e57630801")
 	)
 	(wire
 		(pts
@@ -8926,7 +9348,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 186.69) (xy 388.62 186.69)
+			(xy 388.62 200.66) (xy 391.16 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9096,16 +9518,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 140.97) (xy 86.36 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b32e96c2-066e-4d72-8d2e-fa005e2c4c4f")
-	)
-	(wire
-		(pts
 			(xy 276.86 134.62) (xy 276.86 139.7)
 		)
 		(stroke
@@ -9256,7 +9668,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 127) (xy 397.51 127)
+			(xy 394.97 127) (xy 412.75 127)
 		)
 		(stroke
 			(width 0)
@@ -9276,13 +9688,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 140.97) (xy 82.55 138.43)
+			(xy 378.46 158.75) (xy 412.75 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbbebd37-e7b2-4206-aa42-5556baead148")
+		(uuid "bba51cc8-0b52-4b33-a603-4626ea934c04")
 	)
 	(wire
 		(pts
@@ -9454,6 +9866,16 @@
 		)
 		(uuid "c5839170-ed83-41c4-a59c-847f729e6246")
 	)
+	(bus
+		(pts
+			(xy 415.29 142.24) (xy 415.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c2ebe6-dea7-45ac-9ebc-3d0296cc7170")
+	)
 	(wire
 		(pts
 			(xy 66.04 68.58) (xy 68.58 68.58)
@@ -9493,6 +9915,16 @@
 			(type default)
 		)
 		(uuid "c7424fe2-9ba4-4871-8cba-7c3c10aceb31")
+	)
+	(bus
+		(pts
+			(xy 415.29 129.54) (xy 415.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7681feb-8946-49a8-b758-1e2bf626d520")
 	)
 	(wire
 		(pts
@@ -9564,6 +9996,16 @@
 		)
 		(uuid "ce0c64fa-8ad4-4e56-9753-14b55e4bb432")
 	)
+	(bus
+		(pts
+			(xy 415.29 161.29) (xy 415.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb44376-c2fe-446b-a775-829d3a398f20")
+	)
 	(wire
 		(pts
 			(xy 129.54 134.62) (xy 137.16 134.62)
@@ -9613,6 +10055,16 @@
 			(type default)
 		)
 		(uuid "d15aeb16-d9c9-435b-aec4-8bebc00b3b13")
+	)
+	(bus
+		(pts
+			(xy 415.29 132.08) (xy 415.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d265b625-8cde-40ae-9cf8-71becaf23d9e")
 	)
 	(wire
 		(pts
@@ -9686,17 +10138,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 138.43) (xy 67.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d583d194-8b67-4809-ab7d-25496f7863be")
-	)
-	(wire
-		(pts
-			(xy 394.97 121.92) (xy 397.51 121.92)
+			(xy 394.97 121.92) (xy 412.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9716,7 +10158,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 156.21) (xy 355.6 161.29)
+			(xy 355.6 156.21) (xy 355.6 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9776,16 +10218,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 78.74 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86dff87-b3dd-4418-9cd8-47fc84eb6125")
-	)
-	(wire
-		(pts
 			(xy 29.21 138.43) (xy 29.21 140.97)
 		)
 		(stroke
@@ -9793,6 +10225,16 @@
 			(type default)
 		)
 		(uuid "d96ca1f9-4f06-45a6-bd8d-333c5ac867a9")
+	)
+	(bus
+		(pts
+			(xy 355.6 181.61) (xy 358.14 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9aee7f1-f6b0-489e-a4f2-4f53ba0fcb7f")
 	)
 	(wire
 		(pts
@@ -9853,6 +10295,16 @@
 			(type default)
 		)
 		(uuid "dbf3d10f-0060-4331-9170-8fd5d31b2337")
+	)
+	(wire
+		(pts
+			(xy 368.3 171.45) (xy 365.76 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda9acd3-0295-4ee9-947a-cb01431eccf4")
 	)
 	(wire
 		(pts
@@ -9924,6 +10376,16 @@
 		)
 		(uuid "e28b9908-67ac-4e0f-972a-85f4db8ac5b7")
 	)
+	(bus
+		(pts
+			(xy 415.29 127) (xy 415.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b10616-b67f-4341-9c4c-3f234e3da163")
+	)
 	(wire
 		(pts
 			(xy 40.64 60.96) (xy 40.64 58.42)
@@ -9933,6 +10395,16 @@
 			(type default)
 		)
 		(uuid "e3d243b9-0a16-4ae1-ac7f-25874fa7c5bc")
+	)
+	(wire
+		(pts
+			(xy 375.92 163.83) (xy 375.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4556377-7c79-47af-bd9c-a28d66f50924")
 	)
 	(wire
 		(pts
@@ -9986,7 +10458,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 184.15) (xy 386.08 186.69)
+			(xy 388.62 198.12) (xy 388.62 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10213,6 +10685,16 @@
 			(type default)
 		)
 		(uuid "f3e01e2f-2726-4876-8621-f67a886a2ed1")
+	)
+	(bus
+		(pts
+			(xy 415.29 139.7) (xy 415.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5027ada-10d0-4705-aa93-a2e3cf817eeb")
 	)
 	(wire
 		(pts
@@ -10536,6 +11018,17 @@
 		)
 		(uuid "f7ee02af-c8f0-465f-abeb-552e709c81e1")
 	)
+	(label "DA1"
+		(at 353.06 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "02eb33c3-6c17-401d-9049-2e518f5c25f5")
+	)
 	(label "QD-"
 		(at 346.71 62.23 0)
 		(fields_autoplaced yes)
@@ -10547,6 +11040,28 @@
 		)
 		(uuid "035816e9-8b1f-4a64-9174-1ab4a160d634")
 	)
+	(label "DD2"
+		(at 406.4 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "06dc49fe-f2cc-46c6-ac9f-6164b53a7175")
+	)
+	(label "DD6"
+		(at 406.4 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aabd55a-a438-4b3a-9f99-4d7597985b72")
+	)
 	(label "CPOUT-"
 		(at 210.82 161.29 0)
 		(fields_autoplaced yes)
@@ -10557,6 +11072,17 @@
 			(justify left bottom)
 		)
 		(uuid "0fd781ec-1889-41c5-b52a-573250796262")
+	)
+	(label "DD9"
+		(at 406.4 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "11341633-a188-49d9-b821-d51bc5d70956")
 	)
 	(label "TXBBQ-"
 		(at 281.94 208.28 0)
@@ -10591,6 +11117,28 @@
 		)
 		(uuid "18ad4a06-bb97-41fc-98db-cf7da03bfd51")
 	)
+	(label "DD5"
+		(at 406.4 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "25463324-5ef4-42a9-be7c-080c0fb73994")
+	)
+	(label "DD3"
+		(at 406.4 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c245ae-4a2b-418d-88b2-cb90bc774bf0")
+	)
 	(label "QD+"
 		(at 346.71 54.61 0)
 		(fields_autoplaced yes)
@@ -10612,6 +11160,28 @@
 			(justify left bottom)
 		)
 		(uuid "296725b1-9645-4ca9-95ff-07065851d748")
+	)
+	(label "DA7"
+		(at 375.92 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d631c48-52a6-4eba-a5ab-51eb64dc8aec")
+	)
+	(label "DA5"
+		(at 370.84 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "31381656-4373-4244-a8fc-87e1a7dfbc71")
 	)
 	(label "TXBBI+"
 		(at 320.04 205.74 180)
@@ -10645,6 +11215,39 @@
 			(justify left bottom)
 		)
 		(uuid "34904be8-6985-41b7-8acb-f4830a29e7e3")
+	)
+	(label "DA6"
+		(at 373.38 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d8df69-9466-4c06-b61f-71882860af56")
+	)
+	(label "DD1"
+		(at 406.4 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ab3edf8-d2af-4185-9147-3308469e3d87")
+	)
+	(label "DA3"
+		(at 358.14 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ce204bd-0b77-4f70-979f-ff7094d35544")
 	)
 	(label "RXBBQ-"
 		(at 229.87 114.3 0)
@@ -10800,6 +11403,17 @@
 		)
 		(uuid "86cd03e0-9def-4866-ad0a-820ce22eba22")
 	)
+	(label "DD7"
+		(at 406.4 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ba36404-63be-4696-855a-a0b7ebc369c6")
+	)
 	(label "RXBBQ+"
 		(at 229.87 111.76 0)
 		(fields_autoplaced yes)
@@ -10822,6 +11436,17 @@
 		)
 		(uuid "96ba79e4-e11b-4120-aba3-7480dbd6adfe")
 	)
+	(label "DD4"
+		(at 406.4 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9872fcf9-d038-43c4-9569-4d5e472d0da8")
+	)
 	(label "CLK4"
 		(at 111.76 175.26 270)
 		(fields_autoplaced yes)
@@ -10843,6 +11468,17 @@
 			(justify left bottom)
 		)
 		(uuid "9f7f2ae3-d509-4e33-bade-921de57ab70e")
+	)
+	(label "DD8"
+		(at 406.4 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a674018b-c295-46d0-b40b-2f604d1504d1")
 	)
 	(label "INTR"
 		(at 48.26 201.93 0)
@@ -10887,6 +11523,28 @@
 			(justify left bottom)
 		)
 		(uuid "ba29ce92-2883-4e10-a70a-72b84e7eaf86")
+	)
+	(label "DA2"
+		(at 355.6 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c58b6445-4f85-4c46-a450-0ecb3c155595")
+	)
+	(label "DA0"
+		(at 350.52 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca230c46-3f28-463d-afe6-c5bf5b72ae9c")
 	)
 	(label "ID+"
 		(at 346.71 77.47 0)
@@ -10998,6 +11656,28 @@
 		)
 		(uuid "e876d496-e221-4c20-ae0f-99250f391778")
 	)
+	(label "DD0"
+		(at 406.4 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e974af68-5c4c-47fe-aad3-8d8457187565")
+	)
+	(label "DA4"
+		(at 368.3 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1528873-050a-430b-acd5-5ecf6ad93691")
+	)
 	(label "TXBBQ-"
 		(at 213.36 54.61 0)
 		(fields_autoplaced yes)
@@ -11062,48 +11742,6 @@
 			(justify left)
 		)
 		(uuid "0453a666-ee32-47de-a0e3-3cd14082a6f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA4"
-		(shape input)
-		(at 365.76 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "08fc12db-973d-467d-9f4c-f8947d2a128e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSP1_CIPO"
-		(shape input)
-		(at 248.92 189.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "15ac445d-37e8-4f37-9962-b9d3862c1cda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 0 0 0)
 			(effects
@@ -11198,48 +11836,6 @@
 			)
 		)
 	)
-	(global_label "DD3"
-		(shape input)
-		(at 397.51 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "26a19255-3d36-4bd1-858a-df952c753fea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA6"
-		(shape input)
-		(at 370.84 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "28452065-c6f7-4270-8e77-2c485f010b63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TXENABLE"
 		(shape input)
 		(at 44.45 140.97 270)
@@ -11251,27 +11847,6 @@
 			(justify right)
 		)
 		(uuid "2907075e-a498-4766-bda3-4b1cd9cb0c8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD5"
-		(shape input)
-		(at 397.51 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "29343aed-ca8b-4034-bfc6-1bdb9b696ebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 0 0 0)
 			(effects
@@ -11345,27 +11920,6 @@
 			)
 		)
 	)
-	(global_label "DD8"
-		(shape input)
-		(at 397.51 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "371f644c-5bef-4f80-8d72-99ca8382be42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SSP1_COPI"
 		(shape input)
 		(at 397.51 116.84 0)
@@ -11408,90 +11962,6 @@
 			)
 		)
 	)
-	(global_label "DD5"
-		(shape input)
-		(at 82.55 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "3a79e46f-f1f9-4e74-8916-4b6af271beb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD1"
-		(shape input)
-		(at 378.46 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "3e89edcf-be12-4c98-9767-0ac0ebbc45ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA2"
-		(shape input)
-		(at 355.6 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "419d2ab3-dab2-4677-baf8-a6b461f8d2fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD7"
-		(shape input)
-		(at 397.51 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "498db329-5b85-4908-bc77-7890efce1fdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SSP1_SCK"
 		(shape input)
 		(at 397.51 114.3 0)
@@ -11503,48 +11973,6 @@
 			(justify left)
 		)
 		(uuid "4b27e600-d450-4c45-b63b-61ff12a94c1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD9"
-		(shape input)
-		(at 86.36 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "52500ee8-b058-47bb-8c51-3af7285b2248")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA0"
-		(shape input)
-		(at 67.31 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "570fb766-f984-487b-8b8c-31fdfb48a134")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 0 0 0)
 			(effects
@@ -11597,27 +12025,6 @@
 			)
 		)
 	)
-	(global_label "DA5"
-		(shape input)
-		(at 368.3 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "680efa1e-0bf5-4318-bebf-b816b95f229e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 21.59 140.97 270)
@@ -11641,7 +12048,7 @@
 	)
 	(global_label "RSSI"
 		(shape input)
-		(at 90.17 140.97 270)
+		(at 67.31 140.97 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11651,7 +12058,7 @@
 		)
 		(uuid "6b2cebd6-c41f-48d3-94ed-4488d179dec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
+			(at -22.86 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,27 +12078,6 @@
 			(justify right)
 		)
 		(uuid "6db0deae-c205-44c1-ab5b-848951767c99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD9"
-		(shape input)
-		(at 397.51 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "77c0c5fa-6e06-4cb1-a18d-ff3485f18633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 0 0 0)
 			(effects
@@ -11849,48 +12235,6 @@
 			)
 		)
 	)
-	(global_label "DD6"
-		(shape input)
-		(at 397.51 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "a5505f68-c165-40a4-8a4e-6ffec15847f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD4"
-		(shape input)
-		(at 397.51 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "a58810a7-36f7-4f01-9a1b-653a869d4e39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CS_XCVR"
 		(shape input)
 		(at 231.14 127 0)
@@ -11954,69 +12298,6 @@
 			)
 		)
 	)
-	(global_label "DA4"
-		(shape input)
-		(at 71.12 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ba6ee310-60b4-4a66-aa91-a5588f16080f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA7"
-		(shape input)
-		(at 74.93 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "c1811035-662e-4d24-8943-cc561678686e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DD2"
-		(shape input)
-		(at 397.51 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "c71c6edb-c13f-4b1f-ae49-ab8164b525fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TXENABLE"
 		(shape input)
 		(at 184.15 90.17 90)
@@ -12038,69 +12319,6 @@
 			)
 		)
 	)
-	(global_label "DD0"
-		(shape input)
-		(at 78.74 140.97 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ca05e7df-1013-45c8-b21f-db9e4caff518")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA1"
-		(shape input)
-		(at 353.06 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "cc9848e5-ba45-469f-b255-6e970405149b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA3"
-		(shape input)
-		(at 358.14 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "cde0fd7e-b4bb-43a0-8c3c-397d0e0f964a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_CLK"
 		(shape input)
 		(at 143.51 196.85 0)
@@ -12112,48 +12330,6 @@
 			(justify left)
 		)
 		(uuid "d2841093-2858-4766-b3a4-fbb72ef9becc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA0"
-		(shape input)
-		(at 350.52 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "d75f07f7-890f-4139-9c0b-42e416b61da0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DA7"
-		(shape input)
-		(at 373.38 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "dacaf1cf-fc1a-4ca0-b6b8-78cc5aa469bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 0 0 0)
 			(effects
@@ -12269,27 +12445,6 @@
 			)
 		)
 	)
-	(global_label "DD0"
-		(shape input)
-		(at 375.92 161.29 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "f4f6c846-d708-4883-87f0-c9217520227f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GCK2"
 		(shape input)
 		(at 191.77 215.9 0)
@@ -12331,6 +12486,30 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "DD[0..9]"
+		(shape input)
+		(at 415.29 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "510f1c1a-6dad-4f77-bb07-2b02322f6722")
+	)
+	(hierarchical_label "DA[0..7]"
+		(shape output)
+		(at 379.73 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "57efaa6f-e381-4e2e-ba4f-dee9ad86f9f6")
 	)
 	(symbol
 		(lib_id "hackrf:MAX2837")
@@ -12375,11 +12554,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC TXRX 2.3GHZ-2.7GHZ 48TQFN"
 			(at 195.58 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12394,15 +12573,6 @@
 			)
 		)
 		(property "Part Number" "MAX2837ETM+T"
-			(at 195.58 125.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC TXRX 2.3GHZ-2.7GHZ 48TQFN"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -12619,11 +12789,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC ANLG FRONT END 22MSPS 48-TQFN"
 			(at 364.49 125.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -12638,15 +12808,6 @@
 			)
 		)
 		(property "Part Number" "MAX5864ETM+T"
-			(at 364.49 125.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC ANLG FRONT END 22MSPS 48-TQFN"
 			(at 364.49 125.73 0)
 			(effects
 				(font
@@ -12997,11 +13158,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13016,15 +13177,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 41.91 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -13100,11 +13252,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIXED IND 6.2NH 600MA 220MOHM SMD"
 			(at 149.86 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13119,15 +13271,6 @@
 			)
 		)
 		(property "Part Number" "LQG15HS6N2S02D"
-			(at 149.86 114.3 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 6.2NH 600MA 220MOHM SMD"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -13469,11 +13612,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 3300PF 50V X7R 0402"
 			(at 213.36 177.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13488,15 +13631,6 @@
 			)
 		)
 		(property "Part Number" "CC0402KRX7R9BB332"
-			(at 213.36 177.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 3300PF 50V X7R 0402"
 			(at 213.36 177.8 0)
 			(effects
 				(font
@@ -13563,11 +13697,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 207.01 171.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13582,15 +13716,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT470R"
-			(at 207.01 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -13666,11 +13791,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 219.71 171.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13685,15 +13810,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT470R"
-			(at 219.71 171.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
 			(at 219.71 171.45 0)
 			(effects
 				(font
@@ -13771,11 +13887,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 246.38 140.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13790,15 +13906,6 @@
 			)
 		)
 		(property "Part Number" "CL05A105KP5NNNC"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -14006,11 +14113,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 54.61 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14025,15 +14132,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT1K00"
-			(at 326.39 54.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 54.61 0)
 			(effects
 				(font
@@ -14375,11 +14473,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 318.77 105.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14394,15 +14492,6 @@
 			)
 		)
 		(property "Part Number" "CC0402KRX5R6BB334"
-			(at 318.77 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 318.77 105.41 0)
 			(effects
 				(font
@@ -14480,11 +14569,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 336.55 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14499,15 +14588,6 @@
 			)
 		)
 		(property "Part Number" "CC0402KRX5R6BB334"
-			(at 336.55 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 336.55 87.63 0)
 			(effects
 				(font
@@ -14783,11 +14863,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 311.15 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -14802,15 +14882,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 311.15 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 311.15 30.48 0)
 			(effects
 				(font
@@ -15341,11 +15412,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 336.55 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15360,15 +15431,6 @@
 			)
 		)
 		(property "Part Number" "CC0402KRX5R6BB334"
-			(at 336.55 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.33UF 10V X5R 0402"
 			(at 336.55 95.25 0)
 			(effects
 				(font
@@ -15446,11 +15508,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 3PF 50V C0G/NP0 0402"
 			(at 143.51 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15465,15 +15527,6 @@
 			)
 		)
 		(property "Part Number" "GCM1555C1H3R0CA16D"
-			(at 143.51 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 3PF 50V C0G/NP0 0402"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -15542,11 +15595,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 3PF 50V C0G/NP0 0402"
 			(at 143.51 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15561,15 +15614,6 @@
 			)
 		)
 		(property "Part Number" "GCM1555C1H3R0CA16D"
-			(at 143.51 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 3PF 50V C0G/NP0 0402"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -15636,11 +15680,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BALUN CERAMIC CHIP WIMAX 2.5GHZ"
 			(at 119.38 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15655,15 +15699,6 @@
 			)
 		)
 		(property "Part Number" "2500BL14M100T"
-			(at 119.38 114.3 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BALUN CERAMIC CHIP WIMAX 2.5GHZ"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -15879,11 +15914,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BALUN CERAMIC CHIP WIMAX 2.5GHZ"
 			(at 119.38 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -15898,15 +15933,6 @@
 			)
 		)
 		(property "Part Number" "2500BL14M100T"
-			(at 119.38 142.24 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BALUN CERAMIC CHIP WIMAX 2.5GHZ"
 			(at 119.38 142.24 0)
 			(effects
 				(font
@@ -16321,11 +16347,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC CLK GENERATOR 160MHZ 20QFN"
 			(at 114.3 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16340,15 +16366,6 @@
 			)
 		)
 		(property "Part Number" "SI5351C-B-GM"
-			(at 114.3 201.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC CLK GENERATOR 160MHZ 20QFN"
 			(at 114.3 201.93 0)
 			(effects
 				(font
@@ -16472,11 +16489,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
 			(at 53.34 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16491,15 +16508,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT1K80"
-			(at 53.34 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
 			(at 53.34 195.58 0)
 			(effects
 				(font
@@ -16641,11 +16649,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 25.0000MHZ 10PF SMD"
 			(at 77.47 185.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16660,15 +16668,6 @@
 			)
 		)
 		(property "Part Number" "ABM8-25.000MHZ-10-D1G-T"
-			(at 77.47 185.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CRYSTAL 25.0000MHZ 10PF SMD"
 			(at 77.47 185.42 0)
 			(effects
 				(font
@@ -16873,11 +16872,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 76.2 224.79 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16892,15 +16891,6 @@
 			)
 		)
 		(property "Part Number" "73251-2121"
-			(at 76.2 224.79 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -17033,11 +17023,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17052,15 +17042,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402ZT0R00"
-			(at 262.89 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -17746,7 +17727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 386.08 196.85 0)
+		(at 388.62 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17754,7 +17735,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005037ba69")
 		(property "Reference" "#PWR0120"
-			(at 386.08 196.85 0)
+			(at 388.62 210.82 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -17763,7 +17744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.08 198.628 0)
+			(at 388.62 212.598 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -17772,7 +17753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 196.85 0)
+			(at 388.62 210.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17781,7 +17762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 196.85 0)
+			(at 388.62 210.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17790,7 +17771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 386.08 196.85 0)
+			(at 388.62 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17855,11 +17836,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 96.52 173.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17874,15 +17855,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 96.52 173.99 0)
 			(effects
 				(font
@@ -17960,11 +17932,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 27.94 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -17979,15 +17951,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 27.94 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 27.94 254 0)
 			(effects
 				(font
@@ -18065,11 +18028,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 38.1 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18084,15 +18047,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 38.1 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 38.1 254 0)
 			(effects
 				(font
@@ -18170,11 +18124,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 48.26 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18189,15 +18143,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 48.26 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 48.26 254 0)
 			(effects
 				(font
@@ -18275,11 +18220,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 58.42 254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18294,15 +18239,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 58.42 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 58.42 254 0)
 			(effects
 				(font
@@ -18337,7 +18273,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 388.62 190.5 0)
+		(at 391.16 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18345,7 +18281,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000503c49d3")
 		(property "Reference" "C123"
-			(at 389.89 187.96 0)
+			(at 392.43 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18354,7 +18290,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 389.89 193.04 0)
+			(at 392.43 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18363,7 +18299,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 388.62 190.5 0)
+			(at 391.16 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18372,34 +18308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 388.62 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05A104KA5NNNC"
-			(at 388.62 190.5 0)
+			(at 391.16 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18408,7 +18317,25 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
-			(at 388.62 190.5 0)
+			(at 391.16 204.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 391.16 204.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A104KA5NNNC"
+			(at 391.16 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18417,7 +18344,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61A104KA01D"
-			(at 388.62 190.5 0)
+			(at 391.16 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18485,11 +18412,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 303.53 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18504,15 +18431,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 303.53 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 303.53 30.48 0)
 			(effects
 				(font
@@ -18590,11 +18508,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 318.77 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18609,15 +18527,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 318.77 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 318.77 30.48 0)
 			(effects
 				(font
@@ -18695,11 +18604,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 334.01 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18714,15 +18623,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 334.01 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 334.01 30.48 0)
 			(effects
 				(font
@@ -18800,11 +18700,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 349.25 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18819,15 +18719,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 349.25 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 349.25 30.48 0)
 			(effects
 				(font
@@ -18905,11 +18796,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 364.49 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -18924,15 +18815,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 364.49 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 364.49 30.48 0)
 			(effects
 				(font
@@ -19010,11 +18892,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 379.73 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19029,15 +18911,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 379.73 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 379.73 30.48 0)
 			(effects
 				(font
@@ -19115,11 +18988,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 394.97 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19134,15 +19007,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 394.97 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 394.97 30.48 0)
 			(effects
 				(font
@@ -19220,11 +19084,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 31.75 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 227.33 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19239,15 +19103,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 227.33 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 227.33 63.5 0)
 			(effects
 				(font
@@ -19325,11 +19180,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 31.75 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 288.29 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19344,15 +19199,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 288.29 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 288.29 63.5 0)
 			(effects
 				(font
@@ -19430,11 +19276,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 31.75 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 234.95 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19449,15 +19295,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 234.95 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 234.95 63.5 0)
 			(effects
 				(font
@@ -19535,11 +19372,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 95.25 31.75 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 257.81 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19554,15 +19391,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 257.81 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 257.81 63.5 0)
 			(effects
 				(font
@@ -19640,11 +19468,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 31.75 0)
+		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+			(at 265.43 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19659,15 +19487,6 @@
 			)
 		)
 		(property "Part Number" "CL05B103KB5NNNC"
-			(at 265.43 63.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
 			(at 265.43 63.5 0)
 			(effects
 				(font
@@ -19743,11 +19562,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 118.11 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19762,15 +19581,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 118.11 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 118.11 252.73 0)
 			(effects
 				(font
@@ -19846,11 +19656,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 231.14 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19865,15 +19675,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 231.14 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -19949,11 +19750,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 63.5 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -19968,15 +19769,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 63.5 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 63.5 195.58 0)
 			(effects
 				(font
@@ -20054,11 +19846,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 87.63 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20073,15 +19865,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 87.63 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -20157,11 +19940,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 297.18 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20176,15 +19959,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT4K70"
-			(at 297.18 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 297.18 88.9 0)
 			(effects
 				(font
@@ -20260,11 +20034,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 302.26 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20279,15 +20053,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT4K70"
-			(at 302.26 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 302.26 88.9 0)
 			(effects
 				(font
@@ -20363,11 +20128,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 307.34 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20382,15 +20147,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT4K70"
-			(at 307.34 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 307.34 88.9 0)
 			(effects
 				(font
@@ -20466,11 +20222,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 312.42 88.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20485,15 +20241,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT4K70"
-			(at 312.42 88.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1/16W 1% 0402"
 			(at 312.42 88.9 0)
 			(effects
 				(font
@@ -20571,11 +20318,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 180PF 50V C0G/NPO 0402"
 			(at 213.36 165.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20590,15 +20337,6 @@
 			)
 		)
 		(property "Part Number" "CC0402JRNPO9BN181"
-			(at 213.36 165.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 180PF 50V C0G/NPO 0402"
 			(at 213.36 165.1 0)
 			(effects
 				(font
@@ -20674,11 +20412,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FERRITE CHIP 220 OHM 2000MA 0805"
 			(at 50.8 81.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20693,15 +20431,6 @@
 			)
 		)
 		(property "Part Number" "BLM21PG221SN1D"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FERRITE CHIP 220 OHM 2000MA 0805"
 			(at 50.8 81.28 0)
 			(effects
 				(font
@@ -20770,11 +20499,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
 			(at 50.8 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20789,15 +20518,6 @@
 			)
 		)
 		(property "Part Number" "CL21A106KOQNNNE"
-			(at 50.8 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 16V X5R 0805"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -20875,11 +20595,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 326.39 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20894,15 +20614,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 326.39 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 326.39 30.48 0)
 			(effects
 				(font
@@ -20971,11 +20682,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 341.63 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -20990,15 +20701,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 341.63 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 341.63 30.48 0)
 			(effects
 				(font
@@ -21067,11 +20769,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 356.87 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21086,15 +20788,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 356.87 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 356.87 30.48 0)
 			(effects
 				(font
@@ -21163,11 +20856,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 372.11 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21182,15 +20875,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 372.11 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 372.11 30.48 0)
 			(effects
 				(font
@@ -21259,11 +20943,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 387.35 30.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21278,15 +20962,6 @@
 			)
 		)
 		(property "Part Number" "LMK105BJ225MV-F"
-			(at 387.35 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
 			(at 387.35 30.48 0)
 			(effects
 				(font
@@ -21312,7 +20987,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 396.24 190.5 0)
+		(at 398.78 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21320,7 +20995,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000503f8ea2")
 		(property "Reference" "C124"
-			(at 397.51 187.96 0)
+			(at 400.05 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21329,7 +21004,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 397.51 193.04 0)
+			(at 400.05 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21338,7 +21013,7 @@
 			)
 		)
 		(property "Footprint" "hackrf:GSG-0402"
-			(at 396.24 190.5 0)
+			(at 398.78 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21347,34 +21022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 396.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 396.24 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LMK105BJ225MV-F"
-			(at 396.24 190.5 0)
+			(at 398.78 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21383,7 +21031,25 @@
 			)
 		)
 		(property "Description" "CAP CER 2.2UF 10V 20% X5R 0402"
-			(at 396.24 190.5 0)
+			(at 398.78 204.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 398.78 204.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LMK105BJ225MV-F"
+			(at 398.78 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21451,11 +21117,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 49.53 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21470,15 +21136,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 49.53 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -21556,11 +21213,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 57.15 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21575,15 +21232,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 57.15 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -21661,11 +21309,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 110.49 31.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21680,15 +21328,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -21766,11 +21405,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 292.1 58.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21785,15 +21424,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 292.1 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 292.1 58.42 0)
 			(effects
 				(font
@@ -21879,11 +21509,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 292.1 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -21898,15 +21528,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 292.1 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 292.1 73.66 0)
 			(effects
 				(font
@@ -21992,11 +21613,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 303.53 115.57 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22011,15 +21632,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 303.53 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 303.53 115.57 0)
 			(effects
 				(font
@@ -22105,11 +21717,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 303.53 130.81 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22124,15 +21736,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 303.53 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 303.53 130.81 0)
 			(effects
 				(font
@@ -22218,11 +21821,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 276.86 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22237,15 +21840,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 276.86 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 276.86 143.51 0)
 			(effects
 				(font
@@ -22332,11 +21926,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 283.21 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22351,15 +21945,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -22446,11 +22031,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 289.56 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22465,15 +22050,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 289.56 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 289.56 143.51 0)
 			(effects
 				(font
@@ -22560,11 +22136,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 295.91 143.51 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22579,15 +22155,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 295.91 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 295.91 143.51 0)
 			(effects
 				(font
@@ -22674,11 +22241,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 143.51 106.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22693,15 +22260,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 143.51 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -22779,11 +22337,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 143.51 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22798,15 +22356,6 @@
 			)
 		)
 		(property "Part Number" "CL05C220JB5NNNC"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
 			(at 143.51 121.92 0)
 			(effects
 				(font
@@ -22884,11 +22433,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 31.75 0)
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+			(at 156.21 -7.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -22903,15 +22452,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 156.21 -7.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 156.21 -7.62 0)
 			(effects
 				(font
@@ -22987,11 +22527,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 62.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23006,15 +22546,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT1K00"
-			(at 326.39 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 62.23 0)
 			(effects
 				(font
@@ -23090,11 +22621,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 69.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23109,15 +22640,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT1K00"
-			(at 326.39 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -23193,11 +22715,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 77.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23212,15 +22734,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402FT1K00"
-			(at 326.39 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
 			(at 326.39 77.47 0)
 			(effects
 				(font
@@ -23296,11 +22809,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23315,15 +22828,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402ZT0R00"
-			(at 262.89 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 119.38 0)
 			(effects
 				(font
@@ -23399,11 +22903,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23418,15 +22922,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402ZT0R00"
-			(at 262.89 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -23502,11 +22997,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23521,15 +23016,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402ZT0R00"
-			(at 262.89 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 0.0 OHM 1/16W 0402 SMD"
 			(at 262.89 134.62 0)
 			(effects
 				(font
@@ -23804,11 +23290,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 154.94 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -23823,15 +23309,6 @@
 			)
 		)
 		(property "Part Number" "73251-2121"
-			(at 154.94 243.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
 			(at 154.94 243.84 0)
 			(effects
 				(font
@@ -24273,11 +23750,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 99.06 231.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24292,15 +23769,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 99.06 231.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 99.06 231.14 0)
 			(effects
 				(font
@@ -24442,11 +23910,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
 			(at 58.42 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24461,15 +23929,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT1K80"
-			(at 58.42 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
 			(at 58.42 195.58 0)
 			(effects
 				(font
@@ -24545,11 +24004,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 163.83 231.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24564,15 +24023,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT39R0"
-			(at 163.83 231.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 163.83 231.14 0)
 			(effects
 				(font
@@ -24650,11 +24100,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 53.34 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24669,15 +24119,6 @@
 			)
 		)
 		(property "Part Number" "YJL2301C"
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -24747,11 +24188,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24766,15 +24207,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT10K0"
-			(at 57.15 60.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 57.15 60.96 0)
 			(effects
 				(font
@@ -24852,11 +24284,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 207.01 212.09 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24871,15 +24303,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 207.01 212.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 207.01 212.09 0)
 			(effects
 				(font
@@ -24965,11 +24388,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 189.23 222.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -24984,15 +24407,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 189.23 222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 189.23 222.25 0)
 			(effects
 				(font
@@ -25206,11 +24620,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 170.18 237.49 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -25225,15 +24639,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 170.18 237.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 170.18 237.49 0)
 			(effects
 				(font
@@ -25381,11 +24786,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 127 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -25400,15 +24805,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT39R0"
-			(at 127 243.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 127 243.84 0)
 			(effects
 				(font
@@ -25486,11 +24882,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 133.35 250.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -25505,15 +24901,6 @@
 			)
 		)
 		(property "Part Number" "CL05C101JB5NNNC"
-			(at 133.35 250.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
 			(at 133.35 250.19 0)
 			(effects
 				(font
@@ -26036,11 +25423,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 144.78 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -26055,15 +25442,6 @@
 			)
 		)
 		(property "Part Number" "LXES15AAA1-100"
-			(at 144.78 252.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 144.78 252.73 0)
 			(effects
 				(font
@@ -26196,11 +25574,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 86.36 233.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -26215,15 +25593,6 @@
 			)
 		)
 		(property "Part Number" "LXES15AAA1-100"
-			(at 86.36 233.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
 			(at 86.36 233.68 0)
 			(effects
 				(font
@@ -26540,164 +25909,14 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 78.74 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528078a7")
-		(property "Reference" "P63"
-			(at 78.74 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DD0"
-			(at 77.343 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62a7ad22-af29-49a8-a7e5-f9a2c279135d")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528078ae")
-		(property "Reference" "P64"
-			(at 86.36 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DD9"
-			(at 84.963 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 86.36 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cc7b5ee-8a3b-4d59-abae-7b4fad8aa41c")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
 		(at 67.31 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528078b5")
-		(property "Reference" "P61"
+		(uuid "00000000-0000-0000-0000-00005280a12a")
+		(property "Reference" "P67"
 			(at 67.31 131.318 0)
 			(effects
 				(font
@@ -26706,7 +25925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DA0"
+		(property "Value" "RSSI"
 			(at 65.913 133.35 0)
 			(effects
 				(font
@@ -26744,306 +25963,6 @@
 		)
 		(property "DNP" ""
 			(at 67.31 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9aed522b-822d-4f80-96b3-72562aa24630")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 74.93 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528078bd")
-		(property "Reference" "P62"
-			(at 74.93 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DA7"
-			(at 73.533 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 74.93 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 74.93 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bda2821-2af0-4378-b880-ff6df5ea2445")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 82.55 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052807a95")
-		(property "Reference" "P66"
-			(at 82.55 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DD5"
-			(at 81.153 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b13fb4ea-63e7-4911-aecc-685cffd001ed")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 71.12 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052807c28")
-		(property "Reference" "P65"
-			(at 71.12 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DA4"
-			(at 69.723 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 71.12 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b07798e1-de24-4923-8c66-c9ba6434e4d6")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005280a12a")
-		(property "Reference" "P67"
-			(at 90.17 131.318 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RSSI"
-			(at 88.773 133.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 90.17 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27108,11 +26027,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 40.64 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -27127,15 +26046,6 @@
 			)
 		)
 		(property "Part Number" "CL05A104KA5NNNC"
-			(at 40.64 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 40.64 64.77 0)
 			(effects
 				(font
@@ -28665,11 +27575,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 182.88 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28684,15 +27594,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT39R0"
-			(at 182.88 215.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 182.88 215.9 0)
 			(effects
 				(font
@@ -28768,11 +27669,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 200.66 205.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28787,15 +27688,6 @@
 			)
 		)
 		(property "Part Number" "RMCF0402JT39R0"
-			(at 200.66 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
 			(at 200.66 205.74 0)
 			(effects
 				(font
@@ -28873,11 +27765,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 179.07 0)
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+			(at 458.47 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28892,15 +27784,6 @@
 			)
 		)
 		(property "Part Number" "CL05C330JB5NNNC"
-			(at 458.47 121.92 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
 			(at 458.47 121.92 0)
 			(effects
 				(font
@@ -28978,11 +27861,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 191.77 0)
+		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+			(at 170.18 148.59 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -28997,15 +27880,6 @@
 			)
 		)
 		(property "Part Number" "CL05C470JB5NNNC"
-			(at 170.18 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
 			(at 170.18 148.59 0)
 			(effects
 				(font
@@ -29080,11 +27954,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN HEADER FMAL 16PS.1\" DL GOLD"
 			(at 299.72 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -29099,15 +27973,6 @@
 			)
 		)
 		(property "Part Number" "PPPC082LFBN-RC"
-			(at 299.72 200.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER FMAL 16PS.1\" DL GOLD"
 			(at 299.72 200.66 0)
 			(effects
 				(font
@@ -29303,183 +28168,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052963cca")
-		(property "Reference" "C168"
-			(at 250.19 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100pF"
-			(at 250.19 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05C101JB5NNNC"
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 245.11 199.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
-			(at 248.92 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f30fc90-e7c3-4952-a8db-7952dc501a7a")
-		)
-		(pin "2"
-			(uuid "458c08b0-a92e-47cd-b53b-5467db637b02")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "C168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052963cd7")
-		(property "Reference" "#PWR0186"
-			(at 248.92 201.93 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 203.708 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 201.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 201.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2437143a-248f-4097-ab65-47edc23bc829")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "#PWR0186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 69.85 179.07 0)
 		(mirror y)
 		(unit 1)
@@ -29523,11 +28211,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1.8PF 50V C0G/NPO 0402"
 			(at 69.85 179.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -29542,15 +28230,6 @@
 			)
 		)
 		(property "Part Number" "CC0402CRNPO9BN1R8"
-			(at 69.85 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1.8PF 50V C0G/NPO 0402"
 			(at 69.85 179.07 0)
 			(effects
 				(font
@@ -29618,11 +28297,11 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1.8PF 50V C0G/NPO 0402"
 			(at 85.09 179.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -29637,15 +28316,6 @@
 			)
 		)
 		(property "Part Number" "CC0402CRNPO9BN1R8"
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1.8PF 50V C0G/NPO 0402"
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -31363,136 +30033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 386.08 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000601771e4")
-		(property "Reference" "#PWR0242"
-			(at 386.08 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 386.5118 179.7558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 386.08 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 386.08 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "717fbfd9-8118-4f51-81c0-383526d841f4")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "#PWR0242")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 363.22 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060179502")
-		(property "Reference" "#PWR0245"
-			(at 363.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 362.7628 163.1442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29fc4f9d-a8a8-43a6-89c5-43cd895eb496")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "#PWR0245")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VAA")
 		(at 373.38 91.44 0)
 		(unit 1)
@@ -32086,6 +30626,137 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
 					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3FPGA")
+		(at 363.22 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2167c221-0bcd-4690-8bd3-ca429760fae5")
+		(property "Reference" "#PWR078"
+			(at 363.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3FPGA"
+			(at 363.22 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 363.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3dc495b-2da5-45d4-84fa-de6fa9b022e6")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3FPGA")
+		(at 388.62 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd73698e-b541-4258-9b48-fdef677f2a10")
+		(property "Reference" "#PWR068"
+			(at 388.62 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3FPGA"
+			(at 388.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 388.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac135d73-abcd-40c7-bdd8-13e8ac0eb5e4")
+		)
+		(instances
+			(project ""
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

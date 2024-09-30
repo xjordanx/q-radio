@@ -34498,7 +34498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "162k"
 			(at 104.14 54.61 90)
 			(effects
 				(font
@@ -34524,7 +34524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1/16W 330K OHM 1% 0402"
+		(property "Description" "RES TF 1/16W 162K OHM 1% 0402"
 			(at 104.14 54.61 0)
 			(effects
 				(font
@@ -34542,7 +34542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT330K"
+		(property "Part Number" "RMCF0402FT162K"
 			(at 104.14 54.61 0)
 			(effects
 				(font
@@ -35308,7 +35308,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d22a6812-c531-4af1-b965-8c628d51ed77")
 		(property "Reference" "R38"
 			(at 106.68 44.45 0)

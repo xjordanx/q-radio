@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name hackrf)(type Legacy)(uri ${KIPRJMOD}/kicad/hackrf.mod)(options "")(descr ""))
-  (lib (name gsg-modules)(type KiCad)(uri ${KIPRJMOD}/gsg-kicad-lib/gsg-modules.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "hackrf")(type "Legacy")(uri "${KIPRJMOD}/kicad/hackrf.mod")(options "")(descr ""))
+  (lib (name "gsg-modules")(type "KiCad")(uri "${KIPRJMOD}/gsg-kicad-lib/gsg-modules.pretty")(options "")(descr ""))
+  (lib (name "praline")(type "KiCad")(uri "${KIPRJMOD}/praline.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,227 @@
+(footprint "L_CommonModeChoke_Murata_DLM0NS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Common Mode Choke Coil, https://www.murata.com/en-global/products/productdata/8799424610334/EFLD0009.pdf")
+	(tags "surface mount common mode bead filter")
+	(property "Reference" "REF**"
+		(at 0.9 0 90)
+		(layer "F.SilkS")
+		(uuid "2c41ab56-59fa-4bb1-a4b0-925c52405fba")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_Murata_DLM0NS"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "c91f6be3-28cd-44df-a1c1-7acb76a564cb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8325b79-1e98-4a5a-b6fe-9201f2a677c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d10318a-5162-46a8-b7e6-d3b5a4b98c3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfcb4de-a7d8-4aef-bafc-4c0eada963f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.325 -0.525)
+		(end -0.5 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e59fce85-13e7-4507-ab61-1aef3f34999e")
+	)
+	(fp_line
+		(start 0.325 0.525)
+		(end -0.325 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "844bf452-15bb-45a5-9587-3ddb06947bef")
+	)
+	(fp_line
+		(start -0.6 -0.6)
+		(end 0.6 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf244d64-f082-454d-93df-ed39f7707528")
+	)
+	(fp_line
+		(start -0.6 0.6)
+		(end -0.6 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1104b332-2ad3-4a5d-a8c7-a72bb8bc6e89")
+	)
+	(fp_line
+		(start -0.6 0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce9894f5-3416-4339-84a6-4d3d54db391d")
+	)
+	(fp_line
+		(start 0.6 0.6)
+		(end 0.6 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64633768-a519-46fa-aef9-f3dc89c4b526")
+	)
+	(fp_line
+		(start -0.325 -0.225)
+		(end -0.325 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4eefae99-2843-4abc-b894-4400120db897")
+	)
+	(fp_line
+		(start -0.325 -0.225)
+		(end -0.125 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "938b7271-9dca-4027-9565-ebf95baf7728")
+	)
+	(fp_line
+		(start 0.325 -0.425)
+		(end -0.125 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7350be5f-c706-4325-8fbc-4214338fdb8e")
+	)
+	(fp_line
+		(start 0.325 -0.425)
+		(end 0.325 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4c6252f-ff85-493f-841f-997548141b88")
+	)
+	(fp_line
+		(start 0.325 0.425)
+		(end -0.325 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c19cda4-9223-43fe-b2f6-5f8007417709")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.8 0 90)
+		(layer "F.Fab")
+		(uuid "7e993662-a52b-4c34-8467-5b25f04d30a2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 -0.25)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "5048f8b7-4cea-433f-8b14-7ddcd0dbce59")
+	)
+	(pad "2" smd roundrect
+		(at 0.3 -0.25)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "3366b443-fda9-4e29-9c48-2aae78be6828")
+	)
+	(pad "3" smd roundrect
+		(at -0.3 0.25)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "297c1c5d-a394-42e1-b244-1339238dbff6")
+	)
+	(pad "4" smd roundrect
+		(at 0.3 0.25)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "dcbbe039-4db1-48b7-ab41-6e0ef228446e")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Coilcraft_0805USB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

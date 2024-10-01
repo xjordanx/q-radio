@@ -20350,7 +20350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.8 95.25 0)
 			(effects
 				(font

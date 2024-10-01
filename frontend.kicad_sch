@@ -19272,7 +19272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "PMOS"
 			(at 269.24 211.328 0)
 			(effects
 				(font
@@ -19290,7 +19290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
 			(at 269.24 215.9 0)
 			(effects
 				(font
@@ -19299,7 +19299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
+		(property "Description" "P-CH MOSFET 30V 4.4A SOT-23-3L"
 			(at 269.24 215.9 0)
 			(effects
 				(font
@@ -19322,6 +19322,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Alpha & Omega AO3401A"
+			(at 269.24 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -22423,7 +22432,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "PMOS"
 			(at 309.88 164.338 0)
 			(effects
 				(font
@@ -22441,7 +22450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
 			(at 309.88 168.91 0)
 			(effects
 				(font
@@ -22450,7 +22459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
+		(property "Description" "P-CH MOSFET 30V 4.4A SOT-23-3L"
 			(at 309.88 168.91 0)
 			(effects
 				(font
@@ -22473,6 +22482,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Alpha & Omega AO3401A"
+			(at 309.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -27721,7 +27739,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "PMOS"
 			(at 392.43 180.848 0)
 			(effects
 				(font
@@ -27739,7 +27757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
 			(at 392.43 185.42 0)
 			(effects
 				(font
@@ -27748,7 +27766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
+		(property "Description" "P-CH MOSFET 30V 4.4A SOT-23-3L"
 			(at 392.43 185.42 0)
 			(effects
 				(font
@@ -27771,6 +27789,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Alpha & Omega AO3401A"
+			(at 392.43 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

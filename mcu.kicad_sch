@@ -9662,16 +9662,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 107.315) (xy 356.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1669a55d-66a2-4762-97d0-c0f33c4c000c")
-	)
-	(wire
-		(pts
 			(xy 275.59 95.25) (xy 275.59 96.52)
 		)
 		(stroke
@@ -30380,7 +30370,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MOSFET_P"
+		(property "Value" "PMOS"
 			(at 308.61 23.368 0)
 			(effects
 				(font
@@ -30389,7 +30379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gsg-modules:SOT23-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 308.61 27.94 0)
 			(effects
 				(font
@@ -30398,15 +30388,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
 			(at 308.61 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "P-CH MOSFET 20V 3.4A SOT-23-3L"
+		(property "Description" "P-CH MOSFET 30V 4.4A SOT-23-3L"
 			(at 308.61 27.94 0)
 			(effects
 				(font
@@ -30429,6 +30420,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Alpha & Omega AO3401A"
+			(at 308.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -34138,72 +34138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
-		(at 356.87 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9419e46f-cef4-46ec-b0f3-09fd6d5ab26c")
-		(property "Reference" "#PWR0333"
-			(at 356.87 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VAA"
-			(at 356.4382 111.2012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a9c8de1-c257-40a2-82a9-5d6efb54f6c0")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0333")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 104.14 180)
 		(unit 1)
@@ -34617,72 +34551,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 356.87 107.315 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc26470f-6b60-4548-8be1-3855bc888a99")
-		(property "Reference" "#FLG0105"
-			(at 356.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 356.87 103.7392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 356.87 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 356.87 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eda78887-31e1-433f-a6ab-0279205d5736")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#FLG0105")
 					(unit 1)
 				)
 			)

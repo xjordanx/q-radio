@@ -9350,7 +9350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 366.7252 67.31 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0603"
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
 			(at 365.76 63.5 0)
 			(effects
 				(font
@@ -9386,7 +9386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL10A106KP8NNNC"
+		(property "Part Number" "CL21A106KOQNNNE"
 			(at 365.76 63.5 0)
 			(effects
 				(font
@@ -9395,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Murata GRM21BR61A106KE19L"
 			(at 365.76 63.5 0)
 			(effects
 				(font
@@ -11338,7 +11338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 352.7552 67.31 0)
 			(effects
 				(font
@@ -11356,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X5R 0603"
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
 			(at 351.79 63.5 0)
 			(effects
 				(font
@@ -11374,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL10A106KP8NNNC"
+		(property "Part Number" "CL21A106KOQNNNE"
 			(at 351.79 63.5 0)
 			(effects
 				(font
@@ -11383,7 +11383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Murata GRM21BR61A106KE19L"
 			(at 351.79 63.5 0)
 			(effects
 				(font

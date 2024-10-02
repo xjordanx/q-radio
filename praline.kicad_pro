@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 1.5
         }
       },
       "diff_pair_dimensions": [
@@ -723,7 +723,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-10-01",
+    "DATE": "2024-10-02",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.0.0+"

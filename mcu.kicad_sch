@@ -4433,7 +4433,7 @@
 					)
 					(stroke
 						(width 0.4064)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -4445,7 +4445,7 @@
 					)
 					(stroke
 						(width 0.4064)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -4457,7 +4457,7 @@
 					)
 					(stroke
 						(width 0.3048)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -4593,7 +4593,7 @@
 					(end 60.96 -60.96)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7249,7 +7249,7 @@
 					(end 6.35 -5.08)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7430,7 +7430,7 @@
 					(end 5.08 -3.81)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7441,7 +7441,7 @@
 					(end 4.318 1.524)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7453,7 +7453,7 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7571,7 +7571,7 @@
 					(end 8.89 -8.89)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7833,7 +7833,7 @@
 					(end 6.35 -7.62)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -8109,9 +8109,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8185,8 +8185,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8268,7 +8268,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8301,9 +8301,9 @@
 		)
 		(symbol "power:VAA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8317,7 +8317,7 @@
 				)
 			)
 			(property "Value" "VAA"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8401,8 +8401,8 @@
 			(symbol "VAA_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VAA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8421,9 +8421,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8437,7 +8437,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8521,8 +8521,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10012,7 +10012,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 97.79) (xy 369.57 99.06)
+			(xy 369.57 96.52) (xy 369.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11232,7 +11232,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 102.235) (xy 382.27 98.425)
+			(xy 383.54 100.33) (xy 383.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11322,7 +11322,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 100.965) (xy 363.22 102.235)
+			(xy 363.22 100.33) (xy 363.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12592,7 +12592,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 111.125) (xy 382.27 107.315)
+			(xy 383.54 109.22) (xy 383.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -13302,7 +13302,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 97.79) (xy 356.87 98.425)
+			(xy 356.87 95.25) (xy 356.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14392,7 +14392,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 104.775) (xy 375.92 100.965)
+			(xy 375.92 104.14) (xy 375.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -15166,7 +15166,7 @@
 		(uuid "0dfde4d9-b329-4d7d-8c42-e50b2bc05c0d")
 	)
 	(label "VBUS"
-		(at 382.27 111.125 90)
+		(at 383.54 109.22 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16750,7 +16750,7 @@
 		(uuid "ce698bf2-95a7-4f73-bfde-320fefc2a5a5")
 	)
 	(label "VIN"
-		(at 375.92 104.775 90)
+		(at 375.92 104.14 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16970,7 +16970,7 @@
 		(uuid "e8974e6e-1157-4bf3-8be2-e3146851fac7")
 	)
 	(label "VBAT"
-		(at 382.27 102.235 90)
+		(at 383.54 100.33 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18525,7 +18525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -18591,7 +18591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 121.92 0)
 			(effects
 				(font
@@ -18657,7 +18657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 132.08 0)
 			(effects
 				(font
@@ -18723,7 +18723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 191.77 0)
 			(effects
 				(font
@@ -18789,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 157.48 0)
 			(effects
 				(font
@@ -18855,7 +18855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 49.53 0)
 			(effects
 				(font
@@ -18921,7 +18921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -18987,7 +18987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 30.48 0)
 			(effects
 				(font
@@ -19147,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -19330,7 +19330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 124.46 0)
 			(effects
 				(font
@@ -19604,7 +19604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 317.5 55.88 0)
 			(effects
 				(font
@@ -19670,7 +19670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 363.22 62.23 0)
 			(effects
 				(font
@@ -19736,7 +19736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 382.27 43.18 0)
 			(effects
 				(font
@@ -20179,7 +20179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 331.47 68.58 0)
 			(effects
 				(font
@@ -20245,7 +20245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 331.47 17.78 0)
 			(effects
 				(font
@@ -20311,7 +20311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 387.35 55.88 0)
 			(effects
 				(font
@@ -20377,7 +20377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 387.35 30.48 0)
 			(effects
 				(font
@@ -20537,7 +20537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 403.86 53.34 0)
 			(effects
 				(font
@@ -20891,7 +20891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 394.97 55.88 0)
 			(effects
 				(font
@@ -21053,7 +21053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 394.97 30.48 0)
 			(effects
 				(font
@@ -21222,7 +21222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 240.03 43.18 0)
 			(effects
 				(font
@@ -21288,7 +21288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 273.05 53.34 0)
 			(effects
 				(font
@@ -21354,7 +21354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 257.81 0)
 			(effects
 				(font
@@ -21565,7 +21565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 382.27 190.5 0)
 			(effects
 				(font
@@ -21776,7 +21776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 76.2 0)
 			(effects
 				(font
@@ -21842,7 +21842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 339.09 106.68 0)
 			(effects
 				(font
@@ -21908,7 +21908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 184.15 0)
 			(effects
 				(font
@@ -22144,7 +22144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -22210,7 +22210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 33.02 184.15 0)
 			(effects
 				(font
@@ -22446,7 +22446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 184.15 0)
 			(effects
 				(font
@@ -22512,7 +22512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 184.15 0)
 			(effects
 				(font
@@ -22754,7 +22754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 255.27 0)
 			(effects
 				(font
@@ -22820,7 +22820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 255.27 0)
 			(effects
 				(font
@@ -22983,7 +22983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 257.81 0)
 			(effects
 				(font
@@ -23049,7 +23049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 257.81 0)
 			(effects
 				(font
@@ -23115,7 +23115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 50.8 248.92 0)
 			(effects
 				(font
@@ -26241,7 +26241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 41.91 240.03 0)
 			(effects
 				(font
@@ -26307,7 +26307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 256.54 0)
 			(effects
 				(font
@@ -26985,7 +26985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 213.36 0)
 			(effects
 				(font
@@ -27135,7 +27135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -27201,7 +27201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -27267,7 +27267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 327.66 55.88 0)
 			(effects
 				(font
@@ -27333,7 +27333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 339.09 96.52 0)
 			(effects
 				(font
@@ -27554,7 +27554,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 33.02 0)
 			(effects
 				(font
@@ -27620,7 +27620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 382.27 177.8 0)
 			(effects
 				(font
@@ -27686,7 +27686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 209.55 0)
 			(effects
 				(font
@@ -27752,7 +27752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 212.09 0)
 			(effects
 				(font
@@ -27818,7 +27818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 217.17 0)
 			(effects
 				(font
@@ -27969,7 +27969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 184.15 0)
 			(effects
 				(font
@@ -28223,7 +28223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 339.09 88.9 0)
 			(effects
 				(font
@@ -28475,7 +28475,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -29537,7 +29537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 236.22 0)
 			(effects
 				(font
@@ -29603,7 +29603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 222.25 0)
 			(effects
 				(font
@@ -29954,7 +29954,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 109.22 0)
 			(effects
 				(font
@@ -30588,7 +30588,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 298.45 40.64 0)
 			(effects
 				(font
@@ -30653,7 +30653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 148.59 44.45 0)
 			(effects
 				(font
@@ -30718,7 +30718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -30783,7 +30783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 173.99 44.45 0)
 			(effects
 				(font
@@ -30848,7 +30848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 176.53 24.13 0)
 			(effects
 				(font
@@ -30913,7 +30913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 224.79 44.45 0)
 			(effects
 				(font
@@ -30978,7 +30978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 273.05 30.48 0)
 			(effects
 				(font
@@ -31044,7 +31044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 400.05 68.58 0)
 			(effects
 				(font
@@ -31110,7 +31110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 261.62 78.74 0)
 			(effects
 				(font
@@ -31176,7 +31176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -31242,7 +31242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 256.54 154.94 0)
 			(effects
 				(font
@@ -31308,7 +31308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 303.53 99.06 0)
 			(effects
 				(font
@@ -31373,7 +31373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 275.59 95.25 0)
 			(effects
 				(font
@@ -31439,7 +31439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 354.33 177.8 0)
 			(effects
 				(font
@@ -31505,7 +31505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 77.47 264.16 0)
 			(effects
 				(font
@@ -31571,7 +31571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 62.23 227.33 0)
 			(effects
 				(font
@@ -31636,7 +31636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 50.8 200.66 0)
 			(effects
 				(font
@@ -31701,7 +31701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
 			(at 63.5 161.29 0)
 			(effects
 				(font
@@ -31766,7 +31766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 48.26 161.29 0)
 			(effects
 				(font
@@ -31832,7 +31832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 110.49 137.16 0)
 			(effects
 				(font
@@ -31898,7 +31898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -31964,7 +31964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 110.49 116.84 0)
 			(effects
 				(font
@@ -32030,7 +32030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -32096,7 +32096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 114.3 165.1 0)
 			(effects
 				(font
@@ -32161,7 +32161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 151.13 195.58 0)
 			(effects
 				(font
@@ -32226,7 +32226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 196.85 191.77 0)
 			(effects
 				(font
@@ -32291,7 +32291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 227.33 191.77 0)
 			(effects
 				(font
@@ -32357,7 +32357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 82.55 196.85 0)
 			(effects
 				(font
@@ -32422,7 +32422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 45.72 121.92 0)
 			(effects
 				(font
@@ -32487,7 +32487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -32552,7 +32552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -32617,7 +32617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 71.12 128.27 0)
 			(effects
 				(font
@@ -32682,7 +32682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 25.4 19.05 0)
 			(effects
 				(font
@@ -32801,7 +32801,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 382.27 107.315 0)
+		(at 383.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32810,7 +32810,7 @@
 		(fields_autoplaced yes)
 		(uuid "095eb182-6d23-4adb-93c6-94497da1c5e8")
 		(property "Reference" "#FLG0106"
-			(at 382.27 105.41 0)
+			(at 383.54 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32819,7 +32819,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 382.27 103.7392 0)
+			(at 383.54 101.8342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32827,7 +32827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 107.315 0)
+			(at 383.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32836,7 +32836,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 107.315 0)
+			(at 383.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32844,8 +32844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 382.27 107.315 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 383.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32908,7 +32908,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 19.05 109.22 0)
 			(effects
 				(font
@@ -33371,7 +33371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -33582,7 +33582,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 356.87 97.79 0)
+		(at 356.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33591,7 +33591,7 @@
 		(fields_autoplaced yes)
 		(uuid "72fef865-5e85-4976-a16c-7846e29352aa")
 		(property "Reference" "#FLG0101"
-			(at 356.87 95.885 0)
+			(at 356.87 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33600,7 +33600,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 356.87 94.2142 0)
+			(at 356.87 91.6742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33608,7 +33608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 97.79 0)
+			(at 356.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33617,7 +33617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 97.79 0)
+			(at 356.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33625,8 +33625,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 356.87 97.79 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 356.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33691,7 +33691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 60.96 0)
 			(effects
 				(font
@@ -33714,7 +33714,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V2")
-		(at 369.57 99.06 180)
+		(at 369.57 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33723,7 +33723,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d6b82da-5a67-416e-ad6e-92d42f6ab758")
 		(property "Reference" "#PWR0215"
-			(at 369.57 95.25 0)
+			(at 369.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33732,7 +33732,7 @@
 			)
 		)
 		(property "Value" "+1V2"
-			(at 369.57 104.14 0)
+			(at 369.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33740,7 +33740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 99.06 0)
+			(at 369.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33749,7 +33749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.57 99.06 0)
+			(at 369.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33758,7 +33758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V2\""
-			(at 369.57 99.06 0)
+			(at 369.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33780,7 +33780,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 382.27 98.425 0)
+		(at 383.54 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33789,7 +33789,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f2af6f5-f8f8-44e4-9fd1-7de41d7be1e7")
 		(property "Reference" "#FLG01"
-			(at 382.27 96.52 0)
+			(at 383.54 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33798,7 +33798,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 382.27 94.8492 0)
+			(at 383.54 92.9442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33806,7 +33806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 98.425 0)
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33815,7 +33815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 98.425 0)
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33823,8 +33823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 382.27 98.425 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33846,7 +33846,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 369.57 97.79 0)
+		(at 369.57 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33855,7 +33855,7 @@
 		(fields_autoplaced yes)
 		(uuid "879c5289-7d6f-4197-9280-9c6f12590e89")
 		(property "Reference" "#FLG0102"
-			(at 369.57 95.885 0)
+			(at 369.57 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33864,7 +33864,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 369.57 94.2142 0)
+			(at 369.57 92.9442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33872,7 +33872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.57 97.79 0)
+			(at 369.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33881,7 +33881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 97.79 0)
+			(at 369.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33889,8 +33889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 369.57 97.79 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 369.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33953,7 +33953,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 110.49 0)
 			(effects
 				(font
@@ -33976,7 +33976,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 363.22 100.965 0)
+		(at 363.22 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33985,7 +33985,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2124cb-02e6-4598-a567-ba62ecb138cc")
 		(property "Reference" "#FLG0104"
-			(at 363.22 99.06 0)
+			(at 363.22 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33994,7 +33994,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 363.22 97.3892 0)
+			(at 363.22 96.7542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34002,7 +34002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 100.965 0)
+			(at 363.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34011,7 +34011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 100.965 0)
+			(at 363.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34019,8 +34019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 363.22 100.965 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 363.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34331,7 +34331,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 375.92 100.965 0)
+		(at 375.92 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34340,7 +34340,7 @@
 		(fields_autoplaced yes)
 		(uuid "c949a014-5cc4-4fff-9b82-431be2e52c17")
 		(property "Reference" "#FLG0103"
-			(at 375.92 99.06 0)
+			(at 375.92 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34349,7 +34349,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 375.92 97.3892 0)
+			(at 375.92 96.7542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34357,7 +34357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 100.965 0)
+			(at 375.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34366,7 +34366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 100.965 0)
+			(at 375.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34374,8 +34374,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 375.92 100.965 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 375.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34397,7 +34397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 356.87 98.425 0)
+		(at 356.87 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34405,7 +34405,7 @@
 		(dnp no)
 		(uuid "cd407314-1747-44b7-b7f4-cea27f15f9df")
 		(property "Reference" "#PWR0330"
-			(at 356.87 98.425 0)
+			(at 356.87 96.52 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -34414,7 +34414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 100.203 0)
+			(at 356.87 98.298 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -34423,7 +34423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 98.425 0)
+			(at 356.87 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -34432,7 +34432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 98.425 0)
+			(at 356.87 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -34440,8 +34440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 356.87 98.425 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34558,7 +34558,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 363.22 102.235 180)
+		(at 363.22 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34566,7 +34566,7 @@
 		(dnp no)
 		(uuid "dfe66709-2ac5-4f7a-aad7-60309480500e")
 		(property "Reference" "#PWR0331"
-			(at 363.22 98.425 0)
+			(at 363.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34575,7 +34575,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 362.7882 105.4862 90)
+			(at 362.7882 104.8512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34584,7 +34584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 102.235 0)
+			(at 363.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34593,7 +34593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 102.235 0)
+			(at 363.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34601,8 +34601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 363.22 102.235 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 363.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

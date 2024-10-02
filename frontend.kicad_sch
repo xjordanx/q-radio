@@ -13526,7 +13526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TECH PUBLIC"
 			(at 403.86 223.52 0)
 			(effects
 				(font
@@ -13535,7 +13535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LXES15AAA1-100"
+		(property "Part Number" "LXES15AAA1-153"
 			(at 403.86 223.52 0)
 			(effects
 				(font

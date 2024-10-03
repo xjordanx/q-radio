@@ -7895,6 +7895,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b56bb2d-78bd-47cb-905c-d5ef4f93d5da")
 		)
@@ -7992,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 383.54 219.71 0)
 			(effects
 				(font
@@ -8355,7 +8364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 364.49 193.04 0)
 			(effects
 				(font
@@ -8440,7 +8449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -8449,7 +8458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -8458,7 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -8467,7 +8476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT1K80"
+		(property "Part Number" "RC0402JR-071K8L"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -8565,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 339.09 193.04 0)
 			(effects
 				(font
@@ -8661,6 +8670,15 @@
 			)
 		)
 		(property "Part Number" "YC124-JR-0733RL"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -8803,7 +8821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 196.85 248.92 0)
 			(effects
 				(font
@@ -8821,7 +8839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 196.85 248.92 0)
 			(effects
 				(font
@@ -8830,7 +8848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 196.85 248.92 0)
 			(effects
 				(font
@@ -8993,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 388.62 190.5 0)
 			(effects
 				(font
@@ -9097,6 +9115,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78acfa93-d6ea-403c-b565-b8b51300be55")
 		)
@@ -9165,7 +9192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 224.79 248.92 0)
 			(effects
 				(font
@@ -9174,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
 			(at 224.79 248.92 0)
 			(effects
 				(font
@@ -9183,7 +9210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 224.79 248.92 0)
 			(effects
 				(font
@@ -9192,7 +9219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT1K80"
+		(property "Part Number" "RC0402JR-071K8L"
 			(at 224.79 248.92 0)
 			(effects
 				(font
@@ -9526,6 +9553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 134.62 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55b80af8-808d-45a1-a5bb-54b9f96c57d9")
 		)
@@ -9713,7 +9749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 341.63 139.7 0)
 			(effects
 				(font
@@ -10510,7 +10546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 248.92 0)
 			(effects
 				(font
@@ -10528,7 +10564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 184.15 248.92 0)
 			(effects
 				(font
@@ -10537,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 184.15 248.92 0)
 			(effects
 				(font
@@ -10766,7 +10802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 401.32 190.5 0)
 			(effects
 				(font
@@ -11063,7 +11099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 351.79 193.04 0)
 			(effects
 				(font
@@ -11178,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 396.24 219.71 0)
 			(effects
 				(font
@@ -11372,7 +11408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 367.03 139.7 0)
 			(effects
 				(font
@@ -11544,7 +11580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A104KE15*"
+		(property "Substitution" "Murata GRM155R61A104KA01D"
 			(at 339.09 64.77 0)
 			(effects
 				(font
@@ -11632,7 +11668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 318.77 193.04 0)
 			(effects
 				(font
@@ -11738,6 +11774,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 364.49 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26bcbc15-a1a8-4729-9855-e4780aa81e89")
 		)
@@ -11816,6 +11861,15 @@
 			)
 		)
 		(property "Part Number" "YC124-JR-0733RL"
+			(at 134.62 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
 			(at 134.62 185.42 0)
 			(effects
 				(font
@@ -12118,6 +12172,15 @@
 			)
 		)
 		(property "Part Number" "YC124-JR-0733RL"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
 			(at 134.62 87.63 0)
 			(effects
 				(font
@@ -12756,6 +12819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "505165b6-c2ec-433a-a112-f7efdac17938")
 		)
@@ -13089,6 +13161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "any equivalent"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "368b0a9b-5f7b-4bab-be56-b673862c5034")
 		)
@@ -13318,7 +13399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "any equivalent"
+		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
 			(at 408.94 219.71 0)
 			(effects
 				(font

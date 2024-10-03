@@ -12381,7 +12381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -12616,7 +12616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 364.49 125.73 0)
 			(effects
 				(font
@@ -12652,7 +12652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "MAX5864ETM+"
+		(property "Substitution" "MAX5864ETM+, MAX5865ETM+T, MAX5865ETM+"
 			(at 364.49 125.73 0)
 			(effects
 				(font
@@ -12985,7 +12985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 31.75 0)
 			(effects
 				(font
@@ -13079,7 +13079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -13439,7 +13439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 213.36 177.8 0)
 			(effects
 				(font
@@ -13507,7 +13507,7 @@
 				)
 			)
 		)
-		(property "Value" "475"
+		(property "Value" "470"
 			(at 207.01 171.45 90)
 			(effects
 				(font
@@ -13524,7 +13524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -13533,7 +13533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
+		(property "Description" "RES 1/16W 470 OHM 5% 0402"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -13542,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -13551,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT470R"
+		(property "Part Number" "RC0402JR-07470RL"
 			(at 207.01 171.45 0)
 			(effects
 				(font
@@ -13601,7 +13601,7 @@
 				)
 			)
 		)
-		(property "Value" "475"
+		(property "Value" "470"
 			(at 219.71 171.45 90)
 			(effects
 				(font
@@ -13618,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 219.71 171.45 0)
 			(effects
 				(font
@@ -13627,7 +13627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1/16W 470 OHM 5% 0402"
+		(property "Description" "RES 1/16W 470 OHM 5% 0402"
 			(at 219.71 171.45 0)
 			(effects
 				(font
@@ -13636,7 +13636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 219.71 171.45 0)
 			(effects
 				(font
@@ -13645,7 +13645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT470R"
+		(property "Part Number" "RC0402JR-07470RL"
 			(at 219.71 171.45 0)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -13940,7 +13940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 54.61 0)
 			(effects
 				(font
@@ -13958,7 +13958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 326.39 54.61 0)
 			(effects
 				(font
@@ -13967,7 +13967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT1K00"
+		(property "Part Number" "RC0402FR-071KL"
 			(at 326.39 54.61 0)
 			(effects
 				(font
@@ -14300,7 +14300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 318.77 105.41 0)
 			(effects
 				(font
@@ -14396,7 +14396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 336.55 87.63 0)
 			(effects
 				(font
@@ -14690,7 +14690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 311.15 30.48 0)
 			(effects
 				(font
@@ -15239,7 +15239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 336.55 95.25 0)
 			(effects
 				(font
@@ -15335,7 +15335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -15367,6 +15367,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "GCM1555C1H3R0BA16D"
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15422,7 +15431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -15454,6 +15463,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "GCM1555C1H3R0BA16D"
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15490,7 +15508,7 @@
 				)
 			)
 		)
-		(property "Value" "RX_BALUN"
+		(property "Value" "IF_BALUN"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -15507,7 +15525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -15724,7 +15742,7 @@
 				)
 			)
 		)
-		(property "Value" "TX_BALUN"
+		(property "Value" "IF_BALUN"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -15741,7 +15759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 142.24 0)
 			(effects
 				(font
@@ -16173,7 +16191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 114.3 201.93 0)
 			(effects
 				(font
@@ -16205,6 +16223,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "SI5351C-B-GM*"
+			(at 114.3 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -16315,7 +16342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 53.34 195.58 0)
 			(effects
 				(font
@@ -16324,7 +16351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
 			(at 53.34 195.58 0)
 			(effects
 				(font
@@ -16333,7 +16360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 53.34 195.58 0)
 			(effects
 				(font
@@ -16342,7 +16369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT1K80"
+		(property "Part Number" "RC0402JR-071K8L"
 			(at 53.34 195.58 0)
 			(effects
 				(font
@@ -16458,7 +16485,7 @@
 				)
 			)
 		)
-		(property "Value" "CLKIN"
+		(property "Value" "SMA"
 			(at 76.2 220.98 0)
 			(effects
 				(font
@@ -16475,7 +16502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -16626,7 +16653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -16644,7 +16671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -16653,7 +16680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402ZT0R00"
+		(property "Part Number" "RC0402JR-070RL"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -16720,7 +16747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 114.3 0)
 			(effects
 				(font
@@ -16796,7 +16823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 149.86 142.24 0)
 			(effects
 				(font
@@ -16872,7 +16899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -17064,7 +17091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XCVR_CLKOUT"
+		(property "Value" "TestPoint"
 			(at 190.627 177.8 0)
 			(effects
 				(font
@@ -17082,7 +17109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 189.23 177.8 0)
 			(effects
 				(font
@@ -17139,7 +17166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OEB"
+		(property "Value" "TestPoint"
 			(at 113.157 260.35 0)
 			(effects
 				(font
@@ -17157,7 +17184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 111.76 260.35 0)
 			(effects
 				(font
@@ -17214,7 +17241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INTR"
+		(property "Value" "TestPoint"
 			(at 40.64 203.327 0)
 			(effects
 				(font
@@ -17232,7 +17259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 201.93 0)
 			(effects
 				(font
@@ -17439,7 +17466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 173.99 0)
 			(effects
 				(font
@@ -17535,7 +17562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 27.94 254 0)
 			(effects
 				(font
@@ -17631,7 +17658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 254 0)
 			(effects
 				(font
@@ -17727,7 +17754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 254 0)
 			(effects
 				(font
@@ -17823,7 +17850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 254 0)
 			(effects
 				(font
@@ -17919,7 +17946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 391.16 204.47 0)
 			(effects
 				(font
@@ -18015,7 +18042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 303.53 30.48 0)
 			(effects
 				(font
@@ -18111,7 +18138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 318.77 30.48 0)
 			(effects
 				(font
@@ -18207,7 +18234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 334.01 30.48 0)
 			(effects
 				(font
@@ -18303,7 +18330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 349.25 30.48 0)
 			(effects
 				(font
@@ -18399,7 +18426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 364.49 30.48 0)
 			(effects
 				(font
@@ -18495,7 +18522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 379.73 30.48 0)
 			(effects
 				(font
@@ -18591,7 +18618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 394.97 30.48 0)
 			(effects
 				(font
@@ -18687,7 +18714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 64.77 31.75 0)
 			(effects
 				(font
@@ -18783,7 +18810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -18879,7 +18906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -18975,7 +19002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 31.75 0)
 			(effects
 				(font
@@ -19071,7 +19098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 102.87 31.75 0)
 			(effects
 				(font
@@ -19165,7 +19192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 118.11 252.73 0)
 			(effects
 				(font
@@ -19183,7 +19210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 118.11 252.73 0)
 			(effects
 				(font
@@ -19192,7 +19219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 118.11 252.73 0)
 			(effects
 				(font
@@ -19259,7 +19286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -19277,7 +19304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -19286,7 +19313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -19353,7 +19380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 195.58 0)
 			(effects
 				(font
@@ -19371,7 +19398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 63.5 195.58 0)
 			(effects
 				(font
@@ -19380,7 +19407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 63.5 195.58 0)
 			(effects
 				(font
@@ -19449,7 +19476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 87.63 31.75 0)
 			(effects
 				(font
@@ -19543,7 +19570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 297.18 88.9 0)
 			(effects
 				(font
@@ -19561,7 +19588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 297.18 88.9 0)
 			(effects
 				(font
@@ -19570,7 +19597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT4K70"
+		(property "Part Number" "RC0402FR-074K7L"
 			(at 297.18 88.9 0)
 			(effects
 				(font
@@ -19637,7 +19664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 302.26 88.9 0)
 			(effects
 				(font
@@ -19655,7 +19682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 302.26 88.9 0)
 			(effects
 				(font
@@ -19664,7 +19691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT4K70"
+		(property "Part Number" "RC0402FR-074K7L"
 			(at 302.26 88.9 0)
 			(effects
 				(font
@@ -19731,7 +19758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 88.9 0)
 			(effects
 				(font
@@ -19749,7 +19776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 307.34 88.9 0)
 			(effects
 				(font
@@ -19758,7 +19785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT4K70"
+		(property "Part Number" "RC0402FR-074K7L"
 			(at 307.34 88.9 0)
 			(effects
 				(font
@@ -19825,7 +19852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 312.42 88.9 0)
 			(effects
 				(font
@@ -19843,7 +19870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 312.42 88.9 0)
 			(effects
 				(font
@@ -19852,7 +19879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT4K70"
+		(property "Part Number" "RC0402FR-074K7L"
 			(at 312.42 88.9 0)
 			(effects
 				(font
@@ -19921,7 +19948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 213.36 165.1 0)
 			(effects
 				(font
@@ -20018,7 +20045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -20114,7 +20141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 30.48 0)
 			(effects
 				(font
@@ -20201,7 +20228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 341.63 30.48 0)
 			(effects
 				(font
@@ -20288,7 +20315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 356.87 30.48 0)
 			(effects
 				(font
@@ -20375,7 +20402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 372.11 30.48 0)
 			(effects
 				(font
@@ -20462,7 +20489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 387.35 30.48 0)
 			(effects
 				(font
@@ -20549,7 +20576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 398.78 204.47 0)
 			(effects
 				(font
@@ -20636,7 +20663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -20732,7 +20759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 57.15 31.75 0)
 			(effects
 				(font
@@ -20828,7 +20855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -20924,7 +20951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 292.1 58.42 0)
 			(effects
 				(font
@@ -21028,7 +21055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 292.1 73.66 0)
 			(effects
 				(font
@@ -21132,7 +21159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 303.53 115.57 0)
 			(effects
 				(font
@@ -21236,7 +21263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 303.53 130.81 0)
 			(effects
 				(font
@@ -21340,7 +21367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 276.86 143.51 0)
 			(effects
 				(font
@@ -21445,7 +21472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 283.21 143.51 0)
 			(effects
 				(font
@@ -21550,7 +21577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 289.56 143.51 0)
 			(effects
 				(font
@@ -21655,7 +21682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 295.91 143.51 0)
 			(effects
 				(font
@@ -21760,7 +21787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -21856,7 +21883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 143.51 121.92 0)
 			(effects
 				(font
@@ -21952,7 +21979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -22046,7 +22073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 62.23 0)
 			(effects
 				(font
@@ -22064,7 +22091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 326.39 62.23 0)
 			(effects
 				(font
@@ -22073,7 +22100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT1K00"
+		(property "Part Number" "RC0402FR-071KL"
 			(at 326.39 62.23 0)
 			(effects
 				(font
@@ -22140,7 +22167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -22158,7 +22185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -22167,7 +22194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT1K00"
+		(property "Part Number" "RC0402FR-071KL"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -22234,7 +22261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 77.47 0)
 			(effects
 				(font
@@ -22252,7 +22279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 326.39 77.47 0)
 			(effects
 				(font
@@ -22261,7 +22288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402FT1K00"
+		(property "Part Number" "RC0402FR-071KL"
 			(at 326.39 77.47 0)
 			(effects
 				(font
@@ -22328,7 +22355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 119.38 0)
 			(effects
 				(font
@@ -22346,7 +22373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 262.89 119.38 0)
 			(effects
 				(font
@@ -22355,7 +22382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402ZT0R00"
+		(property "Part Number" "RC0402JR-070RL"
 			(at 262.89 119.38 0)
 			(effects
 				(font
@@ -22422,7 +22449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -22440,7 +22467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -22449,7 +22476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402ZT0R00"
+		(property "Part Number" "RC0402JR-070RL"
 			(at 262.89 127 0)
 			(effects
 				(font
@@ -22516,7 +22543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 134.62 0)
 			(effects
 				(font
@@ -22534,7 +22561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 262.89 134.62 0)
 			(effects
 				(font
@@ -22543,7 +22570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402ZT0R00"
+		(property "Part Number" "RC0402JR-070RL"
 			(at 262.89 134.62 0)
 			(effects
 				(font
@@ -22726,7 +22753,7 @@
 				)
 			)
 		)
-		(property "Value" "CLKOUT"
+		(property "Value" "SMA"
 			(at 154.94 240.03 0)
 			(effects
 				(font
@@ -22743,7 +22770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 243.84 0)
 			(effects
 				(font
@@ -22812,7 +22839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCL"
+		(property "Value" "TestPoint"
 			(at 16.383 113.03 0)
 			(effects
 				(font
@@ -22830,7 +22857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 17.78 113.03 0)
 			(effects
 				(font
@@ -22887,7 +22914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "TestPoint"
 			(at 20.193 113.03 0)
 			(effects
 				(font
@@ -22905,7 +22932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 21.59 113.03 0)
 			(effects
 				(font
@@ -22962,7 +22989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSP1_SCK"
+		(property "Value" "TestPoint"
 			(at 24.003 113.03 0)
 			(effects
 				(font
@@ -22980,7 +23007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 25.4 113.03 0)
 			(effects
 				(font
@@ -23037,7 +23064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSP1_CIPO"
+		(property "Value" "TestPoint"
 			(at 31.623 113.03 0)
 			(effects
 				(font
@@ -23055,7 +23082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -23112,7 +23139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSP1_COPI"
+		(property "Value" "TestPoint"
 			(at 27.813 113.03 0)
 			(effects
 				(font
@@ -23130,7 +23157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 29.21 113.03 0)
 			(effects
 				(font
@@ -23203,7 +23230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 99.06 231.14 0)
 			(effects
 				(font
@@ -23221,7 +23248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 99.06 231.14 0)
 			(effects
 				(font
@@ -23230,7 +23257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT10K0"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 99.06 231.14 0)
 			(effects
 				(font
@@ -23363,7 +23390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 195.58 0)
 			(effects
 				(font
@@ -23372,7 +23399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES TF 1.8K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
 			(at 58.42 195.58 0)
 			(effects
 				(font
@@ -23381,7 +23408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 58.42 195.58 0)
 			(effects
 				(font
@@ -23390,7 +23417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT1K80"
+		(property "Part Number" "RC0402JR-071K8L"
 			(at 58.42 195.58 0)
 			(effects
 				(font
@@ -23457,7 +23484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 231.14 0)
 			(effects
 				(font
@@ -23475,7 +23502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 163.83 231.14 0)
 			(effects
 				(font
@@ -23484,7 +23511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT39R0"
+		(property "Part Number" "RC0402JR-0739RL"
 			(at 163.83 231.14 0)
 			(effects
 				(font
@@ -23553,7 +23580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 207.01 212.09 0)
 			(effects
 				(font
@@ -23657,7 +23684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 189.23 222.25 0)
 			(effects
 				(font
@@ -23889,7 +23916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 237.49 0)
 			(effects
 				(font
@@ -24055,7 +24082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 127 243.84 0)
 			(effects
 				(font
@@ -24073,7 +24100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 127 243.84 0)
 			(effects
 				(font
@@ -24082,7 +24109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT39R0"
+		(property "Part Number" "RC0402JR-0739RL"
 			(at 127 243.84 0)
 			(effects
 				(font
@@ -24151,7 +24178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 133.35 250.19 0)
 			(effects
 				(font
@@ -24301,7 +24328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXENABLE"
+		(property "Value" "TestPoint"
 			(at 43.053 113.03 0)
 			(effects
 				(font
@@ -24319,7 +24346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -24376,7 +24403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RXENABLE"
+		(property "Value" "TestPoint"
 			(at 46.863 113.03 0)
 			(effects
 				(font
@@ -24394,7 +24421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 113.03 0)
 			(effects
 				(font
@@ -24451,7 +24478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CS_XCVR"
+		(property "Value" "TestPoint"
 			(at 35.433 113.03 0)
 			(effects
 				(font
@@ -24469,7 +24496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 36.83 113.03 0)
 			(effects
 				(font
@@ -24526,7 +24553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XTAL2"
+		(property "Value" "TestPoint"
 			(at 50.673 113.03 0)
 			(effects
 				(font
@@ -24544,7 +24571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 52.07 113.03 0)
 			(effects
 				(font
@@ -24601,7 +24628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CS_AD"
+		(property "Value" "TestPoint"
 			(at 39.243 113.03 0)
 			(effects
 				(font
@@ -24619,7 +24646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -24692,7 +24719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 252.73 0)
 			(effects
 				(font
@@ -24843,7 +24870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 86.36 233.68 0)
 			(effects
 				(font
@@ -24978,7 +25005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GCK2"
+		(property "Value" "TestPoint"
 			(at 58.293 113.03 0)
 			(effects
 				(font
@@ -24996,7 +25023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -25053,7 +25080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SGPIO_CLK"
+		(property "Value" "TestPoint"
 			(at 62.103 113.03 0)
 			(effects
 				(font
@@ -25071,7 +25098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -25128,7 +25155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GCK1"
+		(property "Value" "TestPoint"
 			(at 54.483 113.03 0)
 			(effects
 				(font
@@ -25146,7 +25173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 55.88 113.03 0)
 			(effects
 				(font
@@ -25203,7 +25230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RSSI"
+		(property "Value" "TestPoint"
 			(at 65.913 113.03 0)
 			(effects
 				(font
@@ -25221,7 +25248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 67.31 113.03 0)
 			(effects
 				(font
@@ -25278,7 +25305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 16.383 138.43 0)
 			(effects
 				(font
@@ -25296,7 +25323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 17.78 138.43 0)
 			(effects
 				(font
@@ -25417,7 +25444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 20.193 138.43 0)
 			(effects
 				(font
@@ -25435,7 +25462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 21.59 138.43 0)
 			(effects
 				(font
@@ -25556,7 +25583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 24.003 138.43 0)
 			(effects
 				(font
@@ -25574,7 +25601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 25.4 138.43 0)
 			(effects
 				(font
@@ -25695,7 +25722,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 27.813 138.43 0)
 			(effects
 				(font
@@ -25713,7 +25740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -25834,7 +25861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 31.623 138.43 0)
 			(effects
 				(font
@@ -25852,7 +25879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 138.43 0)
 			(effects
 				(font
@@ -25973,7 +26000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 35.433 138.43 0)
 			(effects
 				(font
@@ -25991,7 +26018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 36.83 138.43 0)
 			(effects
 				(font
@@ -26112,7 +26139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 39.243 138.43 0)
 			(effects
 				(font
@@ -26130,7 +26157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 40.64 138.43 0)
 			(effects
 				(font
@@ -26251,7 +26278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 43.053 138.43 0)
 			(effects
 				(font
@@ -26269,7 +26296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 44.45 138.43 0)
 			(effects
 				(font
@@ -26390,7 +26417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 46.863 138.43 0)
 			(effects
 				(font
@@ -26408,7 +26435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 48.26 138.43 0)
 			(effects
 				(font
@@ -26529,7 +26556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "TestPoint"
 			(at 50.673 138.43 0)
 			(effects
 				(font
@@ -26547,7 +26574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -26684,7 +26711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 182.88 215.9 0)
 			(effects
 				(font
@@ -26702,7 +26729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 182.88 215.9 0)
 			(effects
 				(font
@@ -26711,7 +26738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT39R0"
+		(property "Part Number" "RC0402JR-0739RL"
 			(at 182.88 215.9 0)
 			(effects
 				(font
@@ -26778,7 +26805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 205.74 0)
 			(effects
 				(font
@@ -26796,7 +26823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole"
+		(property "Manufacturer" "Yageo"
 			(at 200.66 205.74 0)
 			(effects
 				(font
@@ -26805,7 +26832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0402JT39R0"
+		(property "Part Number" "RC0402JR-0739RL"
 			(at 200.66 205.74 0)
 			(effects
 				(font
@@ -26874,7 +26901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 179.07 0)
 			(effects
 				(font
@@ -26970,7 +26997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 191.77 0)
 			(effects
 				(font
@@ -27047,7 +27074,7 @@
 				)
 			)
 		)
-		(property "Value" "BASEBAND"
+		(property "Value" "HEADER-2x8"
 			(at 300.99 201.93 90)
 			(effects
 				(font
@@ -27064,7 +27091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 299.72 200.66 0)
 			(effects
 				(font
@@ -29644,7 +29671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A104KE15*"
+		(property "Substitution" "Murata GRM155R61A104KA01D"
 			(at 74.93 182.88 0)
 			(effects
 				(font
@@ -29963,7 +29990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 167.64 0)
 			(effects
 				(font
@@ -30258,7 +30285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A104KE15*"
+		(property "Substitution" "Murata GRM155R61A104KA01D"
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -30355,7 +30382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A104KE15*"
+		(property "Substitution" "Murata GRM155R61A104KA01D"
 			(at 44.45 67.31 0)
 			(effects
 				(font
@@ -30518,7 +30545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A104KE15*"
+		(property "Substitution" "Murata GRM155R61A104KA01D"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -30677,7 +30704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 66.04 0)
 			(effects
 				(font

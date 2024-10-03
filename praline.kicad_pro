@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.5
+          "min_clearance": 0.3048
         }
       },
       "diff_pair_dimensions": [
@@ -98,7 +98,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -130,8 +130,8 @@
         "min_microvia_drill": 0.127,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.381,
+        "min_text_thickness": 0.07,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.075,

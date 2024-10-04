@@ -16493,7 +16493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SMA-73251-2120"
+		(property "Footprint" "praline:Linx_SMA_CONSMA003.062"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -16511,7 +16511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
+		(property "Description" "CONN SMA RCPT STR 50OHM EDGE MNT"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -16520,7 +16520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -16529,7 +16529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "73251-2121"
+		(property "Part Number" "CONSMA003.062"
 			(at 76.2 224.79 0)
 			(effects
 				(font
@@ -22761,7 +22761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SMA-73251-2120"
+		(property "Footprint" "praline:Linx_SMA_CONSMA003.062"
 			(at 154.94 243.84 0)
 			(effects
 				(font
@@ -22779,7 +22779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"
+		(property "Description" "CONN SMA RCPT STR 50OHM EDGE MNT"
 			(at 154.94 243.84 0)
 			(effects
 				(font
@@ -22788,7 +22788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "TE Connectivity Linx"
 			(at 154.94 243.84 0)
 			(effects
 				(font
@@ -22797,7 +22797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "73251-2121"
+		(property "Part Number" "CONSMA003.062"
 			(at 154.94 243.84 0)
 			(effects
 				(font

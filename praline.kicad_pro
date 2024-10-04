@@ -726,6 +726,6 @@
     "DATE": "2024-10-03",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
-    "VERSION": "0.0.0+"
+    "VERSION": "0.1.0"
   }
 }

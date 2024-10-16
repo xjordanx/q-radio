@@ -13592,7 +13592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 324.612 64.77 90)
 			(effects
 				(font
@@ -13610,7 +13610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22K OHM 5% 1/16W 0402"
+		(property "Description" "RES 22K OHM 5% 1/20W 0201"
 			(at 326.39 64.77 0)
 			(effects
 				(font
@@ -13628,7 +13628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0722KL"
+		(property "Part Number" "RC0201JR-0722KL"
 			(at 326.39 64.77 0)
 			(effects
 				(font

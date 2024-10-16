@@ -3849,12 +3849,6 @@
 		(uuid "09514ec7-8d4f-41de-b4e8-cd7eddc0d17d")
 	)
 	(junction
-		(at 325.12 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10b79be9-a504-4d9b-b685-09be7ee8e265")
-	)
-	(junction
 		(at 254 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3903,22 +3897,10 @@
 		(uuid "290b51df-8bc6-4e8b-ba73-622007c93f08")
 	)
 	(junction
-		(at 121.92 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a008635-1dd6-4b79-87e1-0c6508091afd")
-	)
-	(junction
 		(at 326.39 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a01efdd-6aad-48fd-bc9d-41aafbb7c9f8")
-	)
-	(junction
-		(at 160.02 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4195047e-8562-4550-a367-4f45b14bd7f9")
 	)
 	(junction
 		(at 254 185.42)
@@ -3937,12 +3919,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e6bf2e6-210a-499a-b95b-f51846c3948a")
-	)
-	(junction
-		(at 160.02 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50393ced-3388-4bce-8d0b-950f3c81ae2b")
 	)
 	(junction
 		(at 394.97 191.77)
@@ -4017,22 +3993,10 @@
 		(uuid "85797d74-cbf0-4686-bdd5-373aae6025c8")
 	)
 	(junction
-		(at 153.67 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "923a1aee-c5dc-47b6-ac75-2cdb9e2cf16c")
-	)
-	(junction
 		(at 367.03 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93d035ba-f617-4df4-8074-6ce4ba6301b3")
-	)
-	(junction
-		(at 251.46 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ade5555-5e68-4a99-9910-6b3c34153183")
 	)
 	(junction
 		(at 162.56 115.57)
@@ -4107,12 +4071,6 @@
 		(uuid "b32da8a8-784f-4f44-9735-f5b0ed6679cc")
 	)
 	(junction
-		(at 153.67 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b449df7f-bd84-4588-b014-d89d1b06032b")
-	)
-	(junction
 		(at 312.42 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4147,12 +4105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c19e1b9a-2e66-4a3d-8014-0e50769a1079")
-	)
-	(junction
-		(at 121.92 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3fdd794-10a5-4d71-922b-f930e00334da")
 	)
 	(junction
 		(at 170.18 113.03)
@@ -4456,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 223.52) (xy 251.46 223.52)
+			(xy 242.57 223.52) (xy 257.81 223.52)
 		)
 		(stroke
 			(width 0)
@@ -4493,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "0fc1a094-8331-417b-bf29-60b39abed185")
-	)
-	(wire
-		(pts
-			(xy 325.12 176.53) (xy 332.74 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1016b68e-b351-431e-bfb9-f9a33856e1ab")
 	)
 	(wire
 		(pts
@@ -4683,16 +4625,6 @@
 			(type default)
 		)
 		(uuid "1f4dbdbf-6586-43da-8c31-a82b89f3bf06")
-	)
-	(wire
-		(pts
-			(xy 121.92 212.09) (xy 129.54 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f99ee6f-d9db-47a7-afa6-ab0e6afbab01")
 	)
 	(wire
 		(pts
@@ -4916,16 +4848,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 223.52) (xy 251.46 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dfe0c7a-16bd-46a3-82c9-8484ee537fc3")
-	)
-	(wire
-		(pts
 			(xy 334.01 207.01) (xy 297.18 207.01)
 		)
 		(stroke
@@ -4943,16 +4865,6 @@
 			(type default)
 		)
 		(uuid "2f97a3a7-83f6-4f69-98a5-e4c613f27501")
-	)
-	(wire
-		(pts
-			(xy 153.67 212.09) (xy 160.02 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcaac2e-d971-4f32-aa5d-3429170ad607")
 	)
 	(wire
 		(pts
@@ -5296,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 204.47) (xy 160.02 204.47)
+			(xy 146.05 204.47) (xy 154.94 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5333,16 +5245,6 @@
 			(type default)
 		)
 		(uuid "4ee10e33-16db-4ca9-892e-6ecba7d73365")
-	)
-	(wire
-		(pts
-			(xy 146.05 204.47) (xy 153.67 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0a4d5b-36ee-4bf6-ab4c-8bc432671c4b")
 	)
 	(wire
 		(pts
@@ -5666,16 +5568,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 223.52) (xy 251.46 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60335018-cb9d-4cb0-96d5-eec42f82d62e")
-	)
-	(wire
-		(pts
 			(xy 242.57 226.06) (xy 242.57 223.52)
 		)
 		(stroke
@@ -5843,16 +5735,6 @@
 			(type default)
 		)
 		(uuid "6a5185aa-b344-4c56-8181-05e329c04c79")
-	)
-	(wire
-		(pts
-			(xy 121.92 204.47) (xy 129.54 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac957f1-b934-4f53-9d5f-5c101b33bdd0")
 	)
 	(wire
 		(pts
@@ -6216,16 +6098,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 236.22) (xy 251.46 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af8e584-5b14-46ec-82ad-df686435ba1f")
-	)
-	(wire
-		(pts
 			(xy 332.74 81.28) (xy 356.87 81.28)
 		)
 		(stroke
@@ -6436,16 +6308,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 176.53) (xy 325.12 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876d17af-9d3d-4d0c-bb99-1097b958ea42")
-	)
-	(wire
-		(pts
 			(xy 264.16 171.45) (xy 261.62 171.45)
 		)
 		(stroke
@@ -6453,16 +6315,6 @@
 			(type default)
 		)
 		(uuid "87ccae12-c67d-4629-87c5-9b140b4970a6")
-	)
-	(wire
-		(pts
-			(xy 325.12 189.23) (xy 325.12 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880f9696-4466-40b4-9be5-36c112460f11")
 	)
 	(wire
 		(pts
@@ -7486,7 +7338,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 212.09) (xy 153.67 212.09)
+			(xy 146.05 212.09) (xy 154.94 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7536,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 176.53) (xy 325.12 176.53)
+			(xy 321.31 176.53) (xy 332.74 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8196,16 +8048,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 212.09) (xy 167.64 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f259a8e4-e541-42d3-ad2d-472a619df58d")
-	)
-	(wire
-		(pts
 			(xy 325.12 93.98) (xy 325.12 91.44)
 		)
 		(stroke
@@ -8243,16 +8085,6 @@
 			(type default)
 		)
 		(uuid "f3c6a333-e2c2-46c0-b89a-3c22e44d6380")
-	)
-	(wire
-		(pts
-			(xy 160.02 204.47) (xy 167.64 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3dda84d-3373-462d-83b9-e562203768af")
 	)
 	(wire
 		(pts
@@ -9516,7 +9348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 255.27 110.49 0)
 			(effects
 				(font
@@ -9525,7 +9357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -9543,7 +9375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 334.01 113.03 0)
 			(effects
 				(font
@@ -9552,7 +9384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 334.01 113.03 0)
 			(effects
 				(font
@@ -9561,7 +9393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 334.01 113.03 0)
 			(effects
 				(font
@@ -9570,7 +9402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -9942,7 +9774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 313.69 92.71 0)
 			(effects
 				(font
@@ -9951,7 +9783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 311.15 93.98 0)
 			(effects
 				(font
@@ -9969,7 +9801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -9978,7 +9810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -9987,7 +9819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C470JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 267.97 93.98 0)
 			(effects
 				(font
@@ -9996,7 +9828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H470JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 311.15 93.98 0)
 			(effects
 				(font
@@ -10104,7 +9936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "1uF"
 			(at 113.03 138.43 0)
 			(effects
 				(font
@@ -10113,7 +9945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -10131,7 +9963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -10140,7 +9972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -10149,7 +9981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C101JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -10158,7 +9990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -10275,7 +10107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -10293,7 +10125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 330PF 25V C0G/NP0 0201"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -10302,7 +10134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata "
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -10311,7 +10143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C331JB5NNNC"
+		(property "Part Number" "GRM0335C1E331JA01D"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -10320,7 +10152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71H331KA01D"
+		(property "Substitution" "GRM0335C1E331*, GRM0335C1H331*"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -10369,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -10387,7 +10219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 470 OHM 5% 0402"
+		(property "Description" "RES 470 OHM 5% 1/20W 0201"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -10405,7 +10237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-07470RL"
+		(property "Part Number" "RC0201JR-07470RL"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -10465,7 +10297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -10483,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 330PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 330PF 25V C0G/NP0 0201"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -10492,7 +10324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata "
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -10501,7 +10333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C331JB5NNNC"
+		(property "Part Number" "GRM0335C1E331JA01D"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -10510,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71H331KA01D"
+		(property "Substitution" "GRM0335C1E331*, GRM0335C1H331*"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -10559,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -10577,7 +10409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 470 OHM 5% 0402"
+		(property "Description" "RES 470 OHM 5% 1/20W 0201"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -10595,7 +10427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-07470RL"
+		(property "Part Number" "RC0201JR-07470RL"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -10787,7 +10619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -10805,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 8.2PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 8.2PF 50V C0G/NP0 0201"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -10814,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -10823,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0402CRNPO9BN8R2"
+		(property "Part Number" "GRM0335C1H8R2CA01D"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -10832,7 +10664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden UMK105CG8R2DV-F"
+		(property "Substitution" "GRM0335C1H8R2*"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -10883,7 +10715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -10901,7 +10733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 180PF 50V C0G/NPO 0402"
+		(property "Description" "CAP CER 180PF 50V C0G/NP0 0201"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -10910,7 +10742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -10919,7 +10751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0402JRNPO9BN181"
+		(property "Part Number" "GRM0335C1H181JA01D"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -10928,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H181JA01D"
+		(property "Substitution" "GRM0335C1H181*"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -10977,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -10995,7 +10827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22K OHM 5% 1/16W 0402"
+		(property "Description" "RES 22K OHM 5% 1/20W 0201"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -11013,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0722KL"
+		(property "Part Number" "RC0201JR-0722KL"
 			(at 210.82 68.58 0)
 			(effects
 				(font
@@ -11064,7 +10896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "1uF"
 			(at 123.19 210.82 0)
 			(effects
 				(font
@@ -11073,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 121.92 208.28 0)
 			(effects
 				(font
@@ -11091,7 +10923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 83.82 105.41 0)
 			(effects
 				(font
@@ -11100,7 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 83.82 105.41 0)
 			(effects
 				(font
@@ -11109,7 +10941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 83.82 105.41 0)
 			(effects
 				(font
@@ -11118,7 +10950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 121.92 208.28 0)
 			(effects
 				(font
@@ -11144,198 +10976,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004faecba0")
-		(property "Reference" "C2"
-			(at 130.81 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 130.81 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05B103KB5NNNC"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
-			(at 129.54 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f08fae0-dbda-40f0-b6bc-821bebfb46d1")
-		)
-		(pin "2"
-			(uuid "4de011bd-dfbb-4615-bd2d-831e61ef5925")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 153.67 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004faecbb5")
-		(property "Reference" "C4"
-			(at 154.94 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 154.94 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 153.67 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05B103KB5NNNC"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
-			(at 153.67 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d7a052-707a-4bdd-860b-91f9169f5268")
-		)
-		(pin "2"
-			(uuid "bcb85d66-af22-4ccf-bd8b-5fc4bdb6ac58")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 146.05 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11352,7 +10992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "1uF"
 			(at 147.32 210.82 0)
 			(effects
 				(font
@@ -11361,7 +11001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 146.05 208.28 0)
 			(effects
 				(font
@@ -11379,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -11388,7 +11028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -11397,7 +11037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -11406,7 +11046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 146.05 208.28 0)
 			(effects
 				(font
@@ -11432,7 +11072,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 208.28 0)
+		(at 154.94 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11440,7 +11080,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004faecbb9")
 		(property "Reference" "C5"
-			(at 161.29 205.74 0)
+			(at 156.21 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,8 +11088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
-			(at 161.29 210.82 0)
+		(property "Value" "1uF"
+			(at 156.21 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,8 +11097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 160.02 208.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 154.94 208.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11467,7 +11107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 208.28 0)
+			(at 154.94 208.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11475,8 +11115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
-			(at 93.98 105.41 0)
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11484,8 +11124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 93.98 105.41 0)
+		(property "Manufacturer" "Murata"
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11493,8 +11133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
-			(at 93.98 105.41 0)
+		(property "Part Number" "GRM033R61A105ME44D"
+			(at 88.9 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11502,8 +11142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
-			(at 160.02 208.28 0)
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+			(at 154.94 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,102 +11161,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 167.64 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004faecbba")
-		(property "Reference" "C6"
-			(at 168.91 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 168.91 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 167.64 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05B103KB5NNNC"
-			(at 139.7 208.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
-			(at 167.64 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61405154-c46d-4d22-ac94-04175cdd8ccb")
-		)
-		(pin "2"
-			(uuid "677129a2-0cd1-41e5-ad62-75376db20509")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11713,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -11731,7 +11275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 51K OHM 1% 0.0625W 0402"
+		(property "Description" "RES 51K OHM 1% 1/20W 0201"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -11749,7 +11293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-0751KL"
+		(property "Part Number" "RC0201FR-0751KL"
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -12035,7 +11579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -12053,7 +11597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12062,7 +11606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12071,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM0335C1H330JA01D"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12080,7 +11624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -12131,7 +11675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 154.94 127 0)
 			(effects
 				(font
@@ -12149,7 +11693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12158,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12167,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM0335C1H330JA01D"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12176,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
 			(at 154.94 127 0)
 			(effects
 				(font
@@ -12227,7 +11771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -12245,7 +11789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12254,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12263,7 +11807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM0335C1H330JA01D"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12272,7 +11816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
 			(at 162.56 127 0)
 			(effects
 				(font
@@ -12323,7 +11867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12341,7 +11885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12350,7 +11894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12359,7 +11903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM0335C1H330JA01D"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -12368,7 +11912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
 			(at 170.18 127 0)
 			(effects
 				(font
@@ -13058,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 134.62 144.78 0)
 			(effects
 				(font
@@ -13192,7 +12736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "1uF"
 			(at 105.41 138.43 0)
 			(effects
 				(font
@@ -13201,7 +12745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -13219,7 +12763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -13228,7 +12772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -13237,7 +12781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C101JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 187.96 96.52 0)
 			(effects
 				(font
@@ -13246,7 +12790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 104.14 135.89 0)
 			(effects
 				(font
@@ -13385,7 +12929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 262.89 102.87 0)
 			(effects
 				(font
@@ -13394,7 +12938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 265.43 101.6 0)
 			(effects
 				(font
@@ -13412,7 +12956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 308.61 101.6 0)
 			(effects
 				(font
@@ -13421,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 308.61 101.6 0)
 			(effects
 				(font
@@ -13430,7 +12974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C470JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 308.61 101.6 0)
 			(effects
 				(font
@@ -13439,7 +12983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H470JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 265.43 101.6 0)
 			(effects
 				(font
@@ -13488,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-B0310J50100AHF"
+		(property "Footprint" "RF_Converter:Anaren_0805_2012Metric-6"
 			(at 86.36 102.87 0)
 			(effects
 				(font
@@ -13645,7 +13189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-B0310J50100AHF"
+		(property "Footprint" "RF_Converter:Anaren_0805_2012Metric-6"
 			(at 148.59 149.86 0)
 			(effects
 				(font
@@ -13901,7 +13445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -13919,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 41.91 295.91 0)
 			(effects
 				(font
@@ -13928,7 +13472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 41.91 295.91 0)
 			(effects
 				(font
@@ -13937,7 +13481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 41.91 295.91 0)
 			(effects
 				(font
@@ -13946,7 +13490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -13997,7 +13541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 34.29 157.48 0)
 			(effects
 				(font
@@ -14015,7 +13559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at -90.17 166.37 0)
 			(effects
 				(font
@@ -14024,7 +13568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at -90.17 166.37 0)
 			(effects
 				(font
@@ -14033,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at -90.17 166.37 0)
 			(effects
 				(font
@@ -14042,7 +13586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 34.29 157.48 0)
 			(effects
 				(font
@@ -14093,7 +13637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 43.18 71.12 0)
 			(effects
 				(font
@@ -14111,7 +13655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -14120,7 +13664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -14129,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 41.91 110.49 0)
 			(effects
 				(font
@@ -14138,7 +13682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 43.18 71.12 0)
 			(effects
 				(font
@@ -14286,7 +13830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -14304,7 +13848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 30.48 20.32 0)
 			(effects
 				(font
@@ -14313,7 +13857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 30.48 20.32 0)
 			(effects
 				(font
@@ -14322,7 +13866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 30.48 20.32 0)
 			(effects
 				(font
@@ -14331,7 +13875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -14537,7 +14081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 401.32 95.25 0)
 			(effects
 				(font
@@ -14546,7 +14090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 400.05 97.79 0)
 			(effects
 				(font
@@ -14564,7 +14108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -14573,7 +14117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -14582,7 +14126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -14591,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 400.05 97.79 0)
 			(effects
 				(font
@@ -14634,7 +14178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 311.15 60.96 0)
 			(effects
 				(font
@@ -14643,7 +14187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 313.69 62.23 0)
 			(effects
 				(font
@@ -14661,7 +14205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 505.46 189.23 0)
 			(effects
 				(font
@@ -14670,7 +14214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 505.46 189.23 0)
 			(effects
 				(font
@@ -14679,7 +14223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 505.46 189.23 0)
 			(effects
 				(font
@@ -14688,7 +14232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 313.69 62.23 0)
 			(effects
 				(font
@@ -14731,7 +14275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 262.89 60.96 0)
 			(effects
 				(font
@@ -14740,7 +14284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 265.43 62.23 0)
 			(effects
 				(font
@@ -14758,7 +14302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 457.2 143.51 0)
 			(effects
 				(font
@@ -14767,7 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 457.2 143.51 0)
 			(effects
 				(font
@@ -14776,7 +14320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 457.2 143.51 0)
 			(effects
 				(font
@@ -14785,7 +14329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 265.43 62.23 0)
 			(effects
 				(font
@@ -14827,7 +14371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 245.11 71.12 0)
 			(effects
 				(font
@@ -14836,7 +14380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 247.65 69.85 0)
 			(effects
 				(font
@@ -14854,7 +14398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 431.8 8.89 0)
 			(effects
 				(font
@@ -14863,7 +14407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 431.8 8.89 0)
 			(effects
 				(font
@@ -14872,7 +14416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 431.8 8.89 0)
 			(effects
 				(font
@@ -14881,7 +14425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 247.65 69.85 0)
 			(effects
 				(font
@@ -14924,7 +14468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 260.35 49.53 0)
 			(effects
 				(font
@@ -14933,7 +14477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 262.89 50.8 0)
 			(effects
 				(font
@@ -14951,7 +14495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 320.04 -237.49 0)
 			(effects
 				(font
@@ -14960,7 +14504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 320.04 -237.49 0)
 			(effects
 				(font
@@ -14969,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 320.04 -237.49 0)
 			(effects
 				(font
@@ -14978,7 +14522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 262.89 50.8 0)
 			(effects
 				(font
@@ -15152,7 +14696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 31.75 186.69 0)
 			(effects
 				(font
@@ -15161,7 +14705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 34.29 185.42 0)
 			(effects
 				(font
@@ -15179,7 +14723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 29.21 265.43 0)
 			(effects
 				(font
@@ -15188,7 +14732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 29.21 265.43 0)
 			(effects
 				(font
@@ -15197,7 +14741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 29.21 265.43 0)
 			(effects
 				(font
@@ -15206,7 +14750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 34.29 185.42 0)
 			(effects
 				(font
@@ -15315,7 +14859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -15324,7 +14868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -15342,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 106.68 -137.16 0)
 			(effects
 				(font
@@ -15351,7 +14895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 106.68 -137.16 0)
 			(effects
 				(font
@@ -15360,7 +14904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 106.68 -137.16 0)
 			(effects
 				(font
@@ -15369,7 +14913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 49.53 151.13 0)
 			(effects
 				(font
@@ -15412,7 +14956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 46.99 20.32 0)
 			(effects
 				(font
@@ -15421,7 +14965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 21.59 0)
 			(effects
 				(font
@@ -15439,7 +14983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 106.68 -266.7 0)
 			(effects
 				(font
@@ -15448,7 +14992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 106.68 -266.7 0)
 			(effects
 				(font
@@ -15457,7 +15001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 106.68 -266.7 0)
 			(effects
 				(font
@@ -15466,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 49.53 21.59 0)
 			(effects
 				(font
@@ -15574,7 +15118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -15583,7 +15127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 34.29 57.15 0)
 			(effects
 				(font
@@ -15601,7 +15145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 29.21 137.16 0)
 			(effects
 				(font
@@ -15610,7 +15154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 29.21 137.16 0)
 			(effects
 				(font
@@ -15619,7 +15163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 29.21 137.16 0)
 			(effects
 				(font
@@ -15628,7 +15172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 34.29 57.15 0)
 			(effects
 				(font
@@ -15743,7 +15287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -15878,7 +15422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -15887,7 +15431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -15905,7 +15449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 127 -210.82 0)
 			(effects
 				(font
@@ -15914,7 +15458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 127 -210.82 0)
 			(effects
 				(font
@@ -15923,7 +15467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 127 -210.82 0)
 			(effects
 				(font
@@ -15932,7 +15476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -15974,7 +15518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -15983,7 +15527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 72.39 105.41 0)
 			(effects
 				(font
@@ -16001,7 +15545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -16010,7 +15554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -16019,7 +15563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 220.98 219.71 0)
 			(effects
 				(font
@@ -16028,7 +15572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 72.39 105.41 0)
 			(effects
 				(font
@@ -16299,7 +15843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 62.23 116.84 0)
 			(effects
 				(font
@@ -16308,7 +15852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -16326,7 +15870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -16335,7 +15879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -16344,7 +15888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -16353,7 +15897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 60.96 114.3 0)
 			(effects
 				(font
@@ -16492,7 +16036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -16501,7 +16045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -16519,7 +16063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 271.78 168.91 0)
 			(effects
 				(font
@@ -16528,7 +16072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 271.78 168.91 0)
 			(effects
 				(font
@@ -16537,7 +16081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 271.78 168.91 0)
 			(effects
 				(font
@@ -16546,7 +16090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -16685,7 +16229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 199.39 93.98 0)
 			(effects
 				(font
@@ -16694,7 +16238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -16712,7 +16256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 215.9 252.73 0)
 			(effects
 				(font
@@ -16721,7 +16265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 215.9 252.73 0)
 			(effects
 				(font
@@ -16730,7 +16274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 215.9 252.73 0)
 			(effects
 				(font
@@ -16739,7 +16283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -16781,7 +16325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 232.41 35.56 0)
 			(effects
 				(font
@@ -16790,7 +16334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 229.87 36.83 0)
 			(effects
 				(font
@@ -16808,7 +16352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 12.7 80.01 0)
 			(effects
 				(font
@@ -16817,7 +16361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 12.7 80.01 0)
 			(effects
 				(font
@@ -16826,7 +16370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 12.7 80.01 0)
 			(effects
 				(font
@@ -16835,7 +16379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 229.87 36.83 0)
 			(effects
 				(font
@@ -17076,7 +16620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 358.14 80.01 0)
 			(effects
 				(font
@@ -17085,7 +16629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 360.68 81.28 0)
 			(effects
 				(font
@@ -17103,7 +16647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 533.4 255.27 0)
 			(effects
 				(font
@@ -17112,7 +16656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 533.4 255.27 0)
 			(effects
 				(font
@@ -17121,7 +16665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 533.4 255.27 0)
 			(effects
 				(font
@@ -17130,7 +16674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 360.68 81.28 0)
 			(effects
 				(font
@@ -17287,7 +16831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 400.05 77.47 0)
 			(effects
 				(font
@@ -17305,7 +16849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -17314,7 +16858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -17323,7 +16867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -17332,7 +16876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 400.05 77.47 0)
 			(effects
 				(font
@@ -17383,7 +16927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 367.03 97.79 0)
 			(effects
 				(font
@@ -17401,7 +16945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -17410,7 +16954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -17419,7 +16963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C220JB5NNNC"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -17428,7 +16972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H220JA01D"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 367.03 97.79 0)
 			(effects
 				(font
@@ -17876,7 +17420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 236.22 223.52 0)
 			(effects
 				(font
@@ -17954,7 +17498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "1uF"
 			(at 243.84 232.41 0)
 			(effects
 				(font
@@ -17963,7 +17507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 242.57 229.87 0)
 			(effects
 				(font
@@ -17981,7 +17525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 318.77 190.5 0)
 			(effects
 				(font
@@ -17990,7 +17534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 318.77 190.5 0)
 			(effects
 				(font
@@ -17999,7 +17543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C101JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 318.77 190.5 0)
 			(effects
 				(font
@@ -18008,7 +17552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 242.57 229.87 0)
 			(effects
 				(font
@@ -18051,7 +17595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 370.84 215.9 0)
 			(effects
 				(font
@@ -18060,7 +17604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 368.3 214.63 0)
 			(effects
 				(font
@@ -18078,7 +17622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -18087,7 +17631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -18096,7 +17640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -18105,7 +17649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 368.3 214.63 0)
 			(effects
 				(font
@@ -18190,72 +17734,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000502c6dc4")
-		(property "Reference" "#PWR039"
-			(at 251.46 236.22 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 237.998 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 236.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 236.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d33461d0-23bd-4157-a65d-b5f16182bb6b")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18584,7 +18062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 298.45 195.58 0)
 			(effects
 				(font
@@ -18593,7 +18071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 297.18 198.12 0)
 			(effects
 				(font
@@ -18611,7 +18089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -18620,7 +18098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -18629,7 +18107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 185.42 252.73 0)
 			(effects
 				(font
@@ -18638,7 +18116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 297.18 198.12 0)
 			(effects
 				(font
@@ -18779,7 +18257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 162.56 176.53 0)
 			(effects
 				(font
@@ -18788,7 +18266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 165.1 175.26 0)
 			(effects
 				(font
@@ -18806,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 160.02 255.27 0)
 			(effects
 				(font
@@ -18815,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 160.02 255.27 0)
 			(effects
 				(font
@@ -18824,7 +18302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 160.02 255.27 0)
 			(effects
 				(font
@@ -18833,7 +18311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 165.1 175.26 0)
 			(effects
 				(font
@@ -18942,7 +18420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 177.8 140.97 0)
 			(effects
 				(font
@@ -18951,7 +18429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -18969,7 +18447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -18978,7 +18456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -18987,7 +18465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -18996,7 +18474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -19105,7 +18583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 242.57 40.64 0)
 			(effects
 				(font
@@ -19114,7 +18592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -19132,7 +18610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 240.03 -38.1 0)
 			(effects
 				(font
@@ -19141,7 +18619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 240.03 -38.1 0)
 			(effects
 				(font
@@ -19150,7 +18628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 240.03 -38.1 0)
 			(effects
 				(font
@@ -19159,7 +18637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -19268,7 +18746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 237.49 76.2 0)
 			(effects
 				(font
@@ -19277,7 +18755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 236.22 78.74 0)
 			(effects
 				(font
@@ -19295,7 +18773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 316.23 73.66 0)
 			(effects
 				(font
@@ -19304,7 +18782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 316.23 73.66 0)
 			(effects
 				(font
@@ -19313,7 +18791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 316.23 73.66 0)
 			(effects
 				(font
@@ -19322,7 +18800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 236.22 78.74 0)
 			(effects
 				(font
@@ -19431,7 +18909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "1uF"
 			(at 328.93 64.77 0)
 			(effects
 				(font
@@ -19440,7 +18918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 331.47 66.04 0)
 			(effects
 				(font
@@ -19458,7 +18936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 388.62 -222.25 0)
 			(effects
 				(font
@@ -19467,7 +18945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 388.62 -222.25 0)
 			(effects
 				(font
@@ -19476,7 +18954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05B103KB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 388.62 -222.25 0)
 			(effects
 				(font
@@ -19485,7 +18963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 331.47 66.04 0)
 			(effects
 				(font
@@ -19659,7 +19137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 323.85 106.68 0)
 			(effects
 				(font
@@ -19668,7 +19146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 322.58 104.14 0)
 			(effects
 				(font
@@ -19686,7 +19164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 402.59 109.22 0)
 			(effects
 				(font
@@ -19695,7 +19173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 402.59 109.22 0)
 			(effects
 				(font
@@ -19704,7 +19182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 402.59 109.22 0)
 			(effects
 				(font
@@ -19713,7 +19191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 322.58 104.14 0)
 			(effects
 				(font
@@ -19822,7 +19300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 411.48 90.17 0)
 			(effects
 				(font
@@ -19831,7 +19309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 410.21 92.71 0)
 			(effects
 				(font
@@ -19849,7 +19327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 698.5 149.86 0)
 			(effects
 				(font
@@ -19858,7 +19336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 698.5 149.86 0)
 			(effects
 				(font
@@ -19867,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 698.5 149.86 0)
 			(effects
 				(font
@@ -19876,7 +19354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 410.21 92.71 0)
 			(effects
 				(font
@@ -19918,7 +19396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 358.14 92.71 0)
 			(effects
 				(font
@@ -19927,7 +19405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 359.41 95.25 0)
 			(effects
 				(font
@@ -19945,7 +19423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -19954,7 +19432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -19963,7 +19441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -19972,7 +19450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 359.41 95.25 0)
 			(effects
 				(font
@@ -20146,7 +19624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 344.17 90.17 0)
 			(effects
 				(font
@@ -20155,7 +19633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 345.44 92.71 0)
 			(effects
 				(font
@@ -20173,7 +19651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -20182,7 +19660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -20191,7 +19669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -20200,7 +19678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 345.44 92.71 0)
 			(effects
 				(font
@@ -20242,7 +19720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 311.15 213.36 0)
 			(effects
 				(font
@@ -20251,7 +19729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 312.42 215.9 0)
 			(effects
 				(font
@@ -20269,7 +19747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 24.13 273.05 0)
 			(effects
 				(font
@@ -20278,7 +19756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 24.13 273.05 0)
 			(effects
 				(font
@@ -20287,7 +19765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 24.13 273.05 0)
 			(effects
 				(font
@@ -20296,7 +19774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 312.42 215.9 0)
 			(effects
 				(font
@@ -20470,7 +19948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 325.12 215.9 0)
 			(effects
 				(font
@@ -20479,7 +19957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 326.39 218.44 0)
 			(effects
 				(font
@@ -20497,7 +19975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 38.1 275.59 0)
 			(effects
 				(font
@@ -20506,7 +19984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 38.1 275.59 0)
 			(effects
 				(font
@@ -20515,7 +19993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 38.1 275.59 0)
 			(effects
 				(font
@@ -20524,7 +20002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 326.39 218.44 0)
 			(effects
 				(font
@@ -20567,7 +20045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 375.92 207.01 0)
 			(effects
 				(font
@@ -20576,7 +20054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20594,7 +20072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 316.23 494.03 0)
 			(effects
 				(font
@@ -20603,7 +20081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 316.23 494.03 0)
 			(effects
 				(font
@@ -20612,7 +20090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 316.23 494.03 0)
 			(effects
 				(font
@@ -20621,7 +20099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20729,7 +20207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 207.01 193.04 0)
 			(effects
 				(font
@@ -20738,7 +20216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 208.28 195.58 0)
 			(effects
 				(font
@@ -20756,7 +20234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at -80.01 252.73 0)
 			(effects
 				(font
@@ -20765,7 +20243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at -80.01 252.73 0)
 			(effects
 				(font
@@ -20774,7 +20252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at -80.01 252.73 0)
 			(effects
 				(font
@@ -20783,7 +20261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 208.28 195.58 0)
 			(effects
 				(font
@@ -20958,7 +20436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 260.35 172.72 0)
 			(effects
 				(font
@@ -20967,7 +20445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 257.81 171.45 0)
 			(effects
 				(font
@@ -20985,7 +20463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 200.66 459.74 0)
 			(effects
 				(font
@@ -20994,7 +20472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 200.66 459.74 0)
 			(effects
 				(font
@@ -21003,7 +20481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 200.66 459.74 0)
 			(effects
 				(font
@@ -21012,7 +20490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 257.81 171.45 0)
 			(effects
 				(font
@@ -21055,7 +20533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "3.3nF"
 			(at 262.89 186.69 0)
 			(effects
 				(font
@@ -21064,7 +20542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 260.35 185.42 0)
 			(effects
 				(font
@@ -21082,7 +20560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 3300PF 10V X7R 0201"
 			(at 203.2 473.71 0)
 			(effects
 				(font
@@ -21091,7 +20569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 203.2 473.71 0)
 			(effects
 				(font
@@ -21100,7 +20578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM033R71A332KA01D"
 			(at 203.2 473.71 0)
 			(effects
 				(font
@@ -21109,7 +20587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM033R71A332K*"
 			(at 260.35 185.42 0)
 			(effects
 				(font
@@ -21283,7 +20761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -21292,7 +20770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -21310,7 +20788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at -33.02 255.27 0)
 			(effects
 				(font
@@ -21319,7 +20797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at -33.02 255.27 0)
 			(effects
 				(font
@@ -21328,7 +20806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at -33.02 255.27 0)
 			(effects
 				(font
@@ -21337,7 +20815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -21379,7 +20857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -21388,7 +20866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 158.75 158.75 0)
 			(effects
 				(font
@@ -21406,7 +20884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 132.08 254 0)
 			(effects
 				(font
@@ -21415,7 +20893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 132.08 254 0)
 			(effects
 				(font
@@ -21424,7 +20902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 132.08 254 0)
 			(effects
 				(font
@@ -21433,7 +20911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 158.75 158.75 0)
 			(effects
 				(font
@@ -21482,7 +20960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 121.92 121.92 0)
 			(effects
 				(font
@@ -21567,7 +21045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -21622,200 +21100,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 251.46 229.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000503bf2cb")
-		(property "Reference" "C163"
-			(at 252.73 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 252.73 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 251.46 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
-			(at 414.02 198.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 414.02 198.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05B103KB5NNNC"
-			(at 414.02 198.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
-			(at 251.46 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f46a56c2-78b7-4a19-9855-076a6b68756a")
-		)
-		(pin "2"
-			(uuid "09e85e46-4d86-439f-b5be-642442055a5d")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "C163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 325.12 182.88 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000503bf2d5")
-		(property "Reference" "C162"
-			(at 326.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 326.39 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 325.12 182.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 182.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10000PF 50V X7R 0402"
-			(at 487.68 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 487.68 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05B103KB5NNNC"
-			(at 487.68 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R71C103KA01D"
-			(at 325.12 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c783b42b-8359-4a44-aacd-22dd24c98914")
-		)
-		(pin "2"
-			(uuid "89477a56-f30f-4b74-9470-fea6ee22f229")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "C162")
 					(unit 1)
 				)
 			)
@@ -21923,72 +21207,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000503bf2d8")
-		(property "Reference" "#PWR019"
-			(at 325.12 189.23 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 191.008 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f3b6ec8-8e3a-4cd1-95cb-2d3cb87b79e1")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 332.74 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22080,7 +21298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -22098,7 +21316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -22107,7 +21325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -22116,7 +21334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -22125,7 +21343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 320.04 163.83 0)
 			(effects
 				(font
@@ -22167,7 +21385,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "1uF"
 			(at 334.01 185.42 0)
 			(effects
 				(font
@@ -22176,7 +21394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 332.74 182.88 0)
 			(effects
 				(font
@@ -22194,7 +21412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 408.94 143.51 0)
 			(effects
 				(font
@@ -22203,7 +21421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 408.94 143.51 0)
 			(effects
 				(font
@@ -22212,7 +21430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C101JB5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 408.94 143.51 0)
 			(effects
 				(font
@@ -22221,7 +21439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 332.74 182.88 0)
 			(effects
 				(font
@@ -22270,7 +21488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 342.9 176.53 0)
 			(effects
 				(font
@@ -22461,7 +21679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 273.05 205.74 0)
 			(effects
 				(font
@@ -22555,7 +21773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 306.07 160.02 0)
 			(effects
 				(font
@@ -23377,7 +22595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -23395,7 +22613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -23404,7 +22622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -23413,7 +22631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -23422,7 +22640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 257.81 209.55 0)
 			(effects
 				(font
@@ -23864,7 +23082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 288.29 229.87 0)
 			(effects
 				(font
@@ -23873,7 +23091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 290.83 231.14 0)
 			(effects
 				(font
@@ -23891,7 +23109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 307.34 345.44 0)
 			(effects
 				(font
@@ -23900,7 +23118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 307.34 345.44 0)
 			(effects
 				(font
@@ -23909,7 +23127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 307.34 345.44 0)
 			(effects
 				(font
@@ -23918,7 +23136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 290.83 231.14 0)
 			(effects
 				(font
@@ -23961,7 +23179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 218.44 222.25 0)
 			(effects
 				(font
@@ -23970,7 +23188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 220.98 223.52 0)
 			(effects
 				(font
@@ -23988,7 +23206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 251.46 262.89 0)
 			(effects
 				(font
@@ -23997,7 +23215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 251.46 262.89 0)
 			(effects
 				(font
@@ -24006,7 +23224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 251.46 262.89 0)
 			(effects
 				(font
@@ -24015,7 +23233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 220.98 223.52 0)
 			(effects
 				(font
@@ -24058,7 +23276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 307.34 142.24 0)
 			(effects
 				(font
@@ -24067,7 +23285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 304.8 140.97 0)
 			(effects
 				(font
@@ -24085,7 +23303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 191.77 22.86 0)
 			(effects
 				(font
@@ -24094,7 +23312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 191.77 22.86 0)
 			(effects
 				(font
@@ -24103,7 +23321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 191.77 22.86 0)
 			(effects
 				(font
@@ -24112,7 +23330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 304.8 140.97 0)
 			(effects
 				(font
@@ -24155,7 +23373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 356.87 167.64 0)
 			(effects
 				(font
@@ -24164,7 +23382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 359.41 168.91 0)
 			(effects
 				(font
@@ -24182,7 +23400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 444.5 336.55 0)
 			(effects
 				(font
@@ -24191,7 +23409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 444.5 336.55 0)
 			(effects
 				(font
@@ -24200,7 +23418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A104KA5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 444.5 336.55 0)
 			(effects
 				(font
@@ -24209,7 +23427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM155R61A104KA01D"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 359.41 168.91 0)
 			(effects
 				(font
@@ -25228,7 +24446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 388.62 176.53 0)
 			(effects
 				(font
@@ -25322,7 +24540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 394.97 207.01 0)
 			(effects
 				(font
@@ -25409,7 +24627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -25427,7 +24645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -25436,7 +24654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -25445,7 +24663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "GRM033R61A105ME44D"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -25454,7 +24672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 402.59 180.34 0)
 			(effects
 				(font
@@ -26842,7 +26060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -26860,7 +26078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 18 OHM 5% 1/16W 0402"
+		(property "Description" "RES 18 OHM 1% 1/20W 0201"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -26878,7 +26096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0718RL"
+		(property "Part Number" "RC0201FR-0718RL"
 			(at 317.5 176.53 0)
 			(effects
 				(font
@@ -27094,7 +26312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 261.62 223.52 0)
 			(effects
 				(font
@@ -27112,7 +26330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 18 OHM 5% 1/16W 0402"
+		(property "Description" "RES 18 OHM 1% 1/20W 0201"
 			(at 261.62 223.52 0)
 			(effects
 				(font
@@ -27130,7 +26348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0718RL"
+		(property "Part Number" "RC0201FR-0718RL"
 			(at 261.62 223.52 0)
 			(effects
 				(font

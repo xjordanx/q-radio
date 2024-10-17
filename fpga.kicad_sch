@@ -6558,7 +6558,7 @@
 		)
 		(uuid "1ef0f73a-1a43-4c60-8ab7-e04d828e353b")
 	)
-	(label "FPGA_SGPIO6"
+	(label "FPGA_SGPIO5"
 		(at 161.29 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6602,7 +6602,7 @@
 		)
 		(uuid "2ec3943b-8915-4d57-8031-b15bc7e7ebc5")
 	)
-	(label "FPGA_SGPIO5"
+	(label "FPGA_SGPIO6"
 		(at 161.29 147.32 0)
 		(fields_autoplaced yes)
 		(effects

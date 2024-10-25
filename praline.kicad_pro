@@ -185,6 +185,7 @@
       "track_widths": [
         0.0,
         0.127,
+        0.2,
         0.2032,
         0.24,
         0.25,
@@ -484,30 +485,13 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.127,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.4572,
-        "microvia_drill": 0.254,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
         "diff_pair_gap": 0.175,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
-        "name": "diff100",
+        "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
@@ -554,30 +538,6 @@
       {
         "netclass": "diff90",
         "pattern": "*/USB0_D-"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/MIX_*+"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/MIX_*-"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/TXIF*+"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/TXIF*-"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/RXIF*+"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "*/RXIF*-"
       }
     ]
   },
@@ -760,11 +720,19 @@
     [
       "e983c194-621e-40aa-896b-a14f1ba8c8f7",
       "FPGA"
+    ],
+    [
+      "f1aebcca-cf04-4adc-845a-2839fb07bf4f",
+      "Mixer"
+    ],
+    [
+      "03930949-b2dd-4151-b892-cf65af2345ca",
+      "ADC, DAC"
     ]
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-10-17",
+    "DATE": "2024-10-24",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.1.0+"

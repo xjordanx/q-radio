@@ -30000,7 +30000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -30018,7 +30018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
+		(property "Description" "RES 1K OHM 1% 1/20W 0201"
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -30036,7 +30036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-071KL"
+		(property "Part Number" "RC0201FR-071KL"
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -30094,7 +30094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -30112,7 +30112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1/16W 1% 0402"
+		(property "Description" "RES 1K OHM 1% 1/20W 0201"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -30130,7 +30130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-071KL"
+		(property "Part Number" "RC0201FR-071KL"
 			(at 55.88 167.64 0)
 			(effects
 				(font

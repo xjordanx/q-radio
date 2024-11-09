@@ -10561,7 +10561,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f5d6ad6")
 		(property "Reference" "L9"
@@ -10605,15 +10605,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 227.33 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -13738,7 +13729,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527f1cb9")
 		(property "Reference" "C68"
 			(at 208.28 209.55 0)
@@ -13803,14 +13794,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 203.2 215.9 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
 		(property "Substitution" "Murata GRM1555C1H101JA01D"
 			(at 207.01 212.09 0)
 			(effects
@@ -13842,7 +13825,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527f1d24")
 		(property "Reference" "C69"
 			(at 190.5 219.71 0)
@@ -13905,14 +13888,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 185.42 226.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(property "Substitution" "Murata GRM1555C1H101JA01D"
@@ -14074,7 +14049,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527f2f05")
 		(property "Reference" "C159"
 			(at 171.45 234.95 0)
@@ -14137,14 +14112,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 166.37 241.3 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(property "Substitution" "Murata GRM1555C1H101JA01D"
@@ -14336,7 +14303,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527f3355")
 		(property "Reference" "C165"
 			(at 134.62 247.65 0)
@@ -14399,14 +14366,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 129.54 254 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(property "Substitution" "Murata GRM1555C1H101JA01D"

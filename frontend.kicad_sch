@@ -16330,7 +16330,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527e97cf")
 		(property "Reference" "J2"
 			(at 44.45 215.9 0)
@@ -16390,14 +16390,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 62.23 220.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(pin "0"
@@ -16483,7 +16475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000527eaa54")
 		(property "Reference" "J3"
 			(at 44.45 205.74 0)
@@ -16543,14 +16535,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 62.23 212.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(instances
@@ -17576,14 +17560,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 71.12 248.92 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(pin "1"

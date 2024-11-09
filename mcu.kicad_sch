@@ -19175,7 +19175,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00004f63572b")
 		(property "Reference" "P26"
 			(at 48.26 130.81 0)
@@ -19236,14 +19236,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 31.75 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(pin "1"
@@ -24679,7 +24671,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000503c4cbc")
 		(property "Reference" "C156"
 			(at 149.86 248.92 0)
@@ -24742,14 +24734,6 @@
 					(size 1.524 1.524)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 156.21 251.46 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
 			)
 		)
 		(property "Substitution" "Murata GRM1555C1H470JA01D"

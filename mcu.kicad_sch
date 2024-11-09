@@ -9035,6 +9035,10 @@
 		(uuid "c397c808-8e54-461b-9c98-2bd567f747d9")
 	)
 	(no_connect
+		(at 361.95 193.04)
+		(uuid "ceb24e91-52c0-4056-8d41-1236e4336d92")
+	)
+	(no_connect
 		(at 38.1 124.46)
 		(uuid "f5333ca5-4297-4e84-ba7c-38782673e1d2")
 	)
@@ -9127,6 +9131,15 @@
 			(type default)
 		)
 		(uuid "988e3fd3-fb94-4bdd-a480-507a8606d503")
+	)
+	(bus_entry
+		(at 381 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3598d8a-eca4-4d4b-ac65-5a3651b4469e")
 	)
 	(bus_entry
 		(at 381 151.13)
@@ -11352,7 +11365,7 @@
 	)
 	(bus
 		(pts
-			(xy 383.54 140.97) (xy 383.54 146.05)
+			(xy 383.54 140.97) (xy 383.54 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11529,16 +11542,6 @@
 			(type default)
 		)
 		(uuid "7c2f7324-ea2f-44a4-bc15-320f3a4e214b")
-	)
-	(wire
-		(pts
-			(xy 361.95 193.04) (xy 354.33 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1641a7-1079-4767-8e81-b7f0788e59b3")
 	)
 	(wire
 		(pts
@@ -11842,6 +11845,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 140.97) (xy 381 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876d257b-f43f-4fc8-9557-d9025e966dc5")
+	)
+	(wire
+		(pts
 			(xy 361.95 187.96) (xy 354.33 187.96)
 		)
 		(stroke
@@ -11999,6 +12012,16 @@
 			(type default)
 		)
 		(uuid "9005698e-272f-4692-a695-ae7e320cb038")
+	)
+	(bus
+		(pts
+			(xy 383.54 143.51) (xy 383.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9049441e-6eb2-4311-9138-11069bc3b680")
 	)
 	(wire
 		(pts
@@ -15903,7 +15926,7 @@
 		(uuid "6ad3c8a0-05e0-4274-a36e-36877b5ed462")
 	)
 	(label "SGPIO8"
-		(at 229.87 195.58 90)
+		(at 229.87 196.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16848,6 +16871,17 @@
 		)
 		(uuid "d974a605-5504-4683-8f7f-eb65faca3b04")
 	)
+	(label "SGPIO8"
+		(at 372.11 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9e43730-1057-4553-830a-3933015696d3")
+	)
 	(label "SGPIO1"
 		(at 109.22 160.02 0)
 		(fields_autoplaced yes)
@@ -17618,7 +17652,7 @@
 			)
 		)
 	)
-	(global_label "GCK1"
+	(global_label "AFE_CLK"
 		(shape input)
 		(at 382.27 193.04 0)
 		(fields_autoplaced yes)
@@ -17630,32 +17664,12 @@
 		)
 		(uuid "81df60cd-3183-48ad-a2a1-ef17dadd4424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 -41.91 0)
+			(at 390.4243 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SGPIO_CLK"
-		(shape input)
-		(at 229.87 196.85 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "8e91d0fd-ce20-46b4-a8c4-115cf22a7b9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 7.62 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -17715,27 +17729,6 @@
 		(uuid "a3954790-81a7-43a1-8b11-9912f5921621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 7.62 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GCK2"
-		(shape input)
-		(at 354.33 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "a912bf98-e80f-456f-9dd7-328acd8b2d8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 -41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27991,7 +27984,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "33"
 			(at 44.45 213.36 90)
 			(effects
 				(font
@@ -28017,7 +28010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
+		(property "Description" "RES 33 OHM 5% 1/16W 0402"
 			(at 44.45 213.36 0)
 			(effects
 				(font
@@ -28035,7 +28028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0739RL"
+		(property "Part Number" "RC0402JR-0733RL"
 			(at 44.45 213.36 0)
 			(effects
 				(font
@@ -28085,7 +28078,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "33"
 			(at 35.56 227.33 90)
 			(effects
 				(font
@@ -28111,7 +28104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
+		(property "Description" "RES 33 OHM 5% 1/16W 0402"
 			(at 35.56 227.33 0)
 			(effects
 				(font
@@ -28129,7 +28122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0739RL"
+		(property "Part Number" "RC0402JR-0733RL"
 			(at 35.56 227.33 0)
 			(effects
 				(font
@@ -29625,7 +29618,7 @@
 				)
 			)
 		)
-		(property "Value" "39"
+		(property "Value" "33"
 			(at 148.59 238.76 90)
 			(effects
 				(font
@@ -29651,7 +29644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 39 OHM 1/16W 5% 0402 SMD"
+		(property "Description" "RES 33 OHM 5% 1/16W 0402"
 			(at 148.59 238.76 0)
 			(effects
 				(font
@@ -29669,7 +29662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0739RL"
+		(property "Part Number" "RC0402JR-0733RL"
 			(at 148.59 238.76 0)
 			(effects
 				(font
@@ -32250,7 +32243,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 226.8728 196.1642 0)
+			(at 227.33 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)

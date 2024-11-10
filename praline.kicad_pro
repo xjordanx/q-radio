@@ -495,8 +495,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -512,8 +512,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.24,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -728,11 +728,15 @@
     [
       "03930949-b2dd-4151-b892-cf65af2345ca",
       "ADC, DAC"
+    ],
+    [
+      "82363729-914a-4be2-9abc-c6e1e42dff36",
+      "Clock"
     ]
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-11-09",
+    "DATE": "2024-11-10",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.1.0+"

@@ -1869,6 +1869,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 118.11) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023ac9c9-a479-4429-8546-3f81292e6c7c")
+	)
+	(wire
+		(pts
 			(xy 186.69 92.71) (xy 187.96 92.71)
 		)
 		(stroke
@@ -3009,7 +3019,7 @@
 	)
 	(text "Expected MIX_CLK is 1.8 to 3.3 V\npeak-to-peak at 25 to 52 MHz. It is\ndivided down to 0.5 to 1.5 V (REF_IN)."
 		(exclude_from_sim no)
-		(at 157.48 121.92 0)
+		(at 156.21 127 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3161,28 +3171,6 @@
 			)
 		)
 	)
-	(global_label "MIX_CLK"
-		(shape input)
-		(at 151.13 118.11 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "aa072c08-8cd0-44b6-a9d8-877348297094")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 110.0042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MIXER_RESETX"
 		(shape input)
 		(at 49.53 114.3 180)
@@ -3204,6 +3192,18 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "MIX_CLK"
+		(shape input)
+		(at 152.4 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "342ce564-a5ed-4ab5-ad89-2a6cff67235a")
 	)
 	(hierarchical_label "MIX_IN"
 		(shape input)
@@ -3838,7 +3838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -3856,7 +3856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
 			(at -137.16 66.04 0)
 			(effects
 				(font
@@ -3865,7 +3865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at -137.16 66.04 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C330JB5NNNC"
+		(property "Part Number" "GRM0335C1H330JA01D"
 			(at -137.16 66.04 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H330JA01D"
+		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
 			(at 151.13 123.19 0)
 			(effects
 				(font
@@ -6085,7 +6085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V 5% C0G/NP0 0402"
+		(property "Description" "CAP CER 100PF 25V C0G/NP0 0201"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -6112,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C101JB5NNNC"
+		(property "Part Number" "GRM0335C1E101JA01D"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -6130,7 +6130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Murata GRM1555C1H101JA01D"
+		(property "Substitution" "GRM0335C1E101JA01*, GRM0335C1H101JA01*"
 			(at 151.13 133.35 0)
 			(effects
 				(font

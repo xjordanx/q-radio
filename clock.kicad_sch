@@ -1476,6 +1476,10 @@
 		(uuid "59ee4dd5-d522-46d5-be39-25d164844939")
 	)
 	(no_connect
+		(at 165.1 91.44)
+		(uuid "60675d81-e483-4597-b5aa-f1af4a6492e4")
+	)
+	(no_connect
 		(at 165.1 71.12)
 		(uuid "90da23b6-c84d-4c3d-8232-827ba2b4da70")
 	)
@@ -1588,16 +1592,6 @@
 			(type default)
 		)
 		(uuid "32323381-7f98-44a6-9fd1-557c59cee63c")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f41b80-daf3-49a9-a102-68af9d450e3a")
 	)
 	(wire
 		(pts
@@ -1741,16 +1735,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 182.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4938e8af-3f26-493b-b97e-6b58f7012a91")
-	)
-	(wire
-		(pts
 			(xy 190.5 93.98) (xy 191.77 93.98)
 		)
 		(stroke
@@ -1788,16 +1772,6 @@
 			(type default)
 		)
 		(uuid "506645e8-fb80-4ce0-bc97-86bb633e4b27")
-	)
-	(wire
-		(pts
-			(xy 190.5 104.14) (xy 191.77 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e1865d-31b5-49bf-b963-24be4d80ca22")
 	)
 	(wire
 		(pts
@@ -1958,16 +1932,6 @@
 			(type default)
 		)
 		(uuid "70d0f17b-8721-4240-8f35-e4599e91dc5b")
-	)
-	(wire
-		(pts
-			(xy 165.1 91.44) (xy 170.18 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7223ed7b-f94e-4fd3-a4f6-f3222552c42b")
 	)
 	(wire
 		(pts
@@ -2489,17 +2453,6 @@
 		)
 		(uuid "9b6fb3b6-1b33-4094-93a1-8520fc7149d4")
 	)
-	(label "CLK6"
-		(at 176.53 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6dea48b-a4f3-4ba7-8957-e4b18f31a87b")
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 80.01 113.03 180)
@@ -2541,18 +2494,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "AUX_CLK"
-		(shape output)
-		(at 191.77 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "15186057-8808-48a0-8b0c-56daca8ec440")
 	)
 	(hierarchical_label "CLKOUT"
 		(shape output)
@@ -2625,101 +2566,6 @@
 			(justify left)
 		)
 		(uuid "d4861dd6-4958-46af-bfdf-ff874eb81be5")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05c0f0d7-a1ec-488c-912a-be0d84510618")
-		(property "Reference" "R22"
-			(at 186.69 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 186.69 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-0733RL"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de1ae483-3bf0-4817-a541-52d6b3cccb1d")
-		)
-		(pin "2"
-			(uuid "1596fc8b-7829-4131-94c3-bf1238f4553c")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")

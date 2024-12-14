@@ -4392,7 +4392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.85 109.22 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.74 109.22 0)
 			(effects
 				(font

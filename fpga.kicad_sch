@@ -3498,7 +3498,7 @@
 		(uuid "1c164177-7ab7-44d6-9157-dcfdaa9025bb")
 	)
 	(bus_entry
-		(at 106.68 195.58)
+		(at 106.68 218.44)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3525,7 +3525,7 @@
 		(uuid "2484aacb-3f01-4d51-b515-ebe664f75dd3")
 	)
 	(bus_entry
-		(at 106.68 210.82)
+		(at 106.68 205.74)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3579,7 +3579,7 @@
 		(uuid "5e258e03-f316-4d41-9a85-a36f786016bc")
 	)
 	(bus_entry
-		(at 106.68 208.28)
+		(at 106.68 203.2)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3624,7 +3624,7 @@
 		(uuid "6da3823a-d14b-4f85-b80f-5bd050820d49")
 	)
 	(bus_entry
-		(at 106.68 213.36)
+		(at 106.68 208.28)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3732,7 +3732,7 @@
 		(uuid "d4a36b8a-8497-43f9-8fe5-7c85d2119199")
 	)
 	(bus_entry
-		(at 106.68 205.74)
+		(at 106.68 200.66)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3809,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 213.36) (xy 149.86 154.94)
+			(xy 149.86 208.28) (xy 149.86 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3919,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 200.66) (xy 160.02 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e202990-aec9-408c-b3d0-f76dfe2e45b4")
+	)
+	(wire
+		(pts
 			(xy 142.24 60.96) (xy 191.77 60.96)
 		)
 		(stroke
@@ -3959,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 210.82) (xy 129.54 210.82)
+			(xy 106.68 205.74) (xy 129.54 205.74)
 		)
 		(stroke
 			(width 0)
@@ -3989,6 +3999,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 218.44) (xy 138.43 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c25af2-bcf2-4da4-a09c-c3e93cda3f7a")
+	)
+	(wire
+		(pts
 			(xy 106.68 92.71) (xy 129.54 92.71)
 		)
 		(stroke
@@ -4009,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 213.36) (xy 149.86 213.36)
+			(xy 139.7 208.28) (xy 149.86 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +4069,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 208.28) (xy 154.94 208.28)
+			(xy 139.7 203.2) (xy 154.94 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4129,7 +4149,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 205.74) (xy 157.48 200.66)
+			(xy 157.48 200.66) (xy 157.48 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4186,16 +4206,6 @@
 			(type default)
 		)
 		(uuid "21d618f6-b912-4f29-aa73-d2132b0ec3cc")
-	)
-	(bus
-		(pts
-			(xy 104.14 203.2) (xy 104.14 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ea800f-139e-4097-8c16-1d79fbf05b28")
 	)
 	(wire
 		(pts
@@ -4719,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 200.66) (xy 160.02 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51daa2af-561c-47ad-93de-beec4956e83e")
+	)
+	(wire
+		(pts
 			(xy 147.32 53.34) (xy 147.32 45.72)
 		)
 		(stroke
@@ -4829,7 +4849,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 198.12) (xy 154.94 208.28)
+			(xy 154.94 195.58) (xy 154.94 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4849,7 +4869,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 193.04) (xy 104.14 187.96)
+			(xy 104.14 187.96) (xy 104.14 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4889,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 210.82) (xy 152.4 210.82)
+			(xy 139.7 205.74) (xy 152.4 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 205.74) (xy 157.48 205.74)
+			(xy 139.7 200.66) (xy 157.48 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5089,7 +5109,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 205.74) (xy 104.14 203.2)
+			(xy 104.14 200.66) (xy 104.14 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5179,7 +5199,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 195.58) (xy 130.81 195.58)
+			(xy 106.68 218.44) (xy 130.81 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5209,7 +5229,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 208.28) (xy 104.14 205.74)
+			(xy 104.14 203.2) (xy 104.14 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 205.74) (xy 129.54 205.74)
+			(xy 106.68 200.66) (xy 129.54 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5269,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 208.28) (xy 129.54 208.28)
+			(xy 106.68 203.2) (xy 129.54 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5279,7 +5299,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 198.12) (xy 193.04 198.12)
+			(xy 154.94 195.58) (xy 193.04 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5319,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 213.36) (xy 129.54 213.36)
+			(xy 106.68 208.28) (xy 129.54 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5567,6 +5587,16 @@
 		)
 		(uuid "a4f27517-be79-442a-b60b-06d893593913")
 	)
+	(bus
+		(pts
+			(xy 104.14 205.74) (xy 104.14 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56c8b4d-7aa6-43b1-bbdc-93d4292b831d")
+	)
 	(wire
 		(pts
 			(xy 351.79 196.85) (xy 351.79 198.12)
@@ -5746,16 +5776,6 @@
 			(type default)
 		)
 		(uuid "b9a2e6af-6ccf-4a2e-b271-68e8d907393c")
-	)
-	(wire
-		(pts
-			(xy 138.43 195.58) (xy 193.04 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba08efee-d80e-4185-b9dd-4b4f1f2b69f1")
 	)
 	(wire
 		(pts
@@ -6009,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 210.82) (xy 152.4 190.5)
+			(xy 152.4 205.74) (xy 152.4 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6219,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 208.28) (xy 104.14 210.82)
+			(xy 104.14 203.2) (xy 104.14 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6289,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 200.66) (xy 193.04 200.66)
+			(xy 157.48 198.12) (xy 193.04 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6478,7 +6498,7 @@
 		(uuid "ffc9c292-e408-4905-bfb2-25e2f4af8621")
 	)
 	(label "SGPIO7"
-		(at 109.22 205.74 0)
+		(at 109.22 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6489,7 +6509,7 @@
 		(uuid "01e05d94-e20b-4177-93f3-aa5eaac57814")
 	)
 	(label "CAPTURE_EN"
-		(at 161.29 198.12 0)
+		(at 161.29 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6522,7 +6542,7 @@
 		(uuid "0a8880ea-5f9c-46b4-ac41-021b508549a9")
 	)
 	(label "FPGA_SGPIO3"
-		(at 161.29 185.42 0)
+		(at 161.29 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6555,7 +6575,7 @@
 		(uuid "17bcb0f6-7af7-4a86-9c71-b23e7e74d6e8")
 	)
 	(label "FPGA_SGPIO1"
-		(at 161.29 154.94 0)
+		(at 161.29 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6588,7 +6608,7 @@
 		(uuid "1ef0f73a-1a43-4c60-8ab7-e04d828e353b")
 	)
 	(label "FPGA_SGPIO5"
-		(at 161.29 149.86 0)
+		(at 161.29 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6632,7 +6652,7 @@
 		(uuid "2ec3943b-8915-4d57-8031-b15bc7e7ebc5")
 	)
 	(label "FPGA_SGPIO6"
-		(at 161.29 147.32 0)
+		(at 161.29 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6665,7 +6685,7 @@
 		(uuid "4836da3e-8be0-4a21-b92b-443a9fb044b7")
 	)
 	(label "SGPIO4"
-		(at 109.22 152.4 0)
+		(at 109.22 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6687,7 +6707,7 @@
 		(uuid "4a631d9b-df2e-4c24-b334-25e77d491325")
 	)
 	(label "SGPIO13"
-		(at 109.22 210.82 0)
+		(at 109.22 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6731,7 +6751,7 @@
 		(uuid "516917dc-aa44-4f26-81e5-5f1cf8366df3")
 	)
 	(label "SGPIO2"
-		(at 109.22 187.96 0)
+		(at 109.22 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6742,7 +6762,7 @@
 		(uuid "57be60a1-1edb-4366-9d5a-ea39162e7330")
 	)
 	(label "FPGA_SGPIO2"
-		(at 161.29 187.96 0)
+		(at 161.29 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6808,7 +6828,7 @@
 		(uuid "768137dd-525b-4f13-a56a-0fdc059ff0bc")
 	)
 	(label "SGPIO1"
-		(at 109.22 213.36 0)
+		(at 109.22 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6852,7 +6872,7 @@
 		(uuid "860e7578-b258-421a-a3dd-9fc5fd187cda")
 	)
 	(label "DIRECTION"
-		(at 161.29 182.88 0)
+		(at 161.29 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6874,7 +6894,7 @@
 		(uuid "9182e906-a572-471a-8313-e40e5833b6f6")
 	)
 	(label "DISABLE"
-		(at 161.29 193.04 0)
+		(at 161.29 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6940,7 +6960,7 @@
 		(uuid "a37d07cc-121d-4c59-a70d-85d4b240078c")
 	)
 	(label "SGPIO3"
-		(at 109.22 185.42 0)
+		(at 109.22 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6951,7 +6971,7 @@
 		(uuid "a38c5b8c-1a03-4f08-a462-dbd836c1a763")
 	)
 	(label "SGPIO5"
-		(at 109.22 149.86 0)
+		(at 109.22 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6962,7 +6982,7 @@
 		(uuid "aacbe95a-11bd-4f0c-8f03-c492382d4802")
 	)
 	(label "FPGA_SGPIO4"
-		(at 161.29 177.8 0)
+		(at 161.29 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6973,7 +6993,7 @@
 		(uuid "aad1dd7d-1e4a-4dc6-90c3-c938521ec1fc")
 	)
 	(label "TRIGGER_EN"
-		(at 161.29 190.5 0)
+		(at 161.29 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6984,7 +7004,7 @@
 		(uuid "ad97cc40-425d-4cb9-9d1d-93571fb68548")
 	)
 	(label "SGPIO11"
-		(at 109.22 182.88 0)
+		(at 109.22 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7006,7 +7026,7 @@
 		(uuid "b10ab65a-091a-4dec-bb58-5cc1636ed3fa")
 	)
 	(label "SGPIO8"
-		(at 109.22 195.58 0)
+		(at 109.22 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7039,7 +7059,7 @@
 		(uuid "b4c1e00c-2747-4ac0-a48e-968170d2e0fb")
 	)
 	(label "FPGA_SGPIO8"
-		(at 161.29 195.58 0)
+		(at 161.29 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7050,7 +7070,7 @@
 		(uuid "bb2337a9-7c4d-4b1d-ad31-c083798defd3")
 	)
 	(label "SGPIO10"
-		(at 109.22 190.5 0)
+		(at 109.22 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7149,7 +7169,7 @@
 		(uuid "d35ea257-fa64-40f7-aec0-6ea2ce549a1d")
 	)
 	(label "SGPIO6"
-		(at 109.22 147.32 0)
+		(at 109.22 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7204,7 +7224,7 @@
 		(uuid "eb0ce850-a68e-48d9-9225-88211ed09b1c")
 	)
 	(label "SGPIO9"
-		(at 109.22 208.28 0)
+		(at 109.22 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9504,7 +9524,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 134.62 208.28 90)
+		(at 134.62 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9513,7 +9533,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b187824-9e52-43f9-9c1a-47faf4098471")
 		(property "Reference" "RN8"
-			(at 134.62 217.17 90)
+			(at 134.62 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9541,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 134.62 219.71 90)
+			(at 134.62 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9549,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 134.62 201.295 90)
+			(at 134.62 196.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 208.28 0)
+			(at 134.62 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9567,7 @@
 			)
 		)
 		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
-			(at 134.62 208.28 0)
+			(at 134.62 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +9576,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 134.62 208.28 0)
+			(at 134.62 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +9585,7 @@
 			)
 		)
 		(property "Part Number" "YC124-JR-0733RL"
-			(at 134.62 208.28 0)
+			(at 134.62 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9594,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 134.62 208.28 0)
+			(at 134.62 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,7 +12790,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 195.58 270)
+		(at 134.62 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12779,7 +12799,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6ea72b9-f249-464d-85b1-cb9664c11e25")
 		(property "Reference" "R21"
-			(at 134.62 199.39 90)
+			(at 134.62 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12807,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 134.62 201.93 90)
+			(at 134.62 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12795,7 +12815,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12804,7 +12824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12813,7 +12833,7 @@
 			)
 		)
 		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12822,7 +12842,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12831,7 +12851,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12840,7 +12860,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 134.62 195.58 0)
+			(at 134.62 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

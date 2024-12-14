@@ -114,116 +114,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -4005,16 +3895,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 118.11) (xy 36.83 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19d37033-778b-4389-b2d8-1affd076b802")
-	)
-	(wire
-		(pts
 			(xy 208.28 80.01) (xy 208.28 74.93)
 		)
 		(stroke
@@ -4172,16 +4052,6 @@
 			(type default)
 		)
 		(uuid "2a78b1c5-8d19-443f-963b-57c01d650750")
-	)
-	(wire
-		(pts
-			(xy 67.31 118.11) (xy 67.31 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa9fae0-710c-46a7-ab20-4b7862d3c77d")
 	)
 	(wire
 		(pts
@@ -4512,16 +4382,6 @@
 			(type default)
 		)
 		(uuid "52f0191e-196f-463c-a032-5d7df9e6dc71")
-	)
-	(wire
-		(pts
-			(xy 33.02 118.11) (xy 33.02 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f767be-1217-4b2f-9d5b-c533c525fc66")
 	)
 	(wire
 		(pts
@@ -5495,16 +5355,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 118.11) (xy 29.21 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d96ca1f9-4f06-45a6-bd8d-333c5ac867a9")
-	)
-	(wire
-		(pts
 			(xy 187.96 25.4) (xy 195.58 25.4)
 		)
 		(stroke
@@ -6197,27 +6047,6 @@
 			)
 		)
 	)
-	(global_label "CS_XCVR"
-		(shape input)
-		(at 36.83 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "2302a037-7bb5-4f0e-b026-97b0c150e926")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XCVR_EN"
 		(shape input)
 		(at 154.94 118.11 180)
@@ -6236,48 +6065,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSP1_COPI"
-		(shape input)
-		(at 29.21 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "5f65a6ac-742d-4425-83c1-7eee0f05e568")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RSSI"
-		(shape input)
-		(at 67.31 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "6b2cebd6-c41f-48d3-94ed-4488d179dec8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -22.86 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6322,27 +6109,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSP1_CIPO"
-		(shape input)
-		(at 33.02 120.65 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "98dfab18-10ad-46ef-92da-ef137f756398")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8191,7 +7957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 123.19 0)
 			(effects
 				(font
@@ -9025,306 +8791,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 33.02 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005052a335")
-		(property "Reference" "P41"
-			(at 33.02 110.998 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 31.623 113.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 33.02 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 33.02 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e12448-7337-41cb-886c-0ed8082b5de8")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 29.21 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005052a336")
-		(property "Reference" "P40"
-			(at 29.21 110.998 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 27.813 113.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 29.21 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 29.21 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebfeba11-0372-4b3d-b320-17ce0289ddaf")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 36.83 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000052806f99")
-		(property "Reference" "P53"
-			(at 36.83 110.998 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.433 113.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 36.83 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 36.83 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f4f5cd7-1762-4f2b-93d5-d46078fc2e62")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 67.31 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005280a12a")
-		(property "Reference" "P67"
-			(at 67.31 110.998 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 65.913 113.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-TESTPOINT-50MIL"
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adf69b8f-913c-472d-8cd8-668b89f1115c")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-000050370666"
-					(reference "P67")
 					(unit 1)
 				)
 			)

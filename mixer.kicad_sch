@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 68.58)
+			(xy 160.02 76.2) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2056,16 +2056,6 @@
 			(type default)
 		)
 		(uuid "28cf37d5-4467-4e6a-b5db-117b5e1e0951")
-	)
-	(wire
-		(pts
-			(xy 160.02 76.2) (xy 160.02 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c959a67-7388-41d0-87fb-c3ab90ce8024")
 	)
 	(wire
 		(pts
@@ -2409,16 +2399,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 149.86 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ec100c-9bba-4af3-93c8-6f167373a5f7")
-	)
-	(wire
-		(pts
 			(xy 78.74 104.14) (xy 78.74 105.41)
 		)
 		(stroke
@@ -2479,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 67.31) (xy 149.86 68.58)
+			(xy 149.86 76.2) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3242,103 +3222,6 @@
 		(uuid "e5660eb0-44e7-4871-a923-04c059346c63")
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 160.02 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a3c72a2-a683-40c6-9620-e5b595d0c28b")
-		(property "Reference" "L8"
-			(at 161.29 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33nH"
-			(at 161.29 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 33NH 120MA 2.95OHM SMD"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LQP03TN33NJ02D"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" ""
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94e3d49b-7994-43a6-9c73-b6b2c914db41")
-		)
-		(pin "2"
-			(uuid "d2fb8626-da67-4d29-a654-9454e986ee19")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638/f1aebcca-cf04-4adc-845a-2839fb07bf4f"
-					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 92.71 270)
 		(unit 1)
@@ -3909,7 +3792,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 149.86 72.39 180)
+		(at 149.86 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3918,7 +3801,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c979c9e-903f-48c9-ac3a-59c4f7bb4790")
 		(property "Reference" "L2"
-			(at 151.13 71.1199 0)
+			(at 151.13 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,8 +3809,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uH"
-			(at 151.13 73.6599 0)
+		(property "Value" "15uH"
+			(at 151.13 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3819,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 149.86 72.39 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 72.39 0)
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,8 +3836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at -123.19 156.21 0)
+		(property "Description" "FIXED IND 15UH 200MA 3.328OHM 0603"
+			(at -123.19 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3846,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at -123.19 156.21 0)
+			(at -123.19 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3971,8 +3854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LSQNB160808T470M"
-			(at -123.19 156.21 0)
+		(property "Part Number" "LSQPB160807T150M"
+			(at -123.19 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3980,8 +3863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "LSQNB160808T470K"
-			(at 149.86 72.39 0)
+		(property "Substitution" "BRL1608T150M, LLQPB160807T150M"
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,103 +4702,6 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638/f1aebcca-cf04-4adc-845a-2839fb07bf4f"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 149.86 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d5fe1b6-f64c-4088-9d78-c8a5b12ffa42")
-		(property "Reference" "L6"
-			(at 151.13 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33nH"
-			(at 151.13 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 33NH 120MA 2.95OHM SMD"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LQP03TN33NJ02D"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" ""
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32673de2-7170-4f89-b617-fbb7098a6588")
-		)
-		(pin "2"
-			(uuid "1b2e3369-0f25-4173-8c0a-4c4a598f136a")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638/f1aebcca-cf04-4adc-845a-2839fb07bf4f"
-					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6232,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 149.86 67.31 0)
+		(at 149.86 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6454,7 +6240,7 @@
 		(dnp no)
 		(uuid "b29956f0-374d-44a9-8781-8de55d918e35")
 		(property "Reference" "#PWR055"
-			(at 149.86 71.12 0)
+			(at 149.86 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6249,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 150.2918 62.9158 0)
+			(at 150.2918 71.8058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 67.31 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 67.31 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 149.86 67.31 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6689,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 160.02 67.31 0)
+		(at 160.02 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6911,7 +6697,7 @@
 		(dnp no)
 		(uuid "c862783d-c067-4838-b371-7bb6b45d3f0c")
 		(property "Reference" "#PWR054"
-			(at 160.02 71.12 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +6706,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 160.4518 62.9158 0)
+			(at 160.4518 71.8058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 67.31 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +6723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 67.31 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +6732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 160.02 67.31 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7465,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 160.02 72.39 180)
+		(at 160.02 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7688,7 +7474,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc2d364d-bef1-4bdd-8c4e-b1dca7522829")
 		(property "Reference" "L3"
-			(at 161.29 71.1199 0)
+			(at 161.29 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,8 +7482,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47uH"
-			(at 161.29 73.6599 0)
+		(property "Value" "15uH"
+			(at 161.29 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7492,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 160.02 72.39 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7715,7 +7501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 72.39 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7723,8 +7509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 47 UH 0.05A 3.25 OHM"
-			(at -113.03 148.59 0)
+		(property "Description" "FIXED IND 15UH 200MA 3.328OHM 0603"
+			(at -113.03 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7733,7 +7519,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at -113.03 148.59 0)
+			(at -113.03 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7741,8 +7527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LSQNB160808T470M"
-			(at -113.03 148.59 0)
+		(property "Part Number" "LSQPB160807T150M"
+			(at -113.03 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7750,8 +7536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "LSQNB160808T470K"
-			(at 160.02 72.39 0)
+		(property "Substitution" "BRL1608T150M, LLQPB160807T150M"
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

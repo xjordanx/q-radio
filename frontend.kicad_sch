@@ -11698,7 +11698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.3 214.63 0)
 			(effects
 				(font
@@ -11716,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0201"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -11725,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Samsung"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -11734,7 +11734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM033R61A105ME44D"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -11743,7 +11743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 368.3 214.63 0)
 			(effects
 				(font

@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 173.99 142.24 0)
 			(effects
 				(font
@@ -2727,7 +2727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 173.99 142.24 0)
 			(effects
 				(font
@@ -2736,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 173.99 142.24 0)
 			(effects
 				(font
@@ -2966,7 +2966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 163.83 142.24 0)
 			(effects
 				(font
@@ -3223,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -3241,7 +3241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -4211,7 +4211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -4229,7 +4229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -4238,7 +4238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 184.15 142.24 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 184.15 142.24 0)
 			(effects
 				(font
@@ -4495,7 +4495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 184.15 142.24 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0402"
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05A105KP5NNNC"
+		(property "Part Number" "CL05A105KA5NQNC"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Taiyo Yuden LMK105BJ105KV-F"
+		(property "Substitution" "Murata GRM155R61E105KA12D"
 			(at 86.36 43.18 0)
 			(effects
 				(font

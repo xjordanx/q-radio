@@ -192,6 +192,7 @@
         0.3,
         0.3658,
         0.45,
+        0.6,
         0.8,
         1.15
       ],
@@ -711,7 +712,7 @@
     ],
     [
       "00000000-0000-0000-0000-00005037043e",
-      "mcu/usb/power"
+      "Microcontroller"
     ],
     [
       "00000000-0000-0000-0000-000050370666",
@@ -736,11 +737,15 @@
     [
       "82363729-914a-4be2-9abc-c6e1e42dff36",
       "Clock"
+    ],
+    [
+      "582bbebf-22b2-4cb5-8b91-2c73dca44d28",
+      "Power"
     ]
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-12-14",
+    "DATE": "2024-12-17",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.1.0+"

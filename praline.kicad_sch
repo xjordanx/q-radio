@@ -58,6 +58,16 @@
 		)
 		(uuid "2748e18c-2b93-490b-9f63-369201b9882c")
 	)
+	(wire
+		(pts
+			(xy 172.72 53.34) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4cfdf8-1a4b-4c39-8726-6fb3cc6078aa")
+	)
 	(bus
 		(pts
 			(xy 124.46 63.5) (xy 132.08 63.5)
@@ -100,6 +110,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0023da-de0d-4592-ae3d-e3909c02fc7b")
+	)
+	(wire
+		(pts
 			(xy 172.72 82.55) (xy 175.26 82.55)
 		)
 		(stroke
@@ -127,6 +147,16 @@
 			(type default)
 		)
 		(uuid "7230d912-50d1-45cf-87cf-8a1e3d78c94c")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727a85d9-7cea-465d-9fe3-c984faa74606")
 	)
 	(wire
 		(pts
@@ -187,6 +217,16 @@
 			(type default)
 		)
 		(uuid "922c27e9-279e-4feb-b34e-b2ccf464aa5a")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eec3cba-25a1-4423-94de-7bec34859499")
 	)
 	(bus
 		(pts
@@ -258,6 +298,26 @@
 		)
 		(uuid "c8f11bb8-fdb8-4503-89bb-ef5c4788abf7")
 	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca141653-3767-4f40-8e40-5a6a87b9d57e")
+	)
+	(wire
+		(pts
+			(xy 172.72 38.1) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5b0e5e-3472-47c6-a534-56572f1003cf")
+	)
 	(bus
 		(pts
 			(xy 124.46 58.42) (xy 132.08 58.42)
@@ -298,9 +358,19 @@
 		)
 		(uuid "f7e8faca-6c7c-4f24-8c98-384cafa09015")
 	)
+	(wire
+		(pts
+			(xy 172.72 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6491d-964b-4ff4-ab01-235a01827751")
+	)
 	(sheet
-		(at 132.08 55.88)
-		(size 40.64 13.97)
+		(at 132.08 35.56)
+		(size 40.64 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -310,8 +380,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00005037043e")
-		(property "Sheetname" "mcu/usb/power"
-			(at 132.08 55.0414 0)
+		(property "Sheetname" "Microcontroller"
+			(at 132.08 34.7214 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -387,6 +457,76 @@
 				(justify right)
 			)
 			(uuid "bc1a8a22-dd85-4ebc-b1af-8ee34e1de9ac")
+		)
+		(pin "1V2_EN" input
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "3e7d7b76-4538-40ba-b082-6b8ccc354b6d")
+		)
+		(pin "VBUS" output
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "45ee1158-ade5-47ad-9394-5d4655ede267")
+		)
+		(pin "VIN" output
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "bf29b465-299c-4324-94fb-e2de349f7472")
+		)
+		(pin "VBUS_SAFE" input
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "4466151c-3c4b-4d2b-9012-ac7100844e5a")
+		)
+		(pin "~{VBUS_IN_EN}" output
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "330f63ea-a484-40b4-9c09-3f931f81187b")
+		)
+		(pin "~{VIN_IN_EN}" output
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "2dc4472b-6321-4971-94bb-987ed9cc709a")
+		)
+		(pin "MODE" output
+			(at 172.72 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "da903736-6830-4738-a635-c7db37181ddf")
 		)
 		(instances
 			(project "praline"
@@ -636,6 +776,114 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 35.56)
+		(size 31.75 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "582bbebf-22b2-4cb5-8b91-2c73dca44d28")
+		(property "Sheetname" "Power"
+			(at 187.96 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 187.96 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1V2_EN" input
+			(at 187.96 50.8 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "9f22dc83-3398-4d6b-8ea8-6d6bd8118d76")
+		)
+		(pin "~{VBUS_IN_EN}" input
+			(at 187.96 45.72 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "39fba3cf-29e8-422b-96eb-6895f2c3ebdb")
+		)
+		(pin "VBUS" input
+			(at 187.96 38.1 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "368a53b9-cd1a-400f-9a4e-23b917ba7b8e")
+		)
+		(pin "MODE" input
+			(at 187.96 53.34 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "48383bb0-af4f-4ec4-9a96-7496ff170d73")
+		)
+		(pin "~{VIN_IN_EN}" input
+			(at 187.96 48.26 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "6f89fa5f-89b2-4a9f-9a5f-b61383b9d7f3")
+		)
+		(pin "VIN" input
+			(at 187.96 40.64 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "84d18a21-e906-4547-be83-c2fa53a77888")
+		)
+		(pin "VBUS_SAFE" output
+			(at 187.96 43.18 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "a430edf6-7735-438a-a80c-587c7e12285d")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "9")
 				)
 			)
 		)

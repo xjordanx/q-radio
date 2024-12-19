@@ -240,6 +240,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 66.04) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6891a6-26c1-4e52-88b4-7f7c30c2c430")
+	)
+	(wire
+		(pts
 			(xy 90.17 85.09) (xy 127 85.09)
 		)
 		(stroke
@@ -327,6 +337,26 @@
 			(type default)
 		)
 		(uuid "dc01b42e-0341-4e45-9397-05e10fc23087")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d36674-cbec-4bb5-accd-6dd978a241d2")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd080af-445a-4fa7-a5dd-0252ba9def53")
 	)
 	(wire
 		(pts
@@ -527,6 +557,16 @@
 				(justify right)
 			)
 			(uuid "da903736-6830-4738-a635-c7db37181ddf")
+		)
+		(pin "AUX_CLK" input
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
 		)
 		(instances
 			(project "praline"
@@ -977,6 +1017,16 @@
 				(justify right)
 			)
 			(uuid "db01d8a5-b997-40cc-8e66-c56e33316396")
+		)
+		(pin "AUX_CLK" output
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "f1f5e665-0dab-4474-bc59-46dccd93ec6f")
 		)
 		(instances
 			(project "praline"

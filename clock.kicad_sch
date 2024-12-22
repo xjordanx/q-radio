@@ -2556,7 +2556,7 @@
 	)
 	(hierarchical_label "XCVR_CLK"
 		(shape output)
-		(at 191.77 93.98 0)
+		(at 191.77 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2616,7 +2616,7 @@
 	)
 	(hierarchical_label "MIX_CLK"
 		(shape output)
-		(at 191.77 83.82 0)
+		(at 191.77 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

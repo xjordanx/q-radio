@@ -2023,7 +2023,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"3V3FPGA\""
 				(at 0 0 0)
 				(effects
 					(font

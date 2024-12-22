@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -59,9 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|174825000|141514151|00000000-0000-0000-0000-00005787e6f8|00000000-0000-0000-0000-00005787e7b0"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -192,6 +190,7 @@
         0.24,
         0.25,
         0.3,
+        0.35,
         0.3658,
         0.45,
         0.6,
@@ -650,6 +649,12 @@
           "label": "Description",
           "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -743,11 +748,15 @@
     [
       "582bbebf-22b2-4cb5-8b91-2c73dca44d28",
       "Power"
+    ],
+    [
+      "b52297f1-63c0-4931-9c57-b3b41fe2150b",
+      "Switch Control"
     ]
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-12-19",
+    "DATE": "2024-12-22",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.1.0+"

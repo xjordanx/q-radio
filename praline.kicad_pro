@@ -59,7 +59,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|174825000|141514151|00000000-0000-0000-0000-00005787e6f8|00000000-0000-0000-0000-00005787e7b0"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -756,7 +758,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-12-22",
+    "DATE": "2024-12-23",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.1.0+"

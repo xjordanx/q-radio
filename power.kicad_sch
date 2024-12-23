@@ -1529,6 +1529,197 @@
 				)
 			)
 		)
+		(symbol "Power_Management:BD2243G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.826 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BD2243G"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+				(at 0 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/power_switch/bd2242g-e.pdf"
+				(at 0.254 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Adjustable current limit high side switch IC, active-low enable, output discharge, 2.8..5.5V, 0.2..1.7A, 89mOhm Ron, TSOP-6"
+				(at 0 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB power-distribution ROHM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOP*6*1.65x3.05mm*P0.95mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BD2243G_0_0"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BD2243G_1_0"
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{OC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BD2243G_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:XC6206PxxxMR"
 			(pin_names
 				(offset 0.254)
@@ -3106,6 +3297,126 @@
 				)
 			)
 		)
+		(symbol "praline:3V3AUX"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3AUX"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3V3AUX\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3AUX_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3AUX_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "praline:3V3FPGA"
 			(power)
 			(pin_numbers hide)
@@ -3276,6 +3587,12 @@
 		(uuid "26574a39-82c6-4c13-b2f0-2ddcf9ad1685")
 	)
 	(junction
+		(at 86.36 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27feb1ca-0d63-4e92-b1f3-7ce16327ff96")
+	)
+	(junction
 		(at 231.14 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3420,6 +3737,12 @@
 		(uuid "7a6a5b0f-b4bf-4f84-b8ef-e1c111d778e1")
 	)
 	(junction
+		(at 80.01 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef23037-0bdc-4ac3-b1cc-22ae145018d4")
+	)
+	(junction
 		(at 259.08 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3456,6 +3779,12 @@
 		(uuid "9add7883-8e53-48a8-8447-2f73ea41b9c2")
 	)
 	(junction
+		(at 80.01 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d77c10f-f1a0-4c93-98a0-b86e837dc513")
+	)
+	(junction
 		(at 83.82 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3466,6 +3795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2fd2725-1e73-4488-965e-9f7b5ca48403")
+	)
+	(junction
+		(at 130.81 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb80c83-4fab-4abc-a8b0-289ef5ea69c3")
 	)
 	(junction
 		(at 184.15 134.62)
@@ -3691,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 149.86) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b535ef1-bb27-4de6-8abe-4c3de8e063a7")
+	)
+	(wire
+		(pts
 			(xy 41.91 85.09) (xy 31.75 85.09)
 		)
 		(stroke
@@ -3748,6 +4093,16 @@
 			(type default)
 		)
 		(uuid "10a52783-b482-4d9d-a62e-e5514ec5b01b")
+	)
+	(wire
+		(pts
+			(xy 86.36 137.16) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10adc299-08d7-442d-b787-112f3c1a01f0")
 	)
 	(wire
 		(pts
@@ -3881,6 +4236,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 137.16) (xy 86.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22380d5b-e517-4c37-9b04-7608fde756d2")
+	)
+	(wire
+		(pts
 			(xy 31.75 76.2) (xy 31.75 77.47)
 		)
 		(stroke
@@ -3971,6 +4336,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 147.32) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce840e3-ffd5-47df-a5a2-e25c49f08f10")
+	)
+	(wire
+		(pts
+			(xy 95.25 147.32) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d89b0f0-c46c-44b1-bfb0-a9789e9f17e9")
+	)
+	(wire
+		(pts
 			(xy 83.82 34.29) (xy 83.82 22.86)
 		)
 		(stroke
@@ -4038,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "37b410d0-3910-4dad-a718-e50262dada6c")
+	)
+	(wire
+		(pts
+			(xy 90.17 168.91) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37be948a-765c-4eef-975a-135a039e6b2d")
 	)
 	(wire
 		(pts
@@ -4211,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 152.4) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579d60c6-dee9-44dd-b44c-7c4cd648f36f")
+	)
+	(wire
+		(pts
 			(xy 110.49 50.8) (xy 113.03 50.8)
 		)
 		(stroke
@@ -4291,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 152.4) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62181960-d8c4-47d1-931a-1ed402372311")
+	)
+	(wire
+		(pts
 			(xy 232.41 33.02) (xy 236.22 33.02)
 		)
 		(stroke
@@ -4348,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "6bbe73d3-8551-4d8b-8a61-60bfbb4926df")
+	)
+	(wire
+		(pts
+			(xy 80.01 144.78) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c808d3a-0796-4f8d-81c8-68d72769bb59")
 	)
 	(wire
 		(pts
@@ -4498,6 +4923,16 @@
 			(type default)
 		)
 		(uuid "7e70405d-a20d-4503-bcf0-8562853998ee")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 95.25 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea36462-e6fa-4b6e-83d0-745421b80fd1")
 	)
 	(wire
 		(pts
@@ -4981,6 +5416,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 152.4) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7e3004-04f2-4993-8b3b-bad556114c45")
+	)
+	(wire
+		(pts
 			(xy 250.19 129.54) (xy 257.81 129.54)
 		)
 		(stroke
@@ -5131,6 +5576,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20d1c61-69bb-457f-ab4f-0e363d74ae38")
+	)
+	(wire
+		(pts
 			(xy 68.58 76.2) (xy 73.66 76.2)
 		)
 		(stroke
@@ -5188,6 +5643,16 @@
 			(type default)
 		)
 		(uuid "fbd2f742-c267-4d93-b567-7fdc3aeb8682")
+	)
+	(text "current limit: 235 mA ±20%"
+		(exclude_from_sim no)
+		(at 101.6 172.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "0190c458-2edb-4bfb-9846-1894ecde3e9f")
 	)
 	(text "overvoltage shut-off\nthreshold: 5.5-6.0 V"
 		(exclude_from_sim no)
@@ -5334,6 +5799,18 @@
 		)
 		(uuid "2fa62e4d-458f-44bb-a44e-a34e3c61cb02")
 	)
+	(hierarchical_label "~{3V3AUX_OC}"
+		(shape output)
+		(at 90.17 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "5e6675fd-704d-42c1-ab0a-14a166a92998")
+	)
 	(hierarchical_label "VBUS_SAFE"
 		(shape output)
 		(at 85.09 22.86 0)
@@ -5345,6 +5822,18 @@
 			(justify left)
 		)
 		(uuid "87b0d7b2-c958-4386-bcfe-19f4347c3b15")
+	)
+	(hierarchical_label "~{3V3AUX_EN}"
+		(shape input)
+		(at 78.74 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8a4b4c4b-b5e8-43e2-80ce-3ce6ef528b6a")
 	)
 	(hierarchical_label "~{VBUS_IN_EN}"
 		(shape input)
@@ -5667,6 +6156,72 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0afd33e0-269a-4af0-9448-e21e4a195ca3")
+		(property "Reference" "#PWR0207"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e862fde-6650-4c05-b4ca-7f75e9447a8e")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -9037,6 +9592,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 104.14 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d869d10-bd84-4ad7-af50-a9863989441f")
+		(property "Reference" "#PWR0205"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ad5eb6-5081-4fb5-8f00-10a0f81eebc5")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 76.2 90)
 		(mirror x)
@@ -11163,6 +11784,103 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 130.81 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91056eba-4f7a-4c89-9797-6a36be50ca78")
+		(property "Reference" "C32"
+			(at 134.62 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 134.62 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea1b9f4-3c43-4ed5-82e3-f346bb942f91")
+		)
+		(pin "2"
+			(uuid "faf316a4-d97e-4bf7-b749-1f22fb3b7855")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 158.75 139.7 0)
 		(mirror y)
 		(unit 1)
@@ -11319,6 +12037,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "976deb70-cc1e-4d1a-b7cc-6d67599c1e48")
+		(property "Reference" "R101"
+			(at 118.11 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k±1%"
+			(at 118.11 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.792 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07100KL"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63735211-bb17-40b1-b409-af7e8e49a419")
+		)
+		(pin "1"
+			(uuid "f123050e-627e-4e83-a640-399d66fe48d0")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -11603,6 +12418,169 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10880c0-d991-4e58-8bf4-57386a52fe30")
+		(property "Reference" "R100"
+			(at 77.47 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-0710KL"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9fde629-c53c-4c12-9fb5-3b4fe56e19d0")
+		)
+		(pin "2"
+			(uuid "1423e049-d4b8-4e2e-80e1-11a2bb1c3b56")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1643395-10f5-40d0-bd36-56f51638de0f")
+		(property "Reference" "#PWR0206"
+			(at 115.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f9dbce-5ca4-48f8-84c0-1c42f8847e95")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -12181,6 +13159,72 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ace8ed50-a2af-4dd9-9d51-af2c1b1de44b")
+		(property "Reference" "#PWR0241"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25fa32e2-6b3f-4544-8cfe-c1661758949a")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -12917,6 +13961,72 @@
 		)
 	)
 	(symbol
+		(lib_id "praline:3V3AUX")
+		(at 130.81 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c06d4b20-ee94-45ad-9996-8587a7b1e5a7")
+		(property "Reference" "#PWR0146"
+			(at 130.81 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3AUX"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3AUX\""
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9d80960-c24f-4c10-8bcc-18b7f9cd4f4a")
+		)
+		(instances
+			(project ""
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 254 85.09 270)
 		(unit 1)
@@ -13075,6 +14185,104 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "C175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:BD2243G")
+		(at 104.14 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6051938-da4b-417d-b42a-8e73c8ab9ca4")
+		(property "Reference" "U28"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP22652"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 104.14 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22652_53_52A_53A.pdf"
+			(at 104.394 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LOAD SWITCH,SOT26,T&R,3K"
+			(at 104.14 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AP22652W6-7"
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "15d1e9bd-aa01-4914-b4ff-ebb9bc6cafe4")
+		)
+		(pin "2"
+			(uuid "417545ca-96f3-49e5-b2de-6dbf484d6676")
+		)
+		(pin "1"
+			(uuid "faf2b1ae-4344-49c1-b50b-2bdf763f8dfb")
+		)
+		(pin "3"
+			(uuid "13d99519-8480-4287-bbe7-4284ca620da4")
+		)
+		(pin "4"
+			(uuid "50273e83-832c-4fd1-bef7-1721448b3d26")
+		)
+		(pin "5"
+			(uuid "675fb566-c081-4176-a5c6-9f56abe172a2")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "U28")
 					(unit 1)
 				)
 			)
@@ -15556,6 +16764,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed2c3e4d-0d06-4f22-bfcd-6532cbceed1c")
+		(property "Reference" "C33"
+			(at 90.17 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 90.17 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25db4007-535c-43cf-85a5-48be5cf84c83")
+		)
+		(pin "2"
+			(uuid "0513ca28-6097-4812-8336-d7acefa369d0")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V2")
 		(at 190.5 25.4 270)
 		(unit 1)
@@ -15947,6 +17252,72 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 80.01 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbdc84d2-f902-4774-9c7a-bd494b00197b")
+		(property "Reference" "#PWR0208"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 80.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce49c4e1-bfee-4182-ab67-0f5036814f36")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/582bbebf-22b2-4cb5-8b91-2c73dca44d28"
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)

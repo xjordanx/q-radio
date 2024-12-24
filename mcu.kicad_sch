@@ -11079,7 +11079,7 @@
 	)
 	(text "1%"
 		(exclude_from_sim no)
-		(at 114.3 53.34 0)
+		(at 114.3 52.07 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11134,7 +11134,7 @@
 	)
 	(text "1%"
 		(exclude_from_sim no)
-		(at 114.3 43.18 0)
+		(at 114.3 41.91 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -21264,6 +21264,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 111.76 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21271,20 +21272,21 @@
 		(dnp no)
 		(uuid "0e34305b-44dc-42c6-9922-4baa02c77619")
 		(property "Reference" "R39"
-			(at 114.3 54.61 0)
+			(at 114.3 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "162k"
-			(at 111.76 54.61 90)
+		(property "Value" "7.87k"
+			(at 114.3 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -21305,7 +21307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 7.87K OHM 1% 1/16W 0402"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -21323,7 +21325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-077K87L"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -23637,27 +23639,29 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 111.76 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d22a6812-c531-4af1-b965-8c628d51ed77")
 		(property "Reference" "R38"
-			(at 114.3 44.45 0)
+			(at 114.3 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "15.4k"
-			(at 111.76 44.45 90)
+		(property "Value" "162k"
+			(at 114.3 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -23678,7 +23682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 15.4K OHM 1% 1/16W 0402"
+		(property "Description" "RES 1/16W 162K OHM 1% 0402"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -23696,7 +23700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-0715K4L"
+		(property "Part Number" "RC0402FR-07162KL"
 			(at 111.76 44.45 0)
 			(effects
 				(font

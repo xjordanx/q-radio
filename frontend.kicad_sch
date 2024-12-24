@@ -16050,7 +16050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "Rochester BAT6202LSE6327, Toshiba JDH2S02SL,L3F, onsemi NSR201MXT5G"
+		(property "Substitution" ""
 			(at 378.46 194.31 90)
 			(effects
 				(font

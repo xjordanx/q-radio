@@ -18,6 +18,18 @@
 		(color 0 0 0 0)
 		(uuid "b1e5ef64-fc6d-40b6-9b91-19b04a3dceac")
 	)
+	(junction
+		(at 208.28 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6865ffb-eacc-43e9-b6ae-53410e0d11aa")
+	)
+	(junction
+		(at 205.74 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc597dfe-5398-4b62-b316-c68fdf08b54d")
+	)
 	(wire
 		(pts
 			(xy 210.82 78.74) (xy 210.82 102.87)
@@ -30,7 +42,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 39.37) (xy 162.56 39.37)
+			(xy 82.55 58.42) (xy 162.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -100,6 +112,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 39.37) (xy 205.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31621565-11a5-4cf9-899b-a2dec324db36")
+	)
+	(wire
+		(pts
 			(xy 203.2 57.15) (xy 218.44 57.15)
 		)
 		(stroke
@@ -107,6 +129,16 @@
 			(type default)
 		)
 		(uuid "3509c5ee-bff9-42bc-a431-f7a08a056354")
+	)
+	(wire
+		(pts
+			(xy 154.94 30.48) (xy 205.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384e4b29-013a-44f2-9b37-d89d49c806f4")
 	)
 	(wire
 		(pts
@@ -120,7 +152,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 80.01 106.68)
+			(xy 80.01 60.96) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -210,16 +242,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 44.45) (xy 218.44 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0023da-de0d-4592-ae3d-e3909c02fc7b")
-	)
-	(wire
-		(pts
 			(xy 203.2 97.79) (xy 205.74 97.79)
 		)
 		(stroke
@@ -270,6 +292,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 39.37) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbcdf35-87de-473b-8abc-f86337a583d9")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 210.82 78.74)
 		)
 		(stroke
@@ -300,7 +332,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 80.01 41.91)
+			(xy 162.56 60.96) (xy 80.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -318,6 +350,16 @@
 		)
 		(uuid "7987bf2b-07b7-426b-a9bf-71f615dea656")
 	)
+	(wire
+		(pts
+			(xy 154.94 41.91) (xy 162.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1c415c-2888-4c99-b606-09ddaa824c1e")
+	)
 	(bus
 		(pts
 			(xy 120.65 90.17) (xy 128.27 90.17)
@@ -327,6 +369,16 @@
 			(type default)
 		)
 		(uuid "80483aec-e8d4-4733-a387-954c08587670")
+	)
+	(wire
+		(pts
+			(xy 208.28 33.02) (xy 208.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847d097d-1abd-4c07-83da-8eb6d4a8b5d3")
 	)
 	(wire
 		(pts
@@ -390,6 +442,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 39.37) (xy 205.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2aaafa-bfe3-43ed-86ec-01232a31ef83")
+	)
+	(wire
+		(pts
 			(xy 213.36 81.28) (xy 213.36 105.41)
 		)
 		(stroke
@@ -450,13 +512,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 46.99) (xy 74.93 46.99)
+			(xy 162.56 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf8c8fbe-72c6-41b3-9fdf-82dd19d7259a")
+	)
+	(wire
+		(pts
+			(xy 208.28 44.45) (xy 218.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f91a4e-1df4-4dd2-8876-f1fbfa0a82e3")
 	)
 	(wire
 		(pts
@@ -520,13 +592,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 218.44 39.37)
+			(xy 154.94 44.45) (xy 162.56 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf5b0e5e-3472-47c6-a534-56572f1003cf")
+		(uuid "d4d63a34-2b3b-43cd-bcb5-9f0eac8e1461")
+	)
+	(bus
+		(pts
+			(xy 154.94 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab5d68e-2c6c-41ae-aea0-efa52967dc86")
 	)
 	(bus
 		(pts
@@ -540,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 44.45) (xy 162.56 44.45)
+			(xy 77.47 63.5) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
@@ -550,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 104.14) (xy 82.55 39.37)
+			(xy 82.55 104.14) (xy 82.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 46.99) (xy 74.93 111.76)
+			(xy 74.93 66.04) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +692,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 77.47 44.45)
+			(xy 154.94 33.02) (xy 208.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e6d4d2-03ef-4666-96ce-743f1769babc")
+	)
+	(wire
+		(pts
+			(xy 203.2 44.45) (xy 208.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32c1270-697c-467d-ad26-7b89e0914566")
+	)
+	(wire
+		(pts
+			(xy 77.47 109.22) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -768,16 +870,6 @@
 			)
 			(uuid "3e7d7b76-4538-40ba-b082-6b8ccc354b6d")
 		)
-		(pin "VBUS" output
-			(at 203.2 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "45ee1158-ade5-47ad-9394-5d4655ede267")
-		)
 		(pin "VIN" output
 			(at 203.2 41.91 0)
 			(effects
@@ -839,7 +931,7 @@
 			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
 		)
 		(pin "LPF_EN" output
-			(at 162.56 44.45 180)
+			(at 162.56 63.5 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -849,7 +941,7 @@
 			(uuid "9d0a95dc-29a7-4a70-9ee2-659aa446577a")
 		)
 		(pin "RF_AMP_EN" output
-			(at 162.56 46.99 180)
+			(at 162.56 66.04 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -859,7 +951,7 @@
 			(uuid "4ef9ed8f-1911-407c-9819-c90149caef60")
 		)
 		(pin "TX_EN" output
-			(at 162.56 39.37 180)
+			(at 162.56 58.42 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -869,7 +961,7 @@
 			(uuid "99349822-823f-4bf5-a6cc-f5f6f665c343")
 		)
 		(pin "~{MIX_EN}" output
-			(at 162.56 41.91 180)
+			(at 162.56 60.96 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -917,6 +1009,46 @@
 				(justify right)
 			)
 			(uuid "9f419752-4e59-4f16-bae0-1911392a442e")
+		)
+		(pin "VBUS" output
+			(at 203.2 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "47c00e36-7d06-4b27-9eab-aa08e8c11462")
+		)
+		(pin "~{TYPEC_INT}" input
+			(at 162.56 41.91 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "6b8bf7db-2492-40c7-97c2-0c855f11fdd4")
+		)
+		(pin "~{TYPEC_FAULT}" input
+			(at 162.56 44.45 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "3005ebea-0dd5-4ff2-b3bb-d7de956eed32")
+		)
+		(pin "USB_DATA{USB2}" bidirectional
+			(at 162.56 39.37 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "fc207348-747d-455e-9d4d-2933a67a244f")
 		)
 		(instances
 			(project "praline"
@@ -1384,6 +1516,94 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 27.94)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc")
+		(property "Sheetname" "USB"
+			(at 128.27 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 128.27 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "88697009-2347-41a1-ba27-f4eaabde0940")
+		)
+		(pin "~{TYPEC_INT}" output
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "5cab418c-a21c-4626-8db9-3d6faa78b22e")
+		)
+		(pin "USB_DATA{USB2}" bidirectional
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "ed86070b-0aff-4210-9155-8f8e2926f7f3")
+		)
+		(pin "VBUS_SAFE" input
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "9ef9d814-97e3-4737-acb5-b1a379b065bf")
+		)
+		(pin "~{TYPEC_FAULT}" output
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "ee4075c1-2fe7-45b0-958a-7ed4670f5320")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "11")
 				)
 			)
 		)

@@ -433,8 +433,9 @@
 		(size 0.5 0.5)
 		(drill 0.3)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f6cb789c-3167-49a8-9398-3c88a365a30e")
 	)
 	(pad "21" thru_hole circle
@@ -442,8 +443,9 @@
 		(size 0.5 0.5)
 		(drill 0.3)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "1efecfe5-49f4-416b-8303-deba8ae2b8b7")
 	)
 	(pad "21" smd rect
@@ -467,8 +469,9 @@
 		(size 0.5 0.5)
 		(drill 0.3)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "ee7c4a5c-0526-4c15-a3eb-b0e9176c5e61")
 	)
 	(pad "21" thru_hole circle
@@ -476,8 +479,9 @@
 		(size 0.5 0.5)
 		(drill 0.3)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "d11492cf-adab-430e-b0ad-64ad1f3cbb9c")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.wrl"

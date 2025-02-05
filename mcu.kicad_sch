@@ -14482,7 +14482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q80"
+		(property "Value" "W25Q16"
 			(at 138.43 170.1799 0)
 			(effects
 				(font
@@ -14500,7 +14500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -14509,7 +14509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC FLASH 8MBIT 8SOIC"
+		(property "Description" "IC FLASH 16MBIT SPI/QUAD 8SOIC"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -14527,7 +14527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "W25Q80DVSSIG"
+		(property "Part Number" "W25Q16JVSSIQ"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -15549,7 +15549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TXC"
+		(property "Manufacturer" "Shenzhen SCTF Electronics"
 			(at 124.46 245.11 0)
 			(effects
 				(font
@@ -15558,7 +15558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "7V-12.000MAAE-T"
+		(property "Part Number" "SX3B12.000F1210F30"
 			(at 124.46 245.11 0)
 			(effects
 				(font

@@ -16010,7 +16010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAT2402LSE6327XTSA1"
+		(property "Part Number" "BAT1502LSE6327XTSA1"
 			(at 378.46 194.31 90)
 			(effects
 				(font
@@ -16019,7 +16019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" ""
+		(property "Substitution" "BAT1502LSE6433XTMA1, BAT1502ELSE6327XTSA1, BAT2402LSE6327XTSA1, BAT2402ELSE6327XTSA1"
 			(at 378.46 194.31 90)
 			(effects
 				(font

@@ -6927,7 +6927,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX5864"
+		(property "Value" "MAX5865"
 			(at 102.87 49.53 0)
 			(effects
 				(font
@@ -6945,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX5864.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX5865.pdf"
 			(at 102.87 128.27 0)
 			(effects
 				(font
@@ -6955,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC ANLG FRONT END 22MSPS 48-TQFN"
+		(property "Description" "IC ANLG FRONT END 40MSPS 48-TQFN"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MAX5864ETM+T"
+		(property "Part Number" "MAX5865ETM+T"
 			(at 102.87 88.9 0)
 			(effects
 				(font
@@ -6982,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "MAX5864ETM+, MAX5865ETM+T, MAX5865ETM+"
+		(property "Substitution" "MAX5865ETM+"
 			(at 102.87 88.9 0)
 			(effects
 				(font

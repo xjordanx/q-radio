@@ -602,7 +602,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -762,9 +762,9 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2024-12-24",
+    "DATE": "2025-02-04",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
-    "VERSION": "0.2.0"
+    "VERSION": "0.2.0+"
   }
 }

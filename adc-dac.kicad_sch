@@ -3435,17 +3435,6 @@
 		)
 		(uuid "fe04e91b-6263-4f30-9f05-1f72ad2ebf53")
 	)
-	(text "TXBB.I+ and I- are swapped, inverting\nthe spectrum. TXBB.Q+ and Q- are also\nswapped, inverting the spectrum. The\ntwo inversions cancel."
-		(exclude_from_sim no)
-		(at 213.36 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f83bdb0-db7d-45a9-ba5a-b8fb1fba314d")
-	)
 	(text "RXBB.Q+ and Q- are swapped, inverting\nthe spectrum.  This inversion is\ncorrected in gateware."
 		(exclude_from_sim no)
 		(at 137.16 69.85 0)
@@ -3457,9 +3446,19 @@
 		)
 		(uuid "3c4ddbae-be23-4ee7-8edf-81b96c08b5a4")
 	)
+	(text "TX I and Q are swapped, inverting the\nspectrum.  One of the differential pairs\nis inverted, also inverting the\nspectrum.  The two inversions cancel."
+		(exclude_from_sim no)
+		(at 213.36 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee9085e1-78c1-4a2e-9644-14b271801538")
+	)
 	(label "DD0"
 		(at 81.28 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3469,8 +3468,7 @@
 		(uuid "11141cf7-1ecb-4e72-b11a-12f4d64f4511")
 	)
 	(label "TXBB.Q-"
-		(at 180.34 123.19 0)
-		(fields_autoplaced yes)
+		(at 180.34 92.71 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3481,7 +3479,6 @@
 	)
 	(label "REFN"
 		(at 114.3 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3492,7 +3489,6 @@
 	)
 	(label "DD6"
 		(at 81.28 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3503,7 +3499,6 @@
 	)
 	(label "RXBB.Q+"
 		(at 114.3 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3514,7 +3509,6 @@
 	)
 	(label "DA6"
 		(at 81.28 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3525,7 +3519,6 @@
 	)
 	(label "DD7"
 		(at 81.28 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3536,7 +3529,6 @@
 	)
 	(label "RXBB.I-"
 		(at 114.3 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3546,8 +3538,7 @@
 		(uuid "4323b7fc-0a28-43fc-b29f-2555167bc6aa")
 	)
 	(label "TXBB.I+"
-		(at 180.34 102.87 0)
-		(fields_autoplaced yes)
+		(at 180.34 123.19 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3558,7 +3549,6 @@
 	)
 	(label "DA7"
 		(at 81.28 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3569,7 +3559,6 @@
 	)
 	(label "RXBB.Q-"
 		(at 114.3 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3580,7 +3569,6 @@
 	)
 	(label "DD8"
 		(at 81.28 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3591,7 +3579,6 @@
 	)
 	(label "DD3"
 		(at 81.28 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3602,7 +3589,6 @@
 	)
 	(label "DD9"
 		(at 81.28 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3613,7 +3599,6 @@
 	)
 	(label "QD-"
 		(at 114.3 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3624,7 +3609,6 @@
 	)
 	(label "DA2"
 		(at 81.28 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3635,7 +3619,6 @@
 	)
 	(label "DA1"
 		(at 81.28 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3646,7 +3629,6 @@
 	)
 	(label "DD1"
 		(at 81.28 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3657,7 +3639,6 @@
 	)
 	(label "QD+"
 		(at 114.3 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3668,7 +3649,6 @@
 	)
 	(label "RXBB.I+"
 		(at 114.3 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3679,7 +3659,6 @@
 	)
 	(label "REFP"
 		(at 114.3 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3690,7 +3669,6 @@
 	)
 	(label "DD5"
 		(at 81.28 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3701,7 +3679,6 @@
 	)
 	(label "DD4"
 		(at 81.28 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3712,7 +3689,6 @@
 	)
 	(label "COM"
 		(at 114.3 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3722,8 +3698,7 @@
 		(uuid "b7b4a2dd-5236-444c-ad5e-b212e64dd7cf")
 	)
 	(label "TXBB.I-"
-		(at 180.34 92.71 0)
-		(fields_autoplaced yes)
+		(at 180.34 113.03 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3734,7 +3709,6 @@
 	)
 	(label "DA4"
 		(at 81.28 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3745,7 +3719,6 @@
 	)
 	(label "DA5"
 		(at 81.28 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3756,7 +3729,6 @@
 	)
 	(label "ID-"
 		(at 114.3 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3767,7 +3739,6 @@
 	)
 	(label "DD2"
 		(at 81.28 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3778,7 +3749,6 @@
 	)
 	(label "DA3"
 		(at 81.28 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3789,7 +3759,6 @@
 	)
 	(label "DA0"
 		(at 81.28 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3799,8 +3768,7 @@
 		(uuid "fd6e5790-e4c3-4ac0-90bc-e0686f457a34")
 	)
 	(label "TXBB.Q+"
-		(at 180.34 113.03 0)
-		(fields_autoplaced yes)
+		(at 180.34 102.87 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3811,7 +3779,6 @@
 	)
 	(label "ID+"
 		(at 114.3 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3889,7 +3856,6 @@
 	(hierarchical_label "AFE_CLK"
 		(shape input)
 		(at 74.93 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3901,7 +3867,6 @@
 	(hierarchical_label "TXBB{IQ}"
 		(shape output)
 		(at 228.6 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3913,7 +3878,6 @@
 	(hierarchical_label "DD[0..9]"
 		(shape input)
 		(at 74.93 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3925,7 +3889,6 @@
 	(hierarchical_label "DA[0..7]"
 		(shape output)
 		(at 74.93 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3937,7 +3900,6 @@
 	(hierarchical_label "RXBB{IQ}"
 		(shape input)
 		(at 137.16 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4442,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Value" "1k±1"
+		(property "Value" "1k±1%"
 			(at 173.99 88.9 90)
 			(effects
 				(font
@@ -4720,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Value" "1k±1"
+		(property "Value" "1k±1%"
 			(at 173.99 119.38 90)
 			(effects
 				(font
@@ -4912,7 +4874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7±1"
+		(property "Value" "4.7k±1%"
 			(at 194.31 129.5399 0)
 			(effects
 				(font
@@ -5562,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Value" "1k±1"
+		(property "Value" "1k±1%"
 			(at 173.99 109.22 90)
 			(effects
 				(font
@@ -5993,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Value" "1k±1"
+		(property "Value" "1k±1%"
 			(at 173.99 99.06 90)
 			(effects
 				(font
@@ -6089,7 +6051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7±1"
+		(property "Value" "4.7k±1%"
 			(at 219.71 129.5399 0)
 			(effects
 				(font
@@ -6694,7 +6656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7±1"
+		(property "Value" "4.7k±1%"
 			(at 207.01 129.5399 0)
 			(effects
 				(font
@@ -7402,7 +7364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7±1"
+		(property "Value" "4.7k±1%"
 			(at 181.61 129.5399 0)
 			(effects
 				(font

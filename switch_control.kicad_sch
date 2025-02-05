@@ -2575,7 +2575,6 @@
 	(hierarchical_label "~{TX_AMP_EN}"
 		(shape output)
 		(at 173.99 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2587,7 +2586,6 @@
 	(hierarchical_label "RX_EN"
 		(shape output)
 		(at 173.99 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2599,7 +2597,6 @@
 	(hierarchical_label "TX_EN"
 		(shape input)
 		(at 91.44 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2611,7 +2608,6 @@
 	(hierarchical_label "RX_XOR_LPF"
 		(shape output)
 		(at 173.99 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2623,7 +2619,6 @@
 	(hierarchical_label "MIX_EN"
 		(shape output)
 		(at 173.99 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2635,7 +2630,6 @@
 	(hierarchical_label "RF_AMP_EN"
 		(shape input)
 		(at 91.44 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2647,7 +2641,6 @@
 	(hierarchical_label "~{RX_AMP_EN}"
 		(shape output)
 		(at 173.99 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2659,7 +2652,6 @@
 	(hierarchical_label "LPF_EN"
 		(shape input)
 		(at 91.44 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2671,7 +2663,6 @@
 	(hierarchical_label "LPF_OR_MIX_BYPASS"
 		(shape output)
 		(at 173.99 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2683,7 +2674,6 @@
 	(hierarchical_label "RX_XOR_MIX"
 		(shape output)
 		(at 173.99 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2695,7 +2685,6 @@
 	(hierarchical_label "~{MIX_EN}"
 		(shape input)
 		(at 91.44 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2750,7 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 115.57 0)
 			(effects
 				(font
@@ -3255,7 +3244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 63.5 0)
 			(effects
 				(font
@@ -3417,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -3484,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -4827,7 +4816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 114.3 0)
 			(effects
 				(font
@@ -5342,7 +5331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 88.9 0)
 			(effects
 				(font
@@ -5601,7 +5590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -5734,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 135.89 0)
 			(effects
 				(font
@@ -5801,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 144.78 0)
 			(effects
 				(font

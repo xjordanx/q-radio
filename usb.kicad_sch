@@ -3035,7 +3035,6 @@
 	)
 	(label "CC1S"
 		(at 175.26 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3046,7 +3045,6 @@
 	)
 	(label "D-"
 		(at 110.49 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3057,7 +3055,6 @@
 	)
 	(label "DS+"
 		(at 125.73 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3068,7 +3065,6 @@
 	)
 	(label "D+"
 		(at 110.49 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3079,7 +3075,6 @@
 	)
 	(label "USB_DATA.D-"
 		(at 144.78 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3090,7 +3085,6 @@
 	)
 	(label "CC2S"
 		(at 175.26 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,7 +3095,6 @@
 	)
 	(label "DS-"
 		(at 125.73 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3112,7 +3105,6 @@
 	)
 	(label "CC2"
 		(at 99.06 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3123,7 +3115,6 @@
 	)
 	(label "CC1"
 		(at 99.06 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3134,7 +3125,6 @@
 	)
 	(label "USB_DATA.D+"
 		(at 144.78 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3190,7 +3180,6 @@
 	(hierarchical_label "VBUS"
 		(shape output)
 		(at 119.38 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3202,7 +3191,6 @@
 	(hierarchical_label "~{TYPEC_INT}"
 		(shape output)
 		(at 217.17 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +3202,6 @@
 	(hierarchical_label "~{TYPEC_FAULT}"
 		(shape output)
 		(at 166.37 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3213,6 @@
 	(hierarchical_label "VBUS_SAFE"
 		(shape input)
 		(at 191.77 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3224,6 @@
 	(hierarchical_label "USB_DATA{USB2}"
 		(shape bidirectional)
 		(at 160.02 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3550,7 +3535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -3940,7 +3925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -4235,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 110.49 0)
 			(effects
 				(font
@@ -4301,7 +4286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 110.49 0)
 			(effects
 				(font

@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22K OHM 5% 1/20W 0201"
+		(property "Description" "RES 22.6K OHM 1% 1/20W 0201"
 			(at 175.26 50.8 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201JR-0722KL"
+		(property "Part Number" "RC0201FR-0722K6L"
 			(at 175.26 50.8 0)
 			(effects
 				(font

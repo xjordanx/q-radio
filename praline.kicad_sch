@@ -19,12 +19,6 @@
 		(uuid "b1e5ef64-fc6d-40b6-9b91-19b04a3dceac")
 	)
 	(junction
-		(at 210.82 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6865ffb-eacc-43e9-b6ae-53410e0d11aa")
-	)
-	(junction
 		(at 208.28 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -310,6 +304,16 @@
 		)
 		(uuid "6bbcdf35-87de-473b-8abc-f86337a583d9")
 	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 220.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce7d7a0-cefe-4997-8297-78ec58a41d69")
+	)
 	(bus
 		(pts
 			(xy 160.02 115.57) (xy 154.94 115.57)
@@ -370,16 +374,6 @@
 		)
 		(uuid "7987bf2b-07b7-426b-a9bf-71f615dea656")
 	)
-	(wire
-		(pts
-			(xy 154.94 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1c415c-2888-4c99-b606-09ddaa824c1e")
-	)
 	(bus
 		(pts
 			(xy 120.65 90.17) (xy 128.27 90.17)
@@ -389,16 +383,6 @@
 			(type default)
 		)
 		(uuid "80483aec-e8d4-4733-a387-954c08587670")
-	)
-	(wire
-		(pts
-			(xy 210.82 33.02) (xy 210.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847d097d-1abd-4c07-83da-8eb6d4a8b5d3")
 	)
 	(wire
 		(pts
@@ -552,16 +536,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 44.45) (xy 220.98 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f91a4e-1df4-4dd2-8876-f1fbfa0a82e3")
-	)
-	(wire
-		(pts
 			(xy 120.65 127) (xy 128.27 127)
 		)
 		(stroke
@@ -569,6 +543,16 @@
 			(type default)
 		)
 		(uuid "c31c98df-d8c3-4cb2-a108-f5cb42ee1fb6")
+	)
+	(wire
+		(pts
+			(xy 210.82 27.94) (xy 210.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f88894-9bf5-406b-bd6f-a71c6400b8bd")
 	)
 	(wire
 		(pts
@@ -619,16 +603,6 @@
 			(type default)
 		)
 		(uuid "caac476e-ecdd-4374-a8ab-3243916e811e")
-	)
-	(wire
-		(pts
-			(xy 154.94 44.45) (xy 165.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d63a34-2b3b-43cd-bcb5-9f0eac8e1461")
 	)
 	(bus
 		(pts
@@ -712,17 +686,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 33.02) (xy 210.82 33.02)
+			(xy 154.94 27.94) (xy 210.82 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0e6d4d2-03ef-4666-96ce-743f1769babc")
+		(uuid "efa6870d-74e6-48a6-b422-abd3304e45d3")
 	)
 	(wire
 		(pts
-			(xy 205.74 44.45) (xy 210.82 44.45)
+			(xy 205.74 44.45) (xy 220.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1039,26 +1013,6 @@
 				(justify right)
 			)
 			(uuid "47c00e36-7d06-4b27-9eab-aa08e8c11462")
-		)
-		(pin "~{TYPEC_INT}" input
-			(at 165.1 41.91 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "6b8bf7db-2492-40c7-97c2-0c855f11fdd4")
-		)
-		(pin "~{TYPEC_FAULT}" input
-			(at 165.1 44.45 180)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-			(uuid "3005ebea-0dd5-4ff2-b3bb-d7de956eed32")
 		)
 		(pin "USB_DATA{USB2}" bidirectional
 			(at 165.1 39.37 180)
@@ -1443,8 +1397,8 @@
 		)
 	)
 	(sheet
-		(at 220.98 36.83)
-		(size 31.75 25.4)
+		(at 220.98 34.29)
+		(size 31.75 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1455,7 +1409,7 @@
 		)
 		(uuid "582bbebf-22b2-4cb5-8b91-2c73dca44d28")
 		(property "Sheetname" "Power"
-			(at 220.98 36.1184 0)
+			(at 220.98 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,6 +1516,16 @@
 			)
 			(uuid "a3b4f5b1-eace-4636-8dc1-356cabfc4f20")
 		)
+		(pin "VBUS_GATE" input
+			(at 220.98 36.83 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "98aa0682-8972-45aa-ba65-c92e4982c7c3")
+		)
 		(instances
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
@@ -1571,8 +1535,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 27.94)
-		(size 26.67 19.05)
+		(at 128.27 25.4)
+		(size 26.67 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1583,7 +1547,7 @@
 		)
 		(uuid "6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc")
 		(property "Sheetname" "USB"
-			(at 128.27 27.2284 0)
+			(at 128.27 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,16 +1574,6 @@
 			)
 			(uuid "88697009-2347-41a1-ba27-f4eaabde0940")
 		)
-		(pin "~{TYPEC_INT}" output
-			(at 154.94 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "5cab418c-a21c-4626-8db9-3d6faa78b22e")
-		)
 		(pin "USB_DATA{USB2}" bidirectional
 			(at 154.94 39.37 0)
 			(effects
@@ -1630,25 +1584,15 @@
 			)
 			(uuid "ed86070b-0aff-4210-9155-8f8e2926f7f3")
 		)
-		(pin "VBUS_SAFE" input
-			(at 154.94 33.02 0)
+		(pin "VBUS_GATE" output
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "9ef9d814-97e3-4737-acb5-b1a379b065bf")
-		)
-		(pin "~{TYPEC_FAULT}" output
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-			(uuid "ee4075c1-2fe7-45b0-958a-7ed4670f5320")
+			(uuid "650417dc-1b2b-4b3f-bc4b-c1af3c868cc4")
 		)
 		(instances
 			(project "praline"

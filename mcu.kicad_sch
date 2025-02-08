@@ -7471,8 +7471,16 @@
 		(uuid "508117fb-7072-4868-a080-664dc487378b")
 	)
 	(no_connect
+		(at 194.31 167.64)
+		(uuid "60040865-2cd3-49a2-8eb5-bd65f0eeb55d")
+	)
+	(no_connect
 		(at 245.11 48.26)
 		(uuid "66249f31-07f1-4fc3-b940-7f30345ec8f4")
+	)
+	(no_connect
+		(at 194.31 152.4)
+		(uuid "74e2696e-0d7c-4d2b-bd9c-a5255bcbf13e")
 	)
 	(no_connect
 		(at 245.11 132.08)
@@ -11183,7 +11191,7 @@
 	)
 	(text "Default boot configuration is SPIFI.\nPress SW1 during reset to switch to\nUSB0 (DFU mode)."
 		(exclude_from_sim no)
-		(at 63.5 233.68 0)
+		(at 63.5 234.95 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13940,17 +13948,6 @@
 		)
 		(uuid "76df6942-5a91-4b83-adf8-6ceb218b2234")
 	)
-	(hierarchical_label "~{TYPEC_INT}"
-		(shape input)
-		(at 194.31 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79121277-265b-4685-912a-e4fb3fee07e2")
-	)
 	(hierarchical_label "1V2_EN"
 		(shape input)
 		(at 245.11 58.42 0)
@@ -14071,17 +14068,6 @@
 			(justify right)
 		)
 		(uuid "dafbda12-e894-4412-92e4-a82fc1433e18")
-	)
-	(hierarchical_label "~{TYPEC_FAULT}"
-		(shape input)
-		(at 194.31 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e534ebd6-1742-4d5e-9f49-e52c833f0faa")
 	)
 	(hierarchical_label "~{BIAS_EN}"
 		(shape output)

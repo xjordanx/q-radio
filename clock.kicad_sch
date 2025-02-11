@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "praline:Linx_SMA_CONSMA003.062"
+		(property "Footprint" "praline:SMA_MyAntenna_A-SMA-KE-16.5A_EdgeMount"
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -3949,7 +3949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Linx"
+		(property "Manufacturer" "MyAntenna"
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -3958,7 +3958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CONSMA003.062"
+		(property "Part Number" "A-SMA-KE-16.5A"
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "praline:Linx_SMA_CONSMA003.062"
+		(property "Footprint" "praline:SMA_MyAntenna_A-SMA-KE-16.5A_EdgeMount"
 			(at 217.17 73.66 0)
 			(effects
 				(font
@@ -5287,7 +5287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Linx"
+		(property "Manufacturer" "MyAntenna"
 			(at 217.17 73.66 0)
 			(effects
 				(font
@@ -5296,7 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CONSMA003.062"
+		(property "Part Number" "A-SMA-KE-16.5A"
 			(at 217.17 73.66 0)
 			(effects
 				(font

@@ -10336,7 +10336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL3401A.pdf"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -10363,7 +10363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YJL2301C"
+		(property "Part Number" "YJL3401A"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -15712,7 +15712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL2301C.pdf"
+		(property "Datasheet" "https://www.21yangjie.com/pdf/mosfet/YJL3401A.pdf"
 			(at 226.06 35.56 0)
 			(effects
 				(font
@@ -15739,7 +15739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YJL2301C"
+		(property "Part Number" "YJL3401A"
 			(at 226.06 35.56 0)
 			(effects
 				(font

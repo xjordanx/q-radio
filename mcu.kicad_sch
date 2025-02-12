@@ -18803,7 +18803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-XTAL-AB26TRQ"
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 88.9 39.37 0)
 			(effects
 				(font
@@ -18812,12 +18812,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210261730_YXC-Crystal-Oscillators-XKXGI-SUA-32-768K_C5213671.pdf"
 			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CRYSTAL 32.768KHZ 12.5PF SMD"
@@ -18829,7 +18830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Abracon"
+		(property "Manufacturer" "YXC"
 			(at 88.9 39.37 0)
 			(effects
 				(font
@@ -18838,7 +18839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AB26TRQ-32.768KHZ-T"
+		(property "Part Number" "XKXGI-SUA-32.768K"
 			(at 88.9 39.37 0)
 			(effects
 				(font

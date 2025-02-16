@@ -745,7 +745,7 @@
     ],
     [
       "82363729-914a-4be2-9abc-c6e1e42dff36",
-      "Clock"
+      "Clock Generator"
     ],
     [
       "582bbebf-22b2-4cb5-8b91-2c73dca44d28",
@@ -761,8 +761,8 @@
     ]
   ],
   "text_variables": {
-    "COPYRIGHT": "Copyright 2012-2024 Great Scott Gadgets",
-    "DATE": "2025-02-11",
+    "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
+    "DATE": "2025-02-16",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.2.0+"

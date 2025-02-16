@@ -3300,7 +3300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/f1fd48d5f9832d4f28de5af0ef559744.pdf"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -3328,6 +3328,15 @@
 			)
 		)
 		(property "Part Number" "SN74LVC1G32DCKR"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "TI SN74LVC1G32DCKR"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -4138,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/7c3c8f547545258487a86f9b9a30ed55.pdf"
 			(at 154.94 54.61 0)
 			(effects
 				(font
@@ -4166,6 +4175,15 @@
 			)
 		)
 		(property "Part Number" "SN74LVC1G86DCKR"
+			(at 154.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "TI SN74LVC1G86DCKR"
 			(at 154.94 54.61 0)
 			(effects
 				(font
@@ -5387,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/7c3c8f547545258487a86f9b9a30ed55.pdf"
 			(at 161.29 78.74 0)
 			(effects
 				(font
@@ -5415,6 +5433,15 @@
 			)
 		)
 		(property "Part Number" "SN74LVC1G86DCKR"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "TI SN74LVC1G86DCKR"
 			(at 161.29 78.74 0)
 			(effects
 				(font

@@ -7443,10 +7443,6 @@
 		(uuid "1b559e6d-fe9c-4aca-a72f-1633d0484c0b")
 	)
 	(no_connect
-		(at 194.31 76.2)
-		(uuid "1d1f7f91-dc33-410a-a8fb-1306d391b776")
-	)
-	(no_connect
 		(at 245.11 185.42)
 		(uuid "255486d8-dd81-4567-96c0-a5c8970b7cc3")
 	)
@@ -14113,6 +14109,17 @@
 			(justify right)
 		)
 		(uuid "60af3888-28e0-4768-9b76-3cde7010d0aa")
+	)
+	(hierarchical_label "~{AA_EN}"
+		(shape input)
+		(at 194.31 76.2 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "6219caeb-01bb-43a3-b374-c1db9455e3da")
 	)
 	(hierarchical_label "SGPIO[0..13]"
 		(shape bidirectional)

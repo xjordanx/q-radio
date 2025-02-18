@@ -52,7 +52,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 58.42) (xy 165.1 58.42)
+			(xy 74.93 53.34) (xy 165.1 53.34)
 		)
 		(stroke
 			(width 0)
@@ -162,6 +162,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 85.09) (xy 113.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa2dc31-0e89-47c7-be4e-469a64157fe8")
+	)
+	(wire
+		(pts
 			(xy 205.74 39.37) (xy 208.28 39.37)
 		)
 		(stroke
@@ -202,7 +212,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 72.39 106.68)
+			(xy 165.1 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4022426c-28fa-4e72-92de-dbb1d95124ff")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 72.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -392,6 +412,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 66.04) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e544af-5ccd-4658-8733-f75726c81a33")
+	)
+	(wire
+		(pts
 			(xy 205.74 78.74) (xy 213.36 78.74)
 		)
 		(stroke
@@ -422,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 72.39 60.96)
+			(xy 165.1 55.88) (xy 72.39 55.88)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 67.31 66.04)
+			(xy 165.1 60.96) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 165.1 63.5)
+			(xy 69.85 58.42) (xy 165.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 104.14) (xy 74.93 58.42)
+			(xy 74.93 104.14) (xy 74.93 53.34)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 67.31 111.76)
+			(xy 67.31 60.96) (xy 67.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 109.22) (xy 69.85 63.5)
+			(xy 69.85 109.22) (xy 69.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1071,7 +1101,7 @@
 			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
 		)
 		(pin "LPF_EN" output
-			(at 165.1 63.5 180)
+			(at 165.1 58.42 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1081,7 +1111,7 @@
 			(uuid "9d0a95dc-29a7-4a70-9ee2-659aa446577a")
 		)
 		(pin "RF_AMP_EN" output
-			(at 165.1 66.04 180)
+			(at 165.1 60.96 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1091,7 +1121,7 @@
 			(uuid "4ef9ed8f-1911-407c-9819-c90149caef60")
 		)
 		(pin "TX_EN" output
-			(at 165.1 58.42 180)
+			(at 165.1 53.34 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1101,7 +1131,7 @@
 			(uuid "99349822-823f-4bf5-a6cc-f5f6f665c343")
 		)
 		(pin "~{MIX_EN}" output
-			(at 165.1 60.96 180)
+			(at 165.1 55.88 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1229,6 +1259,16 @@
 				(justify right)
 			)
 			(uuid "27fa7fed-bdc3-4329-b4c8-d7687b7b5f00")
+		)
+		(pin "~{AA_EN}" input
+			(at 165.1 66.04 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "48fa5e2b-e390-46f4-b31c-3b021e2d79a8")
 		)
 		(instances
 			(project "praline"
@@ -1495,8 +1535,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 87.63)
-		(size 26.67 25.4)
+		(at 86.36 82.55)
+		(size 26.67 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1507,7 +1547,7 @@
 		)
 		(uuid "03930949-b2dd-4151-b892-cf65af2345ca")
 		(property "Sheetname" "ADC, DAC"
-			(at 86.36 86.9184 0)
+			(at 86.36 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,6 +1613,16 @@
 				(justify right)
 			)
 			(uuid "ff3a9406-e6c7-433d-84f0-9991bec2fdf6")
+		)
+		(pin "~{AA_EN}" input
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "d61f6e16-2bc1-4772-9b66-cfa88f550fd6")
 		)
 		(instances
 			(project "praline"

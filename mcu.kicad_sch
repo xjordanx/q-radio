@@ -14111,7 +14111,7 @@
 		(uuid "60af3888-28e0-4768-9b76-3cde7010d0aa")
 	)
 	(hierarchical_label "~{AA_EN}"
-		(shape input)
+		(shape output)
 		(at 194.31 76.2 180)
 		(effects
 			(font

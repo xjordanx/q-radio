@@ -1260,7 +1260,7 @@
 			)
 			(uuid "27fa7fed-bdc3-4329-b4c8-d7687b7b5f00")
 		)
-		(pin "~{AA_EN}" input
+		(pin "~{AA_EN}" output
 			(at 165.1 66.04 180)
 			(effects
 				(font

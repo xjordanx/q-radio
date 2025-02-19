@@ -1850,6 +1850,12 @@
 		(uuid "49f20eb3-9c64-4688-a87e-2163fc31234d")
 	)
 	(junction
+		(at 179.07 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4da921d0-118c-4726-a46e-bc316e2c6987")
+	)
+	(junction
 		(at 161.29 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1872,6 +1878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "612ea965-15c7-4c62-8742-e6750ce9907b")
+	)
+	(junction
+		(at 179.07 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63611a65-1b49-41a7-8522-045c8ec9e2af")
 	)
 	(junction
 		(at 232.41 24.13)
@@ -1928,6 +1940,12 @@
 		(uuid "848f1f21-fe65-40a3-b6dd-74eec9050542")
 	)
 	(junction
+		(at 179.07 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87b06695-0b84-45ad-9c00-87985f6cfad4")
+	)
+	(junction
 		(at 153.67 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1974,6 +1992,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a73ca780-b3ba-4350-8e02-fa3236bbadbe")
+	)
+	(junction
+		(at 179.07 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6f0620-806f-4379-8c98-af6b5c3df708")
 	)
 	(junction
 		(at 107.95 185.42)
@@ -2093,7 +2117,7 @@
 		(uuid "108b50a3-e50a-4822-bfc4-7d24270cd08b")
 	)
 	(bus_entry
-		(at 182.88 133.35)
+		(at 190.5 133.35)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2147,7 +2171,7 @@
 		(uuid "35f026e0-c090-40e5-b234-e49ba020b47c")
 	)
 	(bus_entry
-		(at 182.88 113.03)
+		(at 190.5 113.03)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2201,7 +2225,7 @@
 		(uuid "9b8d4cc7-490c-4403-b7d5-c2cc7f238e36")
 	)
 	(bus_entry
-		(at 182.88 143.51)
+		(at 190.5 143.51)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2300,7 +2324,7 @@
 		(uuid "ec9dbf7f-5f71-41e7-ab2c-feb4f4ad3257")
 	)
 	(bus_entry
-		(at 182.88 123.19)
+		(at 190.5 123.19)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2699,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 182.88 113.03)
+			(xy 175.26 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2953,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 110.49) (xy 185.42 120.65)
+			(xy 193.04 110.49) (xy 193.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2946,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "5c36c337-1290-4691-90bd-f12542448124")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c88ef99-e7cf-484a-81f2-418d4da27643")
 	)
 	(wire
 		(pts
@@ -3026,6 +3060,16 @@
 			(type default)
 		)
 		(uuid "6384ca6f-82d8-42c7-8deb-8eb0fcb43575")
+	)
+	(wire
+		(pts
+			(xy 179.07 133.35) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bfc382-d03f-4baa-ba6b-f23a2db6735f")
 	)
 	(wire
 		(pts
@@ -3149,7 +3193,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 143.51) (xy 182.88 143.51)
+			(xy 179.07 121.92) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7423b58f-ba2c-433f-b214-6b933b8c2368")
+	)
+	(wire
+		(pts
+			(xy 137.16 143.51) (xy 179.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 133.35) (xy 182.88 133.35)
+			(xy 149.86 133.35) (xy 179.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3256,6 +3310,16 @@
 			(type default)
 		)
 		(uuid "7979d87f-d199-4c5c-8bba-856b3a90eb03")
+	)
+	(wire
+		(pts
+			(xy 179.07 133.35) (xy 190.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cfd6ee-dcf7-448a-aa6e-4298a73db9a2")
 	)
 	(wire
 		(pts
@@ -3339,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 182.88 123.19)
+			(xy 162.56 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3379,6 +3443,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 143.51) (xy 190.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8592ac63-88d9-40b4-b032-311ed387a3b8")
+	)
+	(wire
+		(pts
 			(xy 109.22 102.87) (xy 109.22 58.42)
 		)
 		(stroke
@@ -3406,6 +3480,16 @@
 			(type default)
 		)
 		(uuid "88e0bfc0-a0b3-4cfb-96bc-cf90192c3866")
+	)
+	(wire
+		(pts
+			(xy 179.07 123.19) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8904ad78-68e5-4fee-b39a-57f71a4685fe")
 	)
 	(bus
 		(pts
@@ -3499,7 +3583,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 130.81) (xy 185.42 140.97)
+			(xy 193.04 130.81) (xy 193.04 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3526,6 +3610,16 @@
 			(type default)
 		)
 		(uuid "982fc130-6abc-4270-9ad5-16ba33d18780")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995b2523-127f-42c5-ab1d-a03d87bf993c")
 	)
 	(bus
 		(pts
@@ -3556,6 +3650,16 @@
 			(type default)
 		)
 		(uuid "9b064f5c-489f-4b75-9986-3a839a5c4142")
+	)
+	(wire
+		(pts
+			(xy 179.07 142.24) (xy 179.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc67ca1-3c82-40e6-bfb8-8fa559c3e2ed")
 	)
 	(wire
 		(pts
@@ -3619,7 +3723,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 120.65) (xy 185.42 130.81)
+			(xy 193.04 120.65) (xy 193.04 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3873,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 110.49) (xy 186.69 110.49)
+			(xy 193.04 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4310,7 +4414,7 @@
 	)
 	(text "TX I and Q are swapped, inverting the\nspectrum.  One of the differential pairs\nis inverted, also inverting the\nspectrum.  The two inversions cancel."
 		(exclude_from_sim no)
-		(at 195.58 133.35 0)
+		(at 201.93 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4768,7 +4872,7 @@
 	)
 	(hierarchical_label "TXBB{IQ}"
 		(shape output)
-		(at 186.69 110.49 0)
+		(at 194.31 110.49 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4853,6 +4957,103 @@
 			(justify right)
 		)
 		(uuid "ac54475d-73fa-4555-a4f7-0977cd099b8a")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0367ebc1-69d3-4595-98e1-699513ea3dbf")
+		(property "Reference" "R118"
+			(at 181.61 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k±1%"
+			(at 181.61 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201FR-074K7L"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e69c135-a469-4de0-abd6-8fd433cc8e19")
+		)
+		(pin "2"
+			(uuid "85ace7cb-f052-4b7b-809d-18b987efc384")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5766,6 +5967,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
 					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "28c53f21-c127-4adb-a34e-0be3bc244d5b")
+		(property "Reference" "R119"
+			(at 181.61 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k±1%"
+			(at 181.61 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201FR-074K7L"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0031f2a5-c7fb-4468-a6c8-f856e61f3d9c")
+		)
+		(pin "2"
+			(uuid "2d78c76c-3a23-4793-ba1a-bdda1ce546fd")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
+					(reference "R119")
 					(unit 1)
 				)
 			)

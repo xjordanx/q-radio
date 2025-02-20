@@ -731,14 +731,14 @@
     ],
     [
       "00000000-0000-0000-0000-0000503bb638",
-      "frontend"
+      "RF Front End"
     ],
     [
       "e983c194-621e-40aa-896b-a14f1ba8c8f7",
       "FPGA"
     ],
     [
-      "f1aebcca-cf04-4adc-845a-2839fb07bf4f",
+      "786d04ae-a477-4586-9df0-2e24f8eeece5",
       "Mixer"
     ],
     [
@@ -760,11 +760,15 @@
     [
       "6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc",
       "USB"
+    ],
+    [
+      "ff1d794b-c145-4e84-b14d-8e74ee8b4d43",
+      "Image Reject Filters"
     ]
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
-    "DATE": "2025-02-19",
+    "DATE": "2025-02-20",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.2.0+"

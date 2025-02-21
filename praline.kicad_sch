@@ -1492,7 +1492,7 @@
 			)
 			(uuid "bc1a8a22-dd85-4ebc-b1af-8ee34e1de9ac")
 		)
-		(pin "1V2_EN" input
+		(pin "1V2_EN" output
 			(at 233.68 43.18 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 			)
 			(uuid "9f419752-4e59-4f16-bae0-1911392a442e")
 		)
-		(pin "VBUS" output
+		(pin "VBUS" input
 			(at 233.68 30.48 0)
 			(effects
 				(font
@@ -1762,7 +1762,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-000050370666")
-		(property "Sheetname" "baseband"
+		(property "Sheetname" "IF Transceiver"
 			(at 53.34 89.3314 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 			)
 			(uuid "29518539-a217-4e96-9ec0-c47a32c4c52b")
 		)
-		(pin "CLKIN" output
+		(pin "CLKIN" input
 			(at 233.68 105.41 0)
 			(effects
 				(font

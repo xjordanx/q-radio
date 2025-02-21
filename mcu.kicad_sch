@@ -7435,16 +7435,16 @@
 		(uuid "1b437a16-ddc2-4a20-9880-78fd2232e4e8")
 	)
 	(no_connect
+		(at 194.31 226.06)
+		(uuid "1df244ad-0adc-412d-9a07-6693d811a040")
+	)
+	(no_connect
 		(at 245.11 185.42)
 		(uuid "255486d8-dd81-4567-96c0-a5c8970b7cc3")
 	)
 	(no_connect
 		(at 245.11 205.74)
 		(uuid "2cec66c5-979a-48a9-8107-42eb9d2ab20e")
-	)
-	(no_connect
-		(at 194.31 228.6)
-		(uuid "4275cd39-72d2-43e7-8cd1-a34154282445")
 	)
 	(no_connect
 		(at 194.31 200.66)
@@ -7812,7 +7812,7 @@
 		(uuid "cc8d8568-c652-4215-b439-bb291acad070")
 	)
 	(bus_entry
-		(at 160.02 228.6)
+		(at 160.02 223.52)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -7888,7 +7888,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 121.92) (xy 160.02 226.06)
+			(xy 160.02 121.92) (xy 160.02 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7945,16 +7945,6 @@
 			(type default)
 		)
 		(uuid "05c4cff3-e197-4db0-b68c-268840a64db4")
-	)
-	(bus
-		(pts
-			(xy 160.02 226.06) (xy 160.02 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ef8480-f87d-4192-aa1b-20139fd8913c")
 	)
 	(wire
 		(pts
@@ -8428,7 +8418,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 228.6) (xy 160.02 228.6)
+			(xy 158.75 226.06) (xy 160.02 226.06)
 		)
 		(stroke
 			(width 0)
@@ -9178,7 +9168,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 226.06) (xy 194.31 226.06)
+			(xy 162.56 220.98) (xy 194.31 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9685,6 +9675,16 @@
 			(type default)
 		)
 		(uuid "884f2f31-6443-4169-bd0f-ed0ccc573540")
+	)
+	(bus
+		(pts
+			(xy 160.02 223.52) (xy 160.02 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8943b5fa-bc41-43b1-a57e-472f35d89ecb")
 	)
 	(wire
 		(pts
@@ -12015,7 +12015,7 @@
 		(uuid "0fc0b2c8-3d07-4a01-b030-709645167def")
 	)
 	(label "CLKIN_CTRL0"
-		(at 163.83 226.06 0)
+		(at 163.83 220.98 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14150,7 +14150,7 @@
 		(uuid "077b96d7-8bf3-4e37-880c-2c7d16700145")
 	)
 	(hierarchical_label "VBUS"
-		(shape output)
+		(shape input)
 		(at 354.33 127 180)
 		(effects
 			(font
@@ -14293,7 +14293,7 @@
 		(uuid "76df6942-5a91-4b83-adf8-6ceb218b2234")
 	)
 	(hierarchical_label "1V2_EN"
-		(shape input)
+		(shape output)
 		(at 245.11 58.42 0)
 		(effects
 			(font
@@ -14305,7 +14305,7 @@
 	)
 	(hierarchical_label "CLKIN_CTRL[0..2]"
 		(shape bidirectional)
-		(at 158.75 228.6 180)
+		(at 158.75 226.06 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14393,7 +14393,7 @@
 	)
 	(hierarchical_label "~{3V3AUX_OC}"
 		(shape input)
-		(at 194.31 220.98 180)
+		(at 194.31 228.6 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -24257,7 +24257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 265.43 0)
+			(at 215.9 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

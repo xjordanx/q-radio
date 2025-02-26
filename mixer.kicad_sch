@@ -3693,17 +3693,6 @@
 		)
 		(uuid "520273ed-7a45-404f-b179-b8b9f447d349")
 	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 162.56 99.06 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d021771-df58-4cec-ba89-84b956b476d0")
-	)
 	(text "loop filter"
 		(exclude_from_sim no)
 		(at 189.23 35.56 0)
@@ -6741,15 +6730,15 @@
 		(fields_autoplaced yes)
 		(uuid "7d6ec820-34ef-4d04-9786-428e827831fc")
 		(property "Reference" "R4"
-			(at 162.56 104.14 90)
+			(at 162.56 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "51k"
-			(at 162.56 106.68 90)
+		(property "Value" "51k±1%"
+			(at 162.56 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

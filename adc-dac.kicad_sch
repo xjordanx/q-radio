@@ -5028,7 +5028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 111.76 182.8799 0)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 96.52 140.9699 0)
 			(effects
 				(font
@@ -5287,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 120.65 62.23 90)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 86.36 182.8799 0)
 			(effects
 				(font
@@ -6154,7 +6154,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 120.65 92.71 90)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 120.65 20.32 90)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 137.16 182.8799 0)
 			(effects
 				(font
@@ -7184,7 +7184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 274.32 29.2099 0)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 124.46 182.8799 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 35.56 182.8799 0)
 			(effects
 				(font
@@ -8132,7 +8132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 83.82 140.9699 0)
 			(effects
 				(font
@@ -8582,7 +8582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 99.06 182.8799 0)
 			(effects
 				(font
@@ -9322,7 +9322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 236.22 29.2099 0)
 			(effects
 				(font
@@ -9647,7 +9647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 149.86 182.8799 0)
 			(effects
 				(font
@@ -9810,7 +9810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 73.66 182.8799 0)
 			(effects
 				(font
@@ -9907,7 +9907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 109.22 140.9699 0)
 			(effects
 				(font
@@ -10232,7 +10232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 261.62 29.2099 0)
 			(effects
 				(font
@@ -11052,7 +11052,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 120.65 50.8 90)
 			(effects
 				(font
@@ -11443,7 +11443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 248.92 29.2099 0)
 			(effects
 				(font

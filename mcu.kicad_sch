@@ -3841,6 +3841,126 @@
 				)
 			)
 		)
+		(symbol "praline:3V3LED"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3LED"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3LED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3LED_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "praline:LPC43xxFET180"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7191,6 +7311,12 @@
 		(uuid "28993270-9bee-4432-9fbb-9088c3a95f2b")
 	)
 	(junction
+		(at 45.72 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b72ea2-f773-4aef-a544-e5eab688045b")
+	)
+	(junction
 		(at 223.52 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7213,6 +7339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b5bf4f1-ca2b-4d7a-835d-bd674fa86db9")
+	)
+	(junction
+		(at 20.32 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e3d198-d055-4974-b026-8c34105e06c3")
 	)
 	(junction
 		(at 172.72 160.02)
@@ -7365,6 +7497,12 @@
 		(uuid "adbb0d92-a264-4e49-85ec-833cafb1dc93")
 	)
 	(junction
+		(at 33.02 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43bfcd2-efdd-4c36-8167-bb0680336295")
+	)
+	(junction
 		(at 267.97 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7395,6 +7533,12 @@
 		(uuid "c436f8d7-7332-46f5-9171-4df085813fc9")
 	)
 	(junction
+		(at 20.32 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6daebba-ca6d-4ca4-97d0-5067c39d081a")
+	)
+	(junction
 		(at 52.07 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7419,10 +7563,22 @@
 		(uuid "dc335793-13f1-4353-b736-4d80417d5052")
 	)
 	(junction
+		(at 33.02 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e351270b-e40f-4f06-8cb1-d70de4389a1d")
+	)
+	(junction
 		(at 29.21 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f35c49-272e-4c17-9ab5-ba7095b09745")
+	)
+	(junction
+		(at 45.72 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efc0b8f0-6854-477e-be97-91b2c5954489")
 	)
 	(junction
 		(at 111.76 59.69)
@@ -8058,6 +8214,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 146.05) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c181b3b-2915-4aac-ac0b-bc8d7623b074")
+	)
+	(wire
+		(pts
 			(xy 316.23 147.32) (xy 316.23 162.56)
 		)
 		(stroke
@@ -8235,6 +8401,16 @@
 			(type default)
 		)
 		(uuid "19e5a23a-4181-4255-9ad3-1cdb45ce93c4")
+	)
+	(wire
+		(pts
+			(xy 33.02 138.43) (xy 45.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad1882f-d2b5-4251-995d-aac3ed8db924")
 	)
 	(wire
 		(pts
@@ -9958,6 +10134,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 138.43) (xy 58.42 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a737061-a957-445c-9c40-c87544ffaf9a")
+	)
+	(wire
+		(pts
 			(xy 194.31 233.68) (xy 186.69 233.68)
 		)
 		(stroke
@@ -10498,6 +10684,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 146.05) (xy 33.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26b933d-3e0d-47a6-ac64-fc1a907233ea")
+	)
+	(wire
+		(pts
 			(xy 361.95 121.92) (xy 354.33 121.92)
 		)
 		(stroke
@@ -10555,6 +10751,16 @@
 			(type default)
 		)
 		(uuid "ca7d94dc-58f2-499e-a93e-60717bb1afcc")
+	)
+	(wire
+		(pts
+			(xy 33.02 146.05) (xy 45.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0db1e0-cc55-4d2c-8436-0d4f8b287475")
 	)
 	(wire
 		(pts
@@ -10765,6 +10971,16 @@
 			(type default)
 		)
 		(uuid "d72da998-9c00-4889-9b1e-d6fbde3a7568")
+	)
+	(wire
+		(pts
+			(xy 20.32 138.43) (xy 33.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d4a67f-bade-43f3-a175-57586f66282d")
 	)
 	(wire
 		(pts
@@ -15707,72 +15923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00004f83c274")
-		(property "Reference" "#PWR0204"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 180.848 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18fd38d6-b796-4a58-b4b6-d0c3b2e4dd88")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 33.02 175.26 90)
 		(unit 1)
@@ -20012,72 +20162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 83.82 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000527dc2ef")
-		(property "Reference" "#PWR0293"
-			(at 83.82 179.07 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 180.848 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d031988d-2ffe-4322-8d1c-db29aedb110b")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0293")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 213.36 90)
 		(unit 1)
@@ -21306,137 +21390,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 62.23 227.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f8a8d5a")
-		(property "Reference" "#PWR0308"
-			(at 58.42 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 65.4812 227.7618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c2b2d01-c632-46ba-8635-53829f70a171")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 50.8 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f8a94e5")
-		(property "Reference" "#PWR0309"
-			(at 50.8 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 51.2318 196.2658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 50.8 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "390ca587-6b60-4191-82b7-e9b025596b89")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 323.85 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21566,6 +21519,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 20.32 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036bec05-c9f1-481f-a596-1764a36cdd00")
+		(property "Reference" "C80"
+			(at 24.13 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 24.13 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97ced514-b683-46a9-af4c-6e8a1415e198")
+		)
+		(pin "2"
+			(uuid "8a774d95-9ba8-4735-8822-65f0739f9b89")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 54.61 0)
 		(mirror y)
@@ -21657,6 +21707,72 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "113adb7b-7073-46a1-a274-5db81350a012")
+		(property "Reference" "#PWR0103"
+			(at 83.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e971610-a45b-4797-afb0-3b60d1e9a60e")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -21993,6 +22109,72 @@
 		)
 	)
 	(symbol
+		(lib_id "praline:3V3LED")
+		(at 33.02 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47aa442a-d852-4bf9-91b8-78dc9c985720")
+		(property "Reference" "#PWR095"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 33.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc7a6a2-031f-42f3-8283-2fa7e758a1b2")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 111.76 38.1 0)
 		(unit 1)
@@ -22185,6 +22367,72 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3LED")
+		(at 50.8 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3ced6d-fd8a-4733-8a51-4ff1d4bebc05")
+		(property "Reference" "#PWR0329"
+			(at 50.8 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 50.8 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 50.8 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cecab650-2820-4dd0-a2e3-bfe2b7369ecc")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -22822,72 +23070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 58.42 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e4c7c76-9b26-4b80-b828-178e8152b2e6")
-		(property "Reference" "#PWR095"
-			(at 58.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 58.42 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 58.42 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99636185-ca8f-4c9b-a95c-67ede93f4014")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 172.72 163.83 180)
 		(unit 1)
@@ -23083,72 +23265,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 20.32 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ccb0554-bdb7-4211-a05e-86186bd8dcd3")
-		(property "Reference" "#PWR0144"
-			(at 20.32 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 20.32 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 20.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe07be8-9b38-48f5-a9c4-9be85dcb16fe")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 279.4 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23208,6 +23324,332 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773cbbf3-b281-4cdc-b9c5-ad8d629c9cc4")
+		(property "Reference" "C162"
+			(at 87.63 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 87.63 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ec5d13-4251-4fc0-a39c-049228a40ec0")
+		)
+		(pin "2"
+			(uuid "99045acf-576b-4bf2-a63f-61e4245ce8c6")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773ec433-71a5-489d-adcb-f6fd96247ae8")
+		(property "Reference" "C81"
+			(at 36.83 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 36.83 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 33.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a965a66-0494-42c7-807d-9e38c0ea9a90")
+		)
+		(pin "2"
+			(uuid "dce6e8ad-3eab-4ead-8dc7-239e36c4557c")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3LED")
+		(at 45.72 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "777675d2-bfb7-4324-b510-c01eb9407139")
+		(property "Reference" "#PWR0130"
+			(at 45.72 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 45.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00ea9bd5-dfa2-43a4-aacb-ad20d129baa0")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c4f435-00ee-43f8-899d-64e13c5da3d7")
+		(property "Reference" "#PWR0105"
+			(at 71.12 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0745b9c0-23bb-48bf-b1ad-a8d37dafb9b6")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -23412,17 +23854,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 33.02 163.83 0)
+		(lib_id "power:GND")
+		(at 20.32 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b726e99-8e24-4c44-b808-33f355002f84")
-		(property "Reference" "#PWR0143"
-			(at 33.02 167.64 0)
+		(uuid "83cb70bb-09bb-4ed4-8468-f8d063a61012")
+		(property "Reference" "#PWR041"
+			(at 20.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23430,8 +23872,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 33.02 158.75 0)
+		(property "Value" "GND"
+			(at 20.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23439,7 +23881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 163.83 0)
+			(at 20.32 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23448,7 +23890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 163.83 0)
+			(at 20.32 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23456,74 +23898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c302b050-e282-46ad-91c0-4f9a4085bd58")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 45.72 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f167621-fce6-48a2-8520-dccea958d757")
-		(property "Reference" "#PWR0130"
-			(at 45.72 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 45.72 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 45.72 163.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23532,12 +23908,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae79871d-072b-4c95-ab77-8e8a15967243")
+			(uuid "aaacdc81-5d24-4211-9618-6ac2312c416a")
 		)
 		(instances
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0130")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -23605,6 +23981,271 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3FPGA")
+		(at 71.12 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c678b3-f065-4ad0-8b81-cbe3bd192493")
+		(property "Reference" "#PWR063"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3FPGA"
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c94dfee6-143b-4d8d-9585-11b4c43952fc")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3LED")
+		(at 62.23 227.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b12f1a-0c03-41d9-96fb-c5bb15fe2362")
+		(property "Reference" "#PWR0308"
+			(at 58.42 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 66.04 227.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 62.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61be842-2f38-4c65-a285-cebe75d6499e")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a485e9cc-9d2a-4888-9396-64bfd3475fea")
+		(property "Reference" "#PWR0106"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "286c8ec2-9014-4498-af8c-3058f7d3f561")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3LED")
+		(at 20.32 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b02eab03-3d78-4a26-ace7-e2d588537311")
+		(property "Reference" "#PWR0293"
+			(at 20.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 20.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 20.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d89570-3e83-46e7-a6aa-9a794dd711ee")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -23737,6 +24378,235 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "praline:3V3LED")
+		(at 58.42 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf97654e-8da0-419a-a8ab-269437ab6c17")
+		(property "Reference" "#PWR0143"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 58.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14a91712-2270-4cfb-8839-d1c2da9a8dc1")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c78cd54f-1be9-48bf-bc82-88dff2f0be26")
+		(property "Reference" "#PWR067"
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd9c409-6b20-4aef-9005-ac4ddabe3a35")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97f7735-e871-48bf-ac7d-216b6b6d9d26")
+		(property "Reference" "C110"
+			(at 49.53 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 49.53 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2b7b03-d204-4d47-80b4-05adf5a11fd5")
+		)
+		(pin "2"
+			(uuid "d1ef1eb9-4ed8-4969-9716-b851a1d20fca")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -24038,6 +24908,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 58.42 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8a65e2-83a6-410f-98ce-dd9e1421059a")
+		(property "Reference" "C124"
+			(at 62.23 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 62.23 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba36f01e-b4f5-4ac6-a842-8c6f227387de")
+		)
+		(pin "2"
+			(uuid "a6d58237-3422-4521-86db-1dc22b27d953")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "praline:3V3AUX")
 		(at 354.33 104.14 90)
 		(unit 1)
@@ -24105,6 +25072,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 71.12 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecaf865f-3b44-4a64-b91a-3ea2fe25f0b4")
+		(property "Reference" "C140"
+			(at 74.93 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 74.93 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0402"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05A105KA5NQNC"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM155R61E105KA12D"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c4decc-4efc-4e34-95df-0ddd0d80de73")
+		)
+		(pin "2"
+			(uuid "7105430e-cc80-4c5c-834b-2e74647867e9")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 208.28 27.94 0)
 		(unit 1)
@@ -24124,7 +25188,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 208.28 24.13 0)
+			(at 208.28 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24238,6 +25302,72 @@
 		)
 	)
 	(symbol
+		(lib_id "praline:3V3LED")
+		(at 20.32 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f009ffee-d95c-449f-b435-18e07ad9a0d1")
+		(property "Reference" "#PWR032"
+			(at 20.32 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3LED"
+			(at 20.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
+			(at 20.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c2d9e38-1f24-4374-ad5b-1af0ac77eba6")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 259.08 0)
 		(unit 1)
@@ -24298,6 +25428,72 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VAA")
+		(at 83.82 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f374438f-29a7-4dc2-8f6e-aafd2d625fc5")
+		(property "Reference" "#PWR065"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VAA"
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 83.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067cd450-b21b-49ef-86cb-93b5b87d659c")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

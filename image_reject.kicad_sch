@@ -3904,7 +3904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 143.51 171.4499 0)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
 			(at 151.13 170.18 0)
 			(effects
 				(font
@@ -4231,6 +4231,15 @@
 			)
 		)
 		(property "Note" ""
+			(at 151.13 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
 			(at 151.13 170.18 0)
 			(effects
 				(font

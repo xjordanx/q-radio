@@ -6083,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 27.94 90)
 			(effects
 				(font
@@ -6109,7 +6109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 102.87 90)
 			(effects
 				(font
@@ -6637,7 +6637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -6655,7 +6655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -7048,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 45.72 90)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 52.07 0)
 			(effects
 				(font
@@ -7092,7 +7092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 52.07 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 218.44 90)
 			(effects
 				(font
@@ -7282,7 +7282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 207.01 0)
 			(effects
 				(font
@@ -7300,7 +7300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 207.01 0)
 			(effects
 				(font
@@ -8431,7 +8431,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 182.88 90)
 			(effects
 				(font
@@ -8457,7 +8457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 189.23 0)
 			(effects
 				(font
@@ -8475,7 +8475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 189.23 0)
 			(effects
 				(font
@@ -8676,7 +8676,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 85.09 90)
 			(effects
 				(font
@@ -8702,7 +8702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -8720,7 +8720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -9216,7 +9216,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 228.6 90)
 			(effects
 				(font
@@ -9242,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33 OHM 5% 1/16W 0402"
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
 			(at 134.62 222.25 0)
 			(effects
 				(font
@@ -9260,7 +9260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0733RL"
+		(property "Part Number" "RC0402JR-07100RL"
 			(at 134.62 222.25 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 63.5 90)
 			(effects
 				(font
@@ -9337,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -9355,7 +9355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -9653,7 +9653,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 134.62 147.32 90)
 			(effects
 				(font
@@ -9679,7 +9679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES ARRAY 4 RES 33 OHM 0804"
+		(property "Description" "RES ARRAY 4 RES 100 OHM 0804"
 			(at 134.62 153.67 0)
 			(effects
 				(font
@@ -9697,7 +9697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "YC124-JR-0733RL"
+		(property "Part Number" "YC124-JR-07100RL"
 			(at 134.62 153.67 0)
 			(effects
 				(font

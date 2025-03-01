@@ -21634,7 +21634,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7.87k"
+		(property "Value" "13.7k"
 			(at 114.3 55.8799 0)
 			(effects
 				(font
@@ -21661,7 +21661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 7.87K OHM 1% 1/16W 0402"
+		(property "Description" "RES 13.7K OHM 1% 1/16W 0402"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -21679,7 +21679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-077K87L"
+		(property "Part Number" "RC0402FR-0713K7L"
 			(at 111.76 54.61 0)
 			(effects
 				(font

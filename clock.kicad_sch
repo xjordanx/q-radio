@@ -951,6 +951,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1697,149 +1842,6 @@
 				)
 			)
 		)
-		(symbol "hackrf:GSG-DIODE-TVS-BI"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GSG-DIODE-TVS-BI"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" "Diode zener"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DEV DIODE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D? SO* SM*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GSG-DIODE-TVS-BI_0_1"
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy 0 0.762) (xy 0 -0.762) (xy 0.508 -1.27) (xy 0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "GSG-DIODE-TVS-BI_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "hackrf:GSG-RF-CONN"
 			(pin_names
 				(offset 0) hide)
@@ -2301,6 +2303,12 @@
 		(uuid "1d2328cf-44d6-44c2-b1e8-64d75e05a84e")
 	)
 	(junction
+		(at 57.15 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e988201-da34-4fc1-ad64-2c8a93288127")
+	)
+	(junction
 		(at 120.65 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2313,10 +2321,10 @@
 		(uuid "31d23b81-67f9-4566-9688-2b8e70e4d4e8")
 	)
 	(junction
-		(at 228.6 99.06)
+		(at 238.76 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bd5debc-2e16-4396-b1a5-f113ea567420")
+		(uuid "3661b81f-2d7a-4004-993f-cc173efde6a3")
 	)
 	(junction
 		(at 95.25 177.8)
@@ -2359,12 +2367,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "768d6b3a-ebe1-4732-a6a3-f4bb81d688e7")
-	)
-	(junction
-		(at 57.15 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c9de9a0-7f7e-4ae2-a4ac-4546d9643ef1")
 	)
 	(junction
 		(at 133.35 177.8)
@@ -2433,7 +2435,7 @@
 		(uuid "dee09a9b-e9a2-4bad-ac84-396f292e6884")
 	)
 	(junction
-		(at 237.49 99.06)
+		(at 247.65 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2cef31-39ae-4e8c-bafb-b7ae905b848c")
@@ -2525,13 +2527,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 50.8 49.53)
+			(xy 57.15 35.56) (xy 59.69 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00360fef-9aab-4b7f-8d84-fd81c681db4c")
+		(uuid "015beb54-5220-43e7-9fc3-a52375275cf6")
 	)
 	(wire
 		(pts
@@ -2552,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "085b7b9e-2ff3-487f-b4a3-73a708c06b73")
+	)
+	(wire
+		(pts
+			(xy 67.31 35.56) (xy 74.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd28db0-7d56-4ee0-9a2f-f400704f6995")
 	)
 	(wire
 		(pts
@@ -2725,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 229.87 96.52)
+			(xy 238.76 96.52) (xy 240.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2785,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 99.06) (xy 238.76 99.06)
+			(xy 247.65 99.06) (xy 248.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 237.49 99.06)
+			(xy 238.76 99.06) (xy 247.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2862,16 +2874,6 @@
 			(type default)
 		)
 		(uuid "43e20a8a-70f8-4724-a975-47349da0ece5")
-	)
-	(wire
-		(pts
-			(xy 50.8 36.83) (xy 50.8 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "440ecb4b-f53e-47a4-b5e2-e7013fd22bf8")
 	)
 	(wire
 		(pts
@@ -3115,23 +3117,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 96.52)
+			(xy 238.76 99.06) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d5f9772-c26f-4392-82f9-0ce014eee1e9")
-	)
-	(wire
-		(pts
-			(xy 237.49 115.57) (xy 237.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ffa39d7-eaa6-48b1-b934-74875bbc9788")
 	)
 	(wire
 		(pts
@@ -3265,16 +3257,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 101.6) (xy 237.49 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef1ec98-6d8e-411b-83c3-fa3dca3bebfd")
-	)
-	(wire
-		(pts
 			(xy 110.49 97.79) (xy 113.03 97.79)
 		)
 		(stroke
@@ -3332,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "937d5abb-4142-4058-aa9e-77e05a69553e")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 238.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989b90a0-85d4-4080-8eca-26d9e0b3dc48")
 	)
 	(bus
 		(pts
@@ -3445,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 119.38) (xy 148.59 119.38)
+			(xy 130.81 119.38) (xy 173.99 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3515,33 +3507,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 109.22) (xy 246.38 110.49)
+			(xy 256.54 109.22) (xy 256.54 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7df7327-384a-4f41-b0fd-473a33ea46bf")
-	)
-	(wire
-		(pts
-			(xy 140.97 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ccfc39-deca-4db7-9fa5-353bea716232")
-	)
-	(wire
-		(pts
-			(xy 156.21 119.38) (xy 173.99 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde4b175-b139-4c1d-b9ab-c362458846d5")
 	)
 	(wire
 		(pts
@@ -3562,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "d1e70b29-39fd-4321-8f16-1c22d82c0361")
-	)
-	(wire
-		(pts
-			(xy 57.15 35.56) (xy 74.93 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24cff9e-0fc6-4fcf-b269-ad6ce930b8fe")
 	)
 	(wire
 		(pts
@@ -3655,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 156.21 109.22)
+			(xy 210.82 109.22) (xy 140.97 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3842,7 +3804,7 @@
 	)
 	(text "3.3 V CMOS clock output at 10 MHz\n(or other frequency with firmware modification)"
 		(exclude_from_sim no)
-		(at 229.87 91.44 0)
+		(at 228.6 87.63 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4415,7 +4377,7 @@
 	)
 	(hierarchical_label "CLKOUT"
 		(shape output)
-		(at 229.87 96.52 0)
+		(at 240.03 96.52 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4979,7 +4941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 50.8 0)
+		(at 50.8 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4988,7 +4950,7 @@
 		(fields_autoplaced yes)
 		(uuid "143f713c-f0ec-4393-9497-48c96af88580")
 		(property "Reference" "#PWR092"
-			(at 50.8 57.15 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 55.88 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +4967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 50.8 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 50.8 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 50.8 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 115.57 0)
+		(at 247.65 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5246,7 +5208,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6dba18-ab54-4b84-8b85-5f122b718750")
 		(property "Reference" "#PWR0157"
-			(at 237.49 121.92 0)
+			(at 247.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 120.65 0)
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 115.57 0)
+			(at 247.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 115.57 0)
+			(at 247.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 115.57 0)
+			(at 247.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 119.38 270)
+		(at 63.5 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5312,7 +5274,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e7332e6-a0ba-4142-9fe4-374cc479d317")
 		(property "Reference" "R33"
-			(at 152.4 113.03 90)
+			(at 63.5 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5282,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 152.4 115.57 90)
+			(at 63.5 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5290,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5337,7 +5299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5346,7 +5308,7 @@
 			)
 		)
 		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5355,7 +5317,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5364,7 +5326,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5373,7 +5335,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 152.4 119.38 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,94 +5844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf:GSG-DIODE-TVS-BI")
-		(at 50.8 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441e990c-3bd4-4c94-b3a8-28e7a4a6b1b1")
-		(property "Reference" "D3"
-			(at 53.34 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 53.34 44.4499 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TECH PUBLIC"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LXES15AAA1-153"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b110ff5f-b4c3-4e47-881d-7ce3031917e1")
-		)
-		(pin "2"
-			(uuid "ee099f42-517e-4682-9058-12146e9519e1")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "praline:3V3CLK")
 		(at 95.25 177.8 0)
 		(unit 1)
@@ -6103,7 +5977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 110.49 0)
+		(at 256.54 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6112,7 +5986,7 @@
 		(fields_autoplaced yes)
 		(uuid "5195f565-2d01-4067-b34a-6f8c59055780")
 		(property "Reference" "#PWR0158"
-			(at 246.38 116.84 0)
+			(at 256.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +5995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 115.57 0)
+			(at 256.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 110.49 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 110.49 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 110.49 0)
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,94 +7505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf:GSG-DIODE-TVS-BI")
-		(at 237.49 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b279c8b8-2916-4b0c-a75e-9058424d9678")
-		(property "Reference" "D9"
-			(at 240.03 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS"
-			(at 240.03 109.2199 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "hackrf:GSG-0402"
-			(at 237.49 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS DIODE ESD .05PF 15KV 0402"
-			(at 237.49 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TECH PUBLIC"
-			(at 237.49 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LXES15AAA1-153"
-			(at 237.49 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd92df4f-0a9f-4c5d-8ac7-afe40d7a548f")
-		)
-		(pin "2"
-			(uuid "fb4d4198-7b94-4941-9a6a-0ff39db44f8a")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 139.7 270)
 		(unit 1)
@@ -8073,7 +7859,7 @@
 	)
 	(symbol
 		(lib_id "hackrf:GSG-RF-CONN")
-		(at 246.38 99.06 0)
+		(at 256.54 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8083,7 +7869,7 @@
 		(fields_autoplaced yes)
 		(uuid "c19ffe3a-8724-49cc-96b2-e58bb6616b5b")
 		(property "Reference" "P2"
-			(at 250.19 97.7899 0)
+			(at 260.35 97.7899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8092,7 +7878,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 250.19 100.3299 0)
+			(at 260.35 100.3299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8101,7 +7887,7 @@
 			)
 		)
 		(property "Footprint" "praline:SMA_MyAntenna_A-SMA-KE-16.5A_EdgeMount"
-			(at 246.38 99.06 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8110,7 +7896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 99.06 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8119,7 +7905,7 @@
 			)
 		)
 		(property "Description" "CONN SMA RCPT STR 50OHM EDGE MNT"
-			(at 246.38 99.06 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8128,7 +7914,7 @@
 			)
 		)
 		(property "Manufacturer" "MyAntenna"
-			(at 246.38 99.06 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8137,7 +7923,7 @@
 			)
 		)
 		(property "Part Number" "A-SMA-KE-16.5A"
-			(at 246.38 99.06 0)
+			(at 256.54 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8726,6 +8512,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 50.8 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2debafc-69b2-433d-862c-62133e543f82")
+		(property "Reference" "D3"
+			(at 53.34 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 53.34 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "praline:DFN1006-2"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3V UNIDIRECTIONAL DFN1006"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Slkor"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SLESD0301L"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "faae1cb8-85b0-41fa-b057-2803bbb25197")
+		)
+		(pin "1"
+			(uuid "cf8d5a07-0d1b-4b59-bb87-7a69ddc89b08")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 222.25 128.27 0)
 		(unit 1)
@@ -9043,7 +8917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 109.22 270)
+		(at 232.41 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9052,7 +8926,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6c23c9c-ba53-44be-9891-728d9fd48878")
 		(property "Reference" "R108"
-			(at 152.4 102.87 90)
+			(at 232.41 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +8934,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 152.4 105.41 90)
+			(at 232.41 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +8942,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9077,7 +8951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9086,7 +8960,7 @@
 			)
 		)
 		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9095,7 +8969,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9104,7 +8978,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9113,7 +8987,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 152.4 109.22 0)
+			(at 232.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,6 +9374,94 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 247.65 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd88ccb1-c48f-4f1b-8ab8-a8b8969b41b9")
+		(property "Reference" "D9"
+			(at 250.19 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 250.19 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "praline:DFN1006-2"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3V UNIDIRECTIONAL DFN1006"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Slkor"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SLESD0301L"
+			(at 247.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c3ab423-519e-4508-8e3d-6d21167618a4")
+		)
+		(pin "1"
+			(uuid "5fe75cd0-0256-4dae-a89e-84dbf49d6da3")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
+					(reference "D9")
 					(unit 1)
 				)
 			)

@@ -8452,7 +8452,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "DMC2400UV"
+		(property "Part Number" "DMC2400UV-7"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "DMC2400UV*"
 			(at 184.15 120.65 0)
 			(effects
 				(font
@@ -10099,7 +10108,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "DMC2400UV"
+		(property "Part Number" "DMC2400UV-7"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "DMC2400UV*"
 			(at 184.15 106.68 0)
 			(effects
 				(font

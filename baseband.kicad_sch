@@ -7776,7 +7776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -7785,7 +7785,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL03C101JA3NNNC"
+		(property "Part Number" "GRM0335C1E101JA01D"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "GRM0335C1E101JA01*, GRM0335C1H101JA01*"
 			(at 113.03 102.87 0)
 			(effects
 				(font

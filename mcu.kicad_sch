@@ -2858,6 +2858,205 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push_Shielded"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 4.318 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Shielded"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton momentary"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Shielded_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Shielded_1_1"
+				(rectangle
+					(start -3.048 2.54)
+					(end 3.048 -1.27)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "hackrf:GSG-XTAL4PIN"
 			(pin_numbers hide)
 			(pin_names
@@ -3013,156 +3212,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "hackrf:SW_PUSH_SHIELDED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_PUSH_SHIELDED"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" "Push Button with Shield"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_PUSH_SHIELDED_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_PUSH_SHIELDED_1_1"
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7485,7 +7534,7 @@
 		(uuid "96e9b3f5-89dd-4112-9e37-a3b962da5787")
 	)
 	(junction
-		(at 50.8 213.36)
+		(at 49.53 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a752015d-e5e3-4872-a882-027c79c3a3c0")
@@ -8484,7 +8533,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 213.36) (xy 50.8 210.82)
+			(xy 49.53 209.55) (xy 49.53 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8494,7 +8543,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 213.36) (xy 35.56 213.36)
+			(xy 40.64 209.55) (xy 35.56 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8641,16 +8690,6 @@
 			(type default)
 		)
 		(uuid "32de8c2c-5aa6-4c1e-b954-e1dd9bd6e28f")
-	)
-	(wire
-		(pts
-			(xy 68.58 213.36) (xy 71.12 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3381a9c9-e6a6-4be5-b8dc-0504e49b6579")
 	)
 	(wire
 		(pts
@@ -8954,7 +8993,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 213.36) (xy 53.34 213.36)
+			(xy 49.53 209.55) (xy 50.8 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9124,7 +9163,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 227.33) (xy 44.45 227.33)
+			(xy 41.91 227.33) (xy 43.18 227.33)
 		)
 		(stroke
 			(width 0)
@@ -9234,16 +9273,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 236.22) (xy 52.07 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66027769-ea5c-49c5-95ea-349dabfeb2e9")
-	)
-	(wire
-		(pts
 			(xy 321.31 132.08) (xy 321.31 134.62)
 		)
 		(stroke
@@ -9284,13 +9313,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 229.87) (xy 41.91 227.33)
+			(xy 41.91 228.6) (xy 41.91 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "687172e9-79d4-413c-b67b-9a26d25770d5")
+		(uuid "69531b9f-801f-4855-9b55-8d736a6d2f67")
 	)
 	(wire
 		(pts
@@ -9414,7 +9443,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 227.33) (xy 41.91 227.33)
+			(xy 40.64 227.33) (xy 41.91 227.33)
 		)
 		(stroke
 			(width 0)
@@ -9634,16 +9663,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 200.66) (xy 50.8 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1a9338-7b6b-4a57-b601-ea471d6b4202")
-	)
-	(wire
-		(pts
 			(xy 245.11 101.6) (xy 252.73 101.6)
 		)
 		(stroke
@@ -9651,16 +9670,6 @@
 			(type default)
 		)
 		(uuid "7e201234-3e0a-4aab-b009-a80017d0b749")
-	)
-	(wire
-		(pts
-			(xy 41.91 240.03) (xy 41.91 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb6058c-40a2-4f2a-aace-a312d53aef64")
 	)
 	(bus
 		(pts
@@ -9794,7 +9803,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 227.33) (xy 26.67 227.33)
+			(xy 33.02 227.33) (xy 27.94 227.33)
 		)
 		(stroke
 			(width 0)
@@ -10264,16 +10273,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 227.33) (xy 62.23 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7821c1d-b1d0-43cb-a352-365d98ffb452")
-	)
-	(wire
-		(pts
 			(xy 245.11 213.36) (xy 259.08 213.36)
 		)
 		(stroke
@@ -10431,16 +10430,6 @@
 			(type default)
 		)
 		(uuid "b1e90b60-6d45-4276-8e86-4e6f79a396e8")
-	)
-	(wire
-		(pts
-			(xy 60.96 219.71) (xy 60.96 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2179157-0bc7-4de1-8162-bdca21265f60")
 	)
 	(wire
 		(pts
@@ -11054,7 +11043,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 213.36) (xy 50.8 213.36)
+			(xy 48.26 209.55) (xy 49.53 209.55)
 		)
 		(stroke
 			(width 0)
@@ -12591,7 +12580,7 @@
 		(uuid "3ecdd1d8-510f-46b4-a26c-5d05fd7db631")
 	)
 	(label "P2_8"
-		(at 26.67 227.33 0)
+		(at 27.94 227.33 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13331,7 +13320,7 @@
 		(uuid "a21ac650-483d-478c-8d34-41b6c89b6a0f")
 	)
 	(label "~{RESET}"
-		(at 35.56 213.36 0)
+		(at 35.56 209.55 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -18551,32 +18540,35 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 207.01 0)
+		(at 49.53 204.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000503f999f")
 		(property "Reference" "R49"
-			(at 48.768 207.01 90)
+			(at 46.99 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 50.8 207.01 90)
+			(at 46.99 205.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18585,7 +18577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18594,7 +18586,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18603,7 +18595,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18612,7 +18604,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18621,7 +18613,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 50.8 207.01 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18743,72 +18735,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005043c554")
-		(property "Reference" "#PWR0193"
-			(at 41.91 240.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 241.808 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 240.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 240.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20dae086-b8c2-4b8a-837f-6343e2e80b14")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 48.26 256.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18875,31 +18801,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 233.68 0)
+		(at 41.91 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000504786e0")
 		(property "Reference" "R7"
-			(at 39.37 233.68 90)
+			(at 39.37 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 41.91 233.68 90)
+			(at 39.37 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18908,7 +18837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18917,7 +18846,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18926,7 +18855,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18935,7 +18864,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18944,7 +18873,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 41.91 233.68 0)
+			(at 41.91 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19064,17 +18993,17 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf:SW_PUSH_SHIELDED")
-		(at 52.07 227.33 0)
-		(mirror y)
+		(lib_id "Switch:SW_Push_Shielded")
+		(at 48.26 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005248e27d")
 		(property "Reference" "SW1"
-			(at 52.07 223.52 0)
+			(at 48.26 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,41 +19011,42 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 52.07 229.362 0)
+			(at 48.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SWITCH-FSMRA"
-			(at 52.07 227.33 0)
+		(property "Footprint" "praline:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 48.26 222.25 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 227.33 0)
+			(at 48.26 222.25 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 52.07 227.33 0)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+			(at 48.26 227.33 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 52.07 227.33 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19125,7 +19055,7 @@
 			)
 		)
 		(property "Part Number" "FSMRA3JH"
-			(at 52.07 227.33 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19139,7 +19069,7 @@
 		(pin "2"
 			(uuid "8883c80c-6e5d-4d15-b6a4-857e62ffa0f6")
 		)
-		(pin "0"
+		(pin "SH"
 			(uuid "b2de5079-c87d-46da-b310-9b316b0d2c29")
 		)
 		(instances
@@ -19152,17 +19082,17 @@
 		)
 	)
 	(symbol
-		(lib_id "hackrf:SW_PUSH_SHIELDED")
-		(at 60.96 213.36 0)
-		(mirror y)
+		(lib_id "Switch:SW_Push_Shielded")
+		(at 55.88 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005248ff4f")
 		(property "Reference" "SW2"
-			(at 60.96 209.55 0)
+			(at 55.88 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19170,41 +19100,42 @@
 			)
 		)
 		(property "Value" "SWITCH"
-			(at 60.96 215.392 0)
+			(at 55.88 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hackrf:GSG-SWITCH-FSMRA"
-			(at 60.96 213.36 0)
+		(property "Footprint" "praline:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 55.88 204.47 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 213.36 0)
+			(at 55.88 204.47 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 60.96 213.36 0)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
+			(at 55.88 209.55 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 60.96 213.36 0)
+			(at 55.88 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19213,7 +19144,7 @@
 			)
 		)
 		(property "Part Number" "FSMRA3JH"
-			(at 60.96 213.36 0)
+			(at 55.88 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19227,79 +19158,13 @@
 		(pin "2"
 			(uuid "05d5ac90-50bd-4959-bce6-8bbc2b257cb0")
 		)
-		(pin "0"
+		(pin "SH"
 			(uuid "0074660a-6f78-4331-913e-e22dd519f1bd")
 		)
 		(instances
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 213.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005248ff55")
-		(property "Reference" "#PWR0278"
-			(at 71.12 213.36 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.898 213.36 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 213.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 213.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1d2195-eb22-4e96-a2f0-4293e8652c68")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -20163,22 +20028,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 213.36 90)
+		(at 44.45 209.55 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000527ef888")
 		(property "Reference" "R19"
-			(at 44.45 211.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
 			(at 44.45 213.36 90)
 			(effects
 				(font
@@ -20186,8 +20045,16 @@
 				)
 			)
 		)
+		(property "Value" "33"
+			(at 44.45 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20196,7 +20063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20205,7 +20072,7 @@
 			)
 		)
 		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20214,7 +20081,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20223,7 +20090,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20232,7 +20099,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 44.45 213.36 0)
+			(at 44.45 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20257,15 +20124,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 227.33 90)
+		(at 36.83 227.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000527f0529")
 		(property "Reference" "R30"
-			(at 35.56 225.298 90)
+			(at 36.83 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,7 +20141,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 35.56 227.33 90)
+			(at 36.83 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20281,7 +20149,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20290,7 +20158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20299,7 +20167,7 @@
 			)
 		)
 		(property "Description" "RES 33 OHM 5% 1/16W 0402"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20308,7 +20176,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20317,7 +20185,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20326,7 +20194,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 35.56 227.33 0)
+			(at 36.83 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20604,138 +20472,6 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528faa17")
-		(property "Reference" "#PWR0300"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 237.998 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e31aebe1-50c3-4bb7-9479-d389c486ddb8")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000528fac9b")
-		(property "Reference" "#PWR0301"
-			(at 60.96 222.25 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 224.028 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 222.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "721f51e1-609a-412b-a69a-d1fd841f17e1")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -22307,6 +22043,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a29f05-d5f2-44e9-b02b-994cbd1e99d7")
+		(property "Reference" "#PWR0301"
+			(at 55.88 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fa882c7-da9f-4da7-9a1f-7b675ec247ac")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 264.16 193.04 0)
 		(unit 1)
@@ -22374,7 +22176,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 50.8 200.66 0)
+		(at 49.53 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22383,7 +22185,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a3ced6d-fd8a-4733-8a51-4ff1d4bebc05")
 		(property "Reference" "#PWR0329"
-			(at 50.8 204.47 0)
+			(at 49.53 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22392,7 +22194,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 50.8 195.58 0)
+			(at 49.53 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +22202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 200.66 0)
+			(at 49.53 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22409,7 +22211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 200.66 0)
+			(at 49.53 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22418,7 +22220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 50.8 200.66 0)
+			(at 49.53 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23591,6 +23393,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 41.91 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7800c20f-4807-404c-84f5-2c50ed8f48c9")
+		(property "Reference" "#PWR0193"
+			(at 41.91 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "235f278f-9e7f-4a02-94ff-62833f19a41f")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 71.12 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23987,6 +23855,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fdeb89b-3ccf-4695-abd2-8020fb116e9d")
+		(property "Reference" "#PWR0300"
+			(at 48.26 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5476040f-e997-4fe0-9628-f0b32d72fff0")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "praline:3V3FPGA")
 		(at 71.12 138.43 0)
 		(unit 1)
@@ -24054,7 +23988,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 62.23 227.33 270)
+		(at 53.34 227.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24063,7 +23997,7 @@
 		(fields_autoplaced yes)
 		(uuid "94b12f1a-0c03-41d9-96fb-c5bb15fe2362")
 		(property "Reference" "#PWR0308"
-			(at 58.42 227.33 0)
+			(at 49.53 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24072,7 +24006,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 66.04 227.3299 90)
+			(at 57.15 227.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24081,7 +24015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 227.33 0)
+			(at 53.34 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24090,7 +24024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 227.33 0)
+			(at 53.34 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24099,7 +24033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 62.23 227.33 0)
+			(at 53.34 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25428,6 +25362,73 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f350f403-fe53-4218-bea9-2d249782b1b4")
+		(property "Reference" "#PWR0278"
+			(at 67.31 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5251446f-df16-405f-8f3e-1a13d2a5d851")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)

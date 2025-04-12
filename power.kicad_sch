@@ -4398,7 +4398,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 121.92 76.2)
+			(xy 118.11 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6058,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 120.65 76.2)
+			(xy 118.11 77.47) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6280,28 +6280,6 @@
 			(justify left bottom)
 		)
 		(uuid "80bd1b9c-c9ea-42a7-a5e9-3d1e01a8f919")
-	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 124.46 74.93 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "c17153bd-8968-42f9-8bdb-9a33ef7158de")
-	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 147.32 74.93 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7801ec3-39f4-4e73-b8a3-cee9817dbf88")
 	)
 	(label "VBUS"
 		(at 46.99 185.42 90)
@@ -8772,7 +8750,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 77.47 0)
+		(at 118.11 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8781,7 +8759,7 @@
 		(fields_autoplaced yes)
 		(uuid "283aba16-3dd9-4edf-8a14-c609fc874b79")
 		(property "Reference" "#PWR0171"
-			(at 120.65 83.82 0)
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 81.9134 0)
+			(at 118.11 81.9134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 77.47 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 77.47 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 77.47 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +10946,7 @@
 				)
 			)
 		)
-		(property "Value" "162k"
+		(property "Value" "180k±1%"
 			(at 125.73 82.55 90)
 			(effects
 				(font
@@ -10994,7 +10972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 180K OHM 1% 1/16W 0402"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -11012,7 +10990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-07180KL"
 			(at 125.73 76.2 0)
 			(effects
 				(font
@@ -14456,7 +14434,7 @@
 				)
 			)
 		)
-		(property "Value" "715k"
+		(property "Value" "820k±1%"
 			(at 148.59 82.55 90)
 			(effects
 				(font
@@ -14482,7 +14460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 715K OHM 1% 0402"
+		(property "Description" "RES 820K OHM 1% 1/16W 0402"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -14500,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07715KL"
+		(property "Part Number" "RC0402FR-07820KL"
 			(at 148.59 76.2 0)
 			(effects
 				(font

@@ -5964,7 +5964,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 196.85 63.5 90)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 196.85 67.31 0)
 			(effects
 				(font
@@ -6008,7 +6008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 196.85 67.31 0)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 196.85 93.98 90)
 			(effects
 				(font
@@ -6085,7 +6085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 196.85 97.79 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 196.85 97.79 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 196.85 52.07 90)
 			(effects
 				(font
@@ -6659,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -6677,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46809366-aa48-43a8-ae49-b88d7e3793bc")
 		(property "Reference" "U3"
@@ -7074,7 +7074,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4fbe619e-9077-4363-b07c-e223bce9cf51")
 		(property "Reference" "U8"
@@ -8217,7 +8217,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "72254884-ab90-422a-99ba-921efd3f43a1")
 		(property "Reference" "U34"
 			(at 151.13 69.85 0)
@@ -8486,7 +8486,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 142.24 93.98 90)
 			(effects
 				(font
@@ -8512,7 +8512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -8530,7 +8530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -8678,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 176.53 63.5 90)
 			(effects
 				(font
@@ -8704,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -8722,7 +8722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -8859,7 +8859,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e60d943-fc93-4522-83b9-1cebff677281")
 		(property "Reference" "U35"
@@ -9034,7 +9034,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 142.24 52.07 90)
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -9078,7 +9078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -10136,7 +10136,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 176.53 21.59 90)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 176.53 25.4 0)
 			(effects
 				(font
@@ -10180,7 +10180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 176.53 25.4 0)
 			(effects
 				(font
@@ -10558,7 +10558,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 196.85 21.59 90)
 			(effects
 				(font
@@ -10584,7 +10584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 196.85 25.4 0)
 			(effects
 				(font
@@ -10602,7 +10602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 196.85 25.4 0)
 			(effects
 				(font

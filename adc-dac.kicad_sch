@@ -5287,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0"
 			(at 120.65 62.23 90)
 			(effects
 				(font
@@ -5313,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -5322,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Yageo"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM033R61A105ME44D"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -5340,7 +5340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+		(property "Substitution" "any equivalent"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -6144,7 +6144,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c88ceab-1b15-4c1c-ae59-ca58f231b673")
 		(property "Reference" "C78"
 			(at 120.65 90.17 90)
@@ -6154,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0"
 			(at 120.65 92.71 90)
 			(effects
 				(font
@@ -6180,7 +6179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -6189,7 +6188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Yageo"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -6198,7 +6197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM033R61A105ME44D"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -6207,7 +6206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+		(property "Substitution" "any equivalent"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -6249,7 +6248,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0"
 			(at 120.65 20.32 90)
 			(effects
 				(font
@@ -6275,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 120.65 25.4 0)
 			(effects
 				(font
@@ -6284,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Yageo"
 			(at 120.65 25.4 0)
 			(effects
 				(font
@@ -6293,7 +6292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM033R61A105ME44D"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 120.65 25.4 0)
 			(effects
 				(font
@@ -6302,7 +6301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+		(property "Substitution" "any equivalent"
 			(at 120.65 25.4 0)
 			(effects
 				(font
@@ -6430,7 +6429,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4211e125-3a12-49b8-a611-181fdb1c807d")
 		(property "Reference" "R123"
@@ -7269,7 +7268,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "567b478b-eba5-4c50-80d9-c1d59ac90637")
 		(property "Reference" "R122"
@@ -10642,7 +10641,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e05c32d9-205c-47d7-b1b1-bace2b629c86")
 		(property "Reference" "R124"
@@ -11052,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "0"
 			(at 120.65 50.8 90)
 			(effects
 				(font
@@ -11078,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 10V X5R 0201"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -11087,7 +11086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Yageo"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -11096,7 +11095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM033R61A105ME44D"
+		(property "Part Number" "RC0201JR-070RL"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -11105,7 +11104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+		(property "Substitution" "any equivalent"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -11528,7 +11527,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ff9932de-453e-46f5-b49c-1cc1271f61c2")
 		(property "Reference" "R121"

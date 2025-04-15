@@ -11749,17 +11749,6 @@
 		)
 		(uuid "44c92c4a-b96c-4dbe-aa45-dc20871b2c37")
 	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 114.3 52.07 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "44cedeed-6fe1-4875-89af-74c7a4d523ac")
-	)
 	(text "pin straps for hardware\nversion detection"
 		(exclude_from_sim no)
 		(at 115.57 36.83 0)
@@ -11803,17 +11792,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e91e49d-d8ef-4798-a5b4-6b136f57042c")
-	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 114.3 41.91 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "61aacc73-c7ae-4bdb-bfb7-8f0b4c90b266")
 	)
 	(text "VCC"
 		(exclude_from_sim no)
@@ -21370,7 +21348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13.7k"
+		(property "Value" "15.4k±1%"
 			(at 114.3 55.8799 0)
 			(effects
 				(font
@@ -21397,7 +21375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 13.7K OHM 1% 1/16W 0402"
+		(property "Description" "RES 15.4K OHM 1% 1/16W 0402"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -21415,7 +21393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-0713K7L"
+		(property "Part Number" "RC0402FR-0715K4L"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -24763,7 +24741,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "162k"
+		(property "Value" "180k±1%"
 			(at 114.3 45.7199 0)
 			(effects
 				(font
@@ -24790,7 +24768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 180K OHM 1% 1/16W 0402"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -24808,7 +24786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-07180KL"
 			(at 111.76 44.45 0)
 			(effects
 				(font

@@ -2978,7 +2978,7 @@
 		(uuid "a7a642b8-34d0-4853-b72e-142e352939d2")
 	)
 	(junction
-		(at 229.87 46.99)
+		(at 236.22 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a98ad180-7a3d-4e7f-8498-8015fbbc8ed7")
@@ -3261,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 240.03 74.93)
+			(xy 227.33 74.93) (xy 246.38 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3281,7 +3281,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 46.99) (xy 229.87 49.53)
+			(xy 236.22 46.99) (xy 236.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 74.93) (xy 240.03 46.99)
+			(xy 246.38 74.93) (xy 246.38 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 46.99) (xy 229.87 46.99)
+			(xy 246.38 46.99) (xy 236.22 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3611,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 46.99) (xy 229.87 46.99)
+			(xy 215.9 46.99) (xy 236.22 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4201,7 +4201,7 @@
 		)
 		(uuid "02e27798-9851-4efa-9381-bbd3e8e0aed4")
 	)
-	(text "current limit: 140 mA ±20%"
+	(text "current limit: 125 mA ±20%"
 		(exclude_from_sim no)
 		(at 205.74 72.39 0)
 		(effects
@@ -4212,7 +4212,7 @@
 		(uuid "f8cd9127-91d1-4ebb-aa11-80a3de2f04ab")
 	)
 	(label "BIAS"
-		(at 240.03 63.5 90)
+		(at 246.38 63.5 90)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6758,7 +6758,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 53.34 0)
+		(at 236.22 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6767,7 +6767,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000052ea119b")
 		(property "Reference" "C171"
-			(at 233.68 52.0699 0)
+			(at 240.03 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +6776,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 233.68 54.6099 0)
+			(at 240.03 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6785,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6794,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6803,7 +6803,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 10V X5R 0201"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6812,7 +6812,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6821,7 +6821,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61A105ME44D"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6830,7 +6830,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
-			(at 229.87 53.34 0)
+			(at 236.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "162k"
+		(property "Value" "180k±1%"
 			(at 222.25 54.6099 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 180K OHM 1% 1/16W 0402"
 			(at 219.71 53.34 0)
 			(effects
 				(font
@@ -7506,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-07180KL"
 			(at 219.71 53.34 0)
 			(effects
 				(font
@@ -9913,7 +9913,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 57.15 0)
+		(at 236.22 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9922,7 +9922,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad588d80-c801-43f7-9e8b-6ce19d28e47d")
 		(property "Reference" "#PWR0108"
-			(at 229.87 63.5 0)
+			(at 236.22 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +9931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 62.23 0)
+			(at 236.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 57.15 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 57.15 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 57.15 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

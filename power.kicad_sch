@@ -6237,17 +6237,6 @@
 		)
 		(uuid "0b012e25-3fc3-4363-a707-9d81875d602c")
 	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 124.46 24.13 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "1831e1b8-b5d0-47b6-9311-be4f98a73bbb")
-	)
 	(text "Power Input"
 		(exclude_from_sim no)
 		(at 41.91 26.035 0)
@@ -6269,17 +6258,6 @@
 			(justify right bottom)
 		)
 		(uuid "5cd6a855-0107-49f7-bd90-246344ecd211")
-	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 147.32 24.13 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "80bd1b9c-c9ea-42a7-a5e9-3d1e01a8f919")
 	)
 	(label "VBUS"
 		(at 46.99 185.42 90)
@@ -16746,7 +16724,7 @@
 				)
 			)
 		)
-		(property "Value" "162k"
+		(property "Value" "180k±1%"
 			(at 148.59 21.59 90)
 			(effects
 				(font
@@ -16772,7 +16750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 180K OHM 1% 1/16W 0402"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -16790,7 +16768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-07180KL"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -16835,15 +16813,15 @@
 		(fields_autoplaced yes)
 		(uuid "c675cb92-2459-416f-91af-d306f9a03a96")
 		(property "Reference" "R46"
-			(at 125.73 29.21 90)
+			(at 125.73 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "162k"
-			(at 125.73 31.75 90)
+		(property "Value" "180k±1%"
+			(at 125.73 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +16846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1/16W 162K OHM 1% 0402"
+		(property "Description" "RES 180K OHM 1% 1/16W 0402"
 			(at 125.73 25.4 0)
 			(effects
 				(font
@@ -16886,7 +16864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-07162KL"
+		(property "Part Number" "RC0402FR-07180KL"
 			(at 125.73 25.4 0)
 			(effects
 				(font

@@ -2512,6 +2512,281 @@
 				)
 			)
 		)
+		(symbol "Device:LED_Dual_AKAK"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_AKAK"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, cathodes on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_AKAK_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_Dual_AKAK_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -7348,6 +7623,12 @@
 		(uuid "0c0fbce4-3f5c-42d5-aec4-4a685732f3e3")
 	)
 	(junction
+		(at 88.9 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a97fe8-7277-412f-8a2f-25740124375b")
+	)
+	(junction
 		(at 208.28 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7360,7 +7641,7 @@
 		(uuid "28993270-9bee-4432-9fbb-9088c3a95f2b")
 	)
 	(junction
-		(at 45.72 146.05)
+		(at 45.72 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32b72ea2-f773-4aef-a544-e5eab688045b")
@@ -7370,6 +7651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "349b4fab-3263-46b5-9334-45ab61eec55d")
+	)
+	(junction
+		(at 29.21 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e2f284-0e99-4c0b-b047-47d34dda4b63")
 	)
 	(junction
 		(at 318.77 132.08)
@@ -7390,7 +7677,13 @@
 		(uuid "3b5bf4f1-ca2b-4d7a-835d-bd674fa86db9")
 	)
 	(junction
-		(at 20.32 146.05)
+		(at 29.21 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403a5acc-af15-4d9e-a945-9f2c5f6b1c21")
+	)
+	(junction
+		(at 20.32 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41e3d198-d055-4974-b026-8c34105e06c3")
@@ -7534,6 +7827,12 @@
 		(uuid "96e9b3f5-89dd-4112-9e37-a3b962da5787")
 	)
 	(junction
+		(at 88.9 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce15dad-fb67-4af9-bce1-4854dc10ffee")
+	)
+	(junction
 		(at 49.53 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7546,7 +7845,7 @@
 		(uuid "adbb0d92-a264-4e49-85ec-833cafb1dc93")
 	)
 	(junction
-		(at 33.02 138.43)
+		(at 33.02 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b43bfcd2-efdd-4c36-8167-bb0680336295")
@@ -7582,7 +7881,7 @@
 		(uuid "c436f8d7-7332-46f5-9171-4df085813fc9")
 	)
 	(junction
-		(at 20.32 138.43)
+		(at 20.32 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6daebba-ca6d-4ca4-97d0-5067c39d081a")
@@ -7612,7 +7911,7 @@
 		(uuid "dc335793-13f1-4353-b736-4d80417d5052")
 	)
 	(junction
-		(at 33.02 146.05)
+		(at 33.02 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e351270b-e40f-4f06-8cb1-d70de4389a1d")
@@ -7624,7 +7923,7 @@
 		(uuid "e6f35c49-272e-4c17-9ab5-ba7095b09745")
 	)
 	(junction
-		(at 45.72 138.43)
+		(at 45.72 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc0b8f0-6854-477e-be97-91b2c5954489")
@@ -7652,12 +7951,20 @@
 		(uuid "2cec66c5-979a-48a9-8107-42eb9d2ab20e")
 	)
 	(no_connect
+		(at 121.92 186.69)
+		(uuid "38be124c-7363-492e-8852-d64f290a2347")
+	)
+	(no_connect
 		(at 194.31 200.66)
 		(uuid "45941253-b66a-49ce-9bf6-5182b8acded5")
 	)
 	(no_connect
 		(at 194.31 167.64)
 		(uuid "60040865-2cd3-49a2-8eb5-bd65f0eeb55d")
+	)
+	(no_connect
+		(at 43.18 171.45)
+		(uuid "65413b15-fd20-4404-96f7-8d3a641df4f7")
 	)
 	(no_connect
 		(at 245.11 48.26)
@@ -7694,6 +8001,14 @@
 	(no_connect
 		(at 245.11 182.88)
 		(uuid "bcec3a92-eff7-41d7-b918-8e03d3c49bc0")
+	)
+	(no_connect
+		(at 121.92 171.45)
+		(uuid "d29593b4-e450-476d-8b0b-d24bffc42d51")
+	)
+	(no_connect
+		(at 43.18 186.69)
+		(uuid "d739afcc-79ea-4dad-9544-dfdda9c71453")
 	)
 	(no_connect
 		(at 245.11 60.96)
@@ -8263,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 146.05) (xy 58.42 146.05)
+			(xy 45.72 142.24) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8453,7 +8768,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 138.43) (xy 45.72 138.43)
+			(xy 33.02 134.62) (xy 45.72 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8551,6 +8866,16 @@
 		)
 		(uuid "237395c3-037d-4b06-83a5-844a42f3cdcd")
 	)
+	(bus
+		(pts
+			(xy 154.94 175.26) (xy 154.94 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237ae4cd-cd11-41cc-9862-fbaa07c34872")
+	)
 	(wire
 		(pts
 			(xy 374.65 193.04) (xy 382.27 193.04)
@@ -8630,6 +8955,16 @@
 			(type default)
 		)
 		(uuid "2c3e644b-8c8b-471b-8dac-1faaf44fa411")
+	)
+	(wire
+		(pts
+			(xy 83.82 186.69) (xy 88.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c42b97e-636a-4caf-ac75-49db0093185e")
 	)
 	(wire
 		(pts
@@ -8733,7 +9068,7 @@
 	)
 	(bus
 		(pts
-			(xy 154.94 175.26) (xy 154.94 180.34)
+			(xy 154.94 162.56) (xy 154.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8783,6 +9118,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 186.69) (xy 29.21 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddded80-d85e-4cfe-8376-c7a9a9d115f6")
+	)
+	(wire
+		(pts
 			(xy 354.33 177.8) (xy 361.95 177.8)
 		)
 		(stroke
@@ -8823,7 +9168,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.67 175.26) (xy 154.94 175.26)
+			(xy 153.67 162.56) (xy 154.94 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9213,13 +9558,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 179.07) (xy 58.42 184.15)
+			(xy 29.21 186.69) (xy 29.21 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "624098d1-3c95-4f75-a290-bd0f5c2d2bf3")
+	)
+	(wire
+		(pts
+			(xy 88.9 186.69) (xy 88.9 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aef7fd-f3a4-4031-88ad-d5b0701c9037")
 	)
 	(wire
 		(pts
@@ -9243,7 +9598,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 179.07) (xy 33.02 184.15)
+			(xy 101.6 179.07) (xy 101.6 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9350,16 +9705,6 @@
 			(type default)
 		)
 		(uuid "6aa1c036-1983-4fb9-ba11-e03c91c70946")
-	)
-	(wire
-		(pts
-			(xy 20.32 179.07) (xy 20.32 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c568abf-4bdc-4593-8ea6-0b306f4cee4e")
 	)
 	(wire
 		(pts
@@ -10143,7 +10488,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 138.43) (xy 58.42 138.43)
+			(xy 45.72 134.62) (xy 58.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10563,6 +10908,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 163.83) (xy 88.9 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba71af9c-53b5-4ada-9e40-5ecb9e4cd899")
+	)
+	(wire
+		(pts
 			(xy 74.93 264.16) (xy 77.47 264.16)
 		)
 		(stroke
@@ -10573,7 +10928,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 179.07) (xy 45.72 184.15)
+			(xy 116.84 186.69) (xy 116.84 191.77)
 		)
 		(stroke
 			(width 0)
@@ -10673,7 +11028,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 146.05) (xy 33.02 146.05)
+			(xy 20.32 142.24) (xy 33.02 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10743,7 +11098,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 146.05) (xy 45.72 146.05)
+			(xy 33.02 142.24) (xy 45.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10963,7 +11318,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 138.43) (xy 33.02 138.43)
+			(xy 20.32 134.62) (xy 33.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11583,6 +11938,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 163.83) (xy 29.21 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc913169-aee2-4309-9671-95b25a9acc2d")
+	)
+	(wire
+		(pts
 			(xy 40.64 248.92) (xy 35.56 248.92)
 		)
 		(stroke
@@ -11694,6 +12059,17 @@
 		)
 		(uuid "1713de58-0a55-4ac8-b9db-cba46c6ab16a")
 	)
+	(text "RF"
+		(exclude_from_sim no)
+		(at 60.96 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "1795feae-1e6e-43a9-9f06-e83a55faa115")
+	)
 	(text "VCC"
 		(exclude_from_sim no)
 		(at 72.39 256.54 0)
@@ -11782,6 +12158,17 @@
 		)
 		(uuid "45edeb8a-eff8-4359-8269-ad88d84a446c")
 	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 86.36 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "48f53c53-d493-4bca-a73c-1cece62aaf78")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 95.25 246.38 0)
@@ -11859,6 +12246,17 @@
 		)
 		(uuid "8b59ac77-f428-481b-afe8-6e351c10d260")
 	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 101.6 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "8c4b157e-fb55-40ad-970c-70844a74bf13")
+	)
 	(text "SSP0"
 		(exclude_from_sim no)
 		(at 62.23 254 0)
@@ -11891,6 +12289,17 @@
 			(justify left bottom)
 		)
 		(uuid "99bdf3bc-d3b3-4273-a797-9c322d7eb6ef")
+	)
+	(text "FPGA"
+		(exclude_from_sim no)
+		(at 45.72 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "a33ffed0-d4b8-4ea0-8cad-54e260caeb15")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -12002,6 +12411,17 @@
 		)
 		(uuid "c518764f-7a8a-499e-8979-d601388404bb")
 	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 119.38 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "cdf79c99-ab12-4c88-a24a-ad7c9ad5017e")
+	)
 	(text "P1_2"
 		(exclude_from_sim no)
 		(at 87.63 243.84 0)
@@ -12056,6 +12476,17 @@
 			(justify left bottom)
 		)
 		(uuid "ec84e2ea-93ed-4889-8887-3f2dd98f2d14")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 26.67 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify bottom)
+		)
+		(uuid "f2d1ce65-f704-4689-890f-f1c8f08ab691")
 	)
 	(label "P9_1"
 		(at 382.27 200.66 180)
@@ -12168,7 +12599,7 @@
 		(uuid "0dfde4d9-b329-4d7d-8c42-e50b2bc05c0d")
 	)
 	(label "~{LED2}"
-		(at 33.02 184.15 90)
+		(at 101.6 184.15 90)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -12818,7 +13249,7 @@
 		(uuid "5bb4fad2-d233-4671-8ae4-06b93c1337fc")
 	)
 	(label "~{LED4}"
-		(at 58.42 184.15 90)
+		(at 29.21 191.77 90)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -13638,7 +14069,7 @@
 		(uuid "cb6cbd0f-8c59-4884-a082-e96f4bace483")
 	)
 	(label "~{LED3}"
-		(at 45.72 184.15 90)
+		(at 116.84 191.77 90)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -14078,7 +14509,7 @@
 		(uuid "fa6ec0fc-10f2-4fd8-9acb-5ed01a7af48b")
 	)
 	(label "~{LED1}"
-		(at 20.32 184.15 90)
+		(at 88.9 191.77 90)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -14620,7 +15051,7 @@
 	)
 	(hierarchical_label "FPGA_CONFIG{Config}"
 		(shape bidirectional)
-		(at 153.67 175.26 180)
+		(at 153.67 162.56 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15539,359 +15970,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00004f83c1a7")
-		(property "Reference" "D6"
-			(at 49.53 175.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 49.53 178.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 45.72 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED SUPR RED CLR RT ANG 0805"
-			(at 45.72 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 45.72 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LTST-S220KRKT"
-			(at 45.72 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1999ce62-1a16-4dce-a215-e37c77db4ce1")
-		)
-		(pin "2"
-			(uuid "13fafcb6-e52c-4dd6-8051-86a14d638466")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 58.42 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00004f83c1d6")
-		(property "Reference" "D7"
-			(at 62.23 175.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 62.23 178.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED GREEN CLEAR RT ANG 0805"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LTST-S220KGKT"
-			(at 58.42 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ba84fe2-a6c7-4626-a5e4-4204ff72b0da")
-		)
-		(pin "2"
-			(uuid "401a0477-7688-435f-a75b-062fb1495af3")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 20.32 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00004f83c1df")
-		(property "Reference" "D4"
-			(at 24.13 175.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 24.13 178.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED GREEN CLEAR RT ANG 0805"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LTST-S220KGKT"
-			(at 20.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c758d26e-23df-444e-bfbc-94fd8d3771f5")
-		)
-		(pin "2"
-			(uuid "60d57c4a-07ff-4336-a0fb-2d4f2b22f899")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 71.12 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00004f83c1e0")
-		(property "Reference" "D8"
-			(at 74.93 175.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "YELLOW"
-			(at 74.93 178.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED YELLOW CLEAR RT ANG 0805"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "LTST-S220KSKT"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ee6ecb8-9e34-40d0-8182-316f8bf01fad")
-		)
-		(pin "2"
-			(uuid "1d867523-a2b4-4761-bdd3-01b8f34743aa")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 33.02 175.26 90)
+		(at 101.6 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15900,7 +15979,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f83c276")
 		(property "Reference" "D5"
-			(at 36.83 175.5774 90)
+			(at 105.41 175.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15908,8 +15987,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
-			(at 36.83 178.1174 90)
+		(property "Value" "LED"
+			(at 105.41 178.1174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15917,8 +15996,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 33.02 175.26 0)
+		(property "Footprint" "praline:LED_Single_Xinglight_XL-3210_Horizontal"
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15926,8 +16005,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 33.02 175.26 0)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/90b8e96b4421088.pdf"
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15935,8 +16014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED YELLOW CLEAR RT ANG 0805"
-			(at 33.02 175.26 0)
+		(property "Description" "LED ORANGE 1204 SMD,1.5X3.2MM"
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15944,8 +16023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 33.02 175.26 0)
+		(property "Manufacturer" "Xinglight"
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15953,8 +16032,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LTST-S220KSKT"
-			(at 33.02 175.26 0)
+		(property "Part Number" "XL-3210UOC"
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17744,7 +17823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 167.64 180)
+		(at 88.9 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17753,7 +17832,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000503c519a")
 		(property "Reference" "R72"
-			(at 22.86 166.3699 0)
+			(at 91.44 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17762,7 +17841,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 22.86 168.9099 0)
+			(at 91.44 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17771,7 +17850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17780,7 +17859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17789,7 +17868,7 @@
 			)
 		)
 		(property "Description" "RES 470 OHM 5% 1/20W 0201"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17798,7 +17877,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17807,7 +17886,7 @@
 			)
 		)
 		(property "Part Number" "RC0201JR-07470RL"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17816,7 +17895,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17841,7 +17920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 167.64 180)
+		(at 29.21 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17850,7 +17929,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000503c51a8")
 		(property "Reference" "R75"
-			(at 60.96 166.3699 0)
+			(at 31.75 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,8 +17937,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470"
-			(at 60.96 168.9099 0)
+		(property "Value" "10k"
+			(at 31.75 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,8 +17946,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 58.42 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17877,7 +17956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 167.64 0)
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17885,8 +17964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 470 OHM 5% 1/20W 0201"
-			(at 58.42 167.64 0)
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17895,7 +17974,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 58.42 167.64 0)
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17903,8 +17982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201JR-07470RL"
-			(at 58.42 167.64 0)
+		(property "Part Number" "RC0402JR-0710KL"
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17913,7 +17992,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 58.42 167.64 0)
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19918,7 +19997,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 83.82 175.26 90)
+		(at 60.96 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19927,7 +20006,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000527dc2e9")
 		(property "Reference" "D2"
-			(at 87.63 175.5774 90)
+			(at 64.77 175.5774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19935,8 +20014,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
-			(at 87.63 178.1174 90)
+		(property "Value" "LED"
+			(at 64.77 178.1174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19944,8 +20023,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "gsg-modules:LTST-S220"
-			(at 83.82 175.26 0)
+		(property "Footprint" "praline:LED_Single_Xinglight_XL-3210_Horizontal"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19953,8 +20032,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 175.26 0)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202212/7a7994c6a7a4fd8.pdf"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19962,8 +20041,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED SUPR RED CLR RT ANG 0805"
-			(at 83.82 175.26 0)
+		(property "Description" "LED GREEN 1204 SMD,1.5X3.2MM"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19971,8 +20050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 83.82 175.26 0)
+		(property "Manufacturer" "Xinglight"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19980,8 +20059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "LTST-S220KRKT"
-			(at 83.82 175.26 0)
+		(property "Part Number" "XL-3210UGC"
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20650,7 +20729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 167.64 180)
+		(at 101.6 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20659,7 +20738,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005298fba8")
 		(property "Reference" "R73"
-			(at 35.56 166.3699 0)
+			(at 104.14 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20667,8 +20746,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 35.56 168.9099 0)
+		(property "Value" "3k"
+			(at 104.14 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20676,8 +20755,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 33.02 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20686,7 +20765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 167.64 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20694,8 +20773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
-			(at 33.02 167.64 0)
+		(property "Description" "RES 3K OHM 5% 1/16W 0402"
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20704,7 +20783,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 33.02 167.64 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20712,8 +20791,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
-			(at 33.02 167.64 0)
+		(property "Part Number" "RC0402JR-073KL"
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20722,7 +20801,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 33.02 167.64 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20747,7 +20826,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 167.64 180)
+		(at 48.26 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20756,7 +20835,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005298fc35")
 		(property "Reference" "R76"
-			(at 73.66 166.3699 0)
+			(at 50.8 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20764,8 +20843,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 73.66 168.9099 0)
+		(property "Value" "3k"
+			(at 50.8 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20773,8 +20852,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 71.12 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20783,7 +20862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 167.64 0)
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20791,8 +20870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
-			(at 71.12 167.64 0)
+		(property "Description" "RES 3K OHM 5% 1/16W 0402"
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20801,7 +20880,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 71.12 167.64 0)
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20809,8 +20888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
-			(at 71.12 167.64 0)
+		(property "Part Number" "RC0402JR-073KL"
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20819,7 +20898,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 71.12 167.64 0)
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20844,7 +20923,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 167.64 180)
+		(at 116.84 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20853,7 +20932,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005299055b")
 		(property "Reference" "R74"
-			(at 48.26 166.3699 0)
+			(at 119.38 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20861,8 +20940,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8"
-			(at 48.26 168.9099 0)
+		(property "Value" "3k"
+			(at 119.38 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20871,7 +20950,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 167.64 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20880,7 +20959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 167.64 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20888,8 +20967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
-			(at 45.72 167.64 0)
+		(property "Description" "RES 3K OHM 5% 1/16W 0402"
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20898,7 +20977,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 45.72 167.64 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20906,8 +20985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-071K8L"
-			(at 45.72 167.64 0)
+		(property "Part Number" "RC0402JR-073KL"
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20916,7 +20995,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 45.72 167.64 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20941,7 +21020,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 167.64 180)
+		(at 60.96 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20950,7 +21029,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000529905c9")
 		(property "Reference" "R18"
-			(at 86.36 166.3699 0)
+			(at 63.5 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20958,8 +21037,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k8"
-			(at 86.36 168.9099 0)
+		(property "Value" "18k"
+			(at 63.5 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20968,7 +21047,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.82 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20977,7 +21056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20985,8 +21064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.8K OHM 5% 1/16W 0402"
-			(at 83.82 167.64 0)
+		(property "Description" "RES SMD 18K OHM 5% 1/16W 0402"
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20995,7 +21074,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 83.82 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21003,8 +21082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-071K8L"
-			(at 83.82 167.64 0)
+		(property "Part Number" "RC0402JR-0718KL"
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21013,7 +21092,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 83.82 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21234,7 +21313,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20.32 142.24 0)
+		(at 20.32 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21243,7 +21322,7 @@
 		(fields_autoplaced yes)
 		(uuid "036bec05-c9f1-481f-a596-1764a36cdd00")
 		(property "Reference" "C80"
-			(at 24.13 140.9699 0)
+			(at 24.13 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21252,7 +21331,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 24.13 143.5099 0)
+			(at 24.13 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21261,7 +21340,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21270,7 +21349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21279,7 +21358,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21288,7 +21367,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21297,7 +21376,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21306,7 +21385,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21324,6 +21403,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0954ef24-2a80-4466-a9e5-c74904694b08")
+		(property "Reference" "R50"
+			(at 21.59 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 21.59 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 5% 1/16W 0402"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-075K1L"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 24.13 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eccf5d71-3385-4667-b4d2-95d52db5f426")
+		)
+		(pin "2"
+			(uuid "cac05ae2-8264-498b-be2f-51b4e3c5824a")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -21428,7 +21604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 146.05 0)
+		(at 83.82 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21437,7 +21613,7 @@
 		(fields_autoplaced yes)
 		(uuid "113adb7b-7073-46a1-a274-5db81350a012")
 		(property "Reference" "#PWR0103"
-			(at 83.82 152.4 0)
+			(at 83.82 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21446,7 +21622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 151.13 0)
+			(at 83.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21454,7 +21630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 146.05 0)
+			(at 83.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21463,7 +21639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 146.05 0)
+			(at 83.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21472,7 +21648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 146.05 0)
+			(at 83.82 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21494,7 +21670,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 83.82 163.83 0)
+		(at 60.96 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21503,7 +21679,7 @@
 		(fields_autoplaced yes)
 		(uuid "2215fffe-911b-448e-ac23-c13af88f7508")
 		(property "Reference" "#PWR066"
-			(at 83.82 167.64 0)
+			(at 60.96 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21512,7 +21688,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 83.82 158.75 0)
+			(at 60.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21520,7 +21696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 163.83 0)
+			(at 60.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21529,7 +21705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 163.83 0)
+			(at 60.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21538,7 +21714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 83.82 163.83 0)
+			(at 60.96 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21824,7 +22000,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 33.02 163.83 0)
+		(at 101.6 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21833,7 +22009,7 @@
 		(fields_autoplaced yes)
 		(uuid "47aa442a-d852-4bf9-91b8-78dc9c985720")
 		(property "Reference" "#PWR095"
-			(at 33.02 167.64 0)
+			(at 101.6 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21842,7 +22018,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 33.02 158.75 0)
+			(at 101.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21850,7 +22026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 163.83 0)
+			(at 101.6 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21859,7 +22035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 163.83 0)
+			(at 101.6 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21868,7 +22044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 33.02 163.83 0)
+			(at 101.6 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23287,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 142.24 0)
+		(at 83.82 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23120,7 +23296,7 @@
 		(fields_autoplaced yes)
 		(uuid "773cbbf3-b281-4cdc-b9c5-ad8d629c9cc4")
 		(property "Reference" "C162"
-			(at 87.63 140.9699 0)
+			(at 87.63 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23129,7 +23305,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 87.63 143.5099 0)
+			(at 87.63 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23138,7 +23314,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23147,7 +23323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23156,7 +23332,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23165,7 +23341,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23174,7 +23350,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23183,7 +23359,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23208,7 +23384,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 142.24 0)
+		(at 33.02 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23217,7 +23393,7 @@
 		(fields_autoplaced yes)
 		(uuid "773ec433-71a5-489d-adcb-f6fd96247ae8")
 		(property "Reference" "C81"
-			(at 36.83 140.9699 0)
+			(at 36.83 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23226,7 +23402,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 36.83 143.5099 0)
+			(at 36.83 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23235,7 +23411,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23244,7 +23420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23253,7 +23429,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23262,7 +23438,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23271,7 +23447,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23280,7 +23456,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 33.02 142.24 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23305,7 +23481,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 45.72 163.83 0)
+		(at 116.84 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23314,7 +23490,7 @@
 		(fields_autoplaced yes)
 		(uuid "777675d2-bfb7-4324-b510-c01eb9407139")
 		(property "Reference" "#PWR0130"
-			(at 45.72 167.64 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23323,7 +23499,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 45.72 158.75 0)
+			(at 116.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 163.83 0)
+			(at 116.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23340,7 +23516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 163.83 0)
+			(at 116.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23349,7 +23525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 45.72 163.83 0)
+			(at 116.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23437,7 +23613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 179.07 0)
+		(at 48.26 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23446,7 +23622,7 @@
 		(fields_autoplaced yes)
 		(uuid "78c4f435-00ee-43f8-899d-64e13c5da3d7")
 		(property "Reference" "#PWR0105"
-			(at 71.12 185.42 0)
+			(at 48.26 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23455,7 +23631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 184.15 0)
+			(at 48.26 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23463,7 +23639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 179.07 0)
+			(at 48.26 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23472,7 +23648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 179.07 0)
+			(at 48.26 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23481,7 +23657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 179.07 0)
+			(at 48.26 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23569,7 +23745,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3FPGA")
-		(at 71.12 163.83 0)
+		(at 48.26 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23578,7 +23754,7 @@
 		(fields_autoplaced yes)
 		(uuid "8032d4f1-7a81-43a2-8376-96830aae8fdd")
 		(property "Reference" "#PWR061"
-			(at 71.12 167.64 0)
+			(at 48.26 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23587,7 +23763,7 @@
 			)
 		)
 		(property "Value" "3V3FPGA"
-			(at 71.12 158.75 0)
+			(at 48.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23595,7 +23771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 163.83 0)
+			(at 48.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23604,7 +23780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 163.83 0)
+			(at 48.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23613,7 +23789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 71.12 163.83 0)
+			(at 48.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23701,7 +23877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 146.05 0)
+		(at 20.32 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23710,7 +23886,7 @@
 		(fields_autoplaced yes)
 		(uuid "83cb70bb-09bb-4ed4-8468-f8d063a61012")
 		(property "Reference" "#PWR041"
-			(at 20.32 152.4 0)
+			(at 20.32 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23719,7 +23895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 151.13 0)
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23727,7 +23903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 146.05 0)
+			(at 20.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23736,7 +23912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 146.05 0)
+			(at 20.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23745,7 +23921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 146.05 0)
+			(at 20.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23760,6 +23936,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ea2636c-043f-43a8-9529-ae5eddc929cf")
+		(property "Reference" "R125"
+			(at 81.28 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 81.28 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 12K OHM 1% 1/16W 0402"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-0712KL"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e07e77bf-2c5d-4810-a93b-a60b4bfaa880")
+		)
+		(pin "2"
+			(uuid "1af16ea8-fb86-4155-93fc-642febbcbeb3")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -23900,7 +24173,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3FPGA")
-		(at 71.12 138.43 0)
+		(at 71.12 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23909,7 +24182,7 @@
 		(fields_autoplaced yes)
 		(uuid "93c678b3-f065-4ad0-8b81-cbe3bd192493")
 		(property "Reference" "#PWR063"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23918,7 +24191,7 @@
 			)
 		)
 		(property "Value" "3V3FPGA"
-			(at 71.12 133.35 0)
+			(at 71.12 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23926,7 +24199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 138.43 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23935,7 +24208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 138.43 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,7 +24217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 71.12 138.43 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24032,8 +24305,196 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 45.72 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96606c47-ee50-4f4b-94cf-2d7ec62c6431")
+		(property "Reference" "D8"
+			(at 39.37 177.6729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 39.37 180.2129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
+			(at 45.72 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
+			(at 45.72 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Xinglight"
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XL-3210SURUBC"
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "989aad13-3bad-4971-aacf-2657c02e1c9a")
+		)
+		(pin "4"
+			(uuid "5f2e756f-8393-4b81-b9ab-46dfbb6e97ee")
+		)
+		(pin "2"
+			(uuid "40db934f-b15d-49a4-92a2-e5d23d0a5653")
+		)
+		(pin "1"
+			(uuid "e81529ac-1092-4cda-9995-8625b647f799")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 86.36 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e765292-1a26-41b9-ad55-28a93f1874d0")
+		(property "Reference" "D4"
+			(at 80.01 177.6729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 80.01 180.2129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
+			(at 86.36 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/f7c44c9c37b981e.pdf"
+			(at 86.36 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED,YLW-GRN 1204 SMD"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Xinglight"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XL-3210SURSYGC"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8e7d7d1c-51e1-4dda-9476-7e6c914ba9ee")
+		)
+		(pin "4"
+			(uuid "7d385328-2500-4f92-b01e-ebc03a434e97")
+		)
+		(pin "2"
+			(uuid "9dda7015-b2a7-4f2c-abd7-8cb3f0743656")
+		)
+		(pin "1"
+			(uuid "601ad436-5da9-4a8b-bd48-d725d3ae609a")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 83.82 179.07 0)
+		(at 60.96 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24042,7 +24503,7 @@
 		(fields_autoplaced yes)
 		(uuid "a485e9cc-9d2a-4888-9396-64bfd3475fea")
 		(property "Reference" "#PWR0106"
-			(at 83.82 185.42 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24051,7 +24512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 184.15 0)
+			(at 60.96 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24059,7 +24520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 179.07 0)
+			(at 60.96 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24068,7 +24529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 179.07 0)
+			(at 60.96 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24077,7 +24538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 179.07 0)
+			(at 60.96 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24098,8 +24559,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 26.67 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8905a59-a762-4bf3-9cde-e32fad4879c7")
+		(property "Reference" "D7"
+			(at 20.32 177.6729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 20.32 180.2129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
+			(at 26.67 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
+			(at 26.67 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
+			(at 26.67 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Xinglight"
+			(at 26.67 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XL-3210SURUBC"
+			(at 26.67 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "13e79df1-7055-457e-b4fb-12aa64567d78")
+		)
+		(pin "4"
+			(uuid "75c33fd5-9c00-4ed8-98aa-b57d7a91bec2")
+		)
+		(pin "2"
+			(uuid "4dc0e21b-c934-4d1f-a576-229150b18363")
+		)
+		(pin "1"
+			(uuid "51c1c2a6-8daf-4985-b310-69bfdfd134b8")
+		)
+		(instances
+			(project ""
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "praline:3V3LED")
-		(at 20.32 138.43 0)
+		(at 20.32 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24108,7 +24663,7 @@
 		(fields_autoplaced yes)
 		(uuid "b02eab03-3d78-4a26-ace7-e2d588537311")
 		(property "Reference" "#PWR0293"
-			(at 20.32 142.24 0)
+			(at 20.32 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24117,7 +24672,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 20.32 133.35 0)
+			(at 20.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24125,7 +24680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 138.43 0)
+			(at 20.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24134,7 +24689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 138.43 0)
+			(at 20.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24143,7 +24698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 20.32 138.43 0)
+			(at 20.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24297,7 +24852,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 58.42 163.83 0)
+		(at 29.21 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24306,7 +24861,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf97654e-8da0-419a-a8ab-269437ab6c17")
 		(property "Reference" "#PWR0143"
-			(at 58.42 167.64 0)
+			(at 29.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24315,7 +24870,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 58.42 158.75 0)
+			(at 29.21 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24323,7 +24878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 163.83 0)
+			(at 29.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24332,7 +24887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 163.83 0)
+			(at 29.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24341,7 +24896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 58.42 163.83 0)
+			(at 29.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24363,7 +24918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 146.05 0)
+		(at 71.12 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24372,7 +24927,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78cd54f-1be9-48bf-bc82-88dff2f0be26")
 		(property "Reference" "#PWR067"
-			(at 71.12 152.4 0)
+			(at 71.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24381,7 +24936,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 151.13 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24389,7 +24944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 146.05 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24398,7 +24953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 146.05 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24407,7 +24962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 146.05 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24429,7 +24984,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 142.24 0)
+		(at 45.72 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24438,7 +24993,7 @@
 		(fields_autoplaced yes)
 		(uuid "c97f7735-e871-48bf-ac7d-216b6b6d9d26")
 		(property "Reference" "C110"
-			(at 49.53 140.9699 0)
+			(at 49.53 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +25002,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 49.53 143.5099 0)
+			(at 49.53 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24456,7 +25011,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24465,7 +25020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24474,7 +25029,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24483,7 +25038,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24492,7 +25047,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24501,7 +25056,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 45.72 142.24 0)
+			(at 45.72 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24820,8 +25375,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 119.38 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da0597b9-9fb2-415b-aa79-e37d728e617a")
+		(property "Reference" "D6"
+			(at 127 177.6729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 127 180.2129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
+			(at 119.38 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
+			(at 119.38 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
+			(at 119.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Xinglight"
+			(at 119.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XL-3210SURUBC"
+			(at 119.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd961d2e-97b8-44e8-988d-06be2e81d224")
+		)
+		(pin "4"
+			(uuid "2b906fdf-05b7-4af4-8331-a849489a0912")
+		)
+		(pin "2"
+			(uuid "4dfbaa9f-ccfa-4f99-98fb-5020e0c82e60")
+		)
+		(pin "1"
+			(uuid "b7950e08-470c-4a9b-a551-a48df3c6d1be")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 58.42 142.24 0)
+		(at 58.42 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24830,7 +25479,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8a65e2-83a6-410f-98ce-dd9e1421059a")
 		(property "Reference" "C124"
-			(at 62.23 140.9699 0)
+			(at 62.23 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24839,7 +25488,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 62.23 143.5099 0)
+			(at 62.23 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24848,7 +25497,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24857,7 +25506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24866,7 +25515,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24875,7 +25524,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24884,7 +25533,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24893,7 +25542,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 58.42 142.24 0)
+			(at 58.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24985,7 +25634,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 142.24 0)
+		(at 71.12 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24994,7 +25643,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecaf865f-3b44-4a64-b91a-3ea2fe25f0b4")
 		(property "Reference" "C140"
-			(at 74.93 140.9699 0)
+			(at 74.93 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25003,7 +25652,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 74.93 143.5099 0)
+			(at 74.93 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25012,7 +25661,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25021,7 +25670,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25030,7 +25679,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25039,7 +25688,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25048,7 +25697,7 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25057,7 +25706,7 @@
 			)
 		)
 		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 71.12 142.24 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25215,7 +25864,7 @@
 	)
 	(symbol
 		(lib_id "praline:3V3LED")
-		(at 20.32 163.83 0)
+		(at 88.9 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25224,7 +25873,7 @@
 		(fields_autoplaced yes)
 		(uuid "f009ffee-d95c-449f-b435-18e07ad9a0d1")
 		(property "Reference" "#PWR032"
-			(at 20.32 167.64 0)
+			(at 88.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25233,7 +25882,7 @@
 			)
 		)
 		(property "Value" "3V3LED"
-			(at 20.32 158.75 0)
+			(at 88.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25241,7 +25890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 163.83 0)
+			(at 88.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25250,7 +25899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 163.83 0)
+			(at 88.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25259,7 +25908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 20.32 163.83 0)
+			(at 88.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25414,7 +26063,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 83.82 138.43 0)
+		(at 83.82 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25423,7 +26072,7 @@
 		(fields_autoplaced yes)
 		(uuid "f374438f-29a7-4dc2-8f6e-aafd2d625fc5")
 		(property "Reference" "#PWR065"
-			(at 83.82 142.24 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25432,7 +26081,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 83.82 133.35 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25440,7 +26089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 138.43 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25449,7 +26098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 138.43 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25458,7 +26107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 83.82 138.43 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,270 @@
+(footprint "LED_Dual_Xinglight_XL-3210_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "dual LED, right-angle, clear, http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf")
+	(tags "LED right-angle")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "3451168c-3c76-4628-aee4-7c231bd100c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Dual_Xinglight_XL-3210_Horizontal"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.2 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7d8854e-ee92-43b5-9636-11e5630c34c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.2 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66120147-0822-40ab-a99d-acf25f0b6ae4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.2 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9947ded8-1a9e-4ed3-90e4-7d039d0458c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.15 0)
+		(end -2.15 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "851ab59d-1fd7-45c7-a775-29797327cafc")
+	)
+	(fp_line
+		(start -2.15 0.97)
+		(end -1.15 0.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef99418-be75-4332-9611-0a109568ec44")
+	)
+	(fp_arc
+		(start -1.153073 -0.286775)
+		(mid -0.000484 -1.13)
+		(end 1.152779 -0.287697)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0dfd7c1-401d-4f64-8463-f4c0813ac28f")
+	)
+	(fp_line
+		(start -2.2 -0.36)
+		(end -1.27 -0.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87c78429-be2b-40ed-8d3b-56cb9666a56f")
+	)
+	(fp_line
+		(start -2.2 1.02)
+		(end -2.2 -0.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99030c03-63b4-49ba-b5ab-4d56974f7963")
+	)
+	(fp_line
+		(start -2.2 1.02)
+		(end 2.2 1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "646d9e91-59b4-4865-a2fc-29780ed32563")
+	)
+	(fp_line
+		(start 1.27 -0.36)
+		(end 2.2 -0.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ff4672a-e1a4-4a1e-887d-1b9a3429d278")
+	)
+	(fp_line
+		(start 2.2 1.02)
+		(end 2.2 -0.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edc9ab4f-487a-48dc-95f2-4d87f0e9cf9e")
+	)
+	(fp_arc
+		(start -1.27 -0.36)
+		(mid 0 -1.27)
+		(end 1.27 -0.36)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e07c9b6e-d080-4e31-a2b4-3bd827a53843")
+	)
+	(fp_line
+		(start -1.6 0)
+		(end -1.6 0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46cfd089-6873-4d8b-89af-02ff30e49472")
+	)
+	(fp_line
+		(start -1.6 0.13)
+		(end -1.25 0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16ded395-a862-4198-b3af-ba8c7fb298bb")
+	)
+	(fp_line
+		(start -1.6 0.48)
+		(end 1.6 0.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbb15673-6d42-42b8-9d51-7515b3ad9ee9")
+	)
+	(fp_line
+		(start 1.6 0)
+		(end -1.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e83e0227-ac0f-4180-82bd-68d3a7b56476")
+	)
+	(fp_line
+		(start 1.6 0.48)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f3c9e3a-9c59-4881-b27a-d0e982b3ea8e")
+	)
+	(fp_arc
+		(start -1.102904 0)
+		(mid -0.000105 -1.025802)
+		(end 1.102889 -0.000209)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "825c70b0-4860-42b7-97dc-86bfa46e06fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.35 0)
+		(layer "F.Fab")
+		(uuid "bb4f0314-c44c-4dda-b85c-537120eaae9a")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.4 0.55)
+		(size 0.5 0.44)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9538e4ed-27e6-4c37-b989-9859dc0d49e8")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.55)
+		(size 0.5 0.44)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e1105432-6a2f-45d9-8a08-47401d087cf4")
+	)
+	(pad "3" smd rect
+		(at 1.475 0.33)
+		(size 0.95 0.88)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	)
+	(pad "4" smd rect
+		(at -1.475 0.33)
+		(size 0.95 0.88)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ff874d0-4ac5-414c-83a7-573eda4c7703")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Everlight_EASV3015RGBA0_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

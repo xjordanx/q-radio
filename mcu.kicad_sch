@@ -11718,7 +11718,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 177.8) (xy 259.08 177.8)
+			(xy 257.81 177.8) (xy 260.35 177.8)
 		)
 		(stroke
 			(width 0)
@@ -12080,17 +12080,6 @@
 			(justify left bottom)
 		)
 		(uuid "1859ce06-e921-4644-9072-994c3f484b49")
-	)
-	(text "1%"
-		(exclude_from_sim no)
-		(at 255.27 176.53 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "28fdbb6d-de3a-4e81-8dfa-3c8a62ebe34c")
 	)
 	(text "USB0"
 		(exclude_from_sim no)
@@ -15179,24 +15168,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f62b3e5")
 		(property "Reference" "R69"
-			(at 254 179.832 90)
+			(at 254 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12k"
-			(at 254 177.8 90)
+		(property "Value" "12±1%"
+			(at 254 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 254 177.8 0)
 			(effects
 				(font
@@ -15214,7 +15204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 12K OHM 1% 1/16W 0402"
+		(property "Description" "RES 12K OHM 1% 1/20W 0201"
 			(at 254 177.8 0)
 			(effects
 				(font
@@ -15232,7 +15222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-0712KL"
+		(property "Part Number" "RC0201FR-0712KL"
 			(at 254 177.8 0)
 			(effects
 				(font
@@ -23969,7 +23959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -23987,7 +23977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 12K OHM 1% 1/16W 0402"
+		(property "Description" "RES 12K OHM 1% 1/20W 0201"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -24005,7 +23995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402FR-0712KL"
+		(property "Part Number" "RC0201FR-0712KL"
 			(at 83.82 167.64 0)
 			(effects
 				(font
@@ -26129,7 +26119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 177.8 0)
+		(at 260.35 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26138,7 +26128,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa64e7f4-3211-4872-b0f2-06849ea2622e")
 		(property "Reference" "#PWR0165"
-			(at 259.08 184.15 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26147,7 +26137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 182.88 0)
+			(at 260.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26155,7 +26145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 177.8 0)
+			(at 260.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26164,7 +26154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 177.8 0)
+			(at 260.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,7 +26163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 177.8 0)
+			(at 260.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

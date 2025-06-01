@@ -5633,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5pF"
+		(property "Value" "4.3pF"
 			(at 107.95 39.37 90)
 			(effects
 				(font
@@ -5659,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1.5PF 50V C0G/NP0 0201"
+		(property "Description" "CAP CER 4.3PF 25V C0G/NP0 0201"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM0335C1H1R5CA01D"
+		(property "Part Number" "GRM0335C1E4R3CA01D"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -5686,7 +5686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM0335C1H1R5CA01*"
+		(property "Substitution" "GRM0335C1E4R3*, GRM0335C1H4R3*"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -5729,7 +5729,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5pF"
+		(property "Value" "4.3pF"
 			(at 107.95 52.07 90)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1.5PF 50V C0G/NP0 0201"
+		(property "Description" "CAP CER 4.3PF 25V C0G/NP0 0201"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -5773,7 +5773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM0335C1H1R5CA01D"
+		(property "Part Number" "GRM0335C1E4R3CA01D"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -5782,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM0335C1H1R5CA01*"
+		(property "Substitution" "GRM0335C1E4R3*, GRM0335C1H4R3*"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -6014,7 +6014,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f5d6ad6")
 		(property "Reference" "L9"
@@ -6026,7 +6026,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10 nH"
 			(at 115.57 52.0699 0)
 			(effects
 				(font
@@ -6053,7 +6053,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIXED IND 10NH 250MA 700MOHM SMD"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LQP03TN10NJ02D"
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "LQP03TN10NH02D"
 			(at 114.3 50.8 0)
 			(effects
 				(font

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
 	(paper "A4")
 	(title_block
@@ -1415,6 +1415,10 @@
 	(sheet
 		(at 193.04 27.94)
 		(size 40.64 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1444,303 +1448,303 @@
 		)
 		(pin "SGPIO[0..13]" bidirectional
 			(at 193.04 72.39 180)
+			(uuid "bb1f0599-b555-4dde-87bf-59e482f07354")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "bb1f0599-b555-4dde-87bf-59e482f07354")
 		)
 		(pin "FPGA_CONFIG{Config}" bidirectional
 			(at 193.04 69.85 180)
+			(uuid "37330b5b-c8c7-4608-b68a-f261f6a073a7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "37330b5b-c8c7-4608-b68a-f261f6a073a7")
 		)
 		(pin "CLKOUT" input
 			(at 233.68 67.31 0)
+			(uuid "53522b83-9deb-4815-83db-42dbc01bc126")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "53522b83-9deb-4815-83db-42dbc01bc126")
 		)
 		(pin "CLKIN" output
 			(at 233.68 69.85 0)
+			(uuid "eca0d6a4-17b4-447d-9749-696646fbc987")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "eca0d6a4-17b4-447d-9749-696646fbc987")
 		)
 		(pin "MCU_CLK" input
 			(at 233.68 64.77 0)
+			(uuid "bc1a8a22-dd85-4ebc-b1af-8ee34e1de9ac")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "bc1a8a22-dd85-4ebc-b1af-8ee34e1de9ac")
 		)
 		(pin "1V2_EN" output
 			(at 233.68 43.18 0)
+			(uuid "3e7d7b76-4538-40ba-b082-6b8ccc354b6d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "3e7d7b76-4538-40ba-b082-6b8ccc354b6d")
 		)
 		(pin "VIN" output
 			(at 233.68 33.02 0)
+			(uuid "bf29b465-299c-4324-94fb-e2de349f7472")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "bf29b465-299c-4324-94fb-e2de349f7472")
 		)
 		(pin "VBUS_SAFE" input
 			(at 233.68 35.56 0)
+			(uuid "4466151c-3c4b-4d2b-9012-ac7100844e5a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "4466151c-3c4b-4d2b-9012-ac7100844e5a")
 		)
 		(pin "~{VBUS_IN_EN}" output
 			(at 233.68 38.1 0)
+			(uuid "330f63ea-a484-40b4-9c09-3f931f81187b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "330f63ea-a484-40b4-9c09-3f931f81187b")
 		)
 		(pin "~{VIN_IN_EN}" output
 			(at 233.68 40.64 0)
+			(uuid "2dc4472b-6321-4971-94bb-987ed9cc709a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "2dc4472b-6321-4971-94bb-987ed9cc709a")
 		)
 		(pin "MODE" output
 			(at 233.68 45.72 0)
+			(uuid "da903736-6830-4738-a635-c7db37181ddf")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "da903736-6830-4738-a635-c7db37181ddf")
 		)
 		(pin "AUX_CLK" input
 			(at 233.68 72.39 0)
+			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
 		)
 		(pin "LPF_EN" output
 			(at 193.04 49.53 180)
+			(uuid "9d0a95dc-29a7-4a70-9ee2-659aa446577a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "9d0a95dc-29a7-4a70-9ee2-659aa446577a")
 		)
 		(pin "RF_AMP_EN" output
 			(at 193.04 52.07 180)
+			(uuid "4ef9ed8f-1911-407c-9819-c90149caef60")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "4ef9ed8f-1911-407c-9819-c90149caef60")
 		)
 		(pin "TX_EN" output
 			(at 193.04 44.45 180)
+			(uuid "99349822-823f-4bf5-a6cc-f5f6f665c343")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "99349822-823f-4bf5-a6cc-f5f6f665c343")
 		)
 		(pin "~{MIX_EN}" output
 			(at 193.04 46.99 180)
+			(uuid "df4c4891-8f9b-47fa-9aab-d42edd6ef29a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "df4c4891-8f9b-47fa-9aab-d42edd6ef29a")
 		)
 		(pin "~{BIAS_EN}" output
 			(at 233.68 57.15 0)
+			(uuid "57069974-5bc8-41bd-a376-91a658ec5ce5")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "57069974-5bc8-41bd-a376-91a658ec5ce5")
 		)
 		(pin "~{BIAS_OC}" input
 			(at 233.68 59.69 0)
+			(uuid "3cdc0ebb-d3dd-489c-8b68-4150312410ef")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "3cdc0ebb-d3dd-489c-8b68-4150312410ef")
 		)
 		(pin "~{3V3AUX_EN}" output
 			(at 233.68 48.26 0)
+			(uuid "2d0a6eca-9b9a-4c93-8bac-ad21a741662b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "2d0a6eca-9b9a-4c93-8bac-ad21a741662b")
 		)
 		(pin "~{3V3AUX_OC}" input
 			(at 233.68 50.8 0)
+			(uuid "9f419752-4e59-4f16-bae0-1911392a442e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "9f419752-4e59-4f16-bae0-1911392a442e")
 		)
 		(pin "VBUS" input
 			(at 233.68 30.48 0)
+			(uuid "47c00e36-7d06-4b27-9eab-aa08e8c11462")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "47c00e36-7d06-4b27-9eab-aa08e8c11462")
 		)
 		(pin "USB_DATA{USB2}" bidirectional
 			(at 193.04 30.48 180)
+			(uuid "fc207348-747d-455e-9d4d-2933a67a244f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "fc207348-747d-455e-9d4d-2933a67a244f")
 		)
 		(pin "XCVR{MAX2831}" bidirectional
 			(at 193.04 55.88 180)
+			(uuid "65063c28-0590-4e49-8d0d-48fbdc113b3d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "65063c28-0590-4e49-8d0d-48fbdc113b3d")
 		)
 		(pin "P6_3" bidirectional
 			(at 193.04 82.55 180)
+			(uuid "ebe567dd-cc1d-458d-ba50-00c2995c8a2c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "ebe567dd-cc1d-458d-ba50-00c2995c8a2c")
 		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 193.04 74.93 180)
+			(uuid "0edf5bd3-b7f1-4cf4-ae4b-a5f75790b620")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "0edf5bd3-b7f1-4cf4-ae4b-a5f75790b620")
 		)
 		(pin "CLKIN_CTRL[0..2]" bidirectional
 			(at 193.04 77.47 180)
+			(uuid "6001eac2-ddd8-4600-a580-fe6cd7dd525f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "6001eac2-ddd8-4600-a580-fe6cd7dd525f")
 		)
 		(pin "CLKOUT_CTRL[0..1]" bidirectional
 			(at 193.04 80.01 180)
+			(uuid "ab303c31-d8d5-4e6c-84d2-d3a8efd49b25")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "ab303c31-d8d5-4e6c-84d2-d3a8efd49b25")
 		)
 		(pin "SCT_CLK" input
 			(at 233.68 74.93 0)
+			(uuid "27fa7fed-bdc3-4329-b4c8-d7687b7b5f00")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "27fa7fed-bdc3-4329-b4c8-d7687b7b5f00")
 		)
 		(pin "MIXER{RFFC5072}" bidirectional
 			(at 193.04 58.42 180)
+			(uuid "8cc4eb68-ee56-4aa3-8f5a-21aa85d0473a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "8cc4eb68-ee56-4aa3-8f5a-21aa85d0473a")
 		)
 		(pin "AA_CTRL[0..1]" bidirectional
 			(at 193.04 60.96 180)
+			(uuid "815f7a34-9f99-4ad8-809e-6c1cab55b836")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "815f7a34-9f99-4ad8-809e-6c1cab55b836")
 		)
 		(instances
 			(project "praline"
@@ -1753,6 +1757,10 @@
 	(sheet
 		(at 53.34 90.17)
 		(size 33.02 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1782,93 +1790,93 @@
 		)
 		(pin "TXBB{IQ}" input
 			(at 86.36 101.6 0)
+			(uuid "ce082e70-895f-439a-8a77-249dadde7abd")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "ce082e70-895f-439a-8a77-249dadde7abd")
 		)
 		(pin "RXBB{IQ}" output
 			(at 86.36 99.06 0)
+			(uuid "d95fbcfa-c4c0-40c9-8c49-e7f08ab9fe35")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "d95fbcfa-c4c0-40c9-8c49-e7f08ab9fe35")
 		)
 		(pin "XCVR_CLK" input
 			(at 86.36 109.22 0)
+			(uuid "8c39fd24-066e-471a-b77e-b8cf67fc8e7a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "8c39fd24-066e-471a-b77e-b8cf67fc8e7a")
 		)
 		(pin "XCVR{MAX2831}" bidirectional
 			(at 86.36 92.71 0)
+			(uuid "f81d1b63-5da7-4501-9ae1-1d482c8894b8")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "f81d1b63-5da7-4501-9ae1-1d482c8894b8")
 		)
 		(pin "RX_XOR_MIX" input
 			(at 53.34 99.06 180)
+			(uuid "ac8baafc-a1dd-4453-9a8b-69433d9a7825")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "ac8baafc-a1dd-4453-9a8b-69433d9a7825")
 		)
 		(pin "RX_EN" input
 			(at 53.34 101.6 180)
+			(uuid "52b5049f-6adb-4a67-8ead-82a8580b81ee")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "52b5049f-6adb-4a67-8ead-82a8580b81ee")
 		)
 		(pin "MIX_BYPASS" bidirectional
 			(at 53.34 120.65 180)
+			(uuid "fb9b81a8-42af-4421-ae1f-7b2866966655")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "fb9b81a8-42af-4421-ae1f-7b2866966655")
 		)
 		(pin "TX_MIX_IN" output
 			(at 53.34 118.11 180)
+			(uuid "61010a9d-535c-4bb2-93c6-e804c193c88c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "61010a9d-535c-4bb2-93c6-e804c193c88c")
 		)
 		(pin "RX_MIX_OUT" input
 			(at 53.34 115.57 180)
+			(uuid "17d9291f-681c-493a-9615-22cfb81bb600")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "17d9291f-681c-493a-9615-22cfb81bb600")
 		)
 		(instances
 			(project "praline"
@@ -1881,6 +1889,10 @@
 	(sheet
 		(at 157.48 142.24)
 		(size 36.83 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -1910,63 +1922,63 @@
 		)
 		(pin "~{TX_AMP_EN}" input
 			(at 157.48 149.86 180)
+			(uuid "3643aefd-ab96-4d60-85e3-5c56bff9d076")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "3643aefd-ab96-4d60-85e3-5c56bff9d076")
 		)
 		(pin "~{BIAS_OC}" output
 			(at 194.31 157.48 0)
+			(uuid "078921ce-d687-4ebc-97b4-a1cf1259b536")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "078921ce-d687-4ebc-97b4-a1cf1259b536")
 		)
 		(pin "~{RX_AMP_EN}" input
 			(at 157.48 152.4 180)
+			(uuid "8784f7b2-00c7-43a8-8479-79726dade0f1")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "8784f7b2-00c7-43a8-8479-79726dade0f1")
 		)
 		(pin "~{BIAS_EN}" input
 			(at 194.31 154.94 0)
+			(uuid "7af2ad9e-2bbf-4868-a61b-f4df199e7402")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "7af2ad9e-2bbf-4868-a61b-f4df199e7402")
 		)
 		(pin "RX_EN" input
 			(at 157.48 157.48 180)
+			(uuid "92c2dda4-458d-4e39-8656-d52f403264d6")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "92c2dda4-458d-4e39-8656-d52f403264d6")
 		)
 		(pin "RF" bidirectional
 			(at 157.48 144.78 180)
+			(uuid "6208fcd4-091c-4371-add5-4bf2988324b1")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "6208fcd4-091c-4371-add5-4bf2988324b1")
 		)
 		(instances
 			(project "praline"
@@ -1979,6 +1991,10 @@
 	(sheet
 		(at 104.14 73.66)
 		(size 26.67 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2008,63 +2024,63 @@
 		)
 		(pin "DA[0..7]" output
 			(at 130.81 86.36 0)
+			(uuid "3cb8f7ad-fd3a-4770-b92e-e18582f5dfaa")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "3cb8f7ad-fd3a-4770-b92e-e18582f5dfaa")
 		)
 		(pin "DD[0..9]" input
 			(at 130.81 83.82 0)
+			(uuid "fe6e5513-cd1a-44c2-b045-d7f841749f2d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "fe6e5513-cd1a-44c2-b045-d7f841749f2d")
 		)
 		(pin "RXBB{IQ}" input
 			(at 104.14 99.06 180)
+			(uuid "5f0c4e77-029a-49aa-8b45-4084dd7e987d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "5f0c4e77-029a-49aa-8b45-4084dd7e987d")
 		)
 		(pin "TXBB{IQ}" output
 			(at 104.14 101.6 180)
+			(uuid "0b4d3df9-b4ed-4b56-b0d8-96bc559158d8")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "0b4d3df9-b4ed-4b56-b0d8-96bc559158d8")
 		)
 		(pin "AFE_CLK" input
 			(at 130.81 93.98 0)
+			(uuid "ff3a9406-e6c7-433d-84f0-9991bec2fdf6")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "ff3a9406-e6c7-433d-84f0-9991bec2fdf6")
 		)
 		(pin "AA_CTRL[0..1]" bidirectional
 			(at 130.81 76.2 0)
+			(uuid "a609d31f-2e2a-433c-8c80-380aef37923f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "a609d31f-2e2a-433c-8c80-380aef37923f")
 		)
 		(instances
 			(project "praline"
@@ -2077,6 +2093,10 @@
 	(sheet
 		(at 248.92 25.4)
 		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2106,103 +2126,103 @@
 		)
 		(pin "1V2_EN" input
 			(at 248.92 43.18 180)
+			(uuid "9f22dc83-3398-4d6b-8ea8-6d6bd8118d76")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "9f22dc83-3398-4d6b-8ea8-6d6bd8118d76")
 		)
 		(pin "~{VBUS_IN_EN}" input
 			(at 248.92 38.1 180)
+			(uuid "39fba3cf-29e8-422b-96eb-6895f2c3ebdb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "39fba3cf-29e8-422b-96eb-6895f2c3ebdb")
 		)
 		(pin "VBUS" input
 			(at 248.92 30.48 180)
+			(uuid "368a53b9-cd1a-400f-9a4e-23b917ba7b8e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "368a53b9-cd1a-400f-9a4e-23b917ba7b8e")
 		)
 		(pin "MODE" input
 			(at 248.92 45.72 180)
+			(uuid "48383bb0-af4f-4ec4-9a96-7496ff170d73")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "48383bb0-af4f-4ec4-9a96-7496ff170d73")
 		)
 		(pin "~{VIN_IN_EN}" input
 			(at 248.92 40.64 180)
+			(uuid "6f89fa5f-89b2-4a9f-9a5f-b61383b9d7f3")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "6f89fa5f-89b2-4a9f-9a5f-b61383b9d7f3")
 		)
 		(pin "VIN" input
 			(at 248.92 33.02 180)
+			(uuid "84d18a21-e906-4547-be83-c2fa53a77888")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "84d18a21-e906-4547-be83-c2fa53a77888")
 		)
 		(pin "VBUS_SAFE" output
 			(at 248.92 35.56 180)
+			(uuid "a430edf6-7735-438a-a80c-587c7e12285d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "a430edf6-7735-438a-a80c-587c7e12285d")
 		)
 		(pin "~{3V3AUX_EN}" input
 			(at 248.92 48.26 180)
+			(uuid "189b6a59-295d-437e-9e8a-afca4d129e4e")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "189b6a59-295d-437e-9e8a-afca4d129e4e")
 		)
 		(pin "~{3V3AUX_OC}" output
 			(at 248.92 50.8 180)
+			(uuid "a3b4f5b1-eace-4636-8dc1-356cabfc4f20")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "a3b4f5b1-eace-4636-8dc1-356cabfc4f20")
 		)
 		(pin "VBUS_GATE" input
 			(at 248.92 27.94 180)
+			(uuid "98aa0682-8972-45aa-ba65-c92e4982c7c3")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "98aa0682-8972-45aa-ba65-c92e4982c7c3")
 		)
 		(instances
 			(project "praline"
@@ -2215,6 +2235,10 @@
 	(sheet
 		(at 157.48 16.51)
 		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2244,33 +2268,33 @@
 		)
 		(pin "VBUS" output
 			(at 184.15 21.59 0)
+			(uuid "88697009-2347-41a1-ba27-f4eaabde0940")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "88697009-2347-41a1-ba27-f4eaabde0940")
 		)
 		(pin "USB_DATA{USB2}" bidirectional
 			(at 184.15 30.48 0)
+			(uuid "ed86070b-0aff-4210-9155-8f8e2926f7f3")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "ed86070b-0aff-4210-9155-8f8e2926f7f3")
 		)
 		(pin "VBUS_GATE" output
 			(at 184.15 19.05 0)
+			(uuid "650417dc-1b2b-4b3f-bc4b-c1af3c868cc4")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "650417dc-1b2b-4b3f-bc4b-c1af3c868cc4")
 		)
 		(instances
 			(project "praline"
@@ -2283,6 +2307,10 @@
 	(sheet
 		(at 53.34 137.16)
 		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2312,73 +2340,73 @@
 		)
 		(pin "MIX_CLK" input
 			(at 86.36 144.78 0)
+			(uuid "8544f90e-af6d-4524-9cd0-35f52fe0ac99")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "8544f90e-af6d-4524-9cd0-35f52fe0ac99")
 		)
 		(pin "RX_EN" input
 			(at 53.34 144.78 180)
+			(uuid "95f4e1a3-ffaf-4052-a335-5804276860cb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "95f4e1a3-ffaf-4052-a335-5804276860cb")
 		)
 		(pin "RX_MIX_IN" input
 			(at 53.34 149.86 180)
+			(uuid "cf41a653-d7c4-4c8c-8c66-e54c63659111")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "cf41a653-d7c4-4c8c-8c66-e54c63659111")
 		)
 		(pin "TX_MIX_IN" input
 			(at 53.34 152.4 180)
+			(uuid "ebd9de0b-8daa-4ddd-a7db-a031942d0f87")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "ebd9de0b-8daa-4ddd-a7db-a031942d0f87")
 		)
 		(pin "RX_MIX_OUT" output
 			(at 86.36 152.4 0)
+			(uuid "5dd414b8-1867-4642-94aa-b11d2dbf609d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "5dd414b8-1867-4642-94aa-b11d2dbf609d")
 		)
 		(pin "TX_MIX_OUT" output
 			(at 86.36 149.86 0)
+			(uuid "f989d7d9-2978-47be-86c4-1a833341c37c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "f989d7d9-2978-47be-86c4-1a833341c37c")
 		)
 		(pin "MIXER{RFFC5072}" bidirectional
 			(at 86.36 139.7 0)
+			(uuid "a2b68b15-0b7f-42a5-940b-a83342f78383")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "a2b68b15-0b7f-42a5-940b-a83342f78383")
 		)
 		(instances
 			(project "praline"
@@ -2391,6 +2419,10 @@
 	(sheet
 		(at 193.04 93.98)
 		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2420,123 +2452,123 @@
 		)
 		(pin "MCU_CLK" output
 			(at 233.68 100.33 0)
+			(uuid "4ce81d3c-57c2-4616-b8a5-f74660470bc7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "4ce81d3c-57c2-4616-b8a5-f74660470bc7")
 		)
 		(pin "AFE_CLK" output
 			(at 193.04 111.76 180)
+			(uuid "74f9b216-8449-4d0c-bdf5-e8862d8850cc")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "74f9b216-8449-4d0c-bdf5-e8862d8850cc")
 		)
 		(pin "CLKOUT" output
 			(at 233.68 102.87 0)
+			(uuid "04e3dd50-ba10-4d54-8681-87da33c533f3")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "04e3dd50-ba10-4d54-8681-87da33c533f3")
 		)
 		(pin "MIX_CLK" output
 			(at 193.04 116.84 180)
+			(uuid "2f848dd2-53e7-41fa-abef-6ef5e8e44221")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "2f848dd2-53e7-41fa-abef-6ef5e8e44221")
 		)
 		(pin "XCVR_CLK" output
 			(at 193.04 114.3 180)
+			(uuid "29518539-a217-4e96-9ec0-c47a32c4c52b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "29518539-a217-4e96-9ec0-c47a32c4c52b")
 		)
 		(pin "CLKIN" input
 			(at 233.68 105.41 0)
+			(uuid "db01d8a5-b997-40cc-8e66-c56e33316396")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "db01d8a5-b997-40cc-8e66-c56e33316396")
 		)
 		(pin "AUX_CLK" output
 			(at 233.68 107.95 0)
+			(uuid "f1f5e665-0dab-4474-bc59-46dccd93ec6f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "f1f5e665-0dab-4474-bc59-46dccd93ec6f")
 		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 193.04 96.52 180)
+			(uuid "c3105d04-31fd-4342-bb5c-fecafc4d3478")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "c3105d04-31fd-4342-bb5c-fecafc4d3478")
 		)
 		(pin "CLKOUT_CTRL[0..1]" bidirectional
 			(at 193.04 101.6 180)
+			(uuid "fbf117a4-6ae1-41fe-8f78-7c2aeb654361")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "fbf117a4-6ae1-41fe-8f78-7c2aeb654361")
 		)
 		(pin "P6_3" bidirectional
 			(at 193.04 104.14 180)
+			(uuid "28ad0ce5-87b6-4612-b65e-450028a4c918")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "28ad0ce5-87b6-4612-b65e-450028a4c918")
 		)
 		(pin "CLKIN_CTRL[0..2]" bidirectional
 			(at 193.04 99.06 180)
+			(uuid "4aeaa452-f600-4a46-9f7b-adbf103c5217")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "4aeaa452-f600-4a46-9f7b-adbf103c5217")
 		)
 		(pin "SCT_CLK" output
 			(at 233.68 110.49 0)
+			(uuid "cae34cf0-215d-4ff6-a68f-ea4040f295f7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "cae34cf0-215d-4ff6-a68f-ea4040f295f7")
 		)
 		(instances
 			(project "praline"
@@ -2549,6 +2581,10 @@
 	(sheet
 		(at 53.34 41.91)
 		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2578,113 +2614,113 @@
 		)
 		(pin "TX_EN" input
 			(at 86.36 44.45 0)
+			(uuid "4f364d6e-838b-4b54-9d58-a9cf4a160d19")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "4f364d6e-838b-4b54-9d58-a9cf4a160d19")
 		)
 		(pin "RX_EN" output
 			(at 53.34 44.45 180)
+			(uuid "666ab7de-9bc3-403c-badd-125cb45bb169")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "666ab7de-9bc3-403c-badd-125cb45bb169")
 		)
 		(pin "MIX_EN" output
 			(at 53.34 54.61 180)
+			(uuid "54f20814-87e8-476e-9e3b-c6b192385ae4")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "54f20814-87e8-476e-9e3b-c6b192385ae4")
 		)
 		(pin "RF_AMP_EN" input
 			(at 86.36 52.07 0)
+			(uuid "41dbea9d-fbf1-40a0-93aa-6e3bd6001ebc")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "41dbea9d-fbf1-40a0-93aa-6e3bd6001ebc")
 		)
 		(pin "LPF_EN" input
 			(at 86.36 49.53 0)
+			(uuid "33ca3a72-5bf4-4800-9e56-95aafc9a42a0")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "33ca3a72-5bf4-4800-9e56-95aafc9a42a0")
 		)
 		(pin "~{MIX_EN}" input
 			(at 86.36 46.99 0)
+			(uuid "0e146337-22de-42f3-abe4-e97dfca21900")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "0e146337-22de-42f3-abe4-e97dfca21900")
 		)
 		(pin "RX_XOR_MIX" output
 			(at 53.34 59.69 180)
+			(uuid "174ad0ec-e80a-410e-ae80-eb0c1eb8f6c4")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "174ad0ec-e80a-410e-ae80-eb0c1eb8f6c4")
 		)
 		(pin "RX_XOR_LPF" output
 			(at 53.34 46.99 180)
+			(uuid "326b8933-6536-4f6b-aee8-c4ec2858904c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "326b8933-6536-4f6b-aee8-c4ec2858904c")
 		)
 		(pin "~{TX_AMP_EN}" output
 			(at 53.34 52.07 180)
+			(uuid "aec29fdc-94f3-43df-8b4e-1d26100a4c71")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "aec29fdc-94f3-43df-8b4e-1d26100a4c71")
 		)
 		(pin "~{RX_AMP_EN}" output
 			(at 53.34 49.53 180)
+			(uuid "ce7c7d25-fc9b-46e2-b489-e68ac6cfc1b1")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "ce7c7d25-fc9b-46e2-b489-e68ac6cfc1b1")
 		)
 		(pin "LPF_OR_MIX_BYPASS" output
 			(at 53.34 57.15 180)
+			(uuid "eaf0d320-f2bc-4567-819c-bfcc763bae18")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "eaf0d320-f2bc-4567-819c-bfcc763bae18")
 		)
 		(instances
 			(project "praline"
@@ -2697,6 +2733,10 @@
 	(sheet
 		(at 146.05 64.77)
 		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2726,63 +2766,63 @@
 		)
 		(pin "SGPIO[0..13]" bidirectional
 			(at 172.72 72.39 0)
+			(uuid "7148fa07-038a-4dcb-9068-d167596cfaf7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "7148fa07-038a-4dcb-9068-d167596cfaf7")
 		)
 		(pin "DD[0..9]" output
 			(at 146.05 83.82 180)
+			(uuid "cb09382d-7dab-44ca-8164-94cd3c0145ae")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "cb09382d-7dab-44ca-8164-94cd3c0145ae")
 		)
 		(pin "DA[0..7]" input
 			(at 146.05 86.36 180)
+			(uuid "636807ef-7f88-40ae-88df-1c06ca3bfcab")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "636807ef-7f88-40ae-88df-1c06ca3bfcab")
 		)
 		(pin "FPGA_CONFIG{Config}" bidirectional
 			(at 172.72 69.85 0)
+			(uuid "21e3068d-70d1-4286-a566-23e2000a1400")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "21e3068d-70d1-4286-a566-23e2000a1400")
 		)
 		(pin "AFE_CLK" input
 			(at 172.72 86.36 0)
+			(uuid "8871285d-be54-410d-aa7b-805ace61b48c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "8871285d-be54-410d-aa7b-805ace61b48c")
 		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 172.72 74.93 0)
+			(uuid "cd24e44c-f5d9-4b07-956f-c1416edc4369")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "cd24e44c-f5d9-4b07-956f-c1416edc4369")
 		)
 		(instances
 			(project "praline"
@@ -2795,6 +2835,10 @@
 	(sheet
 		(at 104.14 142.24)
 		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2824,73 +2868,73 @@
 		)
 		(pin "RX_MIX_IN" output
 			(at 104.14 147.32 180)
+			(uuid "4f570434-2151-4c20-a31a-9bfcf93b00f9")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "4f570434-2151-4c20-a31a-9bfcf93b00f9")
 		)
 		(pin "TX_MIX_OUT" input
 			(at 104.14 149.86 180)
+			(uuid "7285371b-758a-4257-b159-f01c87401e1a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "7285371b-758a-4257-b159-f01c87401e1a")
 		)
 		(pin "MIX_BYPASS" bidirectional
 			(at 104.14 144.78 180)
+			(uuid "28b6cdb3-2f95-425f-9128-57c85b7ab15d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "28b6cdb3-2f95-425f-9128-57c85b7ab15d")
 		)
 		(pin "RX_XOR_LPF" input
 			(at 104.14 160.02 180)
+			(uuid "4043387a-1ba9-4764-a63e-d4f59b6b5123")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "4043387a-1ba9-4764-a63e-d4f59b6b5123")
 		)
 		(pin "MIX_EN" input
 			(at 104.14 157.48 180)
+			(uuid "a5bd2b11-a4f5-49bb-adbd-c1e1a503814d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "a5bd2b11-a4f5-49bb-adbd-c1e1a503814d")
 		)
 		(pin "LPF_OR_MIX_BYPASS" input
 			(at 104.14 154.94 180)
+			(uuid "cace734b-a059-4b18-bdd2-3e54677cd5d9")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "cace734b-a059-4b18-bdd2-3e54677cd5d9")
 		)
 		(pin "RF" bidirectional
 			(at 139.7 144.78 0)
+			(uuid "ae7c0c18-5e62-42e1-8e6b-cc06f4823a84")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "ae7c0c18-5e62-42e1-8e6b-cc06f4823a84")
 		)
 		(instances
 			(project "praline"
@@ -2905,4 +2949,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

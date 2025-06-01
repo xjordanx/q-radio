@@ -7159,7 +7159,7 @@
 				)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "22pF"
 			(at 113.03 119.38 90)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
+		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
 			(at 170.18 412.75 0)
 			(effects
 				(font
@@ -7203,7 +7203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM0335C1H330JA01D"
+		(property "Part Number" "GRM0335C1H220JA01D"
 			(at 170.18 412.75 0)
 			(effects
 				(font
@@ -7212,7 +7212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
+		(property "Substitution" "GRM0335C1H220*"
 			(at 113.03 124.46 0)
 			(effects
 				(font

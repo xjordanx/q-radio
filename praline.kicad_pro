@@ -79,6 +79,10 @@
         [
           "courtyards_overlap|62285000|119605000|00000000-0000-0000-0000-00005290336d|00000000-0000-0000-0000-00005787ecd8",
           ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|167000000|101300000|77a3914e-0fef-42a4-8f2a-e65b7558898e|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -291,7 +295,13 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 10,
+        "enabled": true,
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -553,7 +563,6 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
         "line_style": 0,
         "microvia_diameter": 0.4,
@@ -817,7 +826,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
-    "DATE": "2025-06-01",
+    "DATE": "2025-06-05",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.3.1+"

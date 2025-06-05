@@ -734,16 +734,6 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 60.96) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b36a8ba-029b-466e-abfe-48582de11240")
-	)
-	(bus
-		(pts
 			(xy 193.04 55.88) (xy 88.9 55.88)
 		)
 		(stroke
@@ -761,6 +751,16 @@
 			(type default)
 		)
 		(uuid "8c2d76e7-2490-4ad2-b0a1-68179c4c7a08")
+	)
+	(wire
+		(pts
+			(xy 130.81 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d39ad43-b6f5-4fdf-b760-f20f53325cb3")
 	)
 	(wire
 		(pts
@@ -791,16 +791,6 @@
 			(type default)
 		)
 		(uuid "90d036f6-8ad3-4c90-b283-2986158dbfe7")
-	)
-	(bus
-		(pts
-			(xy 133.35 76.2) (xy 130.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914b5ae7-1a02-408b-8a09-d6a2f3ca7e86")
 	)
 	(wire
 		(pts
@@ -1084,6 +1074,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 60.96) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb039e3a-1bec-405d-bcc8-b32d0ab97290")
+	)
+	(wire
+		(pts
 			(xy 101.6 177.8) (xy 101.6 160.02)
 		)
 		(stroke
@@ -1121,6 +1121,16 @@
 			(type default)
 		)
 		(uuid "d324ca94-a892-4d52-a970-72ff0b26714a")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cea818-dd83-4bd1-9da7-b4f9b83f7aaa")
 	)
 	(wire
 		(pts
@@ -1231,16 +1241,6 @@
 			(type default)
 		)
 		(uuid "e938d749-919f-4141-b519-fe21b9ecf265")
-	)
-	(bus
-		(pts
-			(xy 193.04 60.96) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9aac2d6-8edc-489f-bfa5-c1167e20ee22")
 	)
 	(wire
 		(pts
@@ -1736,9 +1736,9 @@
 				(justify left)
 			)
 		)
-		(pin "AA_CTRL[0..1]" bidirectional
+		(pin "AA_EN" output
 			(at 193.04 60.96 180)
-			(uuid "815f7a34-9f99-4ad8-809e-6c1cab55b836")
+			(uuid "50003b87-988f-4b9e-8d7f-95f3ca5d97b9")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2072,9 +2072,9 @@
 				(justify right)
 			)
 		)
-		(pin "AA_CTRL[0..1]" bidirectional
+		(pin "AA_EN" input
 			(at 130.81 76.2 0)
-			(uuid "a609d31f-2e2a-433c-8c80-380aef37923f")
+			(uuid "7e799966-5eb9-4726-ac03-eba16f6c7bcb")
 			(effects
 				(font
 					(size 1.524 1.524)

@@ -7808,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 18.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES 18.7K OHM 1% 1/16W 0402"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -7817,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -7826,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2RKF1872X"
+		(property "Part Number" "RC0402FR-0718K7L"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -12813,7 +12813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 18.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES 18.7K OHM 1% 1/16W 0402"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -12822,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -12831,7 +12831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2RKF1872X"
+		(property "Part Number" "RC0402FR-0718K7L"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -16115,7 +16115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 18.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES 18.7K OHM 1% 1/16W 0402"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -16124,7 +16124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -16133,7 +16133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2RKF1872X"
+		(property "Part Number" "RC0402FR-0718K7L"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -18440,7 +18440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 18.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES 18.7K OHM 1% 1/16W 0402"
 			(at 31.75 100.33 0)
 			(effects
 				(font
@@ -18449,7 +18449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 31.75 100.33 0)
 			(effects
 				(font
@@ -18458,7 +18458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2RKF1872X"
+		(property "Part Number" "RC0402FR-0718K7L"
 			(at 31.75 100.33 0)
 			(effects
 				(font

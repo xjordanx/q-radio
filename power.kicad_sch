@@ -6576,17 +6576,15 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 106.68 50.8 90)
-		(mirror x)
+		(at 106.68 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "045d7fb2-788a-4ab4-ad9f-10b7833270be")
 		(property "Reference" "FB1"
-			(at 106.6292 43.18 90)
+			(at 106.7308 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6592,7 @@
 			)
 		)
 		(property "Value" "Ferrite"
-			(at 106.6292 45.72 90)
+			(at 106.7308 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8754,7 +8752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 76.962 96.52 90)
 			(effects
 				(font
@@ -8772,7 +8770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -8781,7 +8779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -8790,7 +8788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -9175,7 +9173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 76.962 52.07 90)
 			(effects
 				(font
@@ -9193,7 +9191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -9202,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -9211,7 +9209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 78.74 52.07 0)
 			(effects
 				(font
@@ -13223,7 +13221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.132 88.9 90)
 			(effects
 				(font
@@ -13241,7 +13239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -13250,7 +13248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -13259,7 +13257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -15130,7 +15128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 46.99 86.868 90)
 			(effects
 				(font
@@ -15148,7 +15146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -15157,7 +15155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -15175,7 +15173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 46.99 85.09 0)
 			(effects
 				(font
@@ -15390,7 +15388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 40.132 46.99 90)
 			(effects
 				(font
@@ -15408,7 +15406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -15417,7 +15415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -15426,7 +15424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -15936,7 +15934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 46.99 44.958 90)
 			(effects
 				(font
@@ -15954,7 +15952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 33K OHM 5% 1/10W 0402"
+		(property "Description" "RES 33K OHM 5% 1/20W 0201"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15963,7 +15961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-2GEJ333X"
+		(property "Part Number" "RC0201JR-0733KL"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15981,7 +15979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Yageo"
 			(at 46.99 43.18 0)
 			(effects
 				(font

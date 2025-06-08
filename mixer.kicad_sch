@@ -2007,17 +2007,6 @@
 	(bus_alias "RFFC5072"
 		(members "SDATA" "SCLK" "~{EN}" "~{RESET}" "ENBL" "LD")
 	)
-	(text "Expected MIX_CLK is 1.8 to 3.3 V\npeak-to-peak at 25 to 52 MHz. It is\ndivided down to 0.5 to 1.5 V (REF_IN)."
-		(exclude_from_sim no)
-		(at 175.26 137.16 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "520273ed-7a45-404f-b179-b8b9f447d349")
-	)
 	(text "loop filter"
 		(exclude_from_sim no)
 		(at 177.8 33.02 0)
@@ -2130,6 +2119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "765b40d3-763a-44b3-835d-b0b7c109eaf4")
+	)
+	(junction
+		(at 185.42 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772ac6b1-7173-44f0-9822-ad57ef6e32ef")
 	)
 	(junction
 		(at 95.25 115.57)
@@ -2380,16 +2375,6 @@
 			(type default)
 		)
 		(uuid "0700bac8-44ee-415a-b9f7-65bf28a2ef37")
-	)
-	(wire
-		(pts
-			(xy 170.18 137.16) (xy 170.18 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082adea4-fdf0-483d-9b74-c4d7961a69e5")
 	)
 	(wire
 		(pts
@@ -2933,16 +2918,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 128.27) (xy 171.45 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6febf8a4-e8d0-4c65-9929-969d6b16173f")
-	)
-	(wire
-		(pts
 			(xy 92.71 110.49) (xy 92.71 104.14)
 		)
 		(stroke
@@ -3103,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 170.18 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d25352-28e8-4dd2-9296-cfcf6d521e30")
-	)
-	(wire
-		(pts
 			(xy 39.37 118.11) (xy 74.93 118.11)
 		)
 		(stroke
@@ -3140,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "93886240-8e83-4a3d-97bc-8f2d41cb4f82")
+	)
+	(wire
+		(pts
+			(xy 185.42 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952aa76c-959f-4e2b-9d49-753b8d7a1f76")
 	)
 	(wire
 		(pts
@@ -3370,6 +3345,16 @@
 			(type default)
 		)
 		(uuid "c06d7d04-cc90-47ec-a885-5934807e2c59")
+	)
+	(wire
+		(pts
+			(xy 185.42 139.7) (xy 185.42 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0930fa1-f3fe-4ae7-9b69-747630002b09")
 	)
 	(bus
 		(pts
@@ -3610,16 +3595,6 @@
 			(type default)
 		)
 		(uuid "e604d6f6-15ae-42ec-a5e1-b83bd3d0e6ae")
-	)
-	(wire
-		(pts
-			(xy 170.18 148.59) (xy 170.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b692e8-b2bb-4f2b-9acd-f1bf71cb4666")
 	)
 	(wire
 		(pts
@@ -3956,7 +3931,7 @@
 	)
 	(hierarchical_label "MIX_CLK"
 		(shape input)
-		(at 171.45 128.27 0)
+		(at 186.69 138.43 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4270,8 +4245,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 170.18 133.35 0)
-		(mirror y)
+		(at 173.99 138.43 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4280,25 +4255,23 @@
 		(fields_autoplaced yes)
 		(uuid "06df7fda-6e23-47ea-9441-205731abe22b")
 		(property "Reference" "C67"
-			(at 166.37 132.0799 0)
+			(at 173.99 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "33pF"
-			(at 166.37 134.6199 0)
+			(at 173.99 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 170.18 133.35 0)
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4307,7 +4280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 133.35 0)
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4316,7 +4289,7 @@
 			)
 		)
 		(property "Description" "CAP CER 33PF 50V C0G/NP0 0201"
-			(at -118.11 76.2 0)
+			(at 231.14 -149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4325,7 +4298,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at -118.11 76.2 0)
+			(at 231.14 -149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4334,7 +4307,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1H330JA01D"
-			(at -118.11 76.2 0)
+			(at 231.14 -149.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4343,7 +4316,7 @@
 			)
 		)
 		(property "Substitution" "GRM0335C1H330*, GRM0335C1E330*"
-			(at 170.18 133.35 0)
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 148.59 0)
+		(at 170.18 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5486,7 +5459,7 @@
 		(fields_autoplaced yes)
 		(uuid "383d5ccd-d453-4ad1-8108-a39e1a3cc89a")
 		(property "Reference" "#PWR0320"
-			(at 170.18 154.94 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5468,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 153.67 0)
+			(at 170.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 148.59 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 148.59 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5494,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 148.59 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,6 +8383,112 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 185.42 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a346f7e0-da05-44e9-b5fd-5c7673ceefdf")
+		(property "Reference" "R151"
+			(at 187.96 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 187.96 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 183.642 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201FR-071KL"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c44a9e7-a0da-47ed-a156-76bca7b0d1f2")
+		)
+		(pin "2"
+			(uuid "e835ae5a-2d89-4d93-974b-376be7c53c0f")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/786d04ae-a477-4586-9df0-2e24f8eeece5"
+					(reference "R151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 180.34 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8826,6 +8905,168 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/786d04ae-a477-4586-9df0-2e24f8eeece5"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb7d267c-dec6-4e42-8238-6815eb7a7195")
+		(property "Reference" "#PWR0223"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b72864eb-33d8-432b-909b-6dbfb1bb6f22")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/786d04ae-a477-4586-9df0-2e24f8eeece5"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6a321e-34fc-44cb-a031-3278f6f4095a")
+		(property "Reference" "R150"
+			(at 181.61 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 181.61 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-070RL"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d53cbcc9-842f-4e62-a16c-89ce0b5861d0")
+		)
+		(pin "2"
+			(uuid "fd3a8a90-86e3-455b-82aa-80017c9a395a")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/786d04ae-a477-4586-9df0-2e24f8eeece5"
+					(reference "R150")
 					(unit 1)
 				)
 			)

@@ -618,7 +618,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "praline.net",
-      "plot": "",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -687,12 +687,6 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "DNP",
-          "name": "DNP",
-          "show": false
-        },
-        {
           "group_by": true,
           "label": "Manufacturer",
           "name": "Manufacturer",
@@ -734,7 +728,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Manufacturer"
     },
     "connection_grid_size": 50.0,
     "drawing": {

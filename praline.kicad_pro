@@ -725,10 +725,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Manufacturer"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

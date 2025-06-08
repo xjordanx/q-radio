@@ -10058,7 +10058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 129.54 38.0999 0)
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -10085,7 +10085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -10103,7 +10103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0710KL"
+		(property "Part Number" "RC0201FR-074K7L"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -13752,7 +13752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 129.54 62.2299 0)
 			(effects
 				(font
@@ -13761,7 +13761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -13779,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -13797,7 +13797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0710KL"
+		(property "Part Number" "RC0201FR-074K7L"
 			(at 132.08 60.96 0)
 			(effects
 				(font

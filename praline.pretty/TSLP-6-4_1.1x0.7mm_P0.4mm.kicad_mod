@@ -1,7 +1,7 @@
 (footprint "TSLP-6-4_1.1x0.7mm_P0.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TSLP, 6-Pin, 1.1x0.7mm (https://www.infineon.com/cms/en/product/packages/PG-TSLP/PG-TSLP-6-4/)")
 	(tags "TSLP NoLead")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "77763a24-f776-4c95-90c5-99bd633110b9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -112,7 +100,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a0534b8e-2120-42e6-b803-49297c7c3216")
 	)
@@ -123,7 +111,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "f1f388f8-2489-4fa5-80b8-5459ae781da1")
 	)
@@ -188,48 +176,55 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.2 -0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "332e708a-eceb-4e92-9f29-16a885196b73")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -0.2 0)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "d60451b5-b98e-4b92-9188-e03addfbed63")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.2 0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "65ad2454-2b85-4207-812a-f77091dad7f5")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.2 0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "cfb8ad97-d49b-4d75-83d5-d1e70b5500e1")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0.2 0)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "32c9bda6-b102-4f92-b62a-82ca6b798cd4")
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at 0.2 -0.4)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(thermal_bridge_angle 45)
 		(uuid "59b97f31-d95b-43e0-b572-481cf7b6cc3a")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm.wrl"
 		(offset
 			(xyz 0 0 0)

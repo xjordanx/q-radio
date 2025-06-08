@@ -9155,7 +9155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 102.87 80.01 0)
 			(effects
 				(font

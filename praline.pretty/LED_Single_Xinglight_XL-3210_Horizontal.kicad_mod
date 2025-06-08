@@ -1,7 +1,7 @@
 (footprint "LED_Single_Xinglight_XL-3210_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED, right-angle, clear, http://www.xinglight.cn/uploadfile/202212/7a7994c6a7a4fd8.pdf")
 	(tags "LED right-angle")
@@ -24,19 +24,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.125)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -0.2 180)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a7d8854e-ee92-43b5-9636-11e5630c34c9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -232,24 +219,28 @@
 			)
 		)
 	)
-	(pad "" smd rect
+	(pad "" smd roundrect
 		(at 0 0.55)
 		(size 0.9 0.44)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "e1105432-6a2f-45d9-8a08-47401d087cf4")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.525 0.33)
 		(size 0.85 0.88)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "6ff874d0-4ac5-414c-83a7-573eda4c7703")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.525 0.33)
 		(size 0.85 0.88)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Everlight_EASV3015RGBA0_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

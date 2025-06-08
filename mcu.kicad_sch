@@ -15861,7 +15861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical"
+		(property "Footprint" "praline:PinSocket_2x11_P2.54mm_Vertical_Flipped"
 			(at 367.03 190.5 0)
 			(effects
 				(font
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical"
+		(property "Footprint" "praline:PinSocket_2x11_P2.54mm_Vertical_Flipped"
 			(at 367.03 114.3 0)
 			(effects
 				(font
@@ -19834,7 +19834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
+		(property "Footprint" "praline:PinSocket_2x13_P2.54mm_Vertical_Flipped"
 			(at 367.03 152.4 0)
 			(effects
 				(font

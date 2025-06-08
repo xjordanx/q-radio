@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.24,
-          "width": 0.8
+          "height": 0.25,
+          "width": 0.25
         },
         "silk_line_width": 0.2032,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,11 +61,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|172085000|128785000|00000000-0000-0000-0000-00005787e7b0|6feea198-fb55-4b20-9311-103b374fb6a1",
+          "courtyards_overlap|172085000|128805000|00000000-0000-0000-0000-00005787e7b0|6feea198-fb55-4b20-9311-103b374fb6a1",
           ""
         ],
         [
-          "courtyards_overlap|174105000|140005000|00000000-0000-0000-0000-00005787e6f8|00000000-0000-0000-0000-00005787e7b0",
+          "courtyards_overlap|173905000|140005000|00000000-0000-0000-0000-00005787e6f8|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "courtyards_overlap|175739210|167963695|00000000-0000-0000-0000-00005787e787|1ab20d22-c884-4c9f-800f-64b4c58f758c",
           ""
         ],
         [
@@ -78,6 +82,14 @@
         ],
         [
           "courtyards_overlap|62285000|119605000|00000000-0000-0000-0000-00005290336d|00000000-0000-0000-0000-00005787ecd8",
+          ""
+        ],
+        [
+          "courtyards_overlap|65550719|106605000|00000000-0000-0000-0000-00005787ecea|deb4ce5e-9f1f-4e3a-ac62-b02a7ad9ac03",
+          ""
+        ],
+        [
+          "courtyards_overlap|66955000|170274570|368cbbb1-f1dc-4090-8d50-66973b9907ea|5e5014cc-f51a-4208-894b-e98bc51eb05b",
           ""
         ],
         [
@@ -826,7 +838,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
-    "DATE": "2025-06-07",
+    "DATE": "2025-06-08",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "0.3.1+"

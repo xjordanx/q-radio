@@ -408,10 +408,11 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.8625 0)
 		(size 0.425 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "4af33820-3a7d-457f-b96c-254efcafd450")
 	)
 	(pad "2" smd rect
@@ -420,22 +421,25 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "46e427f8-d720-44f1-8f6d-533c0787ab3a")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 0.4625)
 		(size 0.6 0.425)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "08fc3f98-cbae-4694-91e3-fd6177eb1432")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.8625 0)
 		(size 0.425 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "623ad617-c563-4a57-a0a2-7af461febdda")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0 -0.4625)
 		(size 0.6 0.425)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
 		(uuid "0d14801c-fb21-4dbb-aeb4-ab89b8d7043f")
 	)
 	(zone
@@ -476,15 +480,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.5 0.5 0.6)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

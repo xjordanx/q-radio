@@ -6344,6 +6344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Substitution" "M04-0102170R0A"
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "608c6ad0-214b-40ad-898a-65ce9b272cf9")
 		)
@@ -7961,6 +7970,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "M04-0102170R0A"
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

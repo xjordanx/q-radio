@@ -6593,7 +6593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NRC"
+		(property "Manufacturer" "LRC"
 			(at 148.59 33.02 0)
 			(effects
 				(font
@@ -7874,7 +7874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+		(property "Footprint" "praline:TSSLP-2-1"
 			(at 246.38 105.41 0)
 			(effects
 				(font

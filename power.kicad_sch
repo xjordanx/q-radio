@@ -8241,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 31.75 50.8 0)
 			(effects
 				(font
@@ -10184,7 +10184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 31.75 92.71 0)
 			(effects
 				(font
@@ -10763,7 +10763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "NRS4018T4R7MDGJ"
+		(property "Part Number" "LSXND4040TKL4R7MDG"
 			(at 166.37 35.56 90)
 			(effects
 				(font
@@ -10772,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "NRG4026T4R7M"
+		(property "Substitution" "NRS4018T4R7MDGJ, LLXND4040TKL4R7MDG, NRS4018T4R7MDGJ"
 			(at 166.37 35.56 0)
 			(effects
 				(font
@@ -16242,7 +16242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 91.44 80.01 0)
 			(effects
 				(font

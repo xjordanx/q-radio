@@ -285,16 +285,8 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.7874,
-          "drill": 0.4064
-        },
-        {
-          "diameter": 0.9398,
-          "drill": 0.508
-        },
-        {
-          "diameter": 1.0668,
-          "drill": 0.635
+          "diameter": 0.7,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -725,10 +717,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

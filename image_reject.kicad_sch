@@ -4544,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NRC"
+		(property "Manufacturer" "LRC"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -8711,7 +8711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NRC"
+		(property "Manufacturer" "LRC"
 			(at 86.36 130.81 0)
 			(effects
 				(font

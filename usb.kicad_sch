@@ -3883,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 110.49 52.07 0)
 			(effects
 				(font

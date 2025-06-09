@@ -9163,7 +9163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -10031,7 +10031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:DFN1006-2"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 247.65 102.87 0)
 			(effects
 				(font

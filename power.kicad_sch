@@ -13533,7 +13533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 820K OHM 5% 1/16W 0402"
+		(property "Description" "RES 820K OHM 1% 1/16W 0402"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -13542,7 +13542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-07820KL"
+		(property "Part Number" "RC0402FR-07820KL"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -19295,7 +19295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 820K OHM 5% 1/16W 0402"
+		(property "Description" "RES 820K OHM 1% 1/16W 0402"
 			(at 68.58 82.55 0)
 			(effects
 				(font
@@ -19304,7 +19304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-07820KL"
+		(property "Part Number" "RC0402FR-07820KL"
 			(at 68.58 82.55 0)
 			(effects
 				(font

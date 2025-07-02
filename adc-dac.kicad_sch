@@ -8207,7 +8207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12±1%"
+		(property "Value" "12k±1%"
 			(at 92.71 114.2999 0)
 			(effects
 				(font

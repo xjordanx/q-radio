@@ -15814,7 +15814,7 @@
 				)
 			)
 		)
-		(property "Value" "12±1%"
+		(property "Value" "12k±1%"
 			(at 254 184.15 90)
 			(effects
 				(font

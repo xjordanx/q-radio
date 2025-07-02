@@ -7795,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 3 OHM 5% 1/16W 0402"
+		(property "Description" "RES 3 OHM 5% 1/20W 0201"
 			(at 113.03 129.54 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-073RL"
+		(property "Part Number" "RC0201JR-073RL"
 			(at 113.03 129.54 90)
 			(effects
 				(font
@@ -9285,7 +9285,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "8.2 nH"
@@ -9294,7 +9293,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"

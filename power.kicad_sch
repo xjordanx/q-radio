@@ -7142,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 54.61 102.108 90)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+		(property "Description" "RES 2.2K OHM 5% 1/20W 0201"
 			(at 54.61 100.33 0)
 			(effects
 				(font
@@ -7169,7 +7169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-072K2L"
+		(property "Part Number" "RC0201JR-072K2L"
 			(at 54.61 100.33 0)
 			(effects
 				(font
@@ -19802,7 +19802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 54.61 60.198 90)
 			(effects
 				(font
@@ -19820,7 +19820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+		(property "Description" "RES 2.2K OHM 5% 1/20W 0201"
 			(at 54.61 58.42 0)
 			(effects
 				(font
@@ -19829,7 +19829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-072K2L"
+		(property "Part Number" "RC0201JR-072K2L"
 			(at 54.61 58.42 0)
 			(effects
 				(font

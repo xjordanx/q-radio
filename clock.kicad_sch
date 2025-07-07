@@ -2441,7 +2441,7 @@
 		)
 		(uuid "07dcddcb-77e6-4c49-a614-db84dbdb975d")
 	)
-	(text "CLK2"
+	(text "CLK3"
 		(exclude_from_sim no)
 		(at 195.58 31.75 0)
 		(effects
@@ -2518,7 +2518,7 @@
 		)
 		(uuid "4d3c22eb-f8cb-4360-aa61-8d22f6ac2200")
 	)
-	(text "TRIGGER.IN"
+	(text "TRIGGER.OUT"
 		(exclude_from_sim no)
 		(at 195.58 36.83 0)
 		(effects
@@ -2529,7 +2529,7 @@
 		)
 		(uuid "53e4e36b-07b2-498a-91b5-ee67773c7a7b")
 	)
-	(text "CLK3"
+	(text "AUX_CLK"
 		(exclude_from_sim no)
 		(at 102.87 34.29 0)
 		(effects
@@ -2760,7 +2760,7 @@
 		)
 		(uuid "bf992ca5-548d-472f-84f1-2fd3ab16d2a2")
 	)
-	(text "TRIGGER.OUT"
+	(text "TRIGGER.IN"
 		(exclude_from_sim no)
 		(at 195.58 34.29 0)
 		(effects
@@ -2836,6 +2836,12 @@
 			(justify left bottom)
 		)
 		(uuid "f839b074-e3e9-44ae-918d-69819b834114")
+	)
+	(junction
+		(at 157.48 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d1d488-bef1-4d48-941e-58e4ee964ee4")
 	)
 	(junction
 		(at 193.04 64.77)
@@ -2998,6 +3004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d379d8d4-dd9c-4e0c-927f-9b9e6707f928")
+	)
+	(junction
+		(at 177.8 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76ad33b-1f31-4298-bf38-1f6ba17ebae8")
 	)
 	(junction
 		(at 107.95 185.42)
@@ -3256,6 +3268,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 101.6) (xy 210.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a935830-6422-4f2d-b904-4445eec20ebe")
+	)
+	(wire
+		(pts
 			(xy 146.05 185.42) (xy 160.02 185.42)
 		)
 		(stroke
@@ -3276,6 +3298,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 149.86) (xy 177.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a11ee56-c3c8-4f07-92aa-19931c5053f5")
+	)
+	(wire
+		(pts
 			(xy 95.25 116.84) (xy 95.25 62.23)
 		)
 		(stroke
@@ -3286,13 +3318,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 210.82 109.22)
+			(xy 140.97 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b64316e-fab6-4878-8333-8289f54a9e4c")
+		(uuid "2c998c99-f97b-48e3-9660-429239a7f3e7")
 	)
 	(wire
 		(pts
@@ -3916,7 +3948,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 92.71 59.69)
+			(xy 92.71 59.69) (xy 177.8 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4036,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 161.29 149.86)
+			(xy 156.21 149.86) (xy 177.8 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4128,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 119.38) (xy 187.96 119.38)
+			(xy 157.48 107.95) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f0873b-5140-4e61-b5e3-65755512645c")
+	)
+	(wire
+		(pts
+			(xy 130.81 119.38) (xy 210.82 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4176,13 +4218,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 119.38) (xy 187.96 59.69)
+			(xy 177.8 149.86) (xy 181.61 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf261fc9-fd6e-438f-b0d5-218cf608a2a9")
+		(uuid "ceb929ae-6b21-4100-b5e1-809541674171")
 	)
 	(wire
 		(pts
@@ -4296,16 +4338,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 140.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13dcb31-eecd-4d01-8cca-2c9efb9cc6f8")
-	)
-	(wire
-		(pts
 			(xy 156.21 99.06) (xy 157.48 99.06)
 		)
 		(stroke
@@ -4323,6 +4355,16 @@
 			(type default)
 		)
 		(uuid "ea1b77f9-ea05-4d5e-a3c3-604b2102437f")
+	)
+	(wire
+		(pts
+			(xy 156.21 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf3d72e-c2c5-4160-b737-fb7e24690b8a")
 	)
 	(wire
 		(pts
@@ -4383,6 +4425,16 @@
 			(type default)
 		)
 		(uuid "f4c49f2b-acbe-4065-9be0-846d6e104441")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c47a27-f6bb-4612-bbc1-b7d08c811ab0")
 	)
 	(wire
 		(pts
@@ -4670,7 +4722,7 @@
 	)
 	(hierarchical_label "AUX_CLK"
 		(shape output)
-		(at 161.29 149.86 0)
+		(at 181.61 149.86 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4744,6 +4796,17 @@
 			(justify left)
 		)
 		(uuid "acd64863-d478-4fff-912c-05f041e845cf")
+	)
+	(hierarchical_label "FPGA_CLK"
+		(shape output)
+		(at 161.29 109.22 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d168d681-0607-4a21-a798-a7d52d5d26ae")
 	)
 	(hierarchical_label "MIX_CLK"
 		(shape output)
@@ -5552,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "10"
 			(at 63.5 31.75 90)
 			(effects
 				(font
@@ -5560,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -5578,7 +5641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33 OHM 5% 1/16W 0402"
+		(property "Description" "RES 10 OHM 5% 1/20W 0201"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -5596,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0733RL"
+		(property "Part Number" "RC0201JR-0710RL"
 			(at 63.5 35.56 0)
 			(effects
 				(font
@@ -6176,6 +6239,101 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4537bdab-e80c-40b4-a4d9-7a50b6413047")
+		(property "Reference" "R12"
+			(at 152.4 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.4 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 33 OHM 5% 1/16W 0402"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-0733RL"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83e61d0c-65e6-4796-b37f-2e79a984c352")
+		)
+		(pin "2"
+			(uuid "37b99026-5268-4fa7-a2c5-c457e3d48f2b")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7000,7 +7158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 153.67 0)
+		(at 250.19 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7009,7 +7167,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c6f121-0a02-48c6-af5a-07fe6e35d3d2")
 		(property "Reference" "#PWR0258"
-			(at 222.25 160.02 0)
+			(at 250.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 158.75 0)
+			(at 250.19 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 153.67 0)
+			(at 250.19 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 153.67 0)
+			(at 250.19 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 153.67 0)
+			(at 250.19 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7319,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 153.67 0)
+		(at 222.25 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7170,7 +7328,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ed1e0ed-c76a-4f77-aba7-7deef4e142fe")
 		(property "Reference" "#PWR0256"
-			(at 194.31 160.02 0)
+			(at 222.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 158.75 0)
+			(at 222.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 153.67 0)
+			(at 222.25 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 153.67 0)
+			(at 222.25 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 153.67 0)
+			(at 222.25 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7385,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:NC7SB3157P6X")
-		(at 194.31 140.97 0)
+		(at 222.25 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7236,7 +7394,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f95fd3e-8e6e-4da6-9079-b5e9f4cb4bed")
 		(property "Reference" "U30"
-			(at 199.39 139.6999 0)
+			(at 227.33 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7403,7 @@
 			)
 		)
 		(property "Value" "74LVC1G3157"
-			(at 199.39 142.2399 0)
+			(at 227.33 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7412,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 195.58 155.575 0)
+			(at 223.52 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7422,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.umw-ic.com/static/pdf/e11b4d52139c78daef28a97b5917cae5.pdf"
-			(at 195.58 153.035 0)
+			(at 223.52 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7432,7 @@
 			)
 		)
 		(property "Description" "IC SW SPDT-NO/NCX1 7OHM SC70-6"
-			(at 194.31 140.97 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7441,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW"
-			(at 194.31 140.97 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7450,7 @@
 			)
 		)
 		(property "Part Number" "ET3157"
-			(at 194.31 140.97 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7459,7 @@
 			)
 		)
 		(property "Substitution" "SN74LVC1G3157DCKR, TI SN74LVC1G3157DCKR"
-			(at 194.31 140.97 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8893,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 194.31 128.27 0)
+		(at 222.25 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8743,7 +8901,7 @@
 		(dnp no)
 		(uuid "c3f7fa63-08dc-4602-b69c-fc67ea038fee")
 		(property "Reference" "#PWR0259"
-			(at 194.31 132.08 0)
+			(at 222.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8910,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 194.31 123.19 0)
+			(at 222.25 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 128.27 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 128.27 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 194.31 128.27 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,6 +8979,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -8998,6 +9157,73 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2e4039-77da-4660-9ed7-eac36418fbba")
+		(property "Reference" "TP65"
+			(at 160.02 103.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 105.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa64cc0b-7b6e-4c73-86c1-fd96bc3aafa5")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
+					(reference "TP65")
 					(unit 1)
 				)
 			)
@@ -9225,7 +9451,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 222.25 128.27 0)
+		(at 250.19 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9233,7 +9459,7 @@
 		(dnp no)
 		(uuid "d393daa6-0747-4d6b-838e-d9ecce0ca71d")
 		(property "Reference" "#PWR0260"
-			(at 222.25 132.08 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9468,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 222.25 123.19 0)
+			(at 250.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +9476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 128.27 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 128.27 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +9494,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 222.25 128.27 0)
+			(at 250.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +10054,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:NC7SB3157P6X")
-		(at 222.25 140.97 0)
+		(at 250.19 140.97 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9837,7 +10063,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4e3bfca-d9df-40cc-8d82-e51c032ed2a6")
 		(property "Reference" "U31"
-			(at 227.33 139.6999 0)
+			(at 255.27 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +10072,7 @@
 			)
 		)
 		(property "Value" "74LVC1G3157"
-			(at 227.33 142.2399 0)
+			(at 255.27 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +10081,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 223.52 155.575 0)
+			(at 251.46 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +10091,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.umw-ic.com/static/pdf/e11b4d52139c78daef28a97b5917cae5.pdf"
-			(at 223.52 153.035 0)
+			(at 251.46 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,7 +10101,7 @@
 			)
 		)
 		(property "Description" "IC SW SPDT-NO/NCX1 7OHM SC70-6"
-			(at 222.25 140.97 0)
+			(at 250.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +10110,7 @@
 			)
 		)
 		(property "Manufacturer" "UMW"
-			(at 222.25 140.97 0)
+			(at 250.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +10119,7 @@
 			)
 		)
 		(property "Part Number" "ET3157"
-			(at 222.25 140.97 0)
+			(at 250.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +10128,7 @@
 			)
 		)
 		(property "Substitution" "SN74LVC1G3157DCKR, TI SN74LVC1G3157DCKR"
-			(at 222.25 140.97 0)
+			(at 250.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

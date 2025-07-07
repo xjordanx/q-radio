@@ -8840,6 +8840,10 @@
 		(uuid "bcec3a92-eff7-41d7-b918-8e03d3c49bc0")
 	)
 	(no_connect
+		(at 194.31 172.72)
+		(uuid "bf99670c-55ea-47df-90b0-4f89ea4dc798")
+	)
+	(no_connect
 		(at 245.11 114.3)
 		(uuid "c6bfb6cb-c8b7-438d-b19b-90f8cc05e639")
 	)
@@ -8879,15 +8883,6 @@
 			(type default)
 		)
 		(uuid "0d7faffe-9470-4221-b3be-c806e218ed3e")
-	)
-	(bus_entry
-		(at 383.54 77.47)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c537ac-bd1e-4a1b-b922-17d635366caa")
 	)
 	(bus_entry
 		(at 154.94 195.58)
@@ -10115,16 +10110,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 172.72) (xy 194.31 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453b3d6d-4cc2-4d1c-8429-113abade11d8")
-	)
-	(wire
-		(pts
 			(xy 184.15 149.86) (xy 194.31 149.86)
 		)
 		(stroke
@@ -10393,16 +10378,6 @@
 		)
 		(uuid "5a84d960-2c8c-4982-ab6e-fe8a68bbaffd")
 	)
-	(bus
-		(pts
-			(xy 386.08 77.47) (xy 386.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a91583b-10fc-4434-85dc-fc67972a8237")
-	)
 	(wire
 		(pts
 			(xy 194.31 231.14) (xy 186.69 231.14)
@@ -10575,7 +10550,7 @@
 	)
 	(bus
 		(pts
-			(xy 386.08 80.01) (xy 387.35 80.01)
+			(xy 386.08 77.47) (xy 387.35 77.47)
 		)
 		(stroke
 			(width 0)
@@ -11072,16 +11047,6 @@
 			(type default)
 		)
 		(uuid "84c06026-4724-418c-a42b-80412ca5e040")
-	)
-	(wire
-		(pts
-			(xy 374.65 77.47) (xy 383.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85562c20-4ac0-43ac-94cb-6aa8291ce0b1")
 	)
 	(wire
 		(pts
@@ -13213,16 +13178,6 @@
 		)
 		(uuid "0d69c457-f0d2-403b-94bf-103498be68e1")
 	)
-	(label "SGPIO13"
-		(at 186.69 172.72 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dfde4d9-b329-4d7d-8c42-e50b2bc05c0d")
-	)
 	(label "~{LED2}"
 		(at 60.96 181.61 90)
 		(effects
@@ -13512,16 +13467,6 @@
 			(justify left bottom)
 		)
 		(uuid "33b24763-37b2-4eaa-a325-1725a9087ee8")
-	)
-	(label "SGPIO13"
-		(at 374.65 77.47 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "34f3dd4a-c384-4290-9459-9e58dcf7d741")
 	)
 	(label "I2S0_TX_SDA"
 		(at 365.76 152.4 0)
@@ -15487,9 +15432,9 @@
 		)
 		(uuid "60af3888-28e0-4768-9b76-3cde7010d0aa")
 	)
-	(hierarchical_label "SGPIO[0..13]"
+	(hierarchical_label "SGPIO[0..12]"
 		(shape bidirectional)
-		(at 387.35 80.01 0)
+		(at 387.35 77.47 0)
 		(effects
 			(font
 				(size 1.524 1.524)

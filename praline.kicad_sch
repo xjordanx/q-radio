@@ -1472,6 +1472,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bca321-72ef-4bd5-bb16-278ef9d3be46")
+	)
+	(wire
+		(pts
 			(xy 91.44 177.8) (xy 91.44 157.48)
 		)
 		(stroke
@@ -1709,6 +1719,16 @@
 			(type default)
 		)
 		(uuid "cb039e3a-1bec-405d-bcc8-b32d0ab97290")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6b7716-1a34-4304-8393-4c244ee5d64c")
 	)
 	(bus
 		(pts
@@ -2019,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "fefc28ee-e77d-4534-b043-7f384dc09ffe")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7d2387-2e93-4e61-a17a-826d9c238786")
 	)
 	(wire
 		(pts
@@ -3259,7 +3289,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SGPIO[0..13]" bidirectional
+		(pin "SGPIO[0..12]" bidirectional
 			(at 185.42 72.39 180)
 			(uuid "bb1f0599-b555-4dde-87bf-59e482f07354")
 			(effects
@@ -4393,6 +4423,16 @@
 				(justify right)
 			)
 		)
+		(pin "FPGA_CLK" output
+			(at 185.42 109.22 180)
+			(uuid "1a52938f-fdd3-416a-8efc-8bdfef4626b7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
@@ -4587,7 +4627,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SGPIO[0..13]" bidirectional
+		(pin "SGPIO[0..12]" bidirectional
 			(at 165.1 72.39 0)
 			(uuid "7148fa07-038a-4dcb-9068-d167596cfaf7")
 			(effects
@@ -4640,6 +4680,16 @@
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 165.1 74.93 0)
 			(uuid "cd24e44c-f5d9-4b07-956f-c1416edc4369")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_CLK" input
+			(at 165.1 83.82 0)
+			(uuid "6e128191-72bc-4956-afad-9c78bbf0cc72")
 			(effects
 				(font
 					(size 1.524 1.524)

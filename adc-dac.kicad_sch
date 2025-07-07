@@ -2633,6 +2633,12 @@
 		(uuid "8e078080-2d7c-45a6-9fbf-1540d30768af")
 	)
 	(junction
+		(at 34.29 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9493400f-4dd0-43de-bd94-61315441b9b6")
+	)
+	(junction
 		(at 222.25 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2675,6 +2681,12 @@
 		(uuid "b8f2350d-dd98-4560-9ef2-5bdf11ba45dc")
 	)
 	(junction
+		(at 34.29 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b92277aa-c451-41f4-915a-70f40c2a6c49")
+	)
+	(junction
 		(at 205.74 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2699,6 +2711,12 @@
 		(uuid "c4a11c60-7e68-47d7-80b3-81426a7fb008")
 	)
 	(junction
+		(at 21.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf269915-5e5d-4917-91cc-ba4b653469ed")
+	)
+	(junction
 		(at 21.59 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2721,6 +2739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1845fbd-47c7-4872-abe7-90347a1d00f2")
+	)
+	(junction
+		(at 21.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57c370f-b2a7-4f9d-9c3d-89c58fef96b3")
 	)
 	(junction
 		(at 233.68 41.91)
@@ -4246,6 +4270,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 50.8) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f4465b-c3e2-4938-ac24-09d5a81f7aea")
+	)
+	(wire
+		(pts
 			(xy 43.18 165.1) (xy 44.45 165.1)
 		)
 		(stroke
@@ -5236,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 50.8) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe7cbe7-13d3-4219-8fbf-39bd164686c0")
+	)
+	(wire
+		(pts
 			(xy 148.59 144.78) (xy 156.21 144.78)
 		)
 		(stroke
@@ -5286,6 +5330,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 58.42) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f256df04-b64b-4cc3-a25b-d39a54b842df")
+	)
+	(wire
+		(pts
 			(xy 139.7 93.98) (xy 144.78 93.98)
 		)
 		(stroke
@@ -5313,6 +5367,16 @@
 			(type default)
 		)
 		(uuid "f52fc948-7abf-4566-90ba-869785e643f7")
+	)
+	(wire
+		(pts
+			(xy 21.59 58.42) (xy 34.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f618627b-52a9-400f-91b4-111c88d0c692")
 	)
 	(wire
 		(pts
@@ -8346,6 +8410,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
 					(reference "#PWR0272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d809e80-5b2a-4b70-90d8-bb6f0c9cd9dd")
+		(property "Reference" "C186"
+			(at 50.8 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 50.8 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 47.9552 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A106KOQNNNE"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "Murata GRM21BR61A106KE19L"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b3e9683-0f7f-4048-8c3d-c6233ec52d38")
+		)
+		(pin "1"
+			(uuid "62aaef2d-f74e-4299-9eb1-401ae29567dc")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
+					(reference "C186")
 					(unit 1)
 				)
 			)
@@ -11623,6 +11784,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
 					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4e3a5d4-8716-45db-b744-ac0194f44a08")
+		(property "Reference" "C187"
+			(at 38.1 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 38.1 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 10V X5R 0201"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM033R61A105ME44D"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b925d51f-ae06-433c-9ad0-dc9034fcbd0d")
+		)
+		(pin "2"
+			(uuid "171e6743-873f-4f7e-8c0d-a495d6172d7f")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/03930949-b2dd-4151-b892-cf65af2345ca"
+					(reference "C187")
 					(unit 1)
 				)
 			)

@@ -9776,7 +9776,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf334825-d949-470e-813f-355b66d04a43")
 		(property "Reference" "R148"
@@ -9788,7 +9788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 127 130.8099 0)
 			(effects
 				(font
@@ -9815,7 +9815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -9842,7 +9842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-07100RL"
 			(at 124.46 129.54 0)
 			(effects
 				(font

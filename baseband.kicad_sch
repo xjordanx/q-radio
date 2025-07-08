@@ -4375,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 171.45 49.53)
+			(xy 182.88 49.53) (xy 168.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4685,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 127) (xy 231.14 127)
+			(xy 219.71 127) (xy 232.41 127)
 		)
 		(stroke
 			(width 0)
@@ -4695,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 49.53) (xy 171.45 74.93)
+			(xy 168.91 49.53) (xy 168.91 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4755,23 +4755,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 148.59 74.93)
+			(xy 168.91 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f08f0557-2faf-4bfa-8a74-dfdb02836842")
-	)
-	(wire
-		(pts
-			(xy 236.22 90.17) (xy 228.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1945117-308d-4f64-84ff-f47eba582fb5")
 	)
 	(wire
 		(pts
@@ -4805,7 +4795,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 134.62) (xy 231.14 134.62)
+			(xy 219.71 134.62) (xy 232.41 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5365,21 +5355,19 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f5bbd57")
 		(property "Reference" "L7"
-			(at 115.57 77.4699 0)
+			(at 115.57 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "DNP"
-			(at 115.57 80.0099 0)
+			(at 115.57 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
@@ -5567,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3pF"
+		(property "Value" "4.3 pF"
 			(at 107.95 39.37 90)
 			(effects
 				(font
@@ -5663,7 +5651,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3pF"
+		(property "Value" "4.3 pF"
 			(at 107.95 52.07 90)
 			(effects
 				(font
@@ -5952,21 +5940,19 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00004f5d6ad6")
 		(property "Reference" "L9"
-			(at 115.57 49.5299 0)
+			(at 115.57 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "10 nH"
-			(at 115.57 52.0699 0)
+			(at 115.57 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
@@ -6833,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "22 pF"
 			(at 107.95 80.01 90)
 			(effects
 				(font
@@ -6928,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "22 pF"
 			(at 107.95 67.31 90)
 			(effects
 				(font
@@ -7120,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "22 pF"
 			(at 113.03 119.38 90)
 			(effects
 				(font
@@ -7216,7 +7202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "47 pF"
 			(at 113.03 130.8099 0)
 			(effects
 				(font
@@ -7362,7 +7348,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 130.81 0)
+		(at 232.41 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7371,7 +7357,7 @@
 		(fields_autoplaced yes)
 		(uuid "033fbc89-ec96-4e8b-9cf1-a6e34947490d")
 		(property "Reference" "C17"
-			(at 234.95 129.5399 0)
+			(at 236.22 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7366,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 234.95 132.0799 0)
+			(at 236.22 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7375,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7398,7 +7384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7407,7 +7393,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 10V X5R 0201"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7416,7 +7402,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7425,7 +7411,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61A105ME44D"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7434,7 +7420,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
-			(at 231.14 130.81 0)
+			(at 232.41 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3nF"
+		(property "Value" "3.3 nF"
 			(at 232.41 87.6299 0)
 			(effects
 				(font
@@ -7641,7 +7627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100 pF"
 			(at 116.84 104.1399 0)
 			(effects
 				(font
@@ -7739,7 +7725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2nF"
+		(property "Value" "2.2 nF"
 			(at 121.92 111.7599 0)
 			(effects
 				(font
@@ -8006,7 +7992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 90.17 0)
+		(at 236.22 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8016,7 +8002,7 @@
 		(fields_autoplaced yes)
 		(uuid "21058005-ab6e-4e91-84f2-f75f8bdc398c")
 		(property "Reference" "#PWR076"
-			(at 228.6 96.52 0)
+			(at 236.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 95.25 0)
+			(at 236.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 90.17 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 45.72 139.6999 0)
 			(effects
 				(font
@@ -9895,7 +9881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3nF"
+		(property "Value" "3.3 nF"
 			(at 177.8 55.8799 0)
 			(effects
 				(font
@@ -10059,7 +10045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68pF"
+		(property "Value" "68 pF"
 			(at 139.7 104.1399 0)
 			(effects
 				(font

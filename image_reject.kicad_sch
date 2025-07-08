@@ -1087,7 +1087,7 @@
 	)
 	(text "image reject filters"
 		(exclude_from_sim no)
-		(at 134.62 73.66 0)
+		(at 134.62 71.12 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1109,7 +1109,7 @@
 		(uuid "237fc7b8-708d-4cb4-b48e-7b456f2cc30e")
 	)
 	(junction
-		(at 194.31 67.31)
+		(at 194.31 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e7400d2-2c4d-450f-9bea-0805f7d50fe9")
@@ -1127,31 +1127,31 @@
 		(uuid "61d8e584-3d62-4d06-9941-96e60216eeba")
 	)
 	(junction
-		(at 156.21 87.63)
+		(at 156.21 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650b2451-7d54-420d-ae9a-9c8d6ab1cac9")
 	)
 	(junction
-		(at 207.01 69.85)
+		(at 208.28 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cbe27ef-0d46-4bd6-857b-28b8e5a46529")
 	)
 	(junction
-		(at 115.57 87.63)
+		(at 115.57 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "749a17a4-02dd-4d77-bf13-354dff18c812")
 	)
 	(junction
-		(at 176.53 87.63)
+		(at 176.53 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8508c398-d7ec-4044-9fd2-71204462da2a")
 	)
 	(junction
-		(at 135.89 87.63)
+		(at 135.89 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad5e0afc-88e0-4296-83bc-ee3442742343")
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 67.31) (xy 194.31 71.12)
+			(xy 194.31 64.77) (xy 194.31 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 162.56 87.63)
+			(xy 156.21 85.09) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 64.77) (xy 209.55 63.5)
+			(xy 210.82 62.23) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 115.57 87.63)
+			(xy 101.6 85.09) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 207.01 69.85)
+			(xy 193.04 67.31) (xy 208.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 135.89 87.63)
+			(xy 129.54 85.09) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 227.33 113.03)
+			(xy 228.6 67.31) (xy 228.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1260,13 +1260,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 46.99) (xy 227.33 46.99)
+			(xy 58.42 44.45) (xy 228.6 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53eb472f-56d9-43d5-ab97-a135b7a5bdef")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587099d1-09b1-494a-a0d4-c261a394e9e0")
 	)
 	(wire
 		(pts
@@ -1290,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 156.21 87.63)
+			(xy 149.86 85.09) (xy 156.21 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1310,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 46.99) (xy 227.33 64.77)
+			(xy 115.57 85.09) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1e0d9d-a21d-4692-8dd0-9e17b4e5b5aa")
+	)
+	(wire
+		(pts
+			(xy 228.6 44.45) (xy 228.6 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 170.18 113.03)
+			(xy 228.6 113.03) (xy 170.18 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 121.92 87.63)
+			(xy 115.57 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1340,13 +1360,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 69.85) (xy 207.01 71.12)
+			(xy 208.28 67.31) (xy 208.28 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79f54260-701f-4dd4-a2a5-25e7b7adc91d")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c835c4c-ea7e-42e0-b32c-4f57622facce")
 	)
 	(wire
 		(pts
@@ -1360,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 101.6 87.63)
+			(xy 101.6 99.06) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 67.31) (xy 194.31 67.31)
+			(xy 210.82 64.77) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 69.85) (xy 207.01 69.85)
+			(xy 210.82 67.31) (xy 208.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 87.63) (xy 218.44 74.93)
+			(xy 219.71 85.09) (xy 219.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1440,13 +1470,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 87.63) (xy 218.44 87.63)
+			(xy 176.53 85.09) (xy 219.71 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5a0d696-2a7c-47b7-bf73-d6dbb2ef08d3")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45448c7-4150-49c4-86eb-1fca4629e805")
 	)
 	(wire
 		(pts
@@ -1460,6 +1500,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 114.3) (xy 143.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79d2631-ab0c-4101-9816-c2c6918c9e3a")
+	)
+	(wire
+		(pts
 			(xy 158.75 113.03) (xy 162.56 113.03)
 		)
 		(stroke
@@ -1470,7 +1520,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 87.63) (xy 142.24 87.63)
+			(xy 158.75 114.3) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfde24d1-eada-49f8-bfde-457fd9428b37")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1540,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 87.63) (xy 176.53 87.63)
+			(xy 176.53 85.09) (xy 176.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c632a8d3-cafa-4627-9fdf-7971cf68e733")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 176.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 67.31) (xy 194.31 67.31)
+			(xy 193.04 64.77) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 67.31) (xy 229.87 67.31)
+			(xy 228.6 64.77) (xy 231.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1641,7 @@
 	)
 	(hierarchical_label "LPF_OR_MIX_BYPASS"
 		(shape input)
-		(at 193.04 67.31 180)
+		(at 193.04 64.77 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1593,7 +1663,7 @@
 	)
 	(hierarchical_label "MIX_BYPASS"
 		(shape bidirectional)
-		(at 58.42 46.99 180)
+		(at 58.42 44.45 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1604,7 +1674,7 @@
 	)
 	(hierarchical_label "MIX_EN"
 		(shape input)
-		(at 193.04 69.85 180)
+		(at 193.04 67.31 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1626,7 +1696,7 @@
 	)
 	(hierarchical_label "RF"
 		(shape bidirectional)
-		(at 229.87 67.31 0)
+		(at 231.14 64.77 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1704,7 +1774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 95.25 0)
+		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1713,7 +1783,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ba8d8c2-79d3-4db2-bbc8-370d3eb04cdd")
 		(property "Reference" "#PWR0312"
-			(at 156.21 101.6 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 100.33 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 95.25 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 95.25 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 95.25 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 91.44 0)
+		(at 115.57 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1779,6 +1849,15 @@
 		(fields_autoplaced yes)
 		(uuid "10ba3745-a892-4f2a-a741-bd856b72b203")
 		(property "Reference" "C51"
+			(at 119.38 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.7 pF"
 			(at 119.38 90.1699 0)
 			(effects
 				(font
@@ -1787,17 +1866,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.7±0.05 pF"
-			(at 119.38 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1806,7 +1876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1815,7 +1885,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.7PF 25V C0G/NP0 0201"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1824,7 +1894,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1833,7 +1903,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1ER70WA01D"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1842,12 +1912,21 @@
 			)
 		)
 		(property "Substitution" "GRM0335C1HR70W*, GRM0335C1ER70W*"
-			(at 115.57 91.44 0)
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 119.38 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -1933,7 +2012,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 74.93 0)
+		(at 194.31 72.39 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1943,6 +2022,15 @@
 		(fields_autoplaced yes)
 		(uuid "249c7b96-ef08-443c-bcb1-3d224c28848a")
 		(property "Reference" "C19"
+			(at 190.5 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3 nF"
 			(at 190.5 73.6599 0)
 			(effects
 				(font
@@ -1951,17 +2039,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3nF"
-			(at 190.5 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 194.31 74.93 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1970,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 74.93 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1979,7 +2058,7 @@
 			)
 		)
 		(property "Description" "CAP CER 3300PF 10V X7R 0201"
-			(at 482.6 132.08 0)
+			(at 482.6 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1988,7 +2067,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 482.6 132.08 0)
+			(at 482.6 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1997,7 +2076,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R71A332KA01D"
-			(at 482.6 132.08 0)
+			(at 482.6 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2006,7 +2085,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R71A332K*"
-			(at 194.31 74.93 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2110,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 143.51 116.84 0)
+		(at 143.51 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2048,7 +2127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.6±0.05 nH"
+		(property "Value" "1.6 nH"
 			(at 144.78 118.1099 0)
 			(effects
 				(font
@@ -2058,7 +2137,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 143.51 116.84 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 116.84 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2155,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 1.6NH 1000MA 0201 0.05"
-			(at 143.51 116.84 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2164,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 143.51 116.84 90)
+			(at 143.51 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2173,7 @@
 			)
 		)
 		(property "Part Number" "LQP03HQ1N6W02D"
-			(at 143.51 116.84 90)
+			(at 143.51 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,12 +2182,21 @@
 			)
 		)
 		(property "Note" ""
-			(at 143.51 116.84 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 144.78 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2128,7 +2216,7 @@
 	)
 	(symbol
 		(lib_id "praline:2V5RF")
-		(at 209.55 63.5 0)
+		(at 210.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2137,7 +2225,7 @@
 		(fields_autoplaced yes)
 		(uuid "332c2bbd-99ee-451c-8b7b-6f978f5c6462")
 		(property "Reference" "#PWR0317"
-			(at 209.55 67.31 0)
+			(at 210.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2234,7 @@
 			)
 		)
 		(property "Value" "2V5RF"
-			(at 209.55 58.42 0)
+			(at 210.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 63.5 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 63.5 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"2V5RF\""
-			(at 209.55 63.5 0)
+			(at 210.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 78.74 0)
+		(at 194.31 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2204,7 +2292,7 @@
 		(fields_autoplaced yes)
 		(uuid "3439c036-1619-413f-aa50-fe26a3cf3e34")
 		(property "Reference" "#PWR0315"
-			(at 194.31 85.09 0)
+			(at 194.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 83.82 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 78.74 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 78.74 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 78.74 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2349,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 91.44 0)
+		(at 135.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2270,6 +2358,15 @@
 		(fields_autoplaced yes)
 		(uuid "35810997-4e61-4042-b7c4-24fe9f27a254")
 		(property "Reference" "C54"
+			(at 139.7 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8 pF"
 			(at 139.7 90.1699 0)
 			(effects
 				(font
@@ -2278,17 +2375,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8±0.05 pF"
-			(at 139.7 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2297,7 +2385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2306,7 +2394,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1.8PF 25V C0G/NP0 0201"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2315,7 +2403,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2324,7 +2412,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1E1R8WA01D"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2333,12 +2421,21 @@
 			)
 		)
 		(property "Substitution" "GRM0335C1H1R8W*, GRM0335C1E1R8W*"
-			(at 135.89 91.44 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 139.7 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -2358,7 +2455,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 120.65 0)
+		(at 128.27 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2367,7 +2464,7 @@
 		(fields_autoplaced yes)
 		(uuid "4294c910-583d-4e2f-9fbf-50da5fe6cabb")
 		(property "Reference" "#PWR0306"
-			(at 128.27 127 0)
+			(at 128.27 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 125.73 0)
+			(at 128.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 120.65 0)
+			(at 128.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 120.65 0)
+			(at 128.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 120.65 0)
+			(at 128.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 120.65 0)
+		(at 143.51 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2433,7 +2530,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f1e988b-24c8-4cff-b127-c156d59bc86a")
 		(property "Reference" "#PWR0311"
-			(at 143.51 127 0)
+			(at 143.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 125.73 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2605,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3nF"
+		(property "Value" "3.3 nF"
 			(at 72.39 107.9499 0)
 			(effects
 				(font
@@ -2709,7 +2806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 95.25 0)
+		(at 135.89 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2718,7 +2815,7 @@
 		(fields_autoplaced yes)
 		(uuid "6914fad9-6d6d-4f85-9869-fb0aee96571a")
 		(property "Reference" "#PWR0310"
-			(at 135.89 101.6 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 100.33 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 95.25 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 95.25 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 95.25 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 59.69 0)
+		(at 219.71 57.15 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2785,7 +2882,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f6c4b6c-5b0e-4e4b-9211-ba378dfe05a5")
 		(property "Reference" "#PWR0318"
-			(at 218.44 53.34 0)
+			(at 219.71 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 54.61 0)
+			(at 219.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 59.69 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 59.69 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 59.69 0)
+			(at 219.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2939,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 166.37 87.63 270)
+		(at 166.37 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2851,15 +2948,15 @@
 		(fields_autoplaced yes)
 		(uuid "7a61bba7-baf3-4401-8cdf-cb54b9204846")
 		(property "Reference" "L15"
-			(at 166.37 82.55 90)
+			(at 166.37 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7±3% nH"
-			(at 166.37 85.09 90)
+		(property "Value" "4.7 nH"
+			(at 166.37 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2964,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 166.37 87.63 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 87.63 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +2982,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 4.7NH 350MA 400MOHM 0201"
-			(at 166.37 87.63 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2991,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 166.37 87.63 90)
+			(at 166.37 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3000,7 @@
 			)
 		)
 		(property "Part Number" "LQP03TN4N7H02D"
-			(at 166.37 87.63 90)
+			(at 166.37 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,12 +3009,20 @@
 			)
 		)
 		(property "Note" ""
-			(at 166.37 87.63 0)
+			(at 166.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±3%"
+			(at 166.37 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2937,7 +3042,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 146.05 87.63 270)
+		(at 146.05 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2946,15 +3051,15 @@
 		(fields_autoplaced yes)
 		(uuid "83530835-16ae-44dd-9821-cd1cfd81ef69")
 		(property "Reference" "L14"
-			(at 146.05 82.55 90)
+			(at 146.05 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5.6±3% nH"
-			(at 146.05 85.09 90)
+		(property "Value" "5.6 nH"
+			(at 146.05 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3067,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 146.05 87.63 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +3076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 87.63 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3085,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 5.6NH 350MA 400MOHM 0201"
-			(at 146.05 87.63 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3094,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 146.05 87.63 90)
+			(at 146.05 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3103,7 @@
 			)
 		)
 		(property "Part Number" "LQP03TN5N6H02D"
-			(at 146.05 87.63 90)
+			(at 146.05 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,12 +3112,20 @@
 			)
 		)
 		(property "Note" ""
-			(at 146.05 87.63 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±3%"
+			(at 146.05 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3041,15 +3154,15 @@
 		(fields_autoplaced yes)
 		(uuid "8bd55099-b3ab-4fde-a6b1-f7b347b75677")
 		(property "Reference" "C101"
-			(at 135.89 105.41 90)
+			(at 135.89 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.7±0.05 pF"
-			(at 135.89 107.95 90)
+		(property "Value" "0.7 pF"
+			(at 135.89 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,6 +3221,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 135.89 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3127,7 +3248,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 91.44 0)
+		(at 176.53 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3136,6 +3257,15 @@
 		(fields_autoplaced yes)
 		(uuid "940c30d5-f2f2-450b-9448-00c23b03d546")
 		(property "Reference" "C61"
+			(at 180.34 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.7 pF"
 			(at 180.34 90.1699 0)
 			(effects
 				(font
@@ -3144,17 +3274,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.7±0.05 pF"
-			(at 180.34 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3163,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3172,7 +3293,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.7PF 25V C0G/NP0 0201"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3181,7 +3302,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3190,7 +3311,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1ER70WA01D"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3199,12 +3320,21 @@
 			)
 		)
 		(property "Substitution" "GRM0335C1HR70W*, GRM0335C1ER70W*"
-			(at 176.53 91.44 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 180.34 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3224,7 +3354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 74.93 0)
+		(at 208.28 72.39 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3234,7 +3364,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b80fd9d-af10-487a-ac53-0714a0e4fbed")
 		(property "Reference" "C29"
-			(at 203.2 73.6599 0)
+			(at 204.47 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,8 +3372,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3nF"
-			(at 203.2 76.1999 0)
+		(property "Value" "3.3 nF"
+			(at 204.47 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 207.01 74.93 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3261,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 74.93 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3270,7 +3400,7 @@
 			)
 		)
 		(property "Description" "CAP CER 3300PF 10V X7R 0201"
-			(at 495.3 132.08 0)
+			(at 496.57 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3279,7 +3409,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 495.3 132.08 0)
+			(at 496.57 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3288,7 +3418,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R71A332KA01D"
-			(at 495.3 132.08 0)
+			(at 496.57 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3297,7 +3427,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R71A332K*"
-			(at 207.01 74.93 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,15 +3461,15 @@
 		(fields_autoplaced yes)
 		(uuid "9c63e32f-49eb-47c3-8d15-09c6b95c4b58")
 		(property "Reference" "C96"
-			(at 166.37 105.41 90)
+			(at 166.37 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.6±0.05 pF"
-			(at 166.37 107.95 90)
+		(property "Value" "1.6 pF"
+			(at 166.37 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,6 +3530,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "±0.05"
+			(at 166.37 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17eadb34-fca1-482e-a4f6-2800f18fa560")
 		)
@@ -3417,7 +3555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 91.44 0)
+		(at 156.21 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3426,6 +3564,15 @@
 		(fields_autoplaced yes)
 		(uuid "9d1dfb4c-23b4-408f-b439-b3a08012a2c3")
 		(property "Reference" "C56"
+			(at 160.02 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8 pF"
 			(at 160.02 90.1699 0)
 			(effects
 				(font
@@ -3434,17 +3581,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8±0.05 pF"
-			(at 160.02 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3453,7 +3591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3462,7 +3600,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1.8PF 25V C0G/NP0 0201"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3471,7 +3609,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3480,7 +3618,7 @@
 			)
 		)
 		(property "Part Number" "GRM0335C1E1R8WA01D"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3489,12 +3627,21 @@
 			)
 		)
 		(property "Substitution" "GRM0335C1H1R8W*, GRM0335C1E1R8W*"
-			(at 156.21 91.44 0)
+			(at 156.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 160.02 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3514,15 +3661,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 95.25 0)
+		(at 115.57 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9bd540e-ef30-459e-9992-3357bd2708b3")
 		(property "Reference" "#PWR0305"
-			(at 115.57 101.6 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 100.33 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 95.25 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 95.25 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 95.25 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +3727,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 128.27 116.84 0)
+		(at 128.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8±0.05 nH"
+		(property "Value" "1.8 nH"
 			(at 129.54 118.1099 0)
 			(effects
 				(font
@@ -3606,7 +3754,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 128.27 116.84 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 116.84 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3772,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 1.8NH 800MA 0201 0.05"
-			(at 128.27 116.84 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3781,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 128.27 116.84 90)
+			(at 128.27 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3790,7 @@
 			)
 		)
 		(property "Part Number" "LQP03HQ1N8W02D"
-			(at 128.27 116.84 90)
+			(at 128.27 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,12 +3799,21 @@
 			)
 		)
 		(property "Note" ""
-			(at 128.27 116.84 0)
+			(at 128.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 129.54 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3685,15 +3842,15 @@
 		(fields_autoplaced yes)
 		(uuid "b2fa0454-99b3-40fe-b594-833aed23ec71")
 		(property "Reference" "C103"
-			(at 151.13 105.41 90)
+			(at 151.13 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.7±0.05 pF"
-			(at 151.13 107.95 90)
+		(property "Value" "0.7 pF"
+			(at 151.13 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,6 +3909,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 151.13 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3838,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 95.25 0)
+		(at 176.53 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3847,7 +4012,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4b254e9-6887-4e02-9b75-62985ccbf15b")
 		(property "Reference" "#PWR0314"
-			(at 176.53 101.6 0)
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 100.33 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 95.25 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4232,7 @@
 	)
 	(symbol
 		(lib_id "praline:BGS13SN8")
-		(at 218.44 67.31 0)
+		(at 219.71 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4075,7 +4240,7 @@
 		(dnp no)
 		(uuid "e2af1452-1881-4771-bf7a-edc4d33de67d")
 		(property "Reference" "U9"
-			(at 198.12 62.23 0)
+			(at 199.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4249,7 @@
 			)
 		)
 		(property "Value" "BGS13SN8"
-			(at 198.12 64.77 0)
+			(at 199.39 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4258,7 @@
 			)
 		)
 		(property "Footprint" "praline:TSNP-9-3"
-			(at 218.44 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGS13SN8-DS-v02_02-EN.pdf?fileId=5546d462584d1d4a0158cf52e3ae03a7"
-			(at 218.44 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4276,7 @@
 			)
 		)
 		(property "Description" "Wideband RF SP3T Switch"
-			(at 218.44 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4285,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon"
-			(at 218.44 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4294,7 @@
 			)
 		)
 		(property "Part Number" "BGS13SN8E6327XTSA1"
-			(at 218.44 67.31 0)
+			(at 219.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4447,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 158.75 116.84 0)
+		(at 158.75 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4299,7 +4464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8±0.05 nH"
+		(property "Value" "1.8 nH"
 			(at 160.02 118.1099 0)
 			(effects
 				(font
@@ -4309,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 158.75 116.84 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 116.84 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4492,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 1.8NH 800MA 0201 0.05"
-			(at 158.75 116.84 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4501,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 158.75 116.84 90)
+			(at 158.75 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4510,7 @@
 			)
 		)
 		(property "Part Number" "LQP03HQ1N8W02D"
-			(at 158.75 116.84 90)
+			(at 158.75 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,12 +4519,21 @@
 			)
 		)
 		(property "Note" ""
-			(at 158.75 116.84 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 160.02 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4379,7 +4553,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 125.73 87.63 270)
+		(at 125.73 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4388,15 +4562,15 @@
 		(fields_autoplaced yes)
 		(uuid "f0fa0212-7392-43a8-93e5-8de604436ca3")
 		(property "Reference" "L8"
-			(at 125.73 82.55 90)
+			(at 125.73 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7±3% nH"
-			(at 125.73 85.09 90)
+		(property "Value" "4.7 nH"
+			(at 125.73 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4578,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 125.73 87.63 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 87.63 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4596,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 4.7NH 350MA 400MOHM 0201"
-			(at 125.73 87.63 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4605,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 125.73 87.63 90)
+			(at 125.73 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4614,7 @@
 			)
 		)
 		(property "Part Number" "LQP03TN4N7H02D"
-			(at 125.73 87.63 90)
+			(at 125.73 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,12 +4623,20 @@
 			)
 		)
 		(property "Note" ""
-			(at 125.73 87.63 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±3%"
+			(at 125.73 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4474,7 +4656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 78.74 0)
+		(at 208.28 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4484,7 +4666,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2bff806-620c-4b85-9be6-6b20c8a42a5e")
 		(property "Reference" "#PWR0316"
-			(at 207.01 85.09 0)
+			(at 208.28 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,7 +4683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 78.74 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 78.74 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 78.74 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 120.65 0)
+		(at 158.75 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4616,7 +4798,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac01fc8-0c3b-4fd6-a4f8-5550423cf90f")
 		(property "Reference" "#PWR0313"
-			(at 158.75 127 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 125.73 0)
+			(at 158.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 120.65 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 120.65 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 120.65 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,15 +4864,15 @@
 		(fields_autoplaced yes)
 		(uuid "fb2885e9-c5a2-445c-a32f-45723e32ba57")
 		(property "Reference" "C91"
-			(at 120.65 105.41 90)
+			(at 120.65 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.6±0.05 pF"
-			(at 120.65 107.95 90)
+		(property "Value" "1.6 pF"
+			(at 120.65 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,6 +4931,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.05"
+			(at 120.65 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

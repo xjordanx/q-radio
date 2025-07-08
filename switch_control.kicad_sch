@@ -2159,7 +2159,7 @@
 		(uuid "5219ab4a-3896-4b3f-ad93-7861c907d114")
 	)
 	(junction
-		(at 120.65 172.72)
+		(at 121.92 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75a3489f-0771-468d-9a63-03f3d45110a2")
@@ -2177,13 +2177,13 @@
 		(uuid "89fed3af-afd0-40b7-88ef-333279eeb190")
 	)
 	(junction
-		(at 120.65 180.34)
+		(at 121.92 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ac59ce5-fbae-4f7b-9ec0-2abb48e3b4cf")
 	)
 	(junction
-		(at 132.08 180.34)
+		(at 134.62 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1c4f27d-0e3b-4369-8194-b07142766a44")
@@ -2195,7 +2195,7 @@
 		(uuid "bb59377b-79da-4454-a7f5-37d138da40df")
 	)
 	(junction
-		(at 132.08 172.72)
+		(at 134.62 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c96c597d-3465-438e-b946-7638a4f1a650")
@@ -2306,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 180.34) (xy 143.51 180.34)
+			(xy 134.62 180.34) (xy 147.32 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 180.34) (xy 120.65 180.34)
+			(xy 109.22 180.34) (xy 121.92 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 172.72) (xy 120.65 172.72)
+			(xy 109.22 172.72) (xy 121.92 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 172.72) (xy 143.51 172.72)
+			(xy 134.62 172.72) (xy 147.32 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 172.72) (xy 132.08 172.72)
+			(xy 121.92 172.72) (xy 134.62 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 180.34) (xy 132.08 180.34)
+			(xy 121.92 180.34) (xy 134.62 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3251,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 176.53 0)
+		(at 121.92 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3260,7 +3260,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aa6e7c7-c426-44fd-9153-f6b64b3edf0c")
 		(property "Reference" "C26"
-			(at 124.46 175.2599 0)
+			(at 125.73 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3269,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 124.46 177.7999 0)
+			(at 125.73 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3278,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3287,7 +3287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3296,7 +3296,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 10V X5R 0201"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3305,7 +3305,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3314,7 +3314,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61A105ME44D"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
-			(at 120.65 176.53 0)
+			(at 121.92 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3554,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 97.79 138.4299 0)
 			(effects
 				(font
@@ -4614,7 +4614,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 176.53 0)
+		(at 134.62 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4623,7 +4623,7 @@
 		(fields_autoplaced yes)
 		(uuid "628378c3-1bb9-4157-9019-7aaa45257cc1")
 		(property "Reference" "C27"
-			(at 135.89 175.2599 0)
+			(at 138.43 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4632,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 135.89 177.7999 0)
+			(at 138.43 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4650,7 +4650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 10V X5R 0201"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4677,7 +4677,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61A105ME44D"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
-			(at 132.08 176.53 0)
+			(at 134.62 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 97.79 66.0399 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 97.79 118.1099 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "4.7k"
 			(at 97.79 95.2499 0)
 			(effects
 				(font
@@ -6570,7 +6570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 176.53 0)
+		(at 147.32 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6579,7 +6579,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8968e90-8cd8-4f9b-9c75-ff5051c82c9a")
 		(property "Reference" "C30"
-			(at 147.32 175.2599 0)
+			(at 151.13 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6588,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 147.32 177.7999 0)
+			(at 151.13 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6606,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6615,7 +6615,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 10V X5R 0201"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6624,7 +6624,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R61A105ME44D"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6642,7 +6642,7 @@
 			)
 		)
 		(property "Substitution" "GRM033R61A105ME44*, GRM033R61C105ME15*, Samsung CL03A105MO3NRN*"
-			(at 143.51 176.53 0)
+			(at 147.32 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

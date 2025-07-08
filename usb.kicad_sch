@@ -3441,7 +3441,7 @@
 		(fields_autoplaced yes)
 		(uuid "006ade0d-39f8-45d5-85ea-101c2103466e")
 		(property "Reference" "R103"
-			(at 179.07 69.8499 0)
+			(at 179.07 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,8 +3449,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22.6k±1%"
-			(at 179.07 72.3899 0)
+		(property "Value" "22.6k"
+			(at 179.07 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,6 +3510,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 179.07 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -3962,7 +3971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "330 pF"
 			(at 132.08 72.3899 0)
 			(effects
 				(font
@@ -4764,7 +4773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 149.86 53.3399 0)
 			(effects
 				(font
@@ -4861,7 +4870,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "330 pF"
 			(at 146.05 72.3899 0)
 			(effects
 				(font

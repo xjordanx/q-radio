@@ -4553,7 +4553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33 OHM 5% 1/16W 0402"
+		(property "Description" "RES 33 OHM 5% 1/20W 0201"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -4589,7 +4589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0733RL"
+		(property "Part Number" "RC0201JR-0733RL"
 			(at 139.7 48.26 0)
 			(effects
 				(font

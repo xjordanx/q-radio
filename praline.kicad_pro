@@ -564,6 +564,20 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.4,
+        "diff_pair_width": 0.3,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "diff100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
@@ -573,7 +587,7 @@
         "microvia_drill": 0.3,
         "name": "diff90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.45,
@@ -602,6 +616,22 @@
       {
         "netclass": "diff90",
         "pattern": "*/USB_DATA.D-"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "*/MIX_IN+"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "*/MIX_IN-"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "*/MIX_OUT+"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "*/MIX_OUT-"
       }
     ]
   },
@@ -658,7 +688,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -718,7 +748,7 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

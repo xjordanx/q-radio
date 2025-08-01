@@ -5871,7 +5871,7 @@
 		(uuid "9182e906-a572-471a-8313-e40e5833b6f6")
 	)
 	(label "DISABLE"
-		(at 161.29 194.31 0)
+		(at 161.29 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,7 +5891,7 @@
 		(uuid "95f97a22-7873-42f4-a9e3-ed073bed4709")
 	)
 	(label "FPGA_SGPIO0"
-		(at 161.29 158.75 0)
+		(at 161.29 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5901,7 +5901,7 @@
 		(uuid "978f55e0-18fd-4b3d-9c0b-776c1771a45c")
 	)
 	(label "SGPIO0"
-		(at 109.22 146.05 0)
+		(at 109.22 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6021,7 +6021,7 @@
 		(uuid "bb2337a9-7c4d-4b1d-ad31-c083798defd3")
 	)
 	(label "SGPIO10"
-		(at 109.22 209.55 0)
+		(at 109.22 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)

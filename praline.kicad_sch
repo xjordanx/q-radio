@@ -3519,16 +3519,6 @@
 				(justify left)
 			)
 		)
-		(pin "P6_3" bidirectional
-			(at 185.42 82.55 180)
-			(uuid "ebe567dd-cc1d-458d-ba50-00c2995c8a2c")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 185.42 74.93 180)
 			(uuid "0edf5bd3-b7f1-4cf4-ae4b-a5f75790b620")
@@ -3582,6 +3572,16 @@
 		(pin "AA_EN" output
 			(at 185.42 60.96 180)
 			(uuid "50003b87-988f-4b9e-8d7f-95f3ca5d97b9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2_5" bidirectional
+			(at 185.42 82.55 180)
+			(uuid "c71022e0-7275-4cff-98cb-fe950f423fa0")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4393,16 +4393,6 @@
 				(justify left)
 			)
 		)
-		(pin "P6_3" bidirectional
-			(at 185.42 104.14 180)
-			(uuid "28ad0ce5-87b6-4612-b65e-450028a4c918")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(pin "CLKIN_CTRL[0..2]" bidirectional
 			(at 185.42 99.06 180)
 			(uuid "4aeaa452-f600-4a46-9f7b-adbf103c5217")
@@ -4426,6 +4416,16 @@
 		(pin "FPGA_CLK" output
 			(at 185.42 109.22 180)
 			(uuid "1a52938f-fdd3-416a-8efc-8bdfef4626b7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2_5" bidirectional
+			(at 185.42 104.14 180)
+			(uuid "637fbbd2-9e25-401e-b8cb-c335d6a97cb8")
 			(effects
 				(font
 					(size 1.524 1.524)

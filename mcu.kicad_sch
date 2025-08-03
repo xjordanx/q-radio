@@ -8844,10 +8844,6 @@
 		(uuid "bf99670c-55ea-47df-90b0-4f89ea4dc798")
 	)
 	(no_connect
-		(at 245.11 114.3)
-		(uuid "c6bfb6cb-c8b7-438d-b19b-90f8cc05e639")
-	)
-	(no_connect
 		(at 97.79 168.91)
 		(uuid "d29593b4-e450-476d-8b0b-d24bffc42d51")
 	)
@@ -8871,9 +8867,14 @@
 		(at 194.31 180.34)
 		(uuid "fba7d71c-f7d4-4026-b2f3-e08bcb7e09a7")
 	)
-	(no_connect
-		(at 194.31 106.68)
-		(uuid "fbc2ee57-9af2-48dc-a260-7f38313380ec")
+	(bus_entry
+		(at 167.64 92.71)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05070bfd-4041-460f-a1ed-4a361e3613c2")
 	)
 	(bus_entry
 		(at 260.35 119.38)
@@ -9108,6 +9109,15 @@
 			(type default)
 		)
 		(uuid "aec2d579-a5bd-4dcc-90d7-63fd89e92521")
+	)
+	(bus_entry
+		(at 300.99 111.76)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4efa039-05a9-4850-b925-03074cac3a1a")
 	)
 	(bus_entry
 		(at 264.16 134.62)
@@ -10040,6 +10050,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 109.22) (xy 194.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436c6ef9-9ffc-4ad2-8b8d-364aa7763b8b")
+	)
+	(wire
+		(pts
 			(xy 128.27 26.67) (xy 140.97 26.67)
 		)
 		(stroke
@@ -10387,6 +10407,16 @@
 			(type default)
 		)
 		(uuid "605f7ca3-9794-4bb1-a286-9fe235d95e9a")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607fdece-7fc8-4d47-b83b-c5ba155adaed")
 	)
 	(wire
 		(pts
@@ -11110,6 +11140,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 114.3) (xy 275.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d213343-0e01-484d-b617-10d98a82f7af")
+	)
+	(wire
+		(pts
 			(xy 299.72 39.37) (xy 320.04 39.37)
 		)
 		(stroke
@@ -11447,6 +11487,16 @@
 			(type default)
 		)
 		(uuid "a1572ae4-867a-45d6-bcf5-b3851be394df")
+	)
+	(bus
+		(pts
+			(xy 165.1 90.17) (xy 163.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21d71c5-5de3-435e-84b1-ea5ed73c3448")
 	)
 	(wire
 		(pts
@@ -12288,6 +12338,16 @@
 		)
 		(uuid "db7c31f5-7291-46df-b5d9-ffa49b9662ec")
 	)
+	(bus
+		(pts
+			(xy 300.99 111.76) (xy 302.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaa6778-38bd-4064-b84c-2f0a9596829d")
+	)
 	(wire
 		(pts
 			(xy 252.73 220.98) (xy 245.11 220.98)
@@ -12827,6 +12887,16 @@
 			(type default)
 		)
 		(uuid "f9c639c5-dea1-4425-822b-c8e2de00aee3")
+	)
+	(wire
+		(pts
+			(xy 283.21 114.3) (xy 298.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6e8284-2dd8-4660-a527-76f6de2df002")
 	)
 	(wire
 		(pts
@@ -13377,6 +13447,16 @@
 			(justify left bottom)
 		)
 		(uuid "3918249f-5b65-4d3b-849b-33efe45ee891")
+	)
+	(label "TRIGGER.OUT"
+		(at 167.64 107.95 90)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "39ddccdc-8285-4371-b70d-1ce4b2feaa00")
 	)
 	(label "RTCX2"
 		(at 149.86 105.41 180)
@@ -14988,6 +15068,16 @@
 		)
 		(uuid "fe54fc80-888d-4d65-91b3-711bbdca7fdf")
 	)
+	(label "TRIGGER.IN"
+		(at 284.48 114.3 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "fea0f7d8-61b7-41ce-b73b-45b157c9808d")
+	)
 	(label "SGPIO3"
 		(at 186.69 81.28 0)
 		(effects
@@ -15192,9 +15282,9 @@
 			)
 		)
 	)
-	(hierarchical_label "P6_3"
+	(hierarchical_label "P2_5"
 		(shape bidirectional)
-		(at 194.31 208.28 180)
+		(at 194.31 106.68 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15313,6 +15403,17 @@
 		)
 		(uuid "637975da-154a-4efc-a19d-8621fb43a5e0")
 	)
+	(hierarchical_label "TRIGGER{Trigger}"
+		(shape bidirectional)
+		(at 302.26 111.76 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "6ae1d2ce-5ab9-4530-98f9-d443fdba6164")
+	)
 	(hierarchical_label "MIXER{RFFC5072}"
 		(shape bidirectional)
 		(at 153.67 195.58 180)
@@ -15414,7 +15515,7 @@
 	)
 	(hierarchical_label "~{MIX_EN}"
 		(shape output)
-		(at 194.31 109.22 180)
+		(at 194.31 208.28 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15499,6 +15600,17 @@
 			(justify right)
 		)
 		(uuid "defed04f-902c-41a1-8d7a-120b08626b01")
+	)
+	(hierarchical_label "TRIGGER{Trigger}"
+		(shape bidirectional)
+		(at 163.83 90.17 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e29342a1-4f28-4df4-ac01-014a2f007479")
 	)
 	(hierarchical_label "~{BIAS_EN}"
 		(shape output)
@@ -23470,6 +23582,101 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 171.45 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f814f2e-6f4a-4e18-91f8-6a48fbc29f5c")
+		(property "Reference" "R6"
+			(at 171.45 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 171.45 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07100RL"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa1e293-3458-418b-9313-e5beeb4e2ee2")
+		)
+		(pin "2"
+			(uuid "079c3922-135c-42e0-b294-7bf899e1bf7c")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 172.72 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25956,6 +26163,101 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 279.4 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b89b1c1a-9ab0-406d-b05a-a4d1f782cec5")
+		(property "Reference" "R127"
+			(at 279.4 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 279.4 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07100RL"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d98cd53-3b0d-4533-867b-0bb1977c05fd")
+		)
+		(pin "2"
+			(uuid "a6b856f0-0101-47d0-ad8d-1bd529db6e77")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R127")
 					(unit 1)
 				)
 			)

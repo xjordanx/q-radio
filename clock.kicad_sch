@@ -4698,6 +4698,17 @@
 			)
 		)
 	)
+	(hierarchical_label "P2_5"
+		(shape bidirectional)
+		(at 97.79 69.85 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "190704eb-2dfc-4405-8f87-e4aa6d022ac3")
+	)
 	(hierarchical_label "CLKOUT"
 		(shape output)
 		(at 240.03 96.52 0)
@@ -4752,17 +4763,6 @@
 			(justify right)
 		)
 		(uuid "767a8013-9efe-47cf-a6dd-5d1a589b46cc")
-	)
-	(hierarchical_label "P6_3"
-		(shape bidirectional)
-		(at 97.79 69.85 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "9126dc87-023a-4fbc-bc61-9b0f5c5b0838")
 	)
 	(hierarchical_label "SCT_CLK"
 		(shape output)

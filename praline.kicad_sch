@@ -3399,16 +3399,6 @@
 				(justify right)
 			)
 		)
-		(pin "AUX_CLK" input
-			(at 226.06 72.39 0)
-			(uuid "bdf6533c-4f6a-46ea-9c8f-90aa326e852e")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
 		(pin "LPF_EN" output
 			(at 185.42 49.53 180)
 			(uuid "9d0a95dc-29a7-4a70-9ee2-659aa446577a")
@@ -3587,6 +3577,16 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+			)
+		)
+		(pin "AUX_CLK2" input
+			(at 226.06 72.39 0)
+			(uuid "5a4866c2-3606-480b-acf8-df2efb5abc67")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4363,16 +4363,6 @@
 				(justify right)
 			)
 		)
-		(pin "AUX_CLK" output
-			(at 226.06 107.95 0)
-			(uuid "f1f5e665-0dab-4474-bc59-46dccd93ec6f")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 185.42 96.52 180)
 			(uuid "c3105d04-31fd-4342-bb5c-fecafc4d3478")
@@ -4431,6 +4421,16 @@
 					(size 1.524 1.524)
 				)
 				(justify left)
+			)
+		)
+		(pin "AUX_CLK2" output
+			(at 226.06 107.95 0)
+			(uuid "cf2b74dc-834a-4459-be2f-f784d9ec61c7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
 			)
 		)
 		(instances

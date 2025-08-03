@@ -15458,7 +15458,7 @@
 		)
 		(uuid "85271c3f-6c11-4d3e-a8bc-ef3cdd294bf8")
 	)
-	(hierarchical_label "AUX_CLK"
+	(hierarchical_label "AUX_CLK2"
 		(shape input)
 		(at 365.76 167.64 180)
 		(effects

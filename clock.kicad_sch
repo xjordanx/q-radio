@@ -7103,10 +7103,10 @@
 			(uuid "1f6e3d84-b180-4217-81f1-6090e5dac75a")
 		)
 		(pin "2"
-			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6cc")
+			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6cd")
 		)
 		(pin "5"
-			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e5")
+			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e6")
 		)
 		(pin "3"
 			(uuid "24e56ee8-baf0-4124-89ff-82121c56e8f9")
@@ -8282,10 +8282,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f691d60-bba3-4954-be7d-7e36479752cb")
+			(uuid "7f691d60-bba3-4954-be7d-7e36479752cc")
 		)
 		(pin "6"
-			(uuid "27c69353-d5ce-4345-85e1-937b6a75e752")
+			(uuid "27c69353-d5ce-4345-85e1-937b6a75e753")
 		)
 		(pin "2"
 			(uuid "0251bcc0-4b9d-466e-84db-271afafcc6be")
@@ -8294,10 +8294,10 @@
 			(uuid "e1c10982-57b1-4d94-b8bd-70fd095af86c")
 		)
 		(pin "3"
-			(uuid "89b6aced-40d8-4476-9402-ca9d03396990")
+			(uuid "89b6aced-40d8-4476-9402-ca9d03396991")
 		)
 		(pin "4"
-			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07446")
+			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07447")
 		)
 		(instances
 			(project "praline"
@@ -8861,7 +8861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
+		(property "Footprint" "praline:Oscillator_SMD_SeikoEpson_TG2520SMN-xxx-xxxxxx-4Pin_2.5x2.0mm"
 			(at 87.63 110.49 0)
 			(effects
 				(font
@@ -9925,10 +9925,10 @@
 			(uuid "27c69353-d5ce-4345-85e1-937b6a75e751")
 		)
 		(pin "2"
-			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6cd")
+			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6ce")
 		)
 		(pin "5"
-			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e6")
+			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e7")
 		)
 		(pin "3"
 			(uuid "89b6aced-40d8-4476-9402-ca9d0339698f")
@@ -11017,22 +11017,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f691d60-bba3-4954-be7d-7e36479752cc")
+			(uuid "7f691d60-bba3-4954-be7d-7e36479752cd")
 		)
 		(pin "6"
-			(uuid "27c69353-d5ce-4345-85e1-937b6a75e753")
+			(uuid "27c69353-d5ce-4345-85e1-937b6a75e754")
 		)
 		(pin "2"
-			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6ce")
+			(uuid "2b425c12-ba6b-4258-873b-b65b9c90f6cf")
 		)
 		(pin "5"
-			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e7")
+			(uuid "8b85bfe1-66c3-459a-b5fc-859adac6f2e8")
 		)
 		(pin "3"
-			(uuid "89b6aced-40d8-4476-9402-ca9d03396991")
+			(uuid "89b6aced-40d8-4476-9402-ca9d03396992")
 		)
 		(pin "4"
-			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07447")
+			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07448")
 		)
 		(instances
 			(project ""

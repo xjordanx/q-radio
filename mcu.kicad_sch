@@ -16490,7 +16490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "praline:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 153.67 247.65 0)
 			(effects
 				(font
@@ -19282,7 +19282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "praline:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 137.16 105.41 0)
 			(effects
 				(font

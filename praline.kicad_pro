@@ -95,6 +95,34 @@
         [
           "nonmirrored_text_on_back_layer|167000000|101300000|77a3914e-0fef-42a4-8f2a-e65b7558898e|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|140800000|4fe1d6fe-ec7c-4e6a-b76e-631ef6fe1c5e|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|141900000|26639630-e4cd-4a23-b09c-9432ff65fd0c|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|143000000|7358911c-e851-41e8-a2c8-dcda369b9e93|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|147000000|8c21572b-1360-46e5-8747-3e04cae8a5c7|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|148100000|f8e1cebd-629f-471b-a7e1-c9e0d1c30ca4|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|174800000|149200000|00cbfb16-a64b-4104-92fc-3fe47d060d76|00000000-0000-0000-0000-00005787e7b0",
+          ""
+        ],
+        [
+          "silk_over_copper|174395074|146650000|f7759e93-cfb2-4121-92b4-d4f42307c662|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -122,7 +150,7 @@
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
-        "invalid_outline": "ignore",
+        "invalid_outline": "warning",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
@@ -132,17 +160,17 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -176,8 +204,8 @@
         "min_microvia_drill": 0.127,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.381,
-        "min_text_thickness": 0.07,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.12,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,

@@ -52,8 +52,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.75 -1)
-		(end -0.75 0.675)
+		(start -0.8 -1)
+		(end -0.8 0.675)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +62,8 @@
 		(uuid "56b893eb-1aee-4f0a-911a-93995d74e0ad")
 	)
 	(fp_line
-		(start 0.75 -1)
-		(end 0.75 1)
+		(start 0.8 -1)
+		(end 0.8 1)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,7 +73,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.75 1.275) (xy -0.75 1.555) (xy -1.03 1.275) (xy -0.75 1.275)
+			(xy -0.68 1.2) (xy -0.68 1.48) (xy -0.96 1.2) (xy -0.68 1.2)
 		)
 		(stroke
 			(width 0.12)

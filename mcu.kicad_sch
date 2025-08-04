@@ -8812,10 +8812,6 @@
 		(uuid "74e2696e-0d7c-4d2b-bd9c-a5255bcbf13e")
 	)
 	(no_connect
-		(at 194.31 91.44)
-		(uuid "8af230f8-82fe-4ea0-8167-9995cee703a1")
-	)
-	(no_connect
 		(at 245.11 203.2)
 		(uuid "8cae2855-5309-429e-b356-5b17496ada35")
 	)
@@ -12490,7 +12486,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 111.76)
+			(xy 181.61 107.95) (xy 181.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13148,7 +13144,7 @@
 		)
 		(uuid "0fc0b2c8-3d07-4a01-b030-709645167def")
 	)
-	(label "CLKIN_CTRL0"
+	(label "P1_CTRL0"
 		(at 163.83 119.38 0)
 		(effects
 			(font
@@ -13218,7 +13214,7 @@
 		)
 		(uuid "1a4c0c58-9937-4b1a-8531-7810d86206eb")
 	)
-	(label "CLKIN_CTRL1"
+	(label "P1_CTRL1"
 		(at 163.83 220.98 0)
 		(effects
 			(font
@@ -13318,7 +13314,7 @@
 		)
 		(uuid "293c3e7b-1d40-4722-b191-0e0d47a8070b")
 	)
-	(label "CLKOUT_CTRL1"
+	(label "P2_CTRL1"
 		(at 246.38 134.62 0)
 		(effects
 			(font
@@ -13438,7 +13434,7 @@
 		)
 		(uuid "37f1ff5d-b39d-4347-a606-b7a209789add")
 	)
-	(label "CLKOUT_CTRL0"
+	(label "P2_CTRL0"
 		(at 246.38 132.08 0)
 		(effects
 			(font
@@ -15038,7 +15034,7 @@
 		)
 		(uuid "fb29b19d-dece-4cab-9484-fd7030bbba25")
 	)
-	(label "CLKIN_CTRL2"
+	(label "P1_CTRL2"
 		(at 163.83 223.52 0)
 		(effects
 			(font
@@ -15326,8 +15322,8 @@
 		)
 		(uuid "2da6188b-7f56-4a40-95a4-81c856b08329")
 	)
-	(hierarchical_label "CLKOUT"
-		(shape input)
+	(hierarchical_label "P2"
+		(shape bidirectional)
 		(at 365.76 137.16 180)
 		(effects
 			(font
@@ -15369,6 +15365,17 @@
 			(justify left)
 		)
 		(uuid "47f7b9fa-2941-4e59-b85b-2edb313166b1")
+	)
+	(hierarchical_label "CLKIN_CTRL"
+		(shape output)
+		(at 194.31 91.44 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "50ed22b9-fe78-45f0-bfe9-b0f3e6cc8b61")
 	)
 	(hierarchical_label "~{3V3AUX_EN}"
 		(shape output)
@@ -15447,8 +15454,8 @@
 		)
 		(uuid "7af70549-12f5-458a-b5fb-99c3243b670c")
 	)
-	(hierarchical_label "CLKIN_CTRL[0..2]"
-		(shape bidirectional)
+	(hierarchical_label "P1_CTRL[0..2]"
+		(shape output)
 		(at 158.75 226.06 180)
 		(effects
 			(font
@@ -15491,7 +15498,7 @@
 		)
 		(uuid "99397324-03ea-4eb6-bbcb-7ecadba62888")
 	)
-	(hierarchical_label "CLKIN"
+	(hierarchical_label "P22_CLKIN"
 		(shape output)
 		(at 401.32 137.16 0)
 		(effects
@@ -15502,8 +15509,8 @@
 		)
 		(uuid "9cec20e9-75a0-45fd-9b63-c8d392263e1b")
 	)
-	(hierarchical_label "CLKOUT_CTRL[0..1]"
-		(shape bidirectional)
+	(hierarchical_label "P2_CTRL[0..1]"
+		(shape output)
 		(at 267.97 129.54 0)
 		(effects
 			(font
@@ -18752,7 +18759,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 100.33 0)
+		(at 181.61 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18761,7 +18768,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000503f9a36")
 		(property "Reference" "R59"
-			(at 179.07 99.0599 0)
+			(at 179.07 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18770,7 +18777,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 179.07 101.5999 0)
+			(at 179.07 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18779,7 +18786,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18788,7 +18795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18797,7 +18804,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18806,7 +18813,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18815,7 +18822,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18824,7 +18831,7 @@
 			)
 		)
 		(property "Substitution" "any equivalent"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22026,7 +22033,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 181.61 96.52 0)
+		(at 181.61 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22035,7 +22042,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b7812f7-90f6-4cf8-a584-13f83e07fe83")
 		(property "Reference" "#PWR0163"
-			(at 181.61 100.33 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22044,7 +22051,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 181.61 91.44 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22052,7 +22059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 96.52 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22061,7 +22068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 96.52 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22070,7 +22077,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 181.61 96.52 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

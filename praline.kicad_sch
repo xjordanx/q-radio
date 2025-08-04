@@ -623,6 +623,12 @@
 		(uuid "7599aad6-e7f0-4f54-a007-37d232676485")
 	)
 	(junction
+		(at 182.88 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953fa6ab-75ad-422d-b6ad-f3e8ce067434")
+	)
+	(junction
 		(at 27.94 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -633,12 +639,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc597dfe-5398-4b62-b316-c68fdf08b54d")
-	)
-	(junction
-		(at 182.88 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d81109c8-3656-47c4-a5ef-8be4d79cb4b7")
 	)
 	(bus
 		(pts
@@ -842,7 +842,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 74.93) (xy 185.42 74.93)
+			(xy 182.88 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +972,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 72.39) (xy 185.42 72.39)
+			(xy 165.1 69.85) (xy 185.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1052,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 185.42 104.14)
+			(xy 172.72 106.68) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1109,6 +1109,16 @@
 			(type default)
 		)
 		(uuid "5d063237-b052-4f77-8da5-9d7643deb75e")
+	)
+	(wire
+		(pts
+			(xy 185.42 80.01) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efd37cb-2779-49a5-8bbd-a21e581770e5")
 	)
 	(wire
 		(pts
@@ -1322,6 +1332,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 80.01) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8454957b-b884-47a7-bced-cb2a3d551423")
+	)
+	(wire
+		(pts
 			(xy 25.4 52.07) (xy 25.4 172.72)
 		)
 		(stroke
@@ -1422,7 +1442,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 80.01) (xy 177.8 80.01)
+			(xy 185.42 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1492,6 +1512,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4699650-884e-4e15-94ee-a80f83317838")
+	)
+	(wire
+		(pts
 			(xy 78.74 152.4) (xy 81.28 152.4)
 		)
 		(stroke
@@ -1512,7 +1542,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 69.85) (xy 185.42 69.85)
+			(xy 165.1 67.31) (xy 185.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1712,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 77.47) (xy 185.42 77.47)
+			(xy 180.34 74.93) (xy 185.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1732,6 +1762,16 @@
 	)
 	(bus
 		(pts
+			(xy 182.88 72.39) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda6eef2-6ff3-42c3-8d66-63c0dc0dfed2")
+	)
+	(bus
+		(pts
 			(xy 185.42 99.06) (xy 180.34 99.06)
 		)
 		(stroke
@@ -1739,16 +1779,6 @@
 			(type default)
 		)
 		(uuid "ce407ef8-7f6a-4666-a6cd-a7e1fb007394")
-	)
-	(bus
-		(pts
-			(xy 182.88 74.93) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f10261-0d73-4890-9680-87e56f8e89ed")
 	)
 	(wire
 		(pts
@@ -1772,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 82.55) (xy 175.26 82.55)
+			(xy 185.42 82.55) (xy 172.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 104.14)
+			(xy 172.72 82.55) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1882,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 99.06) (xy 180.34 77.47)
+			(xy 180.34 99.06) (xy 180.34 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +2022,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 80.01) (xy 177.8 101.6)
+			(xy 177.8 77.47) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2042,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 74.93) (xy 182.88 74.93)
+			(xy 165.1 72.39) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3320,7 @@
 			)
 		)
 		(pin "SGPIO[0..12]" bidirectional
-			(at 185.42 72.39 180)
+			(at 185.42 69.85 180)
 			(uuid "bb1f0599-b555-4dde-87bf-59e482f07354")
 			(effects
 				(font
@@ -3300,33 +3330,13 @@
 			)
 		)
 		(pin "FPGA_CONFIG{Config}" bidirectional
-			(at 185.42 69.85 180)
+			(at 185.42 67.31 180)
 			(uuid "37330b5b-c8c7-4608-b68a-f261f6a073a7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
-			)
-		)
-		(pin "CLKOUT" input
-			(at 226.06 67.31 0)
-			(uuid "53522b83-9deb-4815-83db-42dbc01bc126")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(pin "CLKIN" output
-			(at 226.06 69.85 0)
-			(uuid "eca0d6a4-17b4-447d-9749-696646fbc987")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
 			)
 		)
 		(pin "MCU_CLK" input
@@ -3510,28 +3520,8 @@
 			)
 		)
 		(pin "TRIGGER{Trigger}" bidirectional
-			(at 185.42 74.93 180)
+			(at 185.42 72.39 180)
 			(uuid "0edf5bd3-b7f1-4cf4-ae4b-a5f75790b620")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLKIN_CTRL[0..2]" bidirectional
-			(at 185.42 77.47 180)
-			(uuid "6001eac2-ddd8-4600-a580-fe6cd7dd525f")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLKOUT_CTRL[0..1]" bidirectional
-			(at 185.42 80.01 180)
-			(uuid "ab303c31-d8d5-4e6c-84d2-d3a8efd49b25")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3587,6 +3577,56 @@
 					(size 1.524 1.524)
 				)
 				(justify right)
+			)
+		)
+		(pin "P1_CTRL[0..2]" output
+			(at 185.42 74.93 180)
+			(uuid "0bfdbaa4-f34b-47c7-ba21-cde45f5a6bf9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P22_CLKIN" output
+			(at 226.06 69.85 0)
+			(uuid "647de84e-3eaa-4ebb-a67f-5f1081f882b8")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2_CTRL[0..1]" output
+			(at 185.42 77.47 180)
+			(uuid "19a926c0-4aeb-4785-b239-f784b2da2dae")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2" bidirectional
+			(at 226.06 67.31 0)
+			(uuid "3a865818-5d42-4e74-aeae-b7e3e17f9b2d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKIN_CTRL" output
+			(at 185.42 80.01 180)
+			(uuid "e7828473-1628-4ee9-83b2-55de23850c20")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4323,16 +4363,6 @@
 				(justify left)
 			)
 		)
-		(pin "CLKOUT" output
-			(at 226.06 102.87 0)
-			(uuid "04e3dd50-ba10-4d54-8681-87da33c533f3")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
 		(pin "MIX_CLK" output
 			(at 185.42 116.84 180)
 			(uuid "2f848dd2-53e7-41fa-abef-6ef5e8e44221")
@@ -4353,39 +4383,9 @@
 				(justify left)
 			)
 		)
-		(pin "CLKIN" input
-			(at 226.06 105.41 0)
-			(uuid "db01d8a5-b997-40cc-8e66-c56e33316396")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
 		(pin "TRIGGER{Trigger}" bidirectional
 			(at 185.42 96.52 180)
 			(uuid "c3105d04-31fd-4342-bb5c-fecafc4d3478")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLKOUT_CTRL[0..1]" bidirectional
-			(at 185.42 101.6 180)
-			(uuid "fbf117a4-6ae1-41fe-8f78-7c2aeb654361")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLKIN_CTRL[0..2]" bidirectional
-			(at 185.42 99.06 180)
-			(uuid "4aeaa452-f600-4a46-9f7b-adbf103c5217")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4414,7 +4414,7 @@
 			)
 		)
 		(pin "P2_5" bidirectional
-			(at 185.42 104.14 180)
+			(at 185.42 106.68 180)
 			(uuid "637fbbd2-9e25-401e-b8cb-c335d6a97cb8")
 			(effects
 				(font
@@ -4431,6 +4431,56 @@
 					(size 1.524 1.524)
 				)
 				(justify right)
+			)
+		)
+		(pin "P1_CTRL[0..2]" input
+			(at 185.42 99.06 180)
+			(uuid "1a36143c-cf52-4714-b8bc-16e2adc5cc64")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P22_CLKIN" input
+			(at 226.06 105.41 0)
+			(uuid "763cce6c-3efd-4917-aac8-0f374f058095")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2_CTRL[0..1]" input
+			(at 185.42 101.6 180)
+			(uuid "772d25ee-5564-4b8b-bbf2-5b55c8248d79")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2" bidirectional
+			(at 226.06 102.87 0)
+			(uuid "1dcdeb7b-201a-4a8e-a712-763d7bae6bb0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKIN_CTRL" input
+			(at 185.42 104.14 180)
+			(uuid "91ea3af3-bb2f-48ba-a1a9-e6ead37e30f5")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4628,7 +4678,7 @@
 			)
 		)
 		(pin "SGPIO[0..12]" bidirectional
-			(at 165.1 72.39 0)
+			(at 165.1 69.85 0)
 			(uuid "7148fa07-038a-4dcb-9068-d167596cfaf7")
 			(effects
 				(font
@@ -4658,7 +4708,7 @@
 			)
 		)
 		(pin "FPGA_CONFIG{Config}" bidirectional
-			(at 165.1 69.85 0)
+			(at 165.1 67.31 0)
 			(uuid "21e3068d-70d1-4286-a566-23e2000a1400")
 			(effects
 				(font
@@ -4678,7 +4728,7 @@
 			)
 		)
 		(pin "TRIGGER{Trigger}" bidirectional
-			(at 165.1 74.93 0)
+			(at 165.1 72.39 0)
 			(uuid "cd24e44c-f5d9-4b07-956f-c1416edc4369")
 			(effects
 				(font

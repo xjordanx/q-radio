@@ -7137,7 +7137,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22.6k"
+		(property "Value" "1k"
 			(at 148.59 41.9099 0)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 22.6K OHM 1% 1/20W 0201"
+		(property "Description" "RES 1K OHM 1% 1/20W 0201"
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-0722K6L"
+		(property "Part Number" "RC0201FR-071KL"
 			(at 151.13 40.64 0)
 			(effects
 				(font
@@ -12597,7 +12597,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "470"
 			(at 138.43 80.01 90)
 			(effects
 				(font
@@ -12623,7 +12623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 300 OHM 1% 1/20W 0201"
+		(property "Description" "RES 470 OHM 5% 1/20W 0201"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -12650,7 +12650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-07300RL"
+		(property "Part Number" "RC0201JR-07470RL"
 			(at 138.43 76.2 90)
 			(effects
 				(font

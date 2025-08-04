@@ -9436,6 +9436,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 50.8) (xy 194.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c25cab6-4dcc-4067-8b2e-d42b51d40519")
+	)
+	(wire
+		(pts
 			(xy 306.07 142.24) (xy 306.07 162.56)
 		)
 		(stroke
@@ -11426,6 +11436,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3b4bef-7be4-4169-ac5d-6c4877febdbf")
+	)
+	(wire
+		(pts
 			(xy 157.48 190.5) (xy 194.31 190.5)
 		)
 		(stroke
@@ -11913,6 +11933,16 @@
 			(type default)
 		)
 		(uuid "be14123e-b254-4835-9f94-f1740c96a480")
+	)
+	(wire
+		(pts
+			(xy 182.88 54.61) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebd55bd-0f4d-41a9-b5b4-a51a6f67dd27")
 	)
 	(wire
 		(pts
@@ -15107,7 +15137,7 @@
 	)
 	(global_label "SSP1_SCK"
 		(shape input)
-		(at 194.31 88.9 180)
+		(at 175.26 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15117,7 +15147,7 @@
 		)
 		(uuid "45094180-d6de-486f-b5ed-0272b80961e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7528 88.9 0)
+			(at 165.7028 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,7 +15159,7 @@
 	)
 	(global_label "SSP1_COPI"
 		(shape input)
-		(at 194.31 50.8 180)
+		(at 175.26 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15139,7 +15169,7 @@
 		)
 		(uuid "4826e5a7-e46c-4841-9cba-a412e172b085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1722 50.8 0)
+			(at 165.1222 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,6 +23974,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 179.07 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b635e87-8e5f-4f68-8df9-684ce3959264")
+		(property "Reference" "R141"
+			(at 179.07 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 179.07 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07100RL"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cddb8489-3ff2-440a-a190-f19d09c27924")
+		)
+		(pin "2"
+			(uuid "82130daa-a8be-4869-ad19-45a051fc164d")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 20.32 163.83 0)
 		(unit 1)
@@ -28016,6 +28141,101 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0d973d-915f-446d-ab8a-2e54f96dc461")
+		(property "Reference" "R140"
+			(at 179.07 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 179.07 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07100RL"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f2fc8c2-cadb-42cc-addd-517854f2e0f0")
+		)
+		(pin "2"
+			(uuid "b6774e07-3989-4cd9-b280-e5c2831fb3ae")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
+					(reference "R140")
 					(unit 1)
 				)
 			)

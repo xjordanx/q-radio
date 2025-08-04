@@ -2645,6 +2645,12 @@
 		(uuid "3c6383de-0698-4ae7-a0b7-493df27c3d89")
 	)
 	(junction
+		(at 181.61 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4619e1c1-2853-43e6-ab44-75aa1218ba8a")
+	)
+	(junction
 		(at 184.15 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2769,12 +2775,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db63c98c-ee02-4aa4-ab5b-e44b9d8fa287")
-	)
-	(junction
-		(at 181.61 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e10d6510-eb63-4977-9ca6-0813f8989f26")
 	)
 	(junction
 		(at 189.23 252.73)
@@ -3194,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 237.49) (xy 184.15 237.49)
+			(xy 163.83 240.03) (xy 184.15 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 217.17) (xy 186.69 240.03)
+			(xy 186.69 217.17) (xy 186.69 242.57)
 		)
 		(stroke
 			(width 0)
@@ -3794,6 +3794,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 232.41) (xy 181.61 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46560fc7-4bb5-47f9-89f3-15b5f8101d26")
+	)
+	(wire
+		(pts
 			(xy 191.77 124.46) (xy 166.37 124.46)
 		)
 		(stroke
@@ -3854,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 222.25) (xy 184.15 237.49)
+			(xy 184.15 222.25) (xy 184.15 240.03)
 		)
 		(stroke
 			(width 0)
@@ -4081,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "68836386-21bb-438b-91a9-c460a56ae6da")
+	)
+	(wire
+		(pts
+			(xy 181.61 207.01) (xy 181.61 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690401d9-12ef-4bb2-8248-858f6918f4ad")
 	)
 	(wire
 		(pts
@@ -4352,16 +4372,6 @@
 		)
 		(uuid "7d4fee53-0c9d-4385-9729-8e8b55937fdd")
 	)
-	(wire
-		(pts
-			(xy 181.61 227.33) (xy 181.61 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de6f58e-94b0-4af5-adb8-8269f6826049")
-	)
 	(bus
 		(pts
 			(xy 104.14 201.93) (xy 104.14 204.47)
@@ -4404,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 227.33) (xy 181.61 227.33)
+			(xy 179.07 232.41) (xy 181.61 232.41)
 		)
 		(stroke
 			(width 0)
@@ -4504,6 +4514,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 231.14) (xy 181.61 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b16799-0284-4842-a4bc-e0c8dafc109c")
+	)
+	(wire
+		(pts
 			(xy 149.86 77.47) (xy 149.86 96.52)
 		)
 		(stroke
@@ -4561,6 +4581,16 @@
 			(type default)
 		)
 		(uuid "9b5fbbc7-6304-4971-8387-12a616edbf57")
+	)
+	(wire
+		(pts
+			(xy 163.83 237.49) (xy 181.61 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbcd40c-5a1c-4f86-a229-e60d81708ea3")
 	)
 	(wire
 		(pts
@@ -5064,7 +5094,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 240.03) (xy 160.02 240.03)
+			(xy 186.69 242.57) (xy 163.83 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5151,16 +5181,6 @@
 			(type default)
 		)
 		(uuid "d21a6739-c6e4-45c0-8f13-393632c6f561")
-	)
-	(wire
-		(pts
-			(xy 160.02 234.95) (xy 181.61 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f4be04-1ca3-46ba-a69e-c9541f5e92c1")
 	)
 	(wire
 		(pts
@@ -5321,16 +5341,6 @@
 			(type default)
 		)
 		(uuid "e2dbae93-ca3f-42c8-8f74-2991fa02b38e")
-	)
-	(wire
-		(pts
-			(xy 181.61 207.01) (xy 181.61 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e390917e-b707-4808-86d0-f6d92e09938d")
 	)
 	(bus
 		(pts
@@ -6234,7 +6244,7 @@
 	)
 	(global_label "SSP1_COPI"
 		(shape input)
-		(at 160.02 237.49 180)
+		(at 163.83 240.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6244,7 +6254,7 @@
 		)
 		(uuid "3f309d8c-0ca0-4f91-9fd8-9be3519f9185")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.8822 237.49 0)
+			(at 153.6922 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6266,7 @@
 	)
 	(global_label "SSP1_SCK"
 		(shape input)
-		(at 160.02 240.03 180)
+		(at 163.83 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6266,7 +6276,7 @@
 		)
 		(uuid "65b007cb-1d2e-4ff6-853f-335340994e63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4628 240.03 0)
+			(at 154.2728 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6288,7 @@
 	)
 	(global_label "SSP1_CIPO"
 		(shape input)
-		(at 160.02 234.95 180)
+		(at 163.83 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6288,7 +6298,7 @@
 		)
 		(uuid "7d5d9d1a-ce9c-47b0-beed-1ac8dc0e5916")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.8822 234.95 0)
+			(at 153.6922 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,6 +6446,103 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/e983c194-621e-40aa-896b-a14f1ba8c8f7"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02173712-6f76-4b7c-8583-75086f1ac1c6")
+		(property "Reference" "R145"
+			(at 179.07 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 179.07 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07100RL"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 181.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0603577f-81ca-49df-b347-926cb0dc688c")
+		)
+		(pin "2"
+			(uuid "692e0c3a-e6ce-4df7-915d-b3d4da6d6276")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/e983c194-621e-40aa-896b-a14f1ba8c8f7"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7153,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 179.07 227.33 90)
+		(at 179.07 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7055,7 +7162,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f896b24-9161-425e-b07b-7a9ceeec3804")
 		(property "Reference" "TP53"
-			(at 173.99 226.0599 90)
+			(at 173.99 231.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7171,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 173.99 228.5999 90)
+			(at 173.99 233.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 179.07 222.25 0)
+			(at 179.07 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 222.25 0)
+			(at 179.07 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 227.33 0)
+			(at 179.07 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

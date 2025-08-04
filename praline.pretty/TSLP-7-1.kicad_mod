@@ -254,6 +254,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "c4a4eff6-a02c-43c9-9503-8ffe9695e700")
 	)
 	(pad "7" thru_hole circle
@@ -263,6 +264,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "7fcc1f1b-edea-4154-b524-bd70f3542ecc")
 	)
 	(pad "7" smd rect
@@ -304,6 +306,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "42fb7e50-bf1d-4858-99d3-58761fe3ba5b")
 	)
 	(pad "7" thru_hole circle
@@ -313,6 +316,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "39f8bcaa-0a44-4fbe-b33f-e08dbfef4210")
 	)
 	(pad "7" smd roundrect

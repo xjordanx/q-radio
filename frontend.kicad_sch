@@ -5005,7 +5005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00004f94d0f2")
-		(property "Reference" "P4"
+		(property "Reference" "P3"
 			(at 267.97 109.22 0)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 		(instances
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-0000503bb638"
-					(reference "P4")
+					(reference "P3")
 					(unit 1)
 				)
 			)

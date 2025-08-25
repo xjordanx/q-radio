@@ -427,7 +427,7 @@
 		(uuid "1147bf82-e0dc-4412-8d75-c3585a687577")
 	)
 	(fp_line
-		(start -25.4 -19.05)
+		(start -25.4 -18.05)
 		(end -25.4 19.05)
 		(stroke
 			(width 0.1)
@@ -447,8 +447,18 @@
 		(uuid "2c765f19-91ba-42ac-8b2c-6d1c62ab2356")
 	)
 	(fp_line
+		(start -24.4 -19.05)
+		(end -25.4 -18.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "193e603f-e6b8-4f55-98d9-1f6842b35e75")
+	)
+	(fp_line
 		(start 25.4 -19.05)
-		(end -25.4 -19.05)
+		(end -24.4 -19.05)
 		(stroke
 			(width 0.1)
 			(type solid)

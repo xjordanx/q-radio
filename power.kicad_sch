@@ -7326,7 +7326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "Schottky"
 			(at 88.9 70.485 0)
 			(effects
 				(font
@@ -7335,7 +7335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:D_SOD-123FL"
+		(property "Footprint" "praline:TSLP-2-19"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.21yangjie.com/pdf/zlqj/ckfhejg/U1A%20THRU%20U1J.pdf"
+		(property "Datasheet" "~"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOD-123FL 200V 1.0A  Diodes Rec"
+		(property "Description" "DIODE SCHOTTKY 40V 1A DSN1006-2"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7362,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yangzhou Yangjie"
+		(property "Manufacturer" "Nexperia"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7371,7 +7371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "U1D"
+		(property "Part Number" "PMEG4010ESBYL"
 			(at 87.63 76.2 0)
 			(effects
 				(font

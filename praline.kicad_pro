@@ -93,6 +93,10 @@
           ""
         ],
         [
+          "nonmirrored_text_on_back_layer|167000000|101300000|77a3914e-0fef-42a4-8f2a-e65b7558898e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "pth_inside_courtyard|174800000|140800000|4fe1d6fe-ec7c-4e6a-b76e-631ef6fe1c5e|00000000-0000-0000-0000-00005787e7b0",
           ""
         ],
@@ -884,7 +888,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
-    "DATE": "2025-08-24",
+    "DATE": "2025-08-25",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "1.1.0+"

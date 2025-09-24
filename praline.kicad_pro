@@ -777,7 +777,7 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

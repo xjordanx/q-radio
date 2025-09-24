@@ -4460,12 +4460,6 @@
 		(color 0 0 0 0)
 		(uuid "e4aafd89-aa1e-4424-8bfe-f6a3ed4218f9")
 	)
-	(junction
-		(at 59.69 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec38862c-de28-4f06-90a8-c4209df60422")
-	)
 	(no_connect
 		(at 261.62 59.69)
 		(uuid "574ae903-d92e-428f-b415-0bb8b6a6a180")
@@ -5197,16 +5191,6 @@
 			(type default)
 		)
 		(uuid "53c92f93-9937-4129-9b5a-4b3821d97edc")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 60.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5499eb34-0d83-4190-b455-4d2f558eeb53")
 	)
 	(wire
 		(pts
@@ -6230,16 +6214,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 59.69 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e872eff0-f645-461f-a7ba-a64defd79caa")
-	)
-	(wire
-		(pts
 			(xy 68.58 34.29) (xy 73.66 34.29)
 		)
 		(stroke
@@ -6546,17 +6520,6 @@
 			(justify right)
 		)
 		(uuid "c8634ebe-d9d6-41a6-b0de-b7c060ef458d")
-	)
-	(hierarchical_label "VBUS_GATE"
-		(shape input)
-		(at 60.96 53.34 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "d576f1e6-b9e0-46ff-8a4a-71442899d097")
 	)
 	(hierarchical_label "MODE"
 		(shape input)

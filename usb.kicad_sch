@@ -2309,376 +2309,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "praline:HUSB238"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HUSB238"
-				(at 6.35 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://en.hynetek.com/2421.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Type-C Power Delivery Sink Controller"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB Type-C PD CC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HUSB238_1_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -5.08 0)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "VSET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -5.08 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_alias "USB2"
 		(members "D+" "D-")
@@ -2702,12 +2332,6 @@
 		(uuid "32409d46-0407-45a1-82b0-c198f98670c5")
 	)
 	(junction
-		(at 146.05 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a612fa3-5327-4c27-b56a-16ab249e6bef")
-	)
-	(junction
 		(at 105.41 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2726,7 +2350,7 @@
 		(uuid "69d2af90-da5e-47cf-b639-32ad6250ab95")
 	)
 	(junction
-		(at 105.41 48.26)
+		(at 105.41 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75615607-1a02-41fa-8487-ffe0426b172f")
@@ -2744,22 +2368,22 @@
 		(uuid "7d65bf7e-9ac0-464c-a00d-0900ed8fbe42")
 	)
 	(junction
-		(at 110.49 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "831d893f-4ffe-4304-8bc3-163793d33fd8")
-	)
-	(junction
 		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97787bc1-c776-4f00-85ac-41b2bdbcc7ac")
 	)
 	(junction
-		(at 149.86 63.5)
+		(at 149.86 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c630b7e0-9eee-4317-b7db-a950e22a3711")
+		(uuid "9b186314-380a-4a17-a501-d12425ca99c4")
+	)
+	(junction
+		(at 172.72 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e719cd-5ca3-416b-89e7-df5cc5137baf")
 	)
 	(junction
 		(at 156.21 123.19)
@@ -2768,28 +2392,20 @@
 		(uuid "d4644c87-14c8-46e4-9386-ee5b9f8b5dfc")
 	)
 	(junction
-		(at 161.29 48.26)
+		(at 162.56 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e842799e-ac43-4132-a189-38e55c8d9c60")
+		(uuid "ef7a86ae-15b5-4224-bb72-28c94a38d056")
 	)
 	(junction
 		(at 135.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9bf7404-85b4-4f95-b162-f67b1b200338")
+		(uuid "f16dfbdb-a377-48af-ab78-3e17fa6c1911")
 	)
 	(no_connect
 		(at 105.41 133.35)
 		(uuid "0a2a3e30-7ffe-4236-a020-42b14e1f1e42")
-	)
-	(no_connect
-		(at 152.4 60.96)
-		(uuid "634d03ad-9963-4420-b33f-268c802d22b9")
-	)
-	(no_connect
-		(at 152.4 58.42)
-		(uuid "a519266b-8d57-46ff-8800-351ee36dcc78")
 	)
 	(no_connect
 		(at 105.41 135.89)
@@ -2825,13 +2441,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 55.88) (xy 182.88 55.88)
+			(xy 162.56 66.04) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d725dd1-8fae-424f-8f0e-db74a9a37b3e")
+		(uuid "092b2c9d-663e-42d3-9cb9-febe7c500a6b")
 	)
 	(wire
 		(pts
@@ -2842,16 +2458,6 @@
 			(type default)
 		)
 		(uuid "0e9913e7-7a17-4291-970e-c06e8ea9223f")
-	)
-	(wire
-		(pts
-			(xy 146.05 48.26) (xy 161.29 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c02e0fd-a857-4491-8ee8-34f4198cc97a")
 	)
 	(wire
 		(pts
@@ -2893,16 +2499,6 @@
 		)
 		(uuid "2a2f7f32-e63a-40dc-a091-3c53085b16aa")
 	)
-	(wire
-		(pts
-			(xy 143.51 48.26) (xy 146.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f5a165f-bfbb-47e3-a923-156011592e46")
-	)
 	(bus
 		(pts
 			(xy 186.69 120.65) (xy 186.69 115.57)
@@ -2912,16 +2508,6 @@
 			(type default)
 		)
 		(uuid "3474c050-0190-4cf5-8527-73b6f27f022c")
-	)
-	(wire
-		(pts
-			(xy 170.18 55.88) (xy 173.99 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "349e597d-05f3-4748-b06a-eb9b8325f99e")
 	)
 	(wire
 		(pts
@@ -2945,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 110.49 48.26)
+			(xy 105.41 85.09) (xy 110.49 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2995,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6579e775-b1e6-4bb3-879a-f3c95cc1220d")
+	)
+	(wire
+		(pts
 			(xy 123.19 66.04) (xy 123.19 102.87)
 		)
 		(stroke
@@ -3005,13 +2601,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 135.89 48.26)
+			(xy 172.72 55.88) (xy 181.61 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70fccca4-dddf-45a0-8ac1-082102faf65e")
+		(uuid "6d475824-43df-498f-8c3d-64d820909dd0")
 	)
 	(wire
 		(pts
@@ -3025,23 +2621,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 120.65 63.5)
+			(xy 120.65 97.79) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a8190f5-9124-4421-8c12-6997e67ca1db")
-	)
-	(wire
-		(pts
-			(xy 161.29 48.26) (xy 161.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0ff613-2a9e-4bde-8900-c5d93afe340c")
 	)
 	(wire
 		(pts
@@ -3065,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 66.04) (xy 162.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baa2ed9-06a1-4464-bd67-18883254749f")
+	)
+	(wire
+		(pts
 			(xy 153.67 97.79) (xy 156.21 97.79)
 		)
 		(stroke
@@ -3075,13 +2671,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 179.07 63.5)
+			(xy 160.02 55.88) (xy 172.72 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90f35418-9627-4f65-ba46-99e7a23404fc")
+		(uuid "90aeabde-76b0-49b8-855c-df593e1c604e")
 	)
 	(wire
 		(pts
@@ -3095,13 +2691,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 58.42) (xy 170.18 58.42)
+			(xy 172.72 55.88) (xy 172.72 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94c30bf4-7ed7-4f54-bc9a-43e3fb264073")
+		(uuid "afce787f-e31f-47da-9eb8-375604ea0684")
 	)
 	(wire
 		(pts
@@ -3133,16 +2729,6 @@
 		)
 		(uuid "b54d74ff-1563-4581-a816-91e62a8072fb")
 	)
-	(wire
-		(pts
-			(xy 176.53 67.31) (xy 176.53 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e47e22-7a55-4f12-80a6-170b665ba8a8")
-	)
 	(bus
 		(pts
 			(xy 186.69 115.57) (xy 187.96 115.57)
@@ -3155,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 105.41 48.26)
+			(xy 105.41 105.41) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3165,17 +2751,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c12dec-a436-43db-bc61-03ece9b9dbb1")
-	)
-	(wire
-		(pts
-			(xy 149.86 67.31) (xy 149.86 63.5)
+			(xy 149.86 67.31) (xy 149.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3185,17 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 135.89 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87c5e5a-ed5a-4d70-88f3-003f6a5bcbfe")
-	)
-	(wire
-		(pts
-			(xy 120.65 63.5) (xy 149.86 63.5)
+			(xy 120.65 55.88) (xy 149.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +2811,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 105.41 48.26)
+			(xy 135.89 66.04) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d58add-4b91-4b07-abac-379fc8e34485")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3255,23 +2831,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 171.45 60.96)
+			(xy 162.56 66.04) (xy 162.56 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee759c10-bb3d-4386-ad53-9d998b037ef0")
-	)
-	(wire
-		(pts
-			(xy 152.4 63.5) (xy 149.86 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22a71c1-24a0-484f-875e-8780992ea3f5")
+		(uuid "f431fee6-1dcf-4f34-91f9-635429f4b625")
 	)
 	(wire
 		(pts
@@ -3282,16 +2848,6 @@
 			(type default)
 		)
 		(uuid "f8b0c481-a96b-4e21-bda5-9031526fd53c")
-	)
-	(wire
-		(pts
-			(xy 171.45 60.96) (xy 171.45 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c22e59-e5cd-421c-bf1d-3cbf64425677")
 	)
 	(label "D-"
 		(at 106.68 120.65 0)
@@ -3353,53 +2909,9 @@
 		)
 		(uuid "faa9f8a9-94e1-4de9-b571-d0f537cec28a")
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 179.07 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "93fd500f-0dec-4abd-ac02-82dbfbd8aff0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.7408 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 179.07 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "c8e89743-557a-4f28-a503-9003579cfc34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.7892 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "VBUS"
 		(shape output)
-		(at 104.14 48.26 180)
+		(at 104.14 85.09 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3408,16 +2920,27 @@
 		)
 		(uuid "1ab3acad-42b2-4d52-b284-ee2e73187b5b")
 	)
-	(hierarchical_label "VBUS_GATE"
+	(hierarchical_label "ADC0_7"
 		(shape output)
-		(at 182.88 55.88 0)
+		(at 181.61 66.04 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify left)
 		)
-		(uuid "63f4bca1-b980-4a20-8a65-966126bdb79f")
+		(uuid "79643e2c-f99b-4ed1-8af3-b11ce6b5c23d")
+	)
+	(hierarchical_label "ADC0_4"
+		(shape output)
+		(at 181.61 55.88 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "be54ded4-4ae6-4ef6-98e6-571440628d42")
 	)
 	(hierarchical_label "USB_DATA{USB2}"
 		(shape bidirectional)
@@ -3429,178 +2952,6 @@
 			(justify left)
 		)
 		(uuid "e64b910e-56e7-4cae-acdb-34afe5463afc")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "006ade0d-39f8-45d5-85ea-101c2103466e")
-		(property "Reference" "R103"
-			(at 179.07 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22.6k"
-			(at 179.07 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 22.6K OHM 1% 1/20W 0201"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0201FR-0722K6L"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 176.53 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 179.07 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "e90e9513-ccdd-4972-a4ed-d4fc83345696")
-		)
-		(pin "2"
-			(uuid "624045c9-ca8f-41e0-989c-53d53834b072")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "R103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "027cfb5e-18a6-4b8a-8a2b-aed213095e96")
-		(property "Reference" "#PWR0243"
-			(at 176.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 79.3734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c38109b1-faa3-43e3-b09b-aeeea966a45e")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "#PWR0243")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3668,7 +3019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 55.88 0)
+		(at 110.49 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3677,7 +3028,7 @@
 		(fields_autoplaced yes)
 		(uuid "21399334-d68a-4609-bbd4-ca8f9b8c48b7")
 		(property "Reference" "#PWR0251"
-			(at 110.49 62.23 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 60.96 0)
+			(at 110.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 55.88 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 55.88 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 55.88 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,6 +3150,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 172.72 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cab9380-11d1-46ce-9962-dfa7a5f8f48a")
+		(property "Reference" "R157"
+			(at 175.26 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 175.26 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 5% 1/20W 0201"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07330RL"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4654aefa-0e38-47f6-8fc8-280d328381eb")
+		)
+		(pin "2"
+			(uuid "9f8021f0-e186-438c-b761-2541667dc774")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
+					(reference "R157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 113.03 0)
 		(unit 1)
@@ -3866,7 +3314,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 110.49 52.07 270)
+		(at 110.49 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3875,7 +3323,7 @@
 		(fields_autoplaced yes)
 		(uuid "50652ed3-b0ce-4129-8bd1-cae070364505")
 		(property "Reference" "D18"
-			(at 113.03 50.7999 90)
+			(at 113.03 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3332,7 @@
 			)
 		)
 		(property "Value" "TVS"
-			(at 113.03 53.3399 90)
+			(at 113.03 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3341,7 @@
 			)
 		)
 		(property "Footprint" "praline:TSLP-2-19"
-			(at 110.49 52.07 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3350,7 @@
 			)
 		)
 		(property "Datasheet" "https://en.microdiode.com/uploadfiles//PDF/ESD8Dxxx-Series-DFN1006.pdf"
-			(at 110.49 52.07 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3359,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 12V UNIDIRECTIONAL DFN1006"
-			(at 110.49 52.07 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3368,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD"
-			(at 110.49 52.07 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3377,7 @@
 			)
 		)
 		(property "Part Number" "ESD8D12V"
-			(at 110.49 52.07 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,6 +3395,101 @@
 			(project ""
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ea1ea45-7c32-4735-8ba6-fb99380898ec")
+		(property "Reference" "R106"
+			(at 156.21 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 156.21 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201FR-074K7L"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40ca53ff-5c9e-4b29-91e2-eed259b5d828")
+		)
+		(pin "2"
+			(uuid "bc3d15e3-d670-4256-8b10-4c84b9201f92")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -4050,17 +3593,17 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:HUSB238")
-		(at 161.29 60.96 0)
+		(lib_id "Device:R")
+		(at 162.56 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80b21ad9-d91d-4af9-ac70-d6951d8aa1e8")
-		(property "Reference" "U29"
-			(at 163.4841 48.26 0)
+		(uuid "8c263907-674e-483a-ba10-9ae5d24ef44b")
+		(property "Reference" "R156"
+			(at 165.1 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,8 +3611,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HUSB238"
-			(at 163.4841 50.8 0)
+		(property "Value" "330"
+			(at 165.1 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,88 +3620,70 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm_ThermalVias"
-			(at 161.29 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 330 OHM 5% 1/20W 0201"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201JR-07330RL"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://en.hynetek.com/2421.html"
-			(at 161.29 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Type-C Power Delivery Sink Controller"
-			(at 161.29 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hynetek"
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "HUSB238_002DD"
-			(at 161.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b0f502f-0070-47d1-9a95-25e14d4c748f")
-		)
-		(pin "10"
-			(uuid "5d937e59-cda5-40ce-9e35-b4df40a0d7e0")
-		)
-		(pin "5"
-			(uuid "2e8e4ef7-8837-4eff-9d89-d74a497e0fb0")
-		)
-		(pin "3"
-			(uuid "45ecf1ef-a213-483d-a14c-9dafab2f881c")
-		)
-		(pin "11"
-			(uuid "fd5a6235-79a0-4bb3-a19b-db5a02adc181")
-		)
-		(pin "6"
-			(uuid "89733223-b60f-4f99-830e-1626f1e603dc")
-		)
-		(pin "4"
-			(uuid "db827e0c-c578-46da-8b8b-21dcb1677e98")
-		)
-		(pin "9"
-			(uuid "d8f9c736-cbd6-42ef-80ce-683d7245287c")
 		)
 		(pin "1"
-			(uuid "eb48d011-3fa3-4264-ad09-299722b90361")
+			(uuid "9242e7b4-e419-4ff2-944b-11a129779d5d")
 		)
-		(pin "8"
-			(uuid "2428a442-81cf-4544-bdcc-1dd3a528057f")
-		)
-		(pin "7"
-			(uuid "140ee5c4-0e99-48ed-b228-15ea9255544e")
+		(pin "2"
+			(uuid "cd880879-0ff4-445d-a8ac-5bad31a4ad38")
 		)
 		(instances
-			(project ""
+			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "U29")
+					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -4166,16 +3691,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 71.12 0)
+		(at 172.72 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d4338a6-1873-4be4-9bb0-ebd895fb40f8")
+		(uuid "90c29bb2-d1c7-4cba-af3f-df97f0d6c6c0")
 		(property "Reference" "#PWR0247"
-			(at 161.29 77.47 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +3709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 75.5634 0)
+			(at 172.72 79.3734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +3717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 71.12 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +3726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 71.12 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +3735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 71.12 0)
+			(at 172.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +3744,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bff5edd-5ab3-4640-b0fc-92d749430675")
+			(uuid "e3fd808a-f697-431b-9aa8-4e054c34292c")
 		)
 		(instances
 			(project "praline"
@@ -4291,6 +3816,101 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
 					(reference "#PWR0245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9499335f-dc94-4452-a641-2634504ad410")
+		(property "Reference" "R103"
+			(at 156.21 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 156.21 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0201FR-074K7L"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitution" "any equivalent"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2c3980-8ba3-4f00-aa70-a7747641a725")
+		)
+		(pin "2"
+			(uuid "3ae8377d-753a-4688-ad23-3352dfe6a1a8")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -4528,330 +4148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 139.7 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2c060b3-39f5-48cf-9111-f88798eb5d61")
-		(property "Reference" "R106"
-			(at 139.7 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 139.7 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 33 OHM 5% 1/20W 0201"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0201JR-0733RL"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 139.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d36f2cc-af4b-424f-a520-0517800cf662")
-		)
-		(pin "2"
-			(uuid "2c5f4a35-6a6e-4d2a-8999-51ed785ae5d7")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "R106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 161.29 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c85e6287-dbdd-4d52-85cd-55c0b99082a9")
-		(property "Reference" "#FLG010"
-			(at 161.29 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 161.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39507d03-1b24-4314-ac79-9cac727db283")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c89de88a-ba8a-43e9-9993-3e357e908234")
-		(property "Reference" "#PWR0250"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15a9845a-eb6a-4b6e-a6f2-df914b45030a")
-		)
-		(instances
-			(project ""
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "#PWR0250")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c942d3aa-7cf8-40ed-bf0f-2cfcfee9ede6")
-		(property "Reference" "C38"
-			(at 149.86 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 149.86 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 146.05 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d62963e-989a-45d8-86b6-d80e760da594")
-		)
-		(pin "2"
-			(uuid "8238754d-9205-4c62-bf48-3f953ac4c5d1")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 149.86 71.12 0)
 		(unit 1)
@@ -4950,6 +4246,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd608348-e4dc-40cb-ad48-111a53429858")
+		(property "Reference" "#PWR0243"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 79.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e348ad-43bf-484c-b4b5-f7df22cad98d")
+		)
+		(instances
+			(project "praline"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 82.55 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5007,167 +4369,6 @@
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
 					(reference "#PWR0211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ceb8f61e-2959-4246-9160-9f2b6064c9c7")
-		(property "Reference" "#PWR0252"
-			(at 171.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 79.3734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c8f8e5c-f76f-4df0-87df-55e4bdfeca99")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "#PWR0252")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e3ecbe60-bea3-4975-9d58-9114d7af5396")
-		(property "Reference" "R107"
-			(at 177.8 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.8 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1708d2d8-b4b2-4ed4-99c8-c363a3ef9c36")
-		)
-		(pin "2"
-			(uuid "b8e1866a-a027-4dc0-9314-4da2795a0f20")
-		)
-		(instances
-			(project "praline"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc"
-					(reference "R107")
 					(unit 1)
 				)
 			)

@@ -1154,16 +1154,6 @@
 		)
 		(uuid "6bbcdf35-87de-473b-8abc-f86337a583d9")
 	)
-	(wire
-		(pts
-			(xy 231.14 27.94) (xy 241.3 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce7d7a0-cefe-4997-8297-78ec58a41d69")
-	)
 	(bus
 		(pts
 			(xy 81.28 92.71) (xy 78.74 92.71)
@@ -1303,6 +1293,16 @@
 			(type default)
 		)
 		(uuid "8270ee36-fb1d-4217-beaf-afaa30c9f4e3")
+	)
+	(wire
+		(pts
+			(xy 176.53 33.02) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829c2319-eeb0-4672-b83b-0b2967b3f3de")
 	)
 	(wire
 		(pts
@@ -1676,13 +1676,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 19.05) (xy 231.14 27.94)
+			(xy 176.53 35.56) (xy 185.42 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3f88894-9bf5-406b-bd6f-a71c6400b8bd")
+		(uuid "c3db123e-221e-4330-91d7-607e6d4d28c7")
 	)
 	(wire
 		(pts
@@ -1973,16 +1973,6 @@
 			(type default)
 		)
 		(uuid "ef737621-1174-468a-9709-6e5f7830541b")
-	)
-	(wire
-		(pts
-			(xy 176.53 19.05) (xy 231.14 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efa6870d-74e6-48a6-b422-abd3304e45d3")
 	)
 	(bus
 		(pts
@@ -3633,6 +3623,26 @@
 				(justify left)
 			)
 		)
+		(pin "ADC0_4" input
+			(at 185.42 33.02 180)
+			(uuid "3417e8d9-aed2-42f3-b927-f9b1387d5e4d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC0_7" input
+			(at 185.42 35.56 180)
+			(uuid "de454478-a048-457f-89f8-52bb80a178cd")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
@@ -4101,16 +4111,6 @@
 				(justify left)
 			)
 		)
-		(pin "VBUS_GATE" input
-			(at 241.3 27.94 180)
-			(uuid "98aa0682-8972-45aa-ba65-c92e4982c7c3")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "praline"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
@@ -4173,9 +4173,19 @@
 				(justify right)
 			)
 		)
-		(pin "VBUS_GATE" output
-			(at 176.53 19.05 0)
-			(uuid "650417dc-1b2b-4b3f-bc4b-c1af3c868cc4")
+		(pin "ADC0_4" output
+			(at 176.53 33.02 0)
+			(uuid "e72c9df7-2fb3-41cc-981f-ee30f9fb3c68")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC0_7" output
+			(at 176.53 35.56 0)
+			(uuid "fd46145b-4a4b-4b72-b2d8-5e97f03a08fe")
 			(effects
 				(font
 					(size 1.524 1.524)

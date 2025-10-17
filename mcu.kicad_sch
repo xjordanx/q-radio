@@ -20986,7 +20986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 37.4K OHM 1% 1/20W 0201"
+		(property "Description" "RES 37.4K OHM 1% 1/16W 0402"
 			(at 274.32 233.68 0)
 			(effects
 				(font
@@ -21004,7 +21004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-0737K4L"
+		(property "Part Number" "RC0402FR-0737K4L"
 			(at 274.32 233.68 0)
 			(effects
 				(font

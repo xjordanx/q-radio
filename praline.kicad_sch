@@ -3249,7 +3249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Laird"
+		(property "Manufacturer" "TE Connectivity"
 			(at 265.43 116.84 0)
 			(effects
 				(font
@@ -3258,7 +3258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BMI-S-230-F-R"
+		(property "Part Number" "2118732-2"
 			(at 265.43 116.84 0)
 			(effects
 				(font

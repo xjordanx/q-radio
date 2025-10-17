@@ -3267,6 +3267,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "use with shield 2118731-2"
+			(at 265.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "759598e1-6bb0-4123-8250-492d693aaa59")
 		)

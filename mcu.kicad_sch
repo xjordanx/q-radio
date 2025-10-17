@@ -20208,7 +20208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "4.7k"
 			(at 68.58 120.6499 0)
 			(effects
 				(font
@@ -20217,7 +20217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -20235,7 +20235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 3K OHM 5% 1/16W 0402"
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -20253,7 +20253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-073KL"
+		(property "Part Number" "RC0201FR-074K7L"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -20305,7 +20305,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "4.7k"
 			(at 95.25 166.3699 0)
 			(effects
 				(font
@@ -20314,7 +20314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -20332,7 +20332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 3K OHM 5% 1/16W 0402"
+		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -20350,7 +20350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-073KL"
+		(property "Part Number" "RC0201FR-074K7L"
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -20402,7 +20402,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "22.6k"
 			(at 93.98 120.6499 0)
 			(effects
 				(font
@@ -20411,7 +20411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -20429,7 +20429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 18K OHM 5% 1/16W 0402"
+		(property "Description" "RES 22.6K OHM 1% 1/20W 0201"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -20447,7 +20447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-0718KL"
+		(property "Part Number" "RC0201FR-0722K6L"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -20861,7 +20861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "10k"
 			(at 29.21 120.6499 0)
 			(effects
 				(font
@@ -20888,7 +20888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 5.1K OHM 5% 1/16W 0402"
+		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
 			(at 31.75 119.38 0)
 			(effects
 				(font
@@ -20906,7 +20906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0402JR-075K1L"
+		(property "Part Number" "RC0402JR-0710KL"
 			(at 31.75 119.38 0)
 			(effects
 				(font

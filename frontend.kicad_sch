@@ -2121,7 +2121,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "praline:BGS13SN8"
+		(symbol "praline:MXD8638"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2133,7 +2133,7 @@
 					)
 				)
 			)
-			(property "Value" "BGS13SN8"
+			(property "Value" "MXD8638"
 				(at 7.62 6.35 0)
 				(effects
 					(font
@@ -2141,7 +2141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "praline:TSNP-9-3"
+			(property "Footprint" "praline:MXD8638"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2150,7 +2150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGS13SN8-DS-v02_02-EN.pdf?fileId=5546d462584d1d4a0158cf52e3ae03a7"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912121108_Maxscend-MXD8638_C285558.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2177,7 +2177,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BGS13SN8_1_1"
+			(symbol "MXD8638_1_1"
 				(rectangle
 					(start -6.35 5.08)
 					(end 6.35 -5.08)
@@ -2199,7 +2199,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2235,7 +2235,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2253,7 +2253,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,14 +2319,14 @@
 				(pin passive line
 					(at 8.89 0 180)
 					(length 2.54)
-					(name "RFin"
+					(name "ANT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2344,7 +2344,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10188,7 +10188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:BGS13SN8")
+		(lib_id "praline:MXD8638")
 		(at 85.09 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10206,7 +10206,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BGS13SN8"
+		(property "Value" "MXD8638C"
 			(at 88.1065 107.95 0)
 			(effects
 				(font
@@ -10215,7 +10215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "praline:TSNP-9-3"
+		(property "Footprint" "praline:MXD8638C"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -10224,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGS13SN8-DS-v02_02-EN.pdf?fileId=5546d462584d1d4a0158cf52e3ae03a7"
+		(property "Datasheet" "~"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -10242,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Infineon"
+		(property "Manufacturer" "Maxscend"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -10251,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BGS13SN8E6327XTSA1"
+		(property "Part Number" "MXD8638C"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -14472,7 +14472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:BGS13SN8")
+		(lib_id "praline:MXD8638")
 		(at 176.53 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14489,7 +14489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BGS13SN8"
+		(property "Value" "MXD8638C"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -14498,7 +14498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "praline:TSNP-9-3"
+		(property "Footprint" "praline:MXD8638C"
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -14507,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BGS13SN8-DS-v02_02-EN.pdf?fileId=5546d462584d1d4a0158cf52e3ae03a7"
+		(property "Datasheet" "~"
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -14525,7 +14525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Infineon"
+		(property "Manufacturer" "Maxscend"
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -14534,7 +14534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BGS13SN8E6327XTSA1"
+		(property "Part Number" "MXD8638C"
 			(at 176.53 115.57 0)
 			(effects
 				(font

@@ -7289,7 +7289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Schottky"
+		(property "Value" "0"
 			(at 88.9 70.485 0)
 			(effects
 				(font
@@ -7316,7 +7316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 40V 1A DSN1006-2"
+		(property "Description" "RES 0 OHM JUMPER 1/20W 0201"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7325,7 +7325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Yageo"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -7334,7 +7334,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "PMEG4010ESBYL"
+		(property "Part Number" "RC0201JR-070RL"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -8632,7 +8641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "22 uF"
 			(at 97.79 52.0699 0)
 			(effects
 				(font
@@ -8659,7 +8668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X5R 0805"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -8677,7 +8686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A226MAYNNNE"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -10612,7 +10621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "22 uF"
 			(at 116.84 52.0699 0)
 			(effects
 				(font
@@ -10639,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X5R 0805"
+		(property "Description" "CAP CER 22UF 25V X5R 0805"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -10657,7 +10666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A226MAYNNNE"
 			(at 113.03 50.8 0)
 			(effects
 				(font

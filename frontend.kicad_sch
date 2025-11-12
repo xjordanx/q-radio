@@ -9590,7 +9590,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 224.79 133.35 90)
 			(effects
 				(font
@@ -9616,7 +9616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/20W 0201"
+		(property "Description" "RES 100 OHM 5% 1/20W 0201"
 			(at 224.79 137.16 0)
 			(effects
 				(font
@@ -9643,7 +9643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RC0201FR-071KL"
+		(property "Part Number" "RC0201JR-07100RL"
 			(at 224.79 137.16 0)
 			(effects
 				(font
@@ -10224,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C285557.pdf"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -13444,7 +13444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4010ESB.pdf"
 			(at 265.43 66.04 0)
 			(effects
 				(font
@@ -14054,7 +14054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BAR90-02EL-DS-v01_00-EN.pdf?fileId=5546d46265f064ff01663895cd694e6e"
 			(at 238.76 119.38 0)
 			(effects
 				(font
@@ -14161,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=30457&prodName=JDH2S02SL"
 			(at 228.6 119.38 0)
 			(effects
 				(font
@@ -14170,7 +14170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 4V 100MW TSSLP23"
+		(property "Description" "DIODE SCHOTTKY 10V 10MA SL2"
 			(at 228.6 119.38 0)
 			(effects
 				(font
@@ -14179,7 +14179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Infineon"
+		(property "Manufacturer" "Toshiba"
 			(at 228.6 119.38 90)
 			(effects
 				(font
@@ -14188,7 +14188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "BAT1502LSE6327XTSA1"
+		(property "Part Number" "JDH2S02SL,L3F"
 			(at 228.6 119.38 90)
 			(effects
 				(font
@@ -14197,7 +14197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution" "BAT1502LSE6433XTMA1, BAT1502ELSE6327XTSA1, BAT2402LSE6327XTSA1, BAT2402ELSE6327XTSA1"
+		(property "Substitution" ""
 			(at 228.6 119.38 90)
 			(effects
 				(font
@@ -14507,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C285557.pdf"
 			(at 176.53 115.57 0)
 			(effects
 				(font

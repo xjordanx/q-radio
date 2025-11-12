@@ -711,7 +711,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -889,7 +889,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2012-2025 Great Scott Gadgets",
-    "DATE": "2025-10-17",
+    "DATE": "2025-11-12",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "Praline",
     "VERSION": "1.2.1"

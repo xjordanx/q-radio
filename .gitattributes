@@ -1,0 +1,18 @@
+# Never let git auto-merge a PCB file. Two board layouts cannot be
+# combined line-by-line -- an automatic merge would produce a corrupt
+# board. "merge=binary" forces a conflict so a human picks one side
+# wholesale (see docs/WORKFLOW.md, "Picking a winner").
+*.kicad_pcb merge=binary
+
+# Schematics are also safer merged by hand, but conflicts are rarer
+# because we only edit them on main.
+*.kicad_sch merge=binary
+
+# Keep normal text diffs for both (they are S-expression text files,
+# and text diffs are useful for seeing what changed).
+*.kicad_pcb diff
+*.kicad_sch diff
+
+# The candidate ledger is append-only; when two branches both added
+# entries, keep both sides on merge instead of raising a conflict.
+candidates/manifest.yaml merge=union

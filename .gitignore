@@ -1,54 +1,19 @@
-# # KiCad local project settings
+# --- KiCad user-local / regenerable files (never commit these) ---
 *.kicad_prl
-
-# KiCad backup files
-*.000
-*.bak
-*.bck
-$savepcb.*
+fp-info-cache
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.sch-bak
-_autosave*
+*-bak
+_autosave-*
+*-backups/
+~*.tmp
+*.tmp
+
+# KiCad output that should be regenerated, not versioned casually
+gerbers/
 *.zip
-\#auto_saved_files\#
 
-# KiCad lock files
-~*.lck
-
-# KiCad cache files
-# *-cache.lib not ignored, so schematic can be viewed without libraries
-fp-info-cache
-
-# KiCad fabrication outputs
-*.drl
-*.g2
-*.g3
-*.gbl
-*.gbo
-*.gbp
-*.gbr
-*.gbs
-*.gm1
-*.gtl
-*.gto
-*.gtp
-*.gts
-*.pos
-*.rpt
-
-
-# other KiCad generated files
-*.csv
-*.svg
-*.pdf
-*.cmp
-*.dxf
-*.net
-*.ps
-*.plt
-*.xml
-
-# KiCad Interactive HTML BOM plugin
-*.ini
-*.html
+# OS noise
+Thumbs.db
+.DS_Store

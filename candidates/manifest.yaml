@@ -1,0 +1,19 @@
+# Quilter candidate ledger for q-radio.
+# One "- candidate:" block per downloaded board file. Maintained by
+# scripts/quilter-send.sh and scripts/quilter-import.sh; safe to edit
+# by hand to add notes/scores.
+#
+# Field meanings:
+#   quilter_project:  Quilter project UUID (from the Quilter web UI)
+#   quilter_job:      Quilter job UUID that produced this candidate
+#   file:             where the pristine download is archived in this repo
+#   sha256:           checksum of the pristine file (proves it is untouched)
+#   sent_tag:         git tag of the snapshot that was UPLOADED to Quilter
+#                     (i.e. the exact input state this candidate came from)
+#   schematic_commit: git commit of the schematics at upload time; if the
+#                     schematics have changed since, this candidate is STALE
+#   imported_to:      branch the candidate was imported to (empty = not yet)
+#   import_commit:    commit created by quilter-import.sh
+#   status:           pending | evaluating | rejected | winner
+#   notes:            free text -- unrouted nets, DRC counts, impressions
+

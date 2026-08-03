@@ -5232,7 +5232,7 @@
 			(uuid "e4460929-f182-4286-a0f5-8e2ba49e996d")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0253")
 					(unit 1)
@@ -5327,7 +5327,7 @@
 			(uuid "8a5ed595-dbbc-43c8-af9f-2c0abd25dd78")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R85")
 					(unit 1)
@@ -5424,7 +5424,7 @@
 			(uuid "5f002a50-0ef9-4e9d-8246-3c51daa2a27e")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C121")
 					(unit 1)
@@ -5490,7 +5490,7 @@
 			(uuid "c9822ed4-ed41-49ed-abe7-2655a1fa8e38")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0255")
 					(unit 1)
@@ -5598,7 +5598,7 @@
 			(uuid "49336977-bfa5-4a4c-80bc-c3f20a45eae9")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "U30")
 					(unit 1)
@@ -5664,7 +5664,7 @@
 			(uuid "99e0f8e4-4468-4d3f-934c-0c8690db117c")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR092")
 					(unit 1)
@@ -5759,7 +5759,7 @@
 			(uuid "c5dc5eb4-90ff-4dcd-b6bc-892e0f409dd4")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C155")
 					(unit 1)
@@ -5856,7 +5856,7 @@
 			(uuid "7dc4412b-f963-410f-9d8b-fa909dea44ae")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C120")
 					(unit 1)
@@ -5922,7 +5922,7 @@
 			(uuid "20c13c40-7ef1-4793-9c7b-cb00b22bce79")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR062")
 					(unit 1)
@@ -5988,7 +5988,7 @@
 			(uuid "1a156ae2-853f-4762-92d9-dc0b1080dbeb")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0157")
 					(unit 1)
@@ -6083,7 +6083,7 @@
 			(uuid "d63c74ef-ec7a-4385-887e-07aa78a715fc")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R33")
 					(unit 1)
@@ -6308,7 +6308,7 @@
 			(uuid "f45ddab1-df8c-4213-b988-f6c49015fa31")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R139")
 					(unit 1)
@@ -6405,7 +6405,7 @@
 			(uuid "098e9fc5-9af2-4aeb-aa1c-eb86d2e2bc13")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C39")
 					(unit 1)
@@ -6502,7 +6502,7 @@
 			(uuid "1378b17e-a9b1-47e9-8cf8-c48bdfb9b13c")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C113")
 					(unit 1)
@@ -6568,7 +6568,7 @@
 			(uuid "539a5f5f-aa33-40ac-8b29-328e49388848")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR028")
 					(unit 1)
@@ -6635,7 +6635,7 @@
 			(uuid "48a68f67-96ac-4d64-8264-59529621c0c0")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP36")
 					(unit 1)
@@ -6746,7 +6746,7 @@
 			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07446")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "U37")
 					(unit 2)
@@ -6841,7 +6841,7 @@
 			(uuid "6fe9a57e-1826-4cbc-a718-71dc37658c39")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R34")
 					(unit 1)
@@ -6936,7 +6936,7 @@
 			(uuid "37b99026-5268-4fa7-a2c5-c457e3d48f2b")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R12")
 					(unit 1)
@@ -7003,7 +7003,7 @@
 			(uuid "f18813cb-7451-431b-aae2-3ebdc48fb9b9")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP32")
 					(unit 1)
@@ -7115,7 +7115,7 @@
 			(uuid "37c7c771-2cbb-4361-aa2b-8a420b8cfb79")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "U37")
 					(unit 1)
@@ -7181,7 +7181,7 @@
 			(uuid "accb8317-1b2e-4417-81c5-f40aa8da12e5")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR031")
 					(unit 1)
@@ -7247,7 +7247,7 @@
 			(uuid "69d79e98-3643-41e6-a5a9-2c94d4a89ebf")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR030")
 					(unit 1)
@@ -7313,7 +7313,7 @@
 			(uuid "86ac5c00-6ed9-41dc-803e-1ffc1629b379")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0158")
 					(unit 1)
@@ -7380,7 +7380,7 @@
 			(uuid "8b9612cd-206f-4379-9ff1-8254530d61ec")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP34")
 					(unit 1)
@@ -7477,7 +7477,7 @@
 			(uuid "ecbb8431-b5ce-42a7-a32b-a9a37b277992")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C199")
 					(unit 1)
@@ -7543,7 +7543,7 @@
 			(uuid "c6b87423-6ce4-4816-aa1f-1cb712eb0619")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR027")
 					(unit 1)
@@ -7609,7 +7609,7 @@
 			(uuid "1d0a575f-685f-4fdb-b846-8585fafd718e")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR087")
 					(unit 1)
@@ -7675,7 +7675,7 @@
 			(uuid "b4c65a57-7bb2-443b-b19e-5fbd1f6dbcfa")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0154")
 					(unit 1)
@@ -7770,7 +7770,7 @@
 			(uuid "8fd2bd54-c656-45fa-affb-8b2eb269e339")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "P1")
 					(unit 1)
@@ -7865,7 +7865,7 @@
 			(uuid "9750dd95-3435-41cd-b40b-7c57b85a0151")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R31")
 					(unit 1)
@@ -7962,7 +7962,7 @@
 			(uuid "4a617071-1bd3-4a3f-814d-46843b4fa2f8")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C119")
 					(unit 1)
@@ -8028,7 +8028,7 @@
 			(uuid "ac3a8f8b-5886-4728-b509-e6cb595c1838")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0258")
 					(unit 1)
@@ -8123,7 +8123,7 @@
 			(uuid "ed57aa7d-c60c-443a-b9d9-db1891f2b6cd")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R32")
 					(unit 1)
@@ -8189,7 +8189,7 @@
 			(uuid "882e872e-7745-41b6-a485-8164fcbe77a0")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0256")
 					(unit 1)
@@ -8300,7 +8300,7 @@
 			(uuid "4305958c-a5e1-439f-b4ef-ec41deb07447")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "U30")
 					(unit 2)
@@ -8366,7 +8366,7 @@
 			(uuid "bc22dd50-59fb-4588-a8e9-e9405f46fc3b")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0155")
 					(unit 1)
@@ -8463,7 +8463,7 @@
 			(uuid "81c9b966-d960-4167-a24e-5334727e3e56")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C122")
 					(unit 1)
@@ -8529,7 +8529,7 @@
 			(uuid "9af21acd-c0e8-459e-ad32-9dc57ffde3d2")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0291")
 					(unit 1)
@@ -8595,7 +8595,7 @@
 			(uuid "a01300d4-e092-4367-bd42-a56dd318c520")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR093")
 					(unit 1)
@@ -8661,7 +8661,7 @@
 			(uuid "60e84648-7ac1-4911-acb5-7441fe7b9d3a")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0131")
 					(unit 1)
@@ -8728,7 +8728,7 @@
 			(uuid "07412f4f-8d7b-45d2-aa53-147cedcc6f79")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP29")
 					(unit 1)
@@ -8825,7 +8825,7 @@
 			(uuid "93a64119-fe58-4cda-9256-7cb734fb8a12")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R104")
 					(unit 1)
@@ -8919,7 +8919,7 @@
 			(uuid "2fbf8940-4cec-4718-8d0c-1c36edcd02d9")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "X1")
 					(unit 1)
@@ -8986,7 +8986,7 @@
 			(uuid "71bba673-e130-403f-a0a5-1a72e982c165")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP33")
 					(unit 1)
@@ -9083,7 +9083,7 @@
 			(uuid "f26f0802-5c35-439f-8e00-a07de1a41168")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C43")
 					(unit 1)
@@ -9149,7 +9149,7 @@
 			(uuid "32bdd3e0-2fc6-40ba-8871-0259baf5edeb")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0261")
 					(unit 1)
@@ -9244,7 +9244,7 @@
 			(uuid "ba233fd6-862c-4ea6-a3de-3f713d1fa05c")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R23")
 					(unit 1)
@@ -9341,7 +9341,7 @@
 			(uuid "e1992b9b-85f2-4410-89b2-84ed627b5d1a")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R28")
 					(unit 1)
@@ -9436,7 +9436,7 @@
 			(uuid "0d2acb11-9ddc-4275-b1e2-dfe0031df72a")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R41")
 					(unit 1)
@@ -9502,7 +9502,7 @@
 			(uuid "54b4e88a-b947-4256-ad25-75836a7be845")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0129")
 					(unit 1)
@@ -9600,7 +9600,7 @@
 			(uuid "aa1922e6-d2d1-457b-9cbd-28e1720ced60")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "P2")
 					(unit 1)
@@ -9697,7 +9697,7 @@
 			(uuid "b8a87444-5de6-4f2b-b107-37d942e1bdf5")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C168")
 					(unit 1)
@@ -9763,7 +9763,7 @@
 			(uuid "31848448-00dc-4114-bf5f-9253b68f199f")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0126")
 					(unit 1)
@@ -10034,7 +10034,7 @@
 			(uuid "2a3119f6-202c-42c9-ad74-fb4d48ab3823")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "C40")
 					(unit 1)
@@ -10101,7 +10101,7 @@
 			(uuid "fa64cc0b-7b6e-4c73-86c1-fd96bc3aafa5")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "TP65")
 					(unit 1)
@@ -10167,7 +10167,7 @@
 			(uuid "a5b59673-4bd8-479b-8970-6e2ad2742746")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0122")
 					(unit 1)
@@ -10233,7 +10233,7 @@
 			(uuid "10cd9b72-b723-4396-8bba-2ee76926734b")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0156")
 					(unit 1)
@@ -10321,7 +10321,7 @@
 			(uuid "cf8d5a07-0d1b-4b59-bb87-7a69ddc89b08")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "D3")
 					(unit 1)
@@ -10386,7 +10386,7 @@
 			(uuid "ff9efb82-0dcf-4d76-b19d-eef2314063e6")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR0260")
 					(unit 1)
@@ -10483,7 +10483,7 @@
 			(uuid "50a55333-c431-414e-afb4-263ec3e0bd36")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R27")
 					(unit 1)
@@ -10637,7 +10637,7 @@
 			(uuid "c470fbc3-ff0d-4ae6-8beb-0733ccb55fe5")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "U19")
 					(unit 1)
@@ -10732,7 +10732,7 @@
 			(uuid "9a22f0ec-55d7-4fe3-bfe6-c9f3b5fa59f9")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R108")
 					(unit 1)
@@ -10827,7 +10827,7 @@
 			(uuid "c1be7d2c-bdfc-401f-a74f-611247a7c805")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R84")
 					(unit 1)
@@ -10924,7 +10924,7 @@
 			(uuid "bff17940-7479-43fe-8e75-6e2cf329b8a1")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "R105")
 					(unit 1)
@@ -11101,7 +11101,7 @@
 			(uuid "fcbe9230-646d-426f-8381-c3859423b870")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "#PWR029")
 					(unit 1)
@@ -11189,7 +11189,7 @@
 			(uuid "5fe75cd0-0256-4dae-a89e-84dbf49d6da3")
 		)
 		(instances
-			(project "praline"
+			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/82363729-914a-4be2-9abc-c6e1e42dff36"
 					(reference "D9")
 					(unit 1)

@@ -281,7 +281,69 @@ you go:
 git tag v1.3-placed        # examples: -floorplan, -placed, -routed, -drc-clean
 ```
 
-## 10. Syncing with GitHub
+## 10. Schematic variants (e.g. removing testpoints)
+
+Two different things are both called "removing testpoints" — pick the
+right tool:
+
+**A. Assembly variant — pads stay, parts not fitted.** No branch needed.
+In Eeschema, symbol properties → tick "Do not populate" (and "Exclude
+from BOM"). Netlist and board are unchanged; this lives on `main`.
+
+**B. Design variant — testpoints gone from netlist and board** (what you
+want when giving Quilter an easier routing job). This forks the design,
+so it gets its own branch layer *between* `main` and the experiments:
+
+```
+  main:               o───S1─────────S2──────────────   full design, all TPs
+                           \          \  (merge main → variant on sch changes)
+  variant/tp-none:          V1────────M────●            V1 = TPs excluded
+                                           │    tag: q-sent/...-tp-none-a
+  quilter/3fa85f64:                         C1───C2     candidates w/o TPs
+```
+
+**Prefer attribute flips over deletion.** Don't delete testpoint symbols
+on the variant branch — instead tick "Exclude from board" in each
+symbol's properties, then Tools → Update PCB from Schematic. The
+footprints vanish from the board (Quilter never sees them), but the
+schematic diff is a few one-line attribute changes: reversible, easy to
+define partial sets, and far less likely to conflict when merging
+schematic fixes down from `main`.
+
+Creating a variant:
+
+```
+git checkout main
+git checkout -b variant/tp-none
+# in KiCad: flip "Exclude from board" on the testpoints,
+#           Tools -> Update PCB from Schematic, save
+git add -A && git commit -m "Variant tp-none: exclude all testpoints from board"
+```
+
+Everything downstream already works unchanged: run
+`./scripts/quilter-send.sh tp-none-<label>` while standing ON the
+variant branch (the snapshot tag lands there), and `quilter-import.sh`
+bases the experiment branch on that tag automatically. The manifest's
+`schematic_commit` field records which variant each candidate was routed
+against.
+
+The amended golden rule: schematic edits happen on `main` — *except* a
+variant's own defining edits, which live on its `variant/*` branch. When
+`main` gets a schematic fix: `git checkout variant/tp-none && git merge
+main`. If a sheet conflicts (both sides touched it), take main's copy of
+that sheet (`git checkout main -- <sheet>.kicad_sch`), re-flip the few
+exclude attributes in it, then `git add` and commit the merge.
+
+Winners with variants: merge the winning `quilter/*` branch into its
+**variant** branch first (same procedure as section 9). Then either
+promote the variant to be the product — `git checkout main && git merge
+--no-ff variant/tp-none` (the full-testpoint design stays reachable at
+every earlier main commit forever) — or, if `main` should remain the
+full reference design, release from the variant branch with tags like
+`v1.3-tp-none-released`. Promoting to main keeps "main = what we ship"
+true, which is the easier rule to live with.
+
+## 11. Syncing with GitHub
 
 Your GitHub fork (`xjordanx/q-radio`) is the off-site copy. After
 committing locally, publish with:
@@ -297,7 +359,7 @@ push asks for credentials, GitHub wants a "personal access token" instead
 of your password — create one at github.com → Settings → Developer
 settings → Personal access tokens.
 
-## 11. When something goes wrong
+## 12. When something goes wrong
 
 * `git status` first. Always safe, always explains.
 * Threw the working folder into a bad state, want the last snapshot back:
@@ -309,7 +371,7 @@ settings → Personal access tokens.
   with unsaved changes while you switched branches. Close KiCad before
   switching branches — that habit prevents nearly all confusion.
 
-## 12. Cheat sheet
+## 13. Cheat sheet
 
 ```
 BEFORE uploading to Quilter      ./scripts/quilter-send.sh <label>
@@ -319,6 +381,7 @@ Switch experiment                git checkout quilter/<name>     (close KiCad fi
 Back to the main design          git checkout main
 Save a snapshot                  git add -A && git commit -m "why"
 Catch experiment up to main      git checkout quilter/<name> && git merge main
+Make a schematic variant         git checkout main && git checkout -b variant/<name>
 Crown a winner                   git checkout main && git merge --no-ff quilter/<name>
 Find a job's commits             git log --all --grep="Quilter-Job: <uuid-start>"
 Publish everything               git push origin --all && git push origin --tags

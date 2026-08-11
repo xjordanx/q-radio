@@ -22,7 +22,7 @@ fi
 
 # Refuse to run with unsaved/uncommitted work: the tag must describe
 # a state that actually exists in git history.
-if [ -n "$(git status --porcelain)" ]; then
+if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
   echo "ERROR: You have uncommitted changes. Commit them first so the"
   echo "snapshot tag points at the true state you are uploading:"
   echo "    git add -A && git commit -m \"describe your change\""

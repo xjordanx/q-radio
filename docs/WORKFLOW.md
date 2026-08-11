@@ -5,7 +5,16 @@ repository is organized, and walks through the four flows you will use:
 sending a snapshot to Quilter, starting an experiment branch, importing a
 downloaded candidate, and picking a winner. All commands are typed into
 **Git Bash** (right-click in the project folder → "Open Git Bash here",
-or use the Git Bash app and `cd` to the folder).
+or use the Git Bash app and `cd` to the folder) — or into **PowerShell**,
+where the two helper scripts have identical `.ps1` twins
+(`.\scripts\quilter-send.ps1 <label>`, `.\scripts\quilter-import.ps1
+<file> -Job <uuid>`); every plain `git ...` command is the same in both.
+
+A note on line endings: `.gitattributes` pins `*.sh` to LF endings. If a
+shell script ever fails with a scrambled error like
+`set: pipefail\r: invalid option`, the file has Windows (CRLF) endings —
+fix it with `git checkout -- scripts/` after making sure this repo's
+`.gitattributes` is present.
 
 ---
 
@@ -49,6 +58,8 @@ Git is a **photo album for your whole project folder**.
   scripts/
     quilter-send.sh      run BEFORE uploading to Quilter
     quilter-import.sh    run AFTER downloading a candidate
+    quilter-send.ps1     identical twins for PowerShell users --
+    quilter-import.ps1   use whichever terminal you prefer
   docs/WORKFLOW.md       this file
 ```
 

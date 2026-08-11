@@ -36,7 +36,7 @@ if (-not (Test-Path -LiteralPath $File -PathType Leaf)) {
 $File = (Resolve-Path -LiteralPath $File).Path   # absolute, before we cd
 Set-Location $top
 
-if (git status --porcelain) {
+if (git status --porcelain --untracked-files=no) {
     Write-Host "ERROR: You have uncommitted changes. Commit or discard them first"
     Write-Host "so the import lands as one clean, self-contained commit."
     exit 1

@@ -38,7 +38,7 @@ fi
 if [ ! -f "$FILE" ]; then
   echo "ERROR: file not found: $FILE"; exit 1
 fi
-if [ -n "$(git status --porcelain)" ]; then
+if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
   echo "ERROR: You have uncommitted changes. Commit or discard them first"
   echo "so the import lands as one clean, self-contained commit."
   exit 1

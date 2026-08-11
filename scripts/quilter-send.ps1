@@ -16,7 +16,7 @@ Set-Location $top
 
 # Refuse to run with uncommitted work: the tag must describe a state that
 # actually exists in git history.
-if (git status --porcelain) {
+if (git status --porcelain --untracked-files=no) {
     Write-Host "ERROR: You have uncommitted changes. Commit them first so the"
     Write-Host "snapshot tag points at the true state you are uploading:"
     Write-Host '    git add -A ; git commit -m "describe your change"'

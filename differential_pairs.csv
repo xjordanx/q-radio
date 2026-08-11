@@ -1,0 +1,20 @@
+positive_net_name,negative_net_name,differential_impedance,single_ended_impedance,frequency
+"/ADC, DAC/AA_BYPASS_I+","/ADC, DAC/AA_BYPASS_I-",100,50,1
+"/ADC, DAC/AA_BYPASS_Q+","/ADC, DAC/AA_BYPASS_Q-",100,50,1
+"/ADC, DAC/IA+","/ADC, DAC/IA-",100,50,1
+"/ADC, DAC/ID+","/ADC, DAC/ID-",100,50,1
+"/ADC, DAC/QA+","/ADC, DAC/QA-",100,50,1
+"/ADC, DAC/QD+","/ADC, DAC/QD-",100,50,1
+"/ADC, DAC/REFP","/ADC, DAC/REFN",100,50,1
+"/ADC, DAC/RXBB.I+","/ADC, DAC/RXBB.I-",100,50,1
+"/ADC, DAC/RXBB.Q+","/ADC, DAC/RXBB.Q-",100,50,1
+"/ADC, DAC/TXBB.I+","/ADC, DAC/TXBB.I-",100,50,1
+"/ADC, DAC/TXBB.Q+","/ADC, DAC/TXBB.Q-",100,50,1
+/IF Transceiver/RXIF+,/IF Transceiver/RXIF-,100,50,1
+/IF Transceiver/RXIF_BALUN+,/IF Transceiver/RXIF_BALUN-,100,50,1
+/IF Transceiver/TXIF+,/IF Transceiver/TXIF-,100,50,1
+/IF Transceiver/TXIF_BALUN+,/IF Transceiver/TXIF_BALUN-,100,50,1
+/Microcontroller/USB_DATA.D+,/Microcontroller/USB_DATA.D-,100,50,1
+/Mixer/MIX_IN+,/Mixer/MIX_IN-,100,50,1
+/Mixer/MIX_OUT+,/Mixer/MIX_OUT-,100,50,1
+/USB/D+,/USB/D-,90,45,1

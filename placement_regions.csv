@@ -1,0 +1,503 @@
+placement_region,component
+"ADC, DAC",C100
+"ADC, DAC",C107
+"ADC, DAC",C108
+"ADC, DAC",C123
+"ADC, DAC",C141
+"ADC, DAC",C142
+"ADC, DAC",C156
+"ADC, DAC",C159
+"ADC, DAC",C186
+"ADC, DAC",C187
+"ADC, DAC",C71
+"ADC, DAC",C72
+"ADC, DAC",C73
+"ADC, DAC",C74
+"ADC, DAC",C75
+"ADC, DAC",C76
+"ADC, DAC",C77
+"ADC, DAC",C79
+"ADC, DAC",C82
+"ADC, DAC",C83
+"ADC, DAC",C97
+"ADC, DAC",C98
+"ADC, DAC",L21
+"ADC, DAC",L22
+"ADC, DAC",L23
+"ADC, DAC",L24
+"ADC, DAC",R10
+"ADC, DAC",R102
+"ADC, DAC",R110
+"ADC, DAC",R111
+"ADC, DAC",R112
+"ADC, DAC",R113
+"ADC, DAC",R118
+"ADC, DAC",R119
+"ADC, DAC",R121
+"ADC, DAC",R122
+"ADC, DAC",R13
+"ADC, DAC",R14
+"ADC, DAC",R15
+"ADC, DAC",R16
+"ADC, DAC",R17
+"ADC, DAC",R8
+"ADC, DAC",R9
+"ADC, DAC",U18
+"ADC, DAC",U3
+"ADC, DAC",U34
+"ADC, DAC",U35
+"ADC, DAC",U36
+"ADC, DAC",U8
+Clock,C113
+Clock,C119
+Clock,C120
+Clock,C121
+Clock,C122
+Clock,C155
+Clock,C168
+Clock,C199
+Clock,C39
+Clock,C40
+Clock,C43
+Clock,D3
+Clock,D9
+Clock,P1
+Clock,P2
+Clock,R104
+Clock,R105
+Clock,R108
+Clock,R12
+Clock,R139
+Clock,R23
+Clock,R27
+Clock,R28
+Clock,R31
+Clock,R32
+Clock,R33
+Clock,R34
+Clock,R41
+Clock,R84
+Clock,R85
+Clock,U19
+Clock,U30
+Clock,U31
+Clock,U33
+Clock,U37
+Clock,X1
+FPGA,C117
+FPGA,C148
+FPGA,C149
+FPGA,C150
+FPGA,C174
+FPGA,C176
+FPGA,C177
+FPGA,C178
+FPGA,C179
+FPGA,C183
+FPGA,C185
+FPGA,C196
+FPGA,C197
+FPGA,C205
+FPGA,FB6
+FPGA,FB8
+FPGA,R145
+FPGA,R21
+FPGA,R40
+FPGA,R44
+FPGA,R45
+FPGA,RN1
+FPGA,RN2
+FPGA,RN3
+FPGA,RN4
+FPGA,RN5
+FPGA,RN6
+FPGA,RN7
+FPGA,RN8
+FPGA,U16
+IF Transceiver,C102
+IF Transceiver,C104
+IF Transceiver,C106
+IF Transceiver,C111
+IF Transceiver,C115
+IF Transceiver,C116
+IF Transceiver,C17
+IF Transceiver,C18
+IF Transceiver,C20
+IF Transceiver,C21
+IF Transceiver,C44
+IF Transceiver,C45
+IF Transceiver,C47
+IF Transceiver,C48
+IF Transceiver,C84
+IF Transceiver,C85
+IF Transceiver,C86
+IF Transceiver,C87
+IF Transceiver,C88
+IF Transceiver,C89
+IF Transceiver,C90
+IF Transceiver,C92
+IF Transceiver,C93
+IF Transceiver,C94
+IF Transceiver,C99
+IF Transceiver,FL2
+IF Transceiver,FL3
+IF Transceiver,L7
+IF Transceiver,L9
+IF Transceiver,R109
+IF Transceiver,R148
+IF Transceiver,R149
+IF Transceiver,R25
+IF Transceiver,R26
+IF Transceiver,T3
+IF Transceiver,T4
+IF Transceiver,U17
+IF Transceiver,U2
+IF Transceiver,U7
+IR Filters,C10
+IR Filters,C101
+IR Filters,C103
+IR Filters,C11
+IR Filters,C19
+IR Filters,C29
+IR Filters,C31
+IR Filters,C51
+IR Filters,C54
+IR Filters,C56
+IR Filters,C61
+IR Filters,C91
+IR Filters,C96
+IR Filters,L14
+IR Filters,L15
+IR Filters,L16
+IR Filters,L17
+IR Filters,L18
+IR Filters,L8
+IR Filters,U1
+IR Filters,U9
+Microcontroller,C110
+Microcontroller,C118
+Microcontroller,C124
+Microcontroller,C128
+Microcontroller,C129
+Microcontroller,C130
+Microcontroller,C131
+Microcontroller,C132
+Microcontroller,C133
+Microcontroller,C134
+Microcontroller,C135
+Microcontroller,C136
+Microcontroller,C137
+Microcontroller,C138
+Microcontroller,C140
+Microcontroller,C144
+Microcontroller,C157
+Microcontroller,C158
+Microcontroller,C162
+Microcontroller,C164
+Microcontroller,C80
+Microcontroller,C81
+Microcontroller,D2
+Microcontroller,D4
+Microcontroller,D5
+Microcontroller,D6
+Microcontroller,D7
+Microcontroller,D8
+Microcontroller,JP1
+Microcontroller,P20
+Microcontroller,P22
+Microcontroller,P26
+Microcontroller,P28
+Microcontroller,R107
+Microcontroller,R125
+Microcontroller,R127
+Microcontroller,R140
+Microcontroller,R141
+Microcontroller,R18
+Microcontroller,R19
+Microcontroller,R30
+Microcontroller,R37
+Microcontroller,R38
+Microcontroller,R39
+Microcontroller,R48
+Microcontroller,R49
+Microcontroller,R50
+Microcontroller,R59
+Microcontroller,R6
+Microcontroller,R62
+Microcontroller,R63
+Microcontroller,R64
+Microcontroller,R65
+Microcontroller,R66
+Microcontroller,R67
+Microcontroller,R68
+Microcontroller,R69
+Microcontroller,R7
+Microcontroller,R72
+Microcontroller,R73
+Microcontroller,R74
+Microcontroller,R75
+Microcontroller,R76
+Microcontroller,R82
+Microcontroller,R93
+Microcontroller,SW1
+Microcontroller,SW2
+Microcontroller,U20
+Microcontroller,U23
+Microcontroller,X2
+Microcontroller,X3
+Mixer,C1
+Mixer,C109
+Mixer,C114
+Mixer,C12
+Mixer,C13
+Mixer,C14
+Mixer,C15
+Mixer,C16
+Mixer,C188
+Mixer,C189
+Mixer,C190
+Mixer,C191
+Mixer,C192
+Mixer,C193
+Mixer,C194
+Mixer,C195
+Mixer,C198
+Mixer,C202
+Mixer,C203
+Mixer,C211
+Mixer,C25
+Mixer,C28
+Mixer,C3
+Mixer,C34
+Mixer,C35
+Mixer,C36
+Mixer,C37
+Mixer,C41
+Mixer,C42
+Mixer,C46
+Mixer,C49
+Mixer,C5
+Mixer,C67
+Mixer,C7
+Mixer,C70
+Mixer,C8
+Mixer,C9
+Mixer,L1
+Mixer,L2
+Mixer,L27
+Mixer,L28
+Mixer,L29
+Mixer,L3
+Mixer,L30
+Mixer,L33
+Mixer,L34
+Mixer,L6
+Mixer,R1
+Mixer,R120
+Mixer,R123
+Mixer,R124
+Mixer,R130
+Mixer,R132
+Mixer,R133
+Mixer,R134
+Mixer,R135
+Mixer,R136
+Mixer,R137
+Mixer,R138
+Mixer,R142
+Mixer,R143
+Mixer,R144
+Mixer,R147
+Mixer,R150
+Mixer,R151
+Mixer,R155
+Mixer,R2
+Mixer,R3
+Mixer,R4
+Mixer,R43
+Mixer,R5
+Mixer,T1
+Mixer,T2
+Mixer,U38
+Mixer,U4
+Mixer,U5
+Mixer,U6
+Power,C105
+Power,C125
+Power,C126
+Power,C127
+Power,C143
+Power,C145
+Power,C146
+Power,C147
+Power,C153
+Power,C154
+Power,C163
+Power,C165
+Power,C166
+Power,C167
+Power,C169
+Power,C170
+Power,C172
+Power,C173
+Power,C175
+Power,C180
+Power,C181
+Power,C182
+Power,C184
+Power,C22
+Power,C23
+Power,C32
+Power,C33
+Power,D11
+Power,D12
+Power,D13
+Power,D16
+Power,D17
+Power,FB1
+Power,FB2
+Power,FB3
+Power,FB4
+Power,FB5
+Power,FB7
+Power,L10
+Power,L11
+Power,Q10
+Power,Q3
+Power,Q4
+Power,Q5
+Power,Q6
+Power,Q7
+Power,Q9
+Power,R100
+Power,R101
+Power,R11
+Power,R22
+Power,R46
+Power,R47
+Power,R51
+Power,R52
+Power,R53
+Power,R54
+Power,R55
+Power,R56
+Power,R57
+Power,R58
+Power,R60
+Power,R61
+Power,R70
+Power,R71
+Power,R77
+Power,R78
+Power,R79
+Power,R80
+Power,R81
+Power,R83
+Power,R86
+Power,R87
+Power,R88
+Power,R89
+Power,R90
+Power,R91
+Power,U21
+Power,U22
+Power,U28
+Power,U32
+RF Front End,C112
+RF Front End,C139
+RF Front End,C160
+RF Front End,C161
+RF Front End,C171
+RF Front End,C2
+RF Front End,C200
+RF Front End,C201
+RF Front End,C204
+RF Front End,C206
+RF Front End,C207
+RF Front End,C208
+RF Front End,C209
+RF Front End,C210
+RF Front End,C4
+RF Front End,C50
+RF Front End,C52
+RF Front End,C53
+RF Front End,C55
+RF Front End,C57
+RF Front End,C58
+RF Front End,C59
+RF Front End,C6
+RF Front End,C60
+RF Front End,C62
+RF Front End,C63
+RF Front End,C64
+RF Front End,C65
+RF Front End,C66
+RF Front End,C68
+RF Front End,C69
+RF Front End,C78
+RF Front End,C95
+RF Front End,D1
+RF Front End,D10
+RF Front End,D14
+RF Front End,D15
+RF Front End,L12
+RF Front End,L13
+RF Front End,L19
+RF Front End,L26
+RF Front End,L31
+RF Front End,L32
+RF Front End,L4
+RF Front End,L5
+RF Front End,P3
+RF Front End,Q1
+RF Front End,R114
+RF Front End,R115
+RF Front End,R116
+RF Front End,R117
+RF Front End,R126
+RF Front End,R128
+RF Front End,R129
+RF Front End,R131
+RF Front End,R146
+RF Front End,R152
+RF Front End,R153
+RF Front End,R154
+RF Front End,R20
+RF Front End,R29
+RF Front End,R35
+RF Front End,R36
+RF Front End,R42
+RF Front End,U12
+RF Front End,U13
+RF Front End,U14
+RF Front End,U24
+RF Front End,U25
+RF Front End,U40
+SW Control,C212
+SW Control,C24
+SW Control,C26
+SW Control,C27
+SW Control,C30
+SW Control,R24
+SW Control,R92
+SW Control,R94
+SW Control,R95
+SW Control,R96
+SW Control,R97
+SW Control,R98
+SW Control,R99
+SW Control,U10
+SW Control,U11
+SW Control,U26
+SW Control,U27
+SW Control,U39
+USB,C151
+USB,C152
+USB,D18
+USB,FL1
+USB,J1
+USB,R103
+USB,R106
+USB,R156
+USB,R157
+USB,U15

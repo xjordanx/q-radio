@@ -1,0 +1,4 @@
+crystal,crystal_parent,parent_signal_pin_1,parent_signal_pin_2
+X2,U23,C1,D1
+X3,U23,A8,B7
+X1,U19,1,2

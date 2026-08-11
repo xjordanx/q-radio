@@ -1,0 +1,48 @@
+net_name,single_ended_impedance,frequency
+Net-(D1-A1),50,1
+Net-(D14-K),50,1
+Net-(U14-ANT),50,1
+Net-(U40-RFIN),50,1
+Net-(U40-RFOUT),50,1
+Net-(C50-Pad2),50,1
+/RF Front End/AMP_BYPASS,50,1
+/RF Front End/RX_AMP_IN,50,1
+/RF Front End/RX_AMP_OUT,50,1
+/RF Front End/TX_AMP_IN,50,1
+/RF Front End/TX_AMP_OUT,50,1
+/Image Reject Filters/RF,50,1
+/IF Transceiver/MIX_BYPASS,50,1
+/IF Transceiver/RX_MIX_OUT,50,1
+/IF Transceiver/TX_MIX_IN,50,1
+Net-(FL2-IN),50,1
+Net-(FL3-IN),50,1
+/IF Transceiver/TXIF,50,1
+/IF Transceiver/RXIF,50,1
+"/ADC, DAC/AFE_CLK",50,1
+/Clock Generator/AUX_CLK1,50,1
+/Clock Generator/AUX_CLK2,50,1
+/IF Transceiver/TUNE,50,1
+/IF Transceiver/CPOUT,50,1
+/Clock Generator/MIX_CLK,50,1
+/Image Reject Filters/RX_MIX_IN,50,1
+/Image Reject Filters/TX_MIX_OUT,50,1
+Net-(U25-RFIN),50,1
+Net-(U25-RFOUT),50,1
+Net-(U38-RFIN),50,1
+Net-(U38-RFOUT),50,1
+Net-(C211-Pad2),50,1
+Net-(U9-RF1),50,1
+Net-(U5-RF1),50,1
+/Mixer/MIX_OUT,50,1
+/Mixer/MIX_IN,50,1
+/Mixer/REF_IN,50,1
+Net-(T2-S1),50,1
+Net-(T1-S1),50,1
+Net-(U1-RF3),50,1
+Net-(U1-RF4),50,1
+Net-(U9-RF3),50,1
+Net-(C101-Pad1),50,1
+Net-(C101-Pad2),50,1
+Net-(C103-Pad2),50,1
+Net-(C54-Pad1),50,1
+Net-(C56-Pad1),50,1

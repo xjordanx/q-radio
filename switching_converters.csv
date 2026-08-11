@@ -1,0 +1,3 @@
+switching_converter,inductor,input_capacitor,output_capacitor
+U21,L10,C147,C126
+U21,L11,C147,C145

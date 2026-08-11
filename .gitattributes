@@ -21,3 +21,15 @@ candidates/manifest.yaml merge=union
 # "set: pipefail\r: invalid option" error); PowerShell scripts get CRLF.
 *.sh  text eol=lf
 *.ps1 text eol=crlf
+
+# KiCad writes LF on every platform -- store AND check out these as LF
+# so files on disk stay byte-identical to what KiCad saves (no CRLF churn).
+*.kicad_pro   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_pcb   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.kicad_dru   text eol=lf
+*.kicad_wks   text eol=lf
+fp-lib-table  text eol=lf
+sym-lib-table text eol=lf

@@ -1,7 +1,7 @@
 (footprint "PinSocket_2x13_P2.54mm_Vertical_Flipped"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Through hole straight socket strip, 2x13, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 	(tags "Through hole socket strip THT 2x13 2.54mm double row")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.33 -1.33)
 		(end -1.33 0)

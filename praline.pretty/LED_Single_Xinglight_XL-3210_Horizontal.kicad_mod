@@ -1,7 +1,7 @@
 (footprint "LED_Single_Xinglight_XL-3210_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LED, right-angle, clear, http://www.xinglight.cn/uploadfile/202212/7a7994c6a7a4fd8.pdf")
 	(tags "LED right-angle")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.15 0)
 		(end -2.15 0.97)

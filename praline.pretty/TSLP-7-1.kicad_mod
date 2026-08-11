@@ -1,7 +1,7 @@
 (footprint "TSLP-7-1"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "https://www.infineon.com/cms/en/product/packages/PG-TSLP/PG-TSLP-7-1/")
 	(property "Reference" "REF**"
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.8 -1)
 		(end -0.8 0.675)

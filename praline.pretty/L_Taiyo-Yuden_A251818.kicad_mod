@@ -1,7 +1,7 @@
 (footprint "L_Taiyo-Yuden_A251818"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor, Taiyo Yuden, Type A251818, 2.5mmx1.8mm (https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LSQEA251818T470M&fileType=ED)")
 	(tags "inductor taiyo-yuden smd 2518")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.55 -1)
 		(end 0.55 -1)

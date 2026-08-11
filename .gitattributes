@@ -16,3 +16,8 @@
 # The candidate ledger is append-only; when two branches both added
 # entries, keep both sides on merge instead of raising a conflict.
 candidates/manifest.yaml merge=union
+
+# Line endings: shell scripts MUST stay LF (bash chokes on CRLF -- the
+# "set: pipefail\r: invalid option" error); PowerShell scripts get CRLF.
+*.sh  text eol=lf
+*.ps1 text eol=crlf

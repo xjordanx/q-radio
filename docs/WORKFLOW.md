@@ -1,7 +1,7 @@
 # Q-Radio + Quilter workflow guide
 
 This guide assumes **no prior git experience**. It explains how this
-repository is organized, and walks through the four flows you will use:
+repository is organized, and walks through the flows you will use:
 sending a snapshot to Quilter, starting an experiment branch, importing a
 downloaded candidate, and picking a winner. All commands are typed into
 **Git Bash** (right-click in the project folder → "Open Git Bash here",
@@ -142,6 +142,20 @@ when new commits land:
 Your folder always shows the files of the ● you are standing on. Switch
 with `git checkout main` / `git checkout quilter/exp-a` and watch
 `q-radio.kicad_pcb` change identity on disk — same name, different board.
+
+The `-b` flag is the difference between *switching* and *creating*:
+
+```
+git checkout exp/foo                    switch to exp/foo (must already exist)
+git checkout -b exp/foo                 CREATE exp/foo at the current commit,
+                                        then switch to it
+git checkout -b exp/foo variant/tp-none CREATE exp/foo starting at wherever
+                                        variant/tp-none is, then switch to it
+```
+
+Rule of thumb: **create the branch BEFORE you start editing.** The branch
+costs nothing at creation (it is just a label); its value is that every
+save-and-commit from that moment on lands on the right timeline.
 
 ## 7. Flow C — a candidate arrives from Quilter
 
@@ -292,7 +306,103 @@ you go:
 git tag v1.3-placed        # examples: -floorplan, -placed, -routed, -drc-clean
 ```
 
-## 10. Schematic variants (e.g. removing testpoints)
+## 10. Flow F — the complete experiment pattern (baseline + sub-branches)
+
+This is the recommended shape for real Quilter work. One branch holds
+your hand-prepared **baseline** (floorplan, partial placement, locked
+sections — whatever you set up before submitting). Each Quilter job's
+results come back onto their own **sub-branch** hanging off that
+baseline. Winners merge back inward, step by step, until one board
+reaches `main`.
+
+```
+  main ────o──────────────────────────────────────────────────(4)──▶
+            \                                                 /
+  variant/tp-none ──V──────────────────────────────────(3)───M
+                     \                                 /
+  exp/floorplan-a ────B══════════════════════════(2)══W        B = your saved
+                       \ tag: q-sent/...-run1    /                 baseline
+  quilter/3fa85f64 ─────C1───C2   (loser)       /
+                        \                      /
+  quilter/9b2c11d0 ──────C1───────────────────   (winner, merged at W)
+
+  (2) winning candidate merged into the baseline branch
+  (3) finished experiment merged into its variant
+  (4) variant promoted to main
+```
+
+Step by step:
+
+**1. Create the experiment branch FIRST, then prepare the baseline.**
+
+```
+git checkout variant/tp-none            # start from the right design state
+git checkout -b exp/floorplan-a         # new branch, BEFORE any editing
+# ... KiCad: floorplan, place critical parts, lock sections, save ...
+git add -u
+git commit -m "Baseline: RF left edge, digital right, front-end locked"
+```
+
+The baseline is now a commit you can always return to and diff against —
+that is the whole reason it exists.
+
+**2. Tag and upload (repeatable).**
+
+```
+./scripts/quilter-send.sh floorplan-a-run1
+```
+
+The `q-sent` tag lands on this branch. Upload, start the job, note the
+job UUID. You can run several jobs from the same baseline (different
+Quilter settings, reruns) — send again with a new label for each upload
+if the baseline changed, or reuse the same tag if it did not.
+
+**3. Import each job's results — sub-branches appear automatically.**
+
+```
+./scripts/quilter-import.sh ~/Downloads/candidate_1.kicad_pcb -j <job-uuid>
+```
+
+The default behavior creates `quilter/<job8>` starting *at the q-sent
+tag* — i.e. hanging directly off your baseline. Two jobs give you two
+sub-branches; more candidates from the same job stack onto the same
+sub-branch. Nothing you do elsewhere in the meantime disturbs them.
+
+(If you prefer everything on one line — no sub-branches — import with
+`-b exp/floorplan-a` and the candidate commits land directly on the
+baseline branch instead.)
+
+**4. Compare candidates against the baseline and each other.**
+
+```
+git diff exp/floorplan-a quilter/3fa85f64 -- q-radio.kicad_pcb   # text diff
+git checkout quilter/3fa85f64      # open in KiCad, run DRC, note results
+git checkout quilter/9b2c11d0      # ... and the other one
+```
+
+Record verdicts in `candidates/manifest.yaml` as you go.
+
+**5. Merge the winner into the baseline branch.** Same procedure as
+section 9, one level down:
+
+```
+git checkout exp/floorplan-a
+git merge --no-ff quilter/9b2c11d0
+git checkout --theirs q-radio.kicad_pcb    # take the candidate's board wholesale
+git add q-radio.kicad_pcb && git commit
+git tag archive/quilter/3fa85f64 quilter/3fa85f64      # label the loser; keep it
+```
+
+Now `exp/floorplan-a` — the branch — *is* the winning routed board, with
+its baseline, all candidates, and the decision preserved beneath it.
+
+**6. Promote inward when the experiment concludes.** The finished
+experiment merges into its variant (or straight into `main` if it was
+based there), again with `--no-ff` and again taking the board wholesale.
+Losing experiment branches get `archive/exp/<name>` tags and stay
+explorable forever.
+
+## 11. Schematic variants (e.g. removing testpoints)
 
 Two different things are both called "removing testpoints" — pick the
 right tool:
@@ -354,7 +464,7 @@ full reference design, release from the variant branch with tags like
 `v1.3-tp-none-released`. Promoting to main keeps "main = what we ship"
 true, which is the easier rule to live with.
 
-## 11. Syncing with GitHub
+## 12. Syncing with GitHub
 
 Your GitHub fork (`xjordanx/q-radio`) is the off-site copy. After
 committing locally, publish with:
@@ -370,7 +480,7 @@ push asks for credentials, GitHub wants a "personal access token" instead
 of your password — create one at github.com → Settings → Developer
 settings → Personal access tokens.
 
-## 12. When something goes wrong
+## 13. When something goes wrong
 
 * `git status` first. Always safe, always explains.
 * Threw the working folder into a bad state, want the last snapshot back:
@@ -382,7 +492,7 @@ settings → Personal access tokens.
   with unsaved changes while you switched branches. Close KiCad before
   switching branches — that habit prevents nearly all confusion.
 
-## 13. Cheat sheet
+## 14. Cheat sheet
 
 ```
 BEFORE uploading to Quilter      ./scripts/quilter-send.sh <label>
@@ -393,6 +503,9 @@ Back to the main design          git checkout main
 Save a snapshot                  git add -A && git commit -m "why"
 Catch experiment up to main      git checkout quilter/<name> && git merge main
 Make a schematic variant         git checkout main && git checkout -b variant/<name>
+Start an experiment baseline     git checkout <base> && git checkout -b exp/<name>
+Import onto the baseline itself  ./scripts/quilter-import.sh <file> -j <uuid> -b exp/<name>
+Diff candidate vs baseline       git diff exp/<name> quilter/<job8> -- q-radio.kicad_pcb
 Crown a winner                   git checkout main && git merge --no-ff quilter/<name>
 Find a job's commits             git log --all --grep="Quilter-Job: <uuid-start>"
 Publish everything               git push origin --all && git push origin --tags

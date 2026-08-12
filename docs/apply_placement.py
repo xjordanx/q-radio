@@ -3,12 +3,12 @@
 # CURRENTLY OPEN board to those X/Y/rotation/side values.
 #
 # Standalone: works in ANY KiCad project. Keep a copy in your KiCad
-# scripting folder (e.g. Documents\KiCad\10.0\scripting\) so it is always
+# scripting folder (C:\ECAD\KiCad\10.0\share\kicad\scripting\) so it is always
 # at the same path regardless of which project or git branch is open.
 #
 # HOW TO RUN (inside the PCB editor, with the TARGET board open):
 #   Tools > Scripting Console, then paste (adjust path to your copy):
-#     exec(open(r'C:\Users\YOU\Documents\KiCad\10.0\scripting\apply_placement.py').read())
+#     exec(open(r'C:\ECAD\KiCad\10.0\share\kicad\scripting\apply_placement.py').read())
 #
 #   By default it reads placement.csv from the board's own folder. To use
 #   a different file, set PLACEMENT_CSV before the exec line:

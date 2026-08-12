@@ -1,7 +1,7 @@
 # clipboard-to-placement.ps1 -- turn a Ctrl+C'd PCB selection into placement.csv
 #
 # Standalone: works for ANY KiCad project, no git required. Keep a copy
-# next to clipboard_placement.py (e.g. in Documents\KiCad\10.0\scripting\).
+# next to clipboard_placement.py (C:\ECAD\KiCad\10.0\share\kicad\scripting\).
 #
 # Usage (PowerShell, from any folder -- the CSV lands in the CURRENT folder):
 #   1. In the PCB editor: select the footprints you care about, press Ctrl+C

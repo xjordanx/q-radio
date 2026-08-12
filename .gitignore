@@ -17,3 +17,6 @@ gerbers/
 # OS noise
 Thumbs.db
 .DS_Store
+
+# per-branch scratch output of scripts/kicad placement transfer
+placement.csv

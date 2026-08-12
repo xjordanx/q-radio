@@ -2,16 +2,20 @@
 # export_selected_placement.py) and move the matching footprints of the
 # CURRENTLY OPEN board to those X/Y/rotation/side values.
 #
+# Standalone: works in ANY KiCad project. Keep a copy in your KiCad
+# scripting folder (e.g. Documents\KiCad\10.0\scripting\) so it is always
+# at the same path regardless of which project or git branch is open.
+#
 # HOW TO RUN (inside the PCB editor, with the TARGET board open):
-#   Tools > Scripting Console, then paste:
-#     exec(open(r'C:\ECAD\Designs\QRadio\scripts\kicad\apply_placement.py').read())
+#   Tools > Scripting Console, then paste (adjust path to your copy):
+#     exec(open(r'C:\Users\YOU\Documents\KiCad\10.0\scripting\apply_placement.py').read())
 #
 #   By default it reads placement.csv from the board's own folder. To use
 #   a different file, set PLACEMENT_CSV before the exec line:
 #     PLACEMENT_CSV = r'C:\somewhere\else\placement.csv'
 #
-# Matching is by reference designator (safe between variants of the same
-# design). Footprints in the CSV that don't exist on this board are
+# Matching is by reference designator (safe between boards that share
+# refs). Footprints in the CSV that don't exist on this board are
 # reported and skipped. Nothing is saved to disk -- inspect the result,
 # then File > Save yourself (and commit).
 import csv

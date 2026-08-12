@@ -20,3 +20,4 @@ Thumbs.db
 
 # per-branch scratch output of scripts/kicad placement transfer
 placement.csv
+__pycache__/

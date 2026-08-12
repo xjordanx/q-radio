@@ -1,11 +1,15 @@
 # export_selected_placement.py -- write X/Y/rotation/side of the SELECTED
-# footprints to a CSV, for transferring partial placement between variants
-# of the same design.
+# footprints to a CSV, for transferring partial placement between boards
+# that share reference designators (variants of the same design).
+#
+# Standalone: works in ANY KiCad project. Keep a copy in your KiCad
+# scripting folder (e.g. Documents\KiCad\10.0\scripting\) so it is always
+# at the same path regardless of which project or git branch is open.
 #
 # HOW TO RUN (inside the PCB editor):
 #   1. Select the footprints you want to capture (click/drag/Ctrl+click).
-#   2. Tools > Scripting Console, then paste:
-#        exec(open(r'C:\ECAD\Designs\QRadio\scripts\kicad\export_selected_placement.py').read())
+#   2. Tools > Scripting Console, then paste (adjust path to your copy):
+#        exec(open(r'C:\Users\YOU\Documents\KiCad\10.0\scripting\export_selected_placement.py').read())
 #   3. The CSV is written next to the board file (placement.csv) and the
 #      path + count are printed in the console.
 #

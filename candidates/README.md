@@ -12,6 +12,11 @@ Quilter job UUID:
       9b2c11d0/
         candidate_1.kicad_pcb
 
+The top level of this folder is the DROP ZONE: download Quilter zips
+straight here (they are gitignored while loose), then import with
+./scripts/quilter-import.sh ./candidates/<name>.zip -j <job-uuid>
+which moves each into its tracked candidates/<job>/ home.
+
 Rules:
 1. NEVER open these files in KiCad. They are evidence, not working files.
    To work with one, import it onto a branch with scripts/quilter-import.sh,

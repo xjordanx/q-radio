@@ -13,7 +13,16 @@ _autosave-*
 # KiCad output that should be regenerated, not versioned casually
 gerbers/
 *.zip
+# ...but archived Quilter candidate zips ARE tracked...
+!candidates/**/*.zip
+# ...EXCEPT loose downloads at the top of candidates/ (the drop zone --
+# quilter-import moves them into candidates/<job>/ where they ARE tracked):
+candidates/*.zip
 
 # OS noise
 Thumbs.db
 .DS_Store
+
+# per-branch scratch output of scripts/kicad placement transfer
+placement.csv
+__pycache__/

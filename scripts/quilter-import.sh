@@ -44,6 +44,7 @@ fi
 if [ ! -f "$FILE" ]; then
   echo "ERROR: file not found: $FILE"; exit 1
 fi
+FILE="$(cd "$(dirname "$FILE")" && pwd)/$(basename "$FILE")"   # absolutize
 if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
   echo "ERROR: You have uncommitted changes. Commit or discard them first"
   echo "so the import lands as one clean, self-contained commit."
@@ -51,7 +52,18 @@ if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
 fi
 
 # --- zip helpers: native tools if present, else Windows PowerShell -------
-to_native() { command -v cygpath >/dev/null 2>&1 && cygpath -w "$1" || printf '%s' "$1"; }
+# to_native: turn a unix-style path into one Windows can open. Uses cygpath
+# when available (Git Bash); otherwise rewrites the common drive-mount
+# prefixes by hand (MobaXterm has no cygpath: /drives/c/..., /c/...,
+# /cygdrive/c/... all become c:/...). Temp space lives INSIDE the repo so
+# every path we hand to PowerShell sits under a real drive letter.
+to_native() {
+  if command -v cygpath >/dev/null 2>&1; then cygpath -w "$1"
+  else printf '%s' "$1" | sed -e 's|^/drives/\([A-Za-z]\)/|\1:/|' \
+                              -e 's|^/cygdrive/\([A-Za-z]\)/|\1:/|' \
+                              -e 's|^/\([A-Za-z]\)/|\1:/|'
+  fi
+}
 unzip_to() {  # <zip> <destdir>
   if command -v unzip >/dev/null 2>&1; then unzip -q "$1" -d "$2"
   else powershell.exe -NoProfile -Command \
@@ -87,7 +99,10 @@ fi
 JOB8="${JOB:0:8}"
 BRANCH="${BRANCH:-quilter/$JOB8}"
 BASENAME="$(basename "$FILE")"
-TMP="$(mktemp -d)"
+# Temp INSIDE the repo (real Windows drive path), not /tmp: MobaXterm's
+# /tmp is invisible to Windows programs like the PowerShell zip fallback.
+TMP="$(pwd)/.qimport-tmp.$$"
+mkdir -p "$TMP"
 trap 'rm -rf "$TMP"' EXIT
 
 # --- Validate input and settle on: ZIPSRC (zip to archive) + PCBSRC ------

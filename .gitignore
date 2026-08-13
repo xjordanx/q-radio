@@ -13,6 +13,8 @@ _autosave-*
 # KiCad output that should be regenerated, not versioned casually
 gerbers/
 *.zip
+# ...but archived Quilter candidate zips ARE tracked:
+!candidates/**/*.zip
 
 # OS noise
 Thumbs.db

@@ -506,6 +506,8 @@ Make a schematic variant         git checkout main && git checkout -b variant/<n
 Start an experiment baseline     git checkout <base> && git checkout -b exp/<name>
 Import onto the baseline itself  ./scripts/quilter-import.sh <file> -j <uuid> -b exp/<name>
 Diff candidate vs baseline       git diff exp/<name> quilter/<job8> -- q-radio.kicad_pcb
+Most recent snapshot tag         git tag -l 'q-sent/*' --sort=-creatordate | head -1
+List tags on the current branch  git log --oneline --decorate | grep tag:
 Crown a winner                   git checkout main && git merge --no-ff quilter/<name>
 Find a job's commits             git log --all --grep="Quilter-Job: <uuid-start>"
 Publish everything               git push origin --all && git push origin --tags

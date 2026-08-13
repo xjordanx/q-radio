@@ -26,3 +26,6 @@ Thumbs.db
 # per-branch scratch output of scripts/kicad placement transfer
 placement.csv
 __pycache__/
+
+# quilter-import scratch workspace (repo-local so Windows tools can see it)
+.qimport-tmp.*

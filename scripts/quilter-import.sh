@@ -86,12 +86,17 @@ if [ -z "$SENT" ]; then
   if [ -n "$SENT" ]; then
     echo "Using newest snapshot tag on this branch: $SENT"
   else
-    SENT=$(git tag -l 'q-sent/*' --sort=-creatordate | head -1)
-    if [ -n "$SENT" ]; then
-      echo "NOTE: no q-sent tag is reachable from your current branch."
-      echo "Falling back to the newest tag overall: $SENT"
-      echo "If this job came from a different snapshot, Ctrl+C and rerun with -s <tag>."
-    fi
+    echo "ERROR: no q-sent tag is reachable from your current branch, so the"
+    echo "snapshot this job came from cannot be determined safely."
+    echo ""
+    echo "Either switch to the branch you uploaded from, or (if you forgot"
+    echo "quilter-send before uploading) tag the uploaded commit now:"
+    echo "    git tag -a q-sent/<date>-<label> <commit> -m \"retroactive\""
+    echo "then rerun, or pass the tag explicitly with -s <tag>."
+    echo ""
+    echo "Existing snapshot tags (newest first):"
+    git tag -l 'q-sent/*' --sort=-creatordate | head -5 | sed 's/^/    /'
+    exit 1
   fi
   [ -n "$SENT" ] && echo "  ($SENT = $(git log -1 --format='%h \"%s\"' "$SENT^{commit}"))"
 fi

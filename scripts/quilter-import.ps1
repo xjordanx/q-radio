@@ -51,12 +51,17 @@ if (-not $Sent) {
     if ($Sent) {
         Write-Host "Using newest snapshot tag on this branch: $Sent"
     } else {
-        $Sent = git tag -l 'q-sent/*' --sort=-creatordate | Select-Object -First 1
-        if ($Sent) {
-            Write-Host "NOTE: no q-sent tag is reachable from your current branch."
-            Write-Host "Falling back to the newest tag overall: $Sent"
-            Write-Host "If this job came from a different snapshot, Ctrl+C and rerun with -Sent <tag>."
-        }
+        Write-Host "ERROR: no q-sent tag is reachable from your current branch, so the"
+        Write-Host "snapshot this job came from cannot be determined safely."
+        Write-Host ""
+        Write-Host "Either switch to the branch you uploaded from, or (if you forgot"
+        Write-Host "quilter-send before uploading) tag the uploaded commit now:"
+        Write-Host '    git tag -a q-sent/<date>-<label> <commit> -m "retroactive"'
+        Write-Host "then rerun, or pass the tag explicitly with -Sent <tag>."
+        Write-Host ""
+        Write-Host "Existing snapshot tags (newest first):"
+        git tag -l 'q-sent/*' --sort=-creatordate | Select-Object -First 5 | ForEach-Object { Write-Host "    $_" }
+        exit 1
     }
     if ($Sent) { Write-Host "  ($Sent = $(git log -1 --format='%h \"%s\"' "$Sent^{commit}"))" }
 }

@@ -94,7 +94,10 @@ trap 'rm -rf "$TMP"' EXIT
 ORIG_LOOSE=""
 case "$BASENAME" in
   *.zip|*.ZIP)
-    unzip_to "$FILE" "$TMP/x"
+    # Extract from a plain-named copy: Quilter names contain [brackets],
+    # which some unzip implementations treat as wildcards.
+    cp "$FILE" "$TMP/in.zip"
+    unzip_to "$TMP/in.zip" "$TMP/x"
     mapfile -t PCBS < <(find "$TMP/x" -type f -name '*.kicad_pcb' | sort)
     if [ "${#PCBS[@]}" -eq 0 ]; then
       echo "ERROR: no .kicad_pcb inside $BASENAME"; exit 1
@@ -167,7 +170,9 @@ cp "$PCBSRC" q-radio.kicad_pcb
 # The loose original (if any) is fully preserved in the archive + live board.
 [ -n "$ORIG_LOOSE" ] && rm -f "$ORIG_LOOSE"
 
-git add "$DEST" candidates/manifest.yaml q-radio.kicad_pcb
+# Stage by directory: bracketed filenames would be treated as glob
+# patterns if passed to git add directly.
+git add "candidates/$JOB8" candidates/manifest.yaml q-radio.kicad_pcb
 git commit -q -m "Import Quilter candidate $PCBNAME (job $JOB8)
 
 Quilter-Project: ${PROJECT:-unknown}

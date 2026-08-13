@@ -71,7 +71,10 @@ try {
     # --- Validate input; settle on $ZipSrc (zip to archive) + $PcbSrc ----
     $OrigLoose = $null
     if ($BaseName -match '\.zip$') {
-        Expand-Archive -LiteralPath $File -DestinationPath (Join-Path $Tmp 'x') -Force
+        # Extract from a plain-named copy: Quilter names contain [brackets],
+        # which trip wildcard handling in some tools.
+        Copy-Item -LiteralPath $File -Destination (Join-Path $Tmp 'in.zip')
+        Expand-Archive -LiteralPath (Join-Path $Tmp 'in.zip') -DestinationPath (Join-Path $Tmp 'x') -Force
         $pcbs = @(Get-ChildItem -Recurse -File (Join-Path $Tmp 'x') -Filter *.kicad_pcb | Sort-Object Name)
         if ($pcbs.Count -eq 0) { Write-Host "ERROR: no .kicad_pcb inside $BaseName"; exit 1 }
         if ($pcbs.Count -gt 1) {
@@ -147,7 +150,9 @@ try {
     # The loose original (if any) is preserved in the archive + live board.
     if ($OrigLoose) { Remove-Item -LiteralPath $OrigLoose }
 
-    git add $Dest candidates/manifest.yaml q-radio.kicad_pcb
+    # Stage by directory: bracketed filenames would be treated as glob
+    # patterns if passed to git add directly.
+    git add "candidates/$Job8" candidates/manifest.yaml q-radio.kicad_pcb
     git commit -q -m "Import Quilter candidate $PcbName (job $Job8)" -m "Quilter-Project: $Project`nQuilter-Job: $Job`nQuilter-Candidate: $PcbName`nQuilter-Archive: $ZipName`nSource-Snapshot: $Sent"
     if ($LASTEXITCODE -ne 0) { exit 1 }
 

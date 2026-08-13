@@ -65,10 +65,23 @@ zip_single() {  # <file> <zippath-absolute>
   fi
 }
 
-# Default the snapshot tag to the most recent q-sent/* tag.
+# Default the snapshot tag: prefer the newest q-sent tag REACHABLE from
+# the branch you are standing on (tags from parallel experiments on other
+# branches are ignored); only if none exists here, fall back to the
+# newest tag overall -- loudly, since that may be another experiment's.
 if [ -z "$SENT" ]; then
-  SENT=$(git tag -l 'q-sent/*' --sort=-creatordate | head -1)
-  [ -n "$SENT" ] && echo "Using most recent snapshot tag: $SENT"
+  SENT=$(git tag -l 'q-sent/*' --sort=-creatordate --merged HEAD | head -1)
+  if [ -n "$SENT" ]; then
+    echo "Using newest snapshot tag on this branch: $SENT"
+  else
+    SENT=$(git tag -l 'q-sent/*' --sort=-creatordate | head -1)
+    if [ -n "$SENT" ]; then
+      echo "NOTE: no q-sent tag is reachable from your current branch."
+      echo "Falling back to the newest tag overall: $SENT"
+      echo "If this job came from a different snapshot, Ctrl+C and rerun with -s <tag>."
+    fi
+  fi
+  [ -n "$SENT" ] && echo "  ($SENT = $(git log -1 --format='%h \"%s\"' "$SENT^{commit}"))"
 fi
 
 JOB8="${JOB:0:8}"

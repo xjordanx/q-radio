@@ -42,10 +42,23 @@ if (git status --porcelain --untracked-files=no) {
     exit 1
 }
 
-# Default the snapshot tag to the most recent q-sent/* tag.
+# Default the snapshot tag: prefer the newest q-sent tag REACHABLE from
+# the branch you are standing on (tags from parallel experiments on other
+# branches are ignored); only if none exists here, fall back to the
+# newest tag overall -- loudly, since that may be another experiment's.
 if (-not $Sent) {
-    $Sent = git tag -l 'q-sent/*' --sort=-creatordate | Select-Object -First 1
-    if ($Sent) { Write-Host "Using most recent snapshot tag: $Sent" }
+    $Sent = git tag -l 'q-sent/*' --sort=-creatordate --merged HEAD | Select-Object -First 1
+    if ($Sent) {
+        Write-Host "Using newest snapshot tag on this branch: $Sent"
+    } else {
+        $Sent = git tag -l 'q-sent/*' --sort=-creatordate | Select-Object -First 1
+        if ($Sent) {
+            Write-Host "NOTE: no q-sent tag is reachable from your current branch."
+            Write-Host "Falling back to the newest tag overall: $Sent"
+            Write-Host "If this job came from a different snapshot, Ctrl+C and rerun with -Sent <tag>."
+        }
+    }
+    if ($Sent) { Write-Host "  ($Sent = $(git log -1 --format='%h \"%s\"' "$Sent^{commit}"))" }
 }
 
 $Job8 = $Job.Substring(0, [Math]::Min(8, $Job.Length))

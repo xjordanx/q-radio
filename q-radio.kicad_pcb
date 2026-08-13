@@ -78016,6 +78016,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "VCC_AUX")
+		)
 		(property ki_fp_filters "TSOP*6*1.65x3.05mm*P0.95mm*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/c6051938-da4b-417d-b42a-8e73c8ab9ca4")
 		(sheetname "/Power/")
@@ -89690,6 +89693,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "VCC_AUX")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/a10880c0-d991-4e58-8bf4-57386a52fe30")
 		(sheetname "/Power/")
@@ -95815,6 +95821,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "VCC_AUX")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/ed2c3e4d-0d06-4f22-bfcd-6532cbceed1c")
@@ -117115,6 +117124,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "VCC_AUX")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/91056eba-4f7a-4c89-9797-6a36be50ca78")
 		(sheetname "/Power/")
@@ -136296,6 +136308,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "VCC_AUX")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/976deb70-cc1e-4d1a-b7cc-6d67599c1e48")
 		(sheetname "/Power/")
@@ -143141,6 +143156,37 @@
 	)
 	(zone
 		(layer "F.Cu")
+		(uuid "1036cbe0-02c7-4f96-bdc3-c1afb3a28123")
+		(name "VCC_CLK_1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled yes)
+			(component_class "VCC_CLK")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 126.492 156.464) (xy 126.492 136.652) (xy 132.588 136.652) (xy 132.588 156.972)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
 		(uuid "322089d9-0d35-43a8-b6cd-cab4f78c9734")
 		(name "USB")
 		(hatch edge 0.5)
@@ -143204,7 +143250,7 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "3534acee-d923-48af-be07-8770f1728a32")
-		(name "PWR_IN")
+		(name "POWER_IN")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -143298,7 +143344,7 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "66f98b80-e1ae-41ca-a957-3aa1ea07bf81")
-		(name "FPGA_PWR")
+		(name "VCC_FPGA")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -143329,16 +143375,16 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "83265cf0-a3c2-4112-9287-678701b6004a")
-		(name "Clock")
+		(name "Clock Generator")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints allowed)
 		)
@@ -143421,6 +143467,37 @@
 	)
 	(zone
 		(layer "F.Cu")
+		(uuid "9d41b41c-c609-4c29-a0d8-1eccd5b41632")
+		(name "VCC_AUX")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled yes)
+			(component_class "VCC_AUX")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 136.144 173.736) (xy 136.144 167.64) (xy 168.148 167.64) (xy 168.148 173.736)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
 		(uuid "c1571285-0c1e-4752-a7c9-adf70f40b164")
 		(name "RF Front End")
 		(hatch edge 0.5)
@@ -143453,7 +143530,7 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "c3252a50-2c00-4b6a-9a46-9427d01c7230")
-		(name "PWR_LED")
+		(name "VCC_LED")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)

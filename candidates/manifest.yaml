@@ -17,3 +17,15 @@
 #   status:           pending | evaluating | rejected | winner
 #   notes:            free text -- unrouted nets, DRC counts, impressions
 
+
+- quilter_project: "6a70da50b81b5fc860aa422c"
+  quilter_job: "6a7cd325b0b7975d473f95be"
+  file: "candidates/6a7cd325/Quilter_QRadio_[var_rf-preplace]_Candidate_5.zip"
+  candidate_pcb: "q-radio.kicad_pcb"
+  sha256: "548fd5aaa0948e1242cf77ebc584b1edda5f811ed13f352a941af0f36791fecf"
+  downloaded: "2026-08-13"
+  sent_tag: "q-sent/2026-08-12-rf-preplace"
+  schematic_commit: "e8d047f"
+  imported_to: "quilter/6a7cd325"
+  status: "evaluating"
+  notes: "Candidate 5 91% routed, placement crowding in floorplan of digital section"

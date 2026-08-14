@@ -1,40 +1,40 @@
 placement_region,component
-Clock,C113
-Clock,C119
-Clock,C120
-Clock,C121
-Clock,C122
-Clock,C155
-Clock,C168
-Clock,C199
-Clock,C39
-Clock,C40
-Clock,C43
-Clock,D3
-Clock,D9
-Clock,P1
-Clock,P2
-Clock,R104
-Clock,R105
-Clock,R108
-Clock,R12
-Clock,R139
-Clock,R23
-Clock,R27
-Clock,R28
-Clock,R31
-Clock,R32
-Clock,R33
-Clock,R34
-Clock,R41
-Clock,R84
-Clock,R85
-Clock,U19
-Clock,U30
-Clock,U31
-Clock,U33
-Clock,U37
-Clock,X1
+Clock Generator,C113
+Clock Generator,C119
+Clock Generator,C120
+Clock Generator,C121
+Clock Generator,C122
+Clock Generator,C155
+Clock Generator,C168
+Clock Generator,C199
+Clock Generator,C39
+Clock Generator,C40
+Clock Generator,C43
+Clock Generator,D3
+Clock Generator,D9
+Clock Generator,P1
+Clock Generator,P2
+Clock Generator,R104
+Clock Generator,R105
+Clock Generator,R108
+Clock Generator,R12
+Clock Generator,R139
+Clock Generator,R23
+Clock Generator,R27
+Clock Generator,R28
+Clock Generator,R31
+Clock Generator,R32
+Clock Generator,R33
+Clock Generator,R34
+Clock Generator,R41
+Clock Generator,R84
+Clock Generator,R85
+Clock Generator,U19
+Clock Generator,U30
+Clock Generator,U31
+Clock Generator,U33
+Clock Generator,U37
+Clock Generator,X1
 FPGA,C117
 FPGA,C148
 FPGA,C149

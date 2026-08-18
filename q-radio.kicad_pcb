@@ -148,7 +148,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755757f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -272,6 +271,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/da0597b9-9fb2-415b-aa79-e37d728e617a")
@@ -585,6 +587,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/9e765292-1a26-41b9-ad55-28a93f1874d0")
 		(sheetname "/Microcontroller/")
@@ -896,6 +901,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/96606c47-ee50-4f4b-94cf-2d7ec62c6431")
@@ -1222,6 +1230,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00004f83c276")
 		(sheetname "/Microcontroller/")
@@ -1534,6 +1545,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000527dc2e9")
 		(sheetname "/Microcontroller/")
@@ -1832,6 +1846,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005037043e/a8905a59-a762-4bf3-9cde-e32fad4879c7")
@@ -26651,6 +26668,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "FLASH")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000503c4c30")
 		(sheetname "/Microcontroller/")
@@ -34882,7 +34902,7 @@
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005787e816")
-		(at 214.884 76.073 -90)
+		(at 143.764 104.648 -90)
 		(descr "Through hole straight pin header, 2x05, 1.27mm pitch, double rows")
 		(tags "Through hole pin header THT 2x05 1.27mm double row")
 		(property "Reference" "P26"
@@ -37838,6 +37858,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000504786e0")
 		(sheetname "/Microcontroller/")
@@ -40285,6 +40308,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000529905c9")
 		(sheetname "/Microcontroller/")
@@ -40525,6 +40551,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000527ef888")
@@ -41750,6 +41779,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000527f0529")
@@ -43993,6 +44025,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000503f999f")
@@ -47761,6 +47796,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000503c519a")
 		(sheetname "/Microcontroller/")
@@ -48003,6 +48041,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00005298fba8")
@@ -48251,6 +48292,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00005299055b")
 		(sheetname "/Microcontroller/")
@@ -48493,6 +48537,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-0000503c51a8")
@@ -48740,6 +48787,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00005298fc35")
@@ -49967,6 +50017,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00005248e27d")
 		(sheetname "/Microcontroller/")
 		(sheetfile "mcu.kicad_sch")
@@ -50407,6 +50460,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00005248ff4f")
 		(sheetname "/Microcontroller/")
@@ -59663,6 +59719,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "FLASH")
+		)
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/00000000-0000-0000-0000-00005037043e/00000000-0000-0000-0000-00004f825d1b")
 		(sheetname "/Microcontroller/")
@@ -60701,7 +60760,7 @@
 	(footprint "praline:TFBGA-180_12x12mm_Layout14x14_P0.8mm"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005787ef53")
-		(at 225.5266 85.1154 -90)
+		(at 146.844 143.148 -90)
 		(descr "thin fine-pitch ball grid array package, 180 balls, https://www.nxp.com/docs/en/package-information/SOT570-3.pdf")
 		(tags "TFBGA180 SOT570-3 BGA")
 		(property "Reference" "U23"
@@ -64936,6 +64995,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/df8a65e2-83a6-410f-98ce-dd9e1421059a")
 		(sheetname "/Microcontroller/")
@@ -66060,6 +66122,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/0954ef24-2a80-4466-a9e5-c74904694b08")
@@ -67562,7 +67627,7 @@
 	(footprint "praline:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "0b96d42d-3673-4eec-b993-77be8879f747")
-		(at 108.453 75.443 180)
+		(at 104.902 115.57 180)
 		(descr "QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U16"
@@ -79804,6 +79869,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/036bec05-c9f1-481f-a596-1764a36cdd00")
 		(sheetname "/Microcontroller/")
@@ -83956,6 +84024,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/c97f7735-e871-48bf-ac7d-216b6b6d9d26")
@@ -106038,6 +106109,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/773ec433-71a5-489d-adcb-f6fd96247ae8")
 		(sheetname "/Microcontroller/")
@@ -117377,6 +117451,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "LED_SW")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005037043e/8ea2636c-043f-43a8-9529-ae5eddc929cf")
 		(sheetname "/Microcontroller/")
@@ -121580,6 +121657,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/ecaf865f-3b44-4a64-b91a-3ea2fe25f0b4")
@@ -127163,6 +127243,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "LED_SW")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005037043e/773cbbf3-b281-4cdc-b9c5-ad8d629c9cc4")
@@ -143150,8 +143233,8 @@
 		)
 		(polygon
 			(pts
-				(xy 132.588 123.952) (xy 132.588 130.701143) (xy 132.588 153.533257) (xy 164.084 153.533257) (xy 164.084 136.652)
-				(xy 154.94 136.652) (xy 154.94 131.036113) (xy 145.796 131.136506) (xy 145.778003 123.952)
+				(xy 132.588 118.872) (xy 132.588 130.701143) (xy 132.588 159.766) (xy 166.37 159.766) (xy 166.37 136.652)
+				(xy 156.972 136.652) (xy 156.972 131.013803) (xy 145.796 131.136506) (xy 145.765278 118.872)
 			)
 		)
 	)
@@ -143308,6 +143391,38 @@
 		(polygon
 			(pts
 				(xy 78.74 146.812) (xy 94.996 146.812) (xy 94.996 165.608) (xy 78.74 165.608)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "4fda5d45-46bf-498a-8b25-7c7f911cdbe3")
+		(name "LED_SW")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled yes)
+			(component_class "LED_SW")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 55.88 103.378) (xy 55.88 151.638) (xy 69.596 151.892) (xy 71.3 148.082) (xy 71.12 134.112) (xy 83.058 134.112)
+				(xy 88.578061 127.508) (xy 88.646 122.428) (xy 75.184 122.428) (xy 75.184 105.41) (xy 72.39 103.378)
 			)
 		)
 	)
@@ -143555,7 +143670,7 @@
 		)
 		(polygon
 			(pts
-				(xy 71.628 116.84) (xy 86.36 116.84) (xy 86.36 122.428) (xy 71.628 122.428)
+				(xy 75.184 105.41) (xy 84.582 105.41) (xy 84.582 122.428) (xy 75.184 122.428)
 			)
 		)
 	)
@@ -143588,6 +143703,37 @@
 			(pts
 				(xy 145.796 102.616) (xy 145.796 123.481042) (xy 160.528 123.354042) (xy 160.528 117.348) (xy 175.26 117.348)
 				(xy 175.372889 117.235111) (xy 171.196 102.616)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "d9d1bd8e-d47d-43ea-89b9-982b84abfbb7")
+		(name "FLASH")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled yes)
+			(component_class "FLASH")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 155.194 151.892) (xy 155.194 161.036) (xy 167.64 161.036) (xy 167.64 151.892)
 			)
 		)
 	)

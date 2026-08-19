@@ -15779,6 +15779,26 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 19.05 15.24) (xy 19.05 48.26) (xy 120.65 48.26) (xy 120.65 231.14) (xy 134.62 231.14) (xy 134.62 264.16)
+				(xy 297.18 264.16) (xy 297.18 104.14) (xy 281.94 104.14) (xy 281.94 15.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0162177f-1b97-41ca-83ca-cc9205d23f97")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 19.05 67.31) (xy 19.05 259.08) (xy 74.93 259.08) (xy 74.93 196.85) (xy 110.49 196.85) (xy 110.49 67.31)
 			)
 			(stroke
@@ -15808,6 +15828,41 @@
 				(type none)
 			)
 			(uuid "b91a8c08-aa42-4725-96f9-325af367eb38")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 281.94 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d96dd0e-4fcd-4715-8c2d-8c1d723f853f")
+		(property "Netclass" ""
+			(at 377.19 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Microcontroller"
+			(at 284.48 98.4301 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
 		)
 	)
 	(netclass_flag ""

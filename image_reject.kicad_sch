@@ -1348,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 44.45) (xy 228.6 44.45)
+			(xy 52.07 44.45) (xy 228.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1415,6 +1415,16 @@
 			(type default)
 		)
 		(uuid "6d07e1e3-7537-4201-8b3f-849612d06812")
+	)
+	(wire
+		(pts
+			(xy 76.2 113.03) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bba7bf-3db3-4bb1-9b15-fe0a38f03340")
 	)
 	(wire
 		(pts
@@ -1518,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 101.6) (xy 77.47 101.6)
+			(xy 52.07 101.6) (xy 77.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 77.47 99.06)
+			(xy 52.07 99.06) (xy 77.47 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1728,7 @@
 	)
 	(hierarchical_label "RX_MIX_IN"
 		(shape output)
-		(at 58.42 99.06 180)
+		(at 52.07 99.06 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1751,7 +1761,7 @@
 	)
 	(hierarchical_label "MIX_BYPASS"
 		(shape bidirectional)
-		(at 58.42 44.45 180)
+		(at 52.07 44.45 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1773,7 +1783,7 @@
 	)
 	(hierarchical_label "TX_MIX_OUT"
 		(shape input)
-		(at 58.42 101.6 180)
+		(at 52.07 101.6 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1792,6 +1802,169 @@
 			(justify left)
 		)
 		(uuid "dff1ef13-0ff6-4bd6-b011-db6ab20082f0")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 238.76 60.96) (xy 229.87 60.96) (xy 229.87 74.93) (xy 223.52 81.28) (xy 217.17 81.28) (xy 209.55 88.9)
+				(xy 209.55 119.38) (xy 238.76 119.38)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "4052794f-868c-4619-bd44-671f6715ae30")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 109.22 81.28) (xy 105.41 81.28) (xy 105.41 116.84) (xy 109.22 116.84)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c5f06526-2cea-48d0-b6a1-743c398a66e8")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 40.64 39.37) (xy 40.64 106.68) (xy 55.88 106.68) (xy 55.88 39.37)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "fd7de97f-4c72-458c-95d0-41d496b55486")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 43.18 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca687cd-9bc5-47a0-8e14-2a2476bd7731")
+		(property "Netclass" "RF"
+			(at 44.3179 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 158.75 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 105.41 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b220e656-b077-45cd-bd99-617b3d54385b")
+		(property "Netclass" "RF"
+			(at 106.5479 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 220.98 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 238.76 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5325e96-64a3-46b4-b708-2f1566e9f423")
+		(property "Netclass" "RF"
+			(at 239.8979 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 354.33 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4434,7 +4607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 110.49 0)
+		(at 76.2 113.03 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4446,7 +4619,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf8bdd6f-038a-4541-8d3d-4bdb72832fc5")
 		(property "Reference" "#PWR0299"
-			(at 76.2 116.84 0)
+			(at 76.2 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +4630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 115.57 0)
+			(at 76.2 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4467,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 110.49 0)
+			(at 76.2 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 110.49 0)
+			(at 76.2 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 110.49 0)
+			(at 76.2 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

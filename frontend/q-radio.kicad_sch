@@ -1,0 +1,227 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 139.7 172.72) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cd2c63-b12f-43f0-8505-c85a80c41b70")
+	)
+	(wire
+		(pts
+			(xy 241.3 154.94) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0ccdd8-d8f2-4999-95bf-536d1c494c07")
+	)
+	(wire
+		(pts
+			(xy 147.32 157.48) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3383e762-08ef-42c3-b379-3d7be8e58d39")
+	)
+	(wire
+		(pts
+			(xy 149.86 157.48) (xy 147.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab79e24-eefe-402e-a307-ade5c10bcef0")
+	)
+	(wire
+		(pts
+			(xy 142.24 152.4) (xy 142.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514d061b-b809-4a53-8379-0075d9753a7b")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 149.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5936c444-f38e-4242-8019-242606faa92b")
+	)
+	(wire
+		(pts
+			(xy 132.08 144.78) (xy 149.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782c2ddd-614e-4e8a-bdee-76f0b096dad4")
+	)
+	(wire
+		(pts
+			(xy 149.86 152.4) (xy 142.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae17a26d-c683-42dd-a91e-6c20a07d7b5e")
+	)
+	(wire
+		(pts
+			(xy 186.69 157.48) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac7a8ad-a939-412e-9fbb-c86de1a91ca6")
+	)
+	(wire
+		(pts
+			(xy 17.78 180.34) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c71599-c8f1-40b5-b127-2e51ba33cbf1")
+	)
+	(sheet
+		(at 149.86 142.24)
+		(size 36.83 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-0000503bb638")
+		(property "Sheetname" "RF Front End"
+			(at 149.86 141.4014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend.kicad_sch"
+			(at 149.86 160.7062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{TX_AMP_EN}" input
+			(at 149.86 149.86 180)
+			(uuid "3643aefd-ab96-4d60-85e3-5c56bff9d076")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{BIAS_OC}" output
+			(at 186.69 157.48 0)
+			(uuid "078921ce-d687-4ebc-97b4-a1cf1259b536")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RX_AMP_EN}" input
+			(at 149.86 152.4 180)
+			(uuid "8784f7b2-00c7-43a8-8479-79726dade0f1")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{BIAS_EN}" input
+			(at 186.69 154.94 0)
+			(uuid "7af2ad9e-2bbf-4868-a61b-f4df199e7402")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_EN" input
+			(at 149.86 157.48 180)
+			(uuid "92c2dda4-458d-4e39-8656-d52f403264d6")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF" bidirectional
+			(at 149.86 144.78 180)
+			(uuid "6208fcd4-091c-4371-add5-4bf2988324b1")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

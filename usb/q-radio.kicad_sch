@@ -1,0 +1,147 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 176.53 21.59) (xy 228.6 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384e4b29-013a-44f2-9b37-d89d49c806f4")
+	)
+	(wire
+		(pts
+			(xy 176.53 33.02) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829c2319-eeb0-4672-b83b-0b2967b3f3de")
+	)
+	(wire
+		(pts
+			(xy 176.53 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3db123e-221e-4330-91d7-607e6d4d28c7")
+	)
+	(bus
+		(pts
+			(xy 176.53 30.48) (xy 185.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab5d68e-2c6c-41ae-aea0-efa52967dc86")
+	)
+	(sheet
+		(at 149.86 16.51)
+		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc")
+		(property "Sheetname" "USB"
+			(at 149.86 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 149.86 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 176.53 21.59 0)
+			(uuid "88697009-2347-41a1-ba27-f4eaabde0940")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DATA{USB2}" bidirectional
+			(at 176.53 30.48 0)
+			(uuid "ed86070b-0aff-4210-9155-8f8e2926f7f3")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC0_4" output
+			(at 176.53 33.02 0)
+			(uuid "e72c9df7-2fb3-41cc-981f-ee30f9fb3c68")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC0_7" output
+			(at 176.53 35.56 0)
+			(uuid "fd46145b-4a4b-4b72-b2d8-5e97f03a08fe")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

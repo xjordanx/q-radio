@@ -1,0 +1,207 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 165.1 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfa0ad2-671d-4362-9424-1b0e77eb93bb")
+	)
+	(bus
+		(pts
+			(xy 123.19 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80483aec-e8d4-4733-a387-954c08587670")
+	)
+	(bus
+		(pts
+			(xy 123.19 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922c27e9-279e-4feb-b34e-b2ccf464aa5a")
+	)
+	(bus
+		(pts
+			(xy 165.1 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98a91fd-57b4-4a7a-b684-1f0de4d82db2")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8cebd0-98f3-48a8-9db9-b8d6c9f8e874")
+	)
+	(bus
+		(pts
+			(xy 165.1 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c4852d-03d1-4de3-876f-eeb67772a2bc")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7d2387-2e93-4e61-a17a-826d9c238786")
+	)
+	(sheet
+		(at 138.43 64.77)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e983c194-621e-40aa-896b-a14f1ba8c8f7")
+		(property "Sheetname" "FPGA"
+			(at 138.43 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 138.43 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SGPIO[0..12]" bidirectional
+			(at 165.1 69.85 0)
+			(uuid "7148fa07-038a-4dcb-9068-d167596cfaf7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "DD[0..9]" output
+			(at 138.43 83.82 180)
+			(uuid "cb09382d-7dab-44ca-8164-94cd3c0145ae")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "DA[0..7]" input
+			(at 138.43 86.36 180)
+			(uuid "636807ef-7f88-40ae-88df-1c06ca3bfcab")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_CONFIG{Config}" bidirectional
+			(at 165.1 67.31 0)
+			(uuid "21e3068d-70d1-4286-a566-23e2000a1400")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFE_CLK" input
+			(at 165.1 86.36 0)
+			(uuid "8871285d-be54-410d-aa7b-805ace61b48c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRIGGER{Trigger}" bidirectional
+			(at 165.1 72.39 0)
+			(uuid "cd24e44c-f5d9-4b07-956f-c1416edc4369")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_CLK" input
+			(at 165.1 83.82 0)
+			(uuid "6e128191-72bc-4956-afad-9c78bbf0cc72")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

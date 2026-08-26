@@ -1,0 +1,387 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 27.94 54.61) (xy 27.94 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea39fff-7b78-4cf0-8cfa-e0d455729f54")
+	)
+	(wire
+		(pts
+			(xy 30.48 57.15) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1227c029-d779-4f26-bebd-54e564329089")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125a07dc-1079-4f24-8dbf-7ca18cd94f63")
+	)
+	(wire
+		(pts
+			(xy 78.74 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ac33b1-c504-4afb-a4c5-680a5094eeae")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 185.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283edfd8-650a-4e66-851b-7decb38253d5")
+	)
+	(wire
+		(pts
+			(xy 17.78 44.45) (xy 17.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bad0875-5096-43f6-82c1-64b647315a96")
+	)
+	(wire
+		(pts
+			(xy 43.18 62.23) (xy 45.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a81a3cd-6c37-4a09-bf30-6b28b5194627")
+	)
+	(wire
+		(pts
+			(xy 20.32 46.99) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a130cd-a76e-4e41-b716-c6cd919af6c3")
+	)
+	(wire
+		(pts
+			(xy 45.72 52.07) (xy 25.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cd6cd6-5691-4b4b-a1f7-ceb7009f969b")
+	)
+	(wire
+		(pts
+			(xy 25.4 52.07) (xy 25.4 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8667f27e-670f-450d-bd36-98e4b7956774")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2d76e7-2490-4ad2-b0a1-68179c4c7a08")
+	)
+	(wire
+		(pts
+			(xy 20.32 177.8) (xy 20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8b44b7-2fcf-4c30-baf8-91f4c51403e7")
+	)
+	(wire
+		(pts
+			(xy 45.72 54.61) (xy 27.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adbd92c-a791-4f71-be61-8af06eb8aa8e")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 30.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5b51ab-4931-4ad3-92f1-ed334e2df8c3")
+	)
+	(wire
+		(pts
+			(xy 33.02 59.69) (xy 45.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e1feee-2a32-4415-886b-605a26c4bd19")
+	)
+	(wire
+		(pts
+			(xy 33.02 149.86) (xy 33.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cf39b9-245b-462d-b615-06ac51600177")
+	)
+	(wire
+		(pts
+			(xy 22.86 175.26) (xy 22.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea4e328-6e63-444c-a385-235fcc39762c")
+	)
+	(wire
+		(pts
+			(xy 43.18 99.06) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e938d749-919f-4141-b519-fe21b9ecf265")
+	)
+	(wire
+		(pts
+			(xy 78.74 52.07) (xy 185.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f218a7a1-b00a-415f-813e-4f87e58488a8")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 17.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefc28ee-e77d-4534-b043-7f384dc09ffe")
+	)
+	(sheet
+		(at 45.72 41.91)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b52297f1-63c0-4931-9c57-b3b41fe2150b")
+		(property "Sheetname" "Switch Control"
+			(at 45.72 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch_control.kicad_sch"
+			(at 45.72 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX_EN" input
+			(at 78.74 44.45 0)
+			(uuid "4f364d6e-838b-4b54-9d58-a9cf4a160d19")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_EN" output
+			(at 45.72 44.45 180)
+			(uuid "666ab7de-9bc3-403c-badd-125cb45bb169")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIX_EN" output
+			(at 45.72 54.61 180)
+			(uuid "54f20814-87e8-476e-9e3b-c6b192385ae4")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_AMP_EN" input
+			(at 78.74 52.07 0)
+			(uuid "41dbea9d-fbf1-40a0-93aa-6e3bd6001ebc")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "LPF_EN" input
+			(at 78.74 49.53 0)
+			(uuid "33ca3a72-5bf4-4800-9e56-95aafc9a42a0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MIX_EN}" input
+			(at 78.74 46.99 0)
+			(uuid "0e146337-22de-42f3-abe4-e97dfca21900")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_XOR_MIX" output
+			(at 45.72 62.23 180)
+			(uuid "174ad0ec-e80a-410e-ae80-eb0c1eb8f6c4")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_XOR_LPF" output
+			(at 45.72 46.99 180)
+			(uuid "326b8933-6536-4f6b-aee8-c4ec2858904c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{TX_AMP_EN}" output
+			(at 45.72 52.07 180)
+			(uuid "aec29fdc-94f3-43df-8b4e-1d26100a4c71")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RX_AMP_EN}" output
+			(at 45.72 49.53 180)
+			(uuid "ce7c7d25-fc9b-46e2-b489-e68ac6cfc1b1")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPF_OR_MIX_BYPASS" output
+			(at 45.72 57.15 180)
+			(uuid "eaf0d320-f2bc-4567-819c-bfcc763bae18")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_MIX_EN" output
+			(at 45.72 59.69 180)
+			(uuid "c071c4c3-b886-422b-bf2b-af68c15077a0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

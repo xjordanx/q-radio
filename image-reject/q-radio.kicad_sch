@@ -1,0 +1,177 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 91.44 157.48) (xy 96.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f33f090-70e7-45c7-a8ea-fd359d82fab5")
+	)
+	(wire
+		(pts
+			(xy 93.98 144.78) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8270ee36-fb1d-4217-beaf-afaa30c9f4e3")
+	)
+	(wire
+		(pts
+			(xy 91.44 177.8) (xy 91.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22da005-93d5-41fe-8ac7-58b4b592718f")
+	)
+	(wire
+		(pts
+			(xy 96.52 147.32) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d9d15a-5168-461f-8d75-7c08c7b43b31")
+	)
+	(sheet
+		(at 96.52 142.24)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ff1d794b-c145-4e84-b14d-8e74ee8b4d43")
+		(property "Sheetname" "Image Reject Filters"
+			(at 96.52 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "image_reject.kicad_sch"
+			(at 96.52 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX_MIX_IN" output
+			(at 96.52 147.32 180)
+			(uuid "4f570434-2151-4c20-a31a-9bfcf93b00f9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_MIX_OUT" input
+			(at 96.52 149.86 180)
+			(uuid "7285371b-758a-4257-b159-f01c87401e1a")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIX_BYPASS" bidirectional
+			(at 96.52 144.78 180)
+			(uuid "28b6cdb3-2f95-425f-9128-57c85b7ab15d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_XOR_LPF" input
+			(at 96.52 157.48 180)
+			(uuid "4043387a-1ba9-4764-a63e-d4f59b6b5123")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIX_EN" input
+			(at 96.52 154.94 180)
+			(uuid "a5bd2b11-a4f5-49bb-adbd-c1e1a503814d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "LPF_OR_MIX_BYPASS" input
+			(at 96.52 152.4 180)
+			(uuid "cace734b-a059-4b18-bdd2-3e54677cd5d9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF" bidirectional
+			(at 132.08 144.78 0)
+			(uuid "ae7c0c18-5e62-42e1-8e6b-cc06f4823a84")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

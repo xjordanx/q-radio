@@ -1,0 +1,177 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 123.19 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80483aec-e8d4-4733-a387-954c08587670")
+	)
+	(wire
+		(pts
+			(xy 123.19 76.2) (xy 125.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d39ad43-b6f5-4fdf-b760-f20f53325cb3")
+	)
+	(bus
+		(pts
+			(xy 123.19 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922c27e9-279e-4feb-b34e-b2ccf464aa5a")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97c0dd0-be75-48ba-a3e6-896e22835e54")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cea818-dd83-4bd1-9da7-b4f9b83f7aaa")
+	)
+	(sheet
+		(at 96.52 73.66)
+		(size 26.67 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03930949-b2dd-4151-b892-cf65af2345ca")
+		(property "Sheetname" "ADC, DAC"
+			(at 96.52 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc-dac.kicad_sch"
+			(at 96.52 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DA[0..7]" output
+			(at 123.19 86.36 0)
+			(uuid "3cb8f7ad-fd3a-4770-b92e-e18582f5dfaa")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "DD[0..9]" input
+			(at 123.19 83.82 0)
+			(uuid "fe6e5513-cd1a-44c2-b045-d7f841749f2d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXBB{IQ}" input
+			(at 96.52 99.06 180)
+			(uuid "5f0c4e77-029a-49aa-8b45-4084dd7e987d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXBB{IQ}" output
+			(at 96.52 101.6 180)
+			(uuid "0b4d3df9-b4ed-4b56-b0d8-96bc559158d8")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFE_CLK" input
+			(at 123.19 93.98 0)
+			(uuid "ff3a9406-e6c7-433d-84f0-9991bec2fdf6")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "AA_EN" input
+			(at 123.19 76.2 0)
+			(uuid "7e799966-5eb9-4726-ac03-eba16f6c7bcb")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

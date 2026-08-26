@@ -1,0 +1,10 @@
+positive_net_name,negative_net_name,differential_impedance,single_ended_impedance,frequency
+"/ADC, DAC/AA_BYPASS_I+","/ADC, DAC/AA_BYPASS_I-",100,50,1
+"/ADC, DAC/AA_BYPASS_Q+","/ADC, DAC/AA_BYPASS_Q-",100,50,1
+"/ADC, DAC/IA+","/ADC, DAC/IA-",100,50,1
+"/ADC, DAC/ID+","/ADC, DAC/ID-",100,50,1
+"/ADC, DAC/QA+","/ADC, DAC/QA-",100,50,1
+"/ADC, DAC/QD+","/ADC, DAC/QD-",100,50,1
+"/ADC, DAC/REFP","/ADC, DAC/REFN",100,50,1
+"/ADC, DAC/TXBB.I+","/ADC, DAC/TXBB.I-",100,50,1
+"/ADC, DAC/TXBB.Q+","/ADC, DAC/TXBB.Q-",100,50,1

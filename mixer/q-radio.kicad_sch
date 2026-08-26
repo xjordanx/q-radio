@@ -1,0 +1,227 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 78.74 152.4) (xy 88.9 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cb255d-8efe-4cf9-a6ee-89e63a82f948")
+	)
+	(bus
+		(pts
+			(xy 78.74 139.7) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391f843f-4cfd-4df1-9123-6f1361b5a54d")
+	)
+	(wire
+		(pts
+			(xy 40.64 149.86) (xy 45.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f873484-0785-4f87-89fd-0e27aa21eda2")
+	)
+	(wire
+		(pts
+			(xy 78.74 149.86) (xy 88.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bcd092-3a93-414a-86b3-7f427c8fba07")
+	)
+	(wire
+		(pts
+			(xy 40.64 144.78) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4921e6-a2b5-44b5-8393-49809e142bc9")
+	)
+	(wire
+		(pts
+			(xy 40.64 152.4) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99028015-1f28-4761-94ef-9eae67d42319")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef737621-1174-468a-9709-6e5f7830541b")
+	)
+	(wire
+		(pts
+			(xy 78.74 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7333f40-8318-46f6-bfb2-db578b6463fe")
+	)
+	(sheet
+		(at 45.72 137.16)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "786d04ae-a477-4586-9df0-2e24f8eeece5")
+		(property "Sheetname" "Mixer"
+			(at 45.72 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mixer.kicad_sch"
+			(at 45.72 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MIX_CLK" input
+			(at 78.74 144.78 0)
+			(uuid "8544f90e-af6d-4524-9cd0-35f52fe0ac99")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_EN" input
+			(at 45.72 152.4 180)
+			(uuid "95f4e1a3-ffaf-4052-a335-5804276860cb")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_MIX_IN" input
+			(at 45.72 142.24 180)
+			(uuid "cf41a653-d7c4-4c8c-8c66-e54c63659111")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_MIX_IN" input
+			(at 45.72 144.78 180)
+			(uuid "ebd9de0b-8daa-4ddd-a7db-a031942d0f87")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_MIX_OUT" output
+			(at 78.74 152.4 0)
+			(uuid "5dd414b8-1867-4642-94aa-b11d2dbf609d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_MIX_OUT" output
+			(at 78.74 149.86 0)
+			(uuid "f989d7d9-2978-47be-86c4-1a833341c37c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIXER{RFFC5072}" bidirectional
+			(at 78.74 139.7 0)
+			(uuid "a2b68b15-0b7f-42a5-940b-a83342f78383")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_MIX_EN" input
+			(at 45.72 149.86 180)
+			(uuid "71191902-19fe-4325-869c-d041d470eacc")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

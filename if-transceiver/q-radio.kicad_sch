@@ -1,0 +1,257 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 17.78 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2d6a77-dfe5-4f89-a922-c2f91a0d9336")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 40.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149ea268-630d-4cc8-ac1c-1454e6754a24")
+	)
+	(wire
+		(pts
+			(xy 43.18 120.65) (xy 43.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e5777b-8ec1-48b7-b007-f8cead91c110")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 38.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60613e29-0f7c-4de0-b362-f73ad1f27ee8")
+	)
+	(bus
+		(pts
+			(xy 81.28 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7ff3f8-22f9-475f-8398-342fd365998c")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 43.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ed8ed8-d9df-4e22-a5d2-6d81ee53c4f8")
+	)
+	(wire
+		(pts
+			(xy 45.72 120.65) (xy 43.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c91d75-629d-472c-98b4-8bf19b3a44e8")
+	)
+	(wire
+		(pts
+			(xy 45.72 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c46c17-ff05-4bd0-a902-dd6b9019aa25")
+	)
+	(wire
+		(pts
+			(xy 17.78 101.6) (xy 17.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3307b9c-c4e4-4b7e-a898-32c803d123bb")
+	)
+	(wire
+		(pts
+			(xy 45.72 118.11) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee231086-c426-4a5c-8dab-e9a4e705d917")
+	)
+	(sheet
+		(at 45.72 90.17)
+		(size 33.02 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00000000-0000-0000-0000-000050370666")
+		(property "Sheetname" "IF Transceiver"
+			(at 45.72 89.3314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "baseband.kicad_sch"
+			(at 45.72 123.8762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TXBB{IQ}" input
+			(at 78.74 101.6 0)
+			(uuid "ce082e70-895f-439a-8a77-249dadde7abd")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXBB{IQ}" output
+			(at 78.74 99.06 0)
+			(uuid "d95fbcfa-c4c0-40c9-8c49-e7f08ab9fe35")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "XCVR_CLK" input
+			(at 78.74 109.22 0)
+			(uuid "8c39fd24-066e-471a-b77e-b8cf67fc8e7a")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "XCVR{MAX2831}" bidirectional
+			(at 78.74 92.71 0)
+			(uuid "f81d1b63-5da7-4501-9ae1-1d482c8894b8")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_XOR_MIX" input
+			(at 45.72 99.06 180)
+			(uuid "ac8baafc-a1dd-4453-9a8b-69433d9a7825")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_EN" input
+			(at 45.72 101.6 180)
+			(uuid "52b5049f-6adb-4a67-8ead-82a8580b81ee")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIX_BYPASS" bidirectional
+			(at 45.72 120.65 180)
+			(uuid "fb9b81a8-42af-4421-ae1f-7b2866966655")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_MIX_IN" output
+			(at 45.72 118.11 180)
+			(uuid "61010a9d-535c-4bb2-93c6-e804c193c88c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_MIX_OUT" input
+			(at 45.72 115.57 180)
+			(uuid "17d9291f-681c-493a-9615-22cfb81bb600")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

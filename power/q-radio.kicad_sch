@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "dba4afc6-760f-46cb-a936-032b76448f03")
+	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3509c5ee-bff9-42bc-a431-f7a08a056354")
+	)
+	(wire
+		(pts
+			(xy 226.06 45.72) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4cfdf8-1a4b-4c39-8726-6fb3cc6078aa")
+	)
+	(wire
+		(pts
+			(xy 228.6 30.48) (xy 241.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbcdf35-87de-473b-8abc-f86337a583d9")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727a85d9-7cea-465d-9fe3-c984faa74606")
+	)
+	(wire
+		(pts
+			(xy 226.06 38.1) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eec3cba-25a1-4423-94de-7bec34859499")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 241.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca141653-3767-4f40-8e40-5a6a87b9d57e")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 241.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caac476e-ecdd-4374-a8ab-3243916e811e")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 241.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32c1270-697c-467d-ad26-7b89e0914566")
+	)
+	(wire
+		(pts
+			(xy 226.06 40.64) (xy 241.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6491d-964b-4ff4-ab01-235a01827751")
+	)
+	(sheet
+		(at 241.3 25.4)
+		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "582bbebf-22b2-4cb5-8b91-2c73dca44d28")
+		(property "Sheetname" "Power"
+			(at 241.3 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 241.3 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1V2_EN" input
+			(at 241.3 43.18 180)
+			(uuid "9f22dc83-3398-4d6b-8ea8-6d6bd8118d76")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{VBUS_IN_EN}" input
+			(at 241.3 38.1 180)
+			(uuid "39fba3cf-29e8-422b-96eb-6895f2c3ebdb")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 241.3 30.48 180)
+			(uuid "368a53b9-cd1a-400f-9a4e-23b917ba7b8e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODE" input
+			(at 241.3 45.72 180)
+			(uuid "48383bb0-af4f-4ec4-9a96-7496ff170d73")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{VIN_IN_EN}" input
+			(at 241.3 40.64 180)
+			(uuid "6f89fa5f-89b2-4a9f-9a5f-b61383b9d7f3")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 241.3 33.02 180)
+			(uuid "84d18a21-e906-4547-be83-c2fa53a77888")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_SAFE" output
+			(at 241.3 35.56 180)
+			(uuid "a430edf6-7735-438a-a80c-587c7e12285d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{3V3AUX_EN}" input
+			(at 241.3 48.26 180)
+			(uuid "189b6a59-295d-437e-9e8a-afca4d129e4e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{3V3AUX_OC}" output
+			(at 241.3 50.8 180)
+			(uuid "a3b4f5b1-eace-4636-8dc1-356cabfc4f20")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

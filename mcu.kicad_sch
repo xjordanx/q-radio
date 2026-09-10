@@ -2338,501 +2338,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED_Dual_AKAK"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Dual_AKAK"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.762 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.762 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual LED, cathodes on pins 2 and 4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode bicolor dual"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_Dual_AKAK_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 2.032 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy 2.032 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.572)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Dual_AKAK_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.048)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.048)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3428,222 +2933,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Shielded"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 4.318 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push_Shielded"
-				(at 0 4.572 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton momentary"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_Shielded_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Shielded_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "hackrf:GSG-XTAL4PIN"
 			(pin_numbers
 				(hide yes)
@@ -4052,145 +3341,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VAA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VAA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VAA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VAA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VAA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VCC"
 			(power global)
 			(pin_numbers
@@ -4448,284 +3598,6 @@
 				)
 			)
 			(symbol "3V3AUX_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "praline:3V3FPGA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3V3FPGA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"3V3FPGA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3V3FPGA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3V3FPGA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "praline:3V3LED"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3V3LED"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3V3LED_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3V3LED_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -8114,17 +6986,6 @@
 		)
 		(uuid "1713de58-0a55-4ac8-b9db-cba46c6ab16a")
 	)
-	(text "RF"
-		(exclude_from_sim no)
-		(at 91.44 106.68 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "1795feae-1e6e-43a9-9f06-e83a55faa115")
-	)
 	(text "VCC"
 		(exclude_from_sim no)
 		(at 91.44 228.6 0)
@@ -8201,17 +7062,6 @@
 			(justify left bottom)
 		)
 		(uuid "45edeb8a-eff8-4359-8269-ad88d84a446c")
-	)
-	(text "USB"
-		(exclude_from_sim no)
-		(at 33.02 152.4 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "48f53c53-d493-4bca-a73c-1cece62aaf78")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -8290,17 +7140,6 @@
 		)
 		(uuid "8b59ac77-f428-481b-afe8-6e351c10d260")
 	)
-	(text "RX"
-		(exclude_from_sim no)
-		(at 60.96 152.4 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "8c4b157e-fb55-40ad-970c-70844a74bf13")
-	)
 	(text "SSP0"
 		(exclude_from_sim no)
 		(at 81.28 226.06 0)
@@ -8333,17 +7172,6 @@
 			(justify left bottom)
 		)
 		(uuid "99bdf3bc-d3b3-4273-a797-9c322d7eb6ef")
-	)
-	(text "FPGA"
-		(exclude_from_sim no)
-		(at 63.5 106.68 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "a33ffed0-d4b8-4ea0-8cad-54e260caeb15")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -8455,17 +7283,6 @@
 		)
 		(uuid "c518764f-7a8a-499e-8979-d601388404bb")
 	)
-	(text "TX"
-		(exclude_from_sim no)
-		(at 95.25 152.4 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "cdf79c99-ab12-4c88-a24a-ad7c9ad5017e")
-	)
 	(text "P1_2"
 		(exclude_from_sim no)
 		(at 106.68 215.9 0)
@@ -8521,28 +7338,11 @@
 		)
 		(uuid "ec84e2ea-93ed-4889-8887-3f2dd98f2d14")
 	)
-	(text "MCU"
-		(exclude_from_sim no)
-		(at 34.29 106.68 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify bottom)
-		)
-		(uuid "f2d1ce65-f704-4689-890f-f1c8f08ab691")
-	)
 	(junction
 		(at 172.72 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00569d2c-db74-4d8e-9891-83d44bb84199")
-	)
-	(junction
-		(at 34.29 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02186da1-4b4b-4f6e-a23a-8f132082f051")
 	)
 	(junction
 		(at 39.37 34.29)
@@ -8569,28 +7369,10 @@
 		(uuid "0c0fbce4-3f5c-42d5-aec4-4a685732f3e3")
 	)
 	(junction
-		(at 35.56 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12a97fe8-7277-412f-8a2f-25740124375b")
-	)
-	(junction
-		(at 34.29 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "159f36a7-f7ad-4cf5-995f-6430cbd35f07")
-	)
-	(junction
 		(at 208.28 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ef217b1-0528-48ff-b9dc-30c527b4c7a9")
-	)
-	(junction
-		(at 91.44 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21e26ab9-864c-47f3-9ce8-1a4a086b9bb2")
 	)
 	(junction
 		(at 102.87 26.67)
@@ -8599,28 +7381,10 @@
 		(uuid "28993270-9bee-4432-9fbb-9088c3a95f2b")
 	)
 	(junction
-		(at 66.04 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "300224d8-a7f7-4d62-918a-858b8011bcd3")
-	)
-	(junction
-		(at 53.34 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32b72ea2-f773-4aef-a544-e5eab688045b")
-	)
-	(junction
 		(at 223.52 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "349b4fab-3263-46b5-9334-45ab61eec55d")
-	)
-	(junction
-		(at 36.83 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36e2f284-0e99-4c0b-b047-47d34dda4b63")
 	)
 	(junction
 		(at 308.61 127)
@@ -8641,40 +7405,16 @@
 		(uuid "3b5bf4f1-ca2b-4d7a-835d-bd674fa86db9")
 	)
 	(junction
-		(at 60.96 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e724b16-a6a7-46d2-9564-e23ab06273e8")
-	)
-	(junction
-		(at 36.83 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "403a5acc-af15-4d9e-a945-9f2c5f6b1c21")
-	)
-	(junction
 		(at 311.15 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "405d0861-c449-4e29-87ca-10112530aa80")
 	)
 	(junction
-		(at 27.94 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41e3d198-d055-4974-b026-8c34105e06c3")
-	)
-	(junction
 		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43a79cac-16b6-4201-b745-270271c5fdf4")
-	)
-	(junction
-		(at 36.83 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45f82067-2365-4e6c-96af-50565803d9a1")
 	)
 	(junction
 		(at 102.87 34.29)
@@ -8717,12 +7457,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "599955b9-a4ed-4414-a4d9-a52f264624b4")
-	)
-	(junction
-		(at 30.48 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a7bb19f-0a59-4b7f-8b04-53404962728f")
 	)
 	(junction
 		(at 226.06 27.94)
@@ -8803,28 +7537,10 @@
 		(uuid "96e9b3f5-89dd-4112-9e37-a3b962da5787")
 	)
 	(junction
-		(at 31.75 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "986af347-e1df-4f0a-8a3c-1520e6eb67f7")
-	)
-	(junction
-		(at 35.56 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ce15dad-fb67-4af9-bce1-4854dc10ffee")
-	)
-	(junction
 		(at 213.36 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adbb0d92-a264-4e49-85ec-833cafb1dc93")
-	)
-	(junction
-		(at 40.64 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b43bfcd2-efdd-4c36-8167-bb0680336295")
 	)
 	(junction
 		(at 267.97 160.02)
@@ -8857,12 +7573,6 @@
 		(uuid "c436f8d7-7332-46f5-9171-4df085813fc9")
 	)
 	(junction
-		(at 27.94 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6daebba-ca6d-4ca4-97d0-5067c39d081a")
-	)
-	(junction
 		(at 64.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8873,12 +7583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5975581-f56d-4b7d-9590-faa12acd79a2")
-	)
-	(junction
-		(at 92.71 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5d6e897-7b63-462b-8e5a-a2b99b8deccd")
 	)
 	(junction
 		(at 234.95 16.51)
@@ -8899,12 +7603,6 @@
 		(uuid "dc335793-13f1-4353-b736-4d80417d5052")
 	)
 	(junction
-		(at 40.64 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e351270b-e40f-4f06-8cb1-d70de4389a1d")
-	)
-	(junction
 		(at 274.32 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8917,22 +7615,10 @@
 		(uuid "e4f5cab6-2dc5-4e82-9894-5f5161ddbb95")
 	)
 	(junction
-		(at 53.34 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efc0b8f0-6854-477e-be97-91b2c5954489")
-	)
-	(junction
 		(at 313.69 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35b89cb-5b4c-4749-b001-a9faa0083b82")
-	)
-	(junction
-		(at 35.56 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc0eb06a-9d6b-4888-9054-0136bf39ea83")
 	)
 	(no_connect
 		(at 245.11 175.26)
@@ -8951,20 +7637,12 @@
 		(uuid "2cec66c5-979a-48a9-8107-42eb9d2ab20e")
 	)
 	(no_connect
-		(at 97.79 184.15)
-		(uuid "38be124c-7363-492e-8852-d64f290a2347")
-	)
-	(no_connect
 		(at 194.31 172.72)
 		(uuid "4170ecf4-aff5-4e1a-b21d-50519705f902")
 	)
 	(no_connect
 		(at 194.31 200.66)
 		(uuid "45941253-b66a-49ce-9bf6-5182b8acded5")
-	)
-	(no_connect
-		(at 60.96 123.19)
-		(uuid "65413b15-fd20-4404-96f7-8d3a641df4f7")
 	)
 	(no_connect
 		(at 245.11 48.26)
@@ -8997,14 +7675,6 @@
 	(no_connect
 		(at 245.11 182.88)
 		(uuid "bcec3a92-eff7-41d7-b918-8e03d3c49bc0")
-	)
-	(no_connect
-		(at 97.79 168.91)
-		(uuid "d29593b4-e450-476d-8b0b-d24bffc42d51")
-	)
-	(no_connect
-		(at 60.96 138.43)
-		(uuid "d739afcc-79ea-4dad-9544-dfdda9c71453")
 	)
 	(no_connect
 		(at 245.11 60.96)
@@ -9120,6 +7790,15 @@
 			(type default)
 		)
 		(uuid "5648005f-81e9-4be5-8dec-32674dffc235")
+	)
+	(bus_entry
+		(at 44.45 129.54)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d717caa-2dc7-4888-bc06-cc2a25081cad")
 	)
 	(bus_entry
 		(at 384.81 223.52)
@@ -9320,6 +7999,15 @@
 		(uuid "cc8d8568-c652-4215-b439-bb291acad070")
 	)
 	(bus_entry
+		(at 44.45 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57f94f9-8e5a-48d4-a336-770071cc47b6")
+	)
+	(bus_entry
 		(at 157.48 182.88)
 		(size -2.54 -2.54)
 		(stroke
@@ -9347,6 +8035,15 @@
 		(uuid "d8c475e2-238d-473f-b770-97c238e159e3")
 	)
 	(bus_entry
+		(at 44.45 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b66fa5-5625-44cd-95ea-209d6487a213")
+	)
+	(bus_entry
 		(at 383.54 59.69)
 		(size 2.54 2.54)
 		(stroke
@@ -9354,6 +8051,15 @@
 			(type default)
 		)
 		(uuid "ec950779-6e11-4694-957e-1740e270d387")
+	)
+	(bus_entry
+		(at 44.45 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece4cae8-49dc-4c5c-acd9-db4a07768ed4")
 	)
 	(bus_entry
 		(at 383.54 46.99)
@@ -9565,26 +8271,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 168.91) (xy 60.96 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba8ef3f-8dc3-4360-8931-d5be1e41e3a0")
-	)
-	(wire
-		(pts
-			(xy 53.34 90.17) (xy 66.04 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c181b3b-2915-4aac-ac0b-bc8d7623b074")
-	)
-	(wire
-		(pts
 			(xy 182.88 50.8) (xy 194.31 50.8)
 		)
 		(stroke
@@ -9642,16 +8328,6 @@
 			(type default)
 		)
 		(uuid "131ab7c6-8a29-4d26-83de-31854ae77e88")
-	)
-	(wire
-		(pts
-			(xy 20.32 168.91) (xy 30.48 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1324c706-e6ae-4687-8119-877ff4c29c88")
 	)
 	(wire
 		(pts
@@ -9735,16 +8411,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 82.55) (xy 53.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad1882f-d2b5-4251-995d-aac3ed8db924")
-	)
-	(wire
-		(pts
 			(xy 299.72 34.29) (xy 320.04 34.29)
 		)
 		(stroke
@@ -9785,16 +8451,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.19) (xy 66.04 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e355b72-c074-4b82-8e35-be3b43c484ca")
-	)
-	(wire
-		(pts
 			(xy 377.19 124.46) (xy 369.57 124.46)
 		)
 		(stroke
@@ -9822,26 +8478,6 @@
 			(type default)
 		)
 		(uuid "22b7d168-8a49-4a2b-a5fa-7a358f4b532c")
-	)
-	(wire
-		(pts
-			(xy 34.29 214.63) (xy 34.29 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231e397f-68ab-4417-9d89-fef064ba4b0c")
-	)
-	(wire
-		(pts
-			(xy 25.4 214.63) (xy 20.32 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237395c3-037d-4b06-83a5-844a42f3cdcd")
 	)
 	(bus
 		(pts
@@ -9893,6 +8529,16 @@
 		)
 		(uuid "298964f7-c010-4a04-bdc6-d6a058329dd0")
 	)
+	(bus
+		(pts
+			(xy 44.45 129.54) (xy 44.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a207bb5-7c19-4d92-a9fa-3ae3c02272e5")
+	)
 	(wire
 		(pts
 			(xy 213.36 27.94) (xy 215.9 27.94)
@@ -9932,16 +8578,6 @@
 			(type default)
 		)
 		(uuid "2c3e644b-8c8b-471b-8dac-1faaf44fa411")
-	)
-	(wire
-		(pts
-			(xy 30.48 184.15) (xy 35.56 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c42b97e-636a-4caf-ac75-49db0093185e")
 	)
 	(bus
 		(pts
@@ -10003,6 +8639,16 @@
 		)
 		(uuid "33f987c2-3307-4720-85c5-0197d55ad8f3")
 	)
+	(bus
+		(pts
+			(xy 36.83 129.54) (xy 44.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34050a6c-7899-4e0d-b52c-ca3337edec46")
+	)
 	(wire
 		(pts
 			(xy 377.19 116.84) (xy 369.57 116.84)
@@ -10022,16 +8668,6 @@
 			(type default)
 		)
 		(uuid "342f5b2f-5580-42af-8a21-be03cda1538d")
-	)
-	(wire
-		(pts
-			(xy 45.72 118.11) (xy 45.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353f3914-5209-4db3-b145-4cc244c06795")
 	)
 	(bus
 		(pts
@@ -10085,16 +8721,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 138.43) (xy 36.83 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ddded80-d85e-4cfe-8376-c7a9a9d115f6")
-	)
-	(wire
-		(pts
 			(xy 354.33 177.8) (xy 361.95 177.8)
 		)
 		(stroke
@@ -10132,16 +8758,6 @@
 			(type default)
 		)
 		(uuid "409c079c-f5a9-41e4-a6b7-acdba506c85c")
-	)
-	(wire
-		(pts
-			(xy 43.18 163.83) (xy 43.18 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415bd41e-d9c6-48bb-80a2-55fb18dde7bf")
 	)
 	(bus
 		(pts
@@ -10335,26 +8951,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 118.11) (xy 73.66 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff9e06d-3c6c-4d40-87b5-3b947528edaa")
-	)
-	(wire
-		(pts
-			(xy 194.31 114.3) (xy 187.96 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512a1926-4a06-402f-a068-f918b5120d65")
-	)
-	(wire
-		(pts
 			(xy 130.81 105.41) (xy 133.35 105.41)
 		)
 		(stroke
@@ -10465,16 +9061,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 240.03) (xy 50.8 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c11dd90-dcb4-4876-bb45-2d9374c72705")
-	)
-	(wire
-		(pts
 			(xy 365.76 142.24) (xy 377.19 142.24)
 		)
 		(stroke
@@ -10482,16 +9068,6 @@
 			(type default)
 		)
 		(uuid "5dd510b9-b316-47e8-a397-94fe7ef68e6b")
-	)
-	(wire
-		(pts
-			(xy 100.33 123.19) (xy 91.44 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1eadac-dd45-4f51-812f-53c2599b4f03")
 	)
 	(bus
 		(pts
@@ -10502,16 +9078,6 @@
 			(type default)
 		)
 		(uuid "5e3bb42f-5134-47b8-9803-d2c341c46dad")
-	)
-	(wire
-		(pts
-			(xy 100.33 118.11) (xy 100.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6f45f5-9a5d-4778-b0a9-f3fbca5faef4")
 	)
 	(wire
 		(pts
@@ -10555,26 +9121,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.43) (xy 36.83 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624098d1-3c95-4f75-a290-bd0f5c2d2bf3")
-	)
-	(wire
-		(pts
-			(xy 35.56 184.15) (xy 35.56 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62aef7fd-f3a4-4031-88ad-d5b0701c9037")
-	)
-	(wire
-		(pts
 			(xy 389.89 144.78) (xy 401.32 144.78)
 		)
 		(stroke
@@ -10592,16 +9138,6 @@
 			(type default)
 		)
 		(uuid "6473ebd5-940f-4af8-aa62-29a94a6215ac")
-	)
-	(wire
-		(pts
-			(xy 60.96 176.53) (xy 60.96 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64974b2d-2d70-4da8-8292-9d6f0c48b82b")
 	)
 	(wire
 		(pts
@@ -10662,16 +9198,6 @@
 			(type default)
 		)
 		(uuid "67d45e03-208f-475f-a961-1678ba90ed4a")
-	)
-	(wire
-		(pts
-			(xy 34.29 241.3) (xy 34.29 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69531b9f-801f-4855-9b55-8d736a6d2f67")
 	)
 	(wire
 		(pts
@@ -10772,16 +9298,6 @@
 			(type default)
 		)
 		(uuid "6fa86cf1-e70f-4d38-bd33-881283774c9d")
-	)
-	(wire
-		(pts
-			(xy 33.02 240.03) (xy 34.29 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fe44530-3bed-454c-a283-0f0714fd5bea")
 	)
 	(wire
 		(pts
@@ -11055,16 +9571,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 163.83) (xy 83.82 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e1fc69-28ba-4883-935c-4279221720dd")
-	)
-	(wire
-		(pts
 			(xy 102.87 34.29) (xy 115.57 34.29)
 		)
 		(stroke
@@ -11142,16 +9648,6 @@
 			(type default)
 		)
 		(uuid "869a7f36-aab6-49f5-b3c4-92ab526b22a4")
-	)
-	(wire
-		(pts
-			(xy 25.4 240.03) (xy 20.32 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8713ba31-5c04-4404-88f7-6b8bc0290db4")
 	)
 	(wire
 		(pts
@@ -11353,16 +9849,6 @@
 		)
 		(uuid "9005698e-272f-4692-a695-ae7e320cb038")
 	)
-	(wire
-		(pts
-			(xy 83.82 168.91) (xy 92.71 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901955fb-5589-414e-b0cd-5dcd1b357228")
-	)
 	(bus
 		(pts
 			(xy 386.08 67.31) (xy 386.08 69.85)
@@ -11372,6 +9858,16 @@
 			(type default)
 		)
 		(uuid "9049441e-6eb2-4311-9138-11069bc3b680")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 194.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9069b2d8-842b-44da-bfdf-f8956a61a950")
 	)
 	(wire
 		(pts
@@ -11515,16 +10011,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 66.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a737061-a957-445c-9c40-c87544ffaf9a")
-	)
-	(wire
-		(pts
 			(xy 194.31 233.68) (xy 186.69 233.68)
 		)
 		(stroke
@@ -11595,16 +10081,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 168.91) (xy 35.56 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a06128e6-fd62-4da2-8516-2c5c77f25ebe")
-	)
-	(wire
-		(pts
 			(xy 365.76 157.48) (xy 377.19 157.48)
 		)
 		(stroke
@@ -11655,6 +10131,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f581a2-19f4-4d50-a02f-ac5f8a502ad6")
+	)
+	(wire
+		(pts
 			(xy 245.11 134.62) (xy 264.16 134.62)
 		)
 		(stroke
@@ -11675,16 +10161,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 31.75 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f33ff7-18cc-4293-8b05-f84a5bb2805d")
-	)
-	(wire
-		(pts
 			(xy 157.48 182.88) (xy 194.31 182.88)
 		)
 		(stroke
@@ -11692,6 +10168,16 @@
 			(type default)
 		)
 		(uuid "a5366220-08ea-4283-883a-6534180b4ef1")
+	)
+	(wire
+		(pts
+			(xy 46.99 143.51) (xy 57.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6948c29-1526-42ea-a950-5378d9f3adba")
 	)
 	(wire
 		(pts
@@ -11762,16 +10248,6 @@
 			(type default)
 		)
 		(uuid "ab4f70f2-31c7-48b7-a52d-ab2be14762c3")
-	)
-	(wire
-		(pts
-			(xy 34.29 214.63) (xy 50.8 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf37902-0e4f-4e44-811a-a9ef3e2023b8")
 	)
 	(wire
 		(pts
@@ -12023,26 +10499,6 @@
 		)
 		(uuid "ba260ad2-e31d-4ee5-aa9a-65b8dec79178")
 	)
-	(wire
-		(pts
-			(xy 30.48 161.29) (xy 35.56 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba71af9c-53b5-4ada-9e40-5ecb9e4cd899")
-	)
-	(wire
-		(pts
-			(xy 92.71 184.15) (xy 92.71 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6827df-fce8-4d9a-9644-51d70bacd52e")
-	)
 	(bus
 		(pts
 			(xy 153.67 195.58) (xy 154.94 195.58)
@@ -12135,16 +10591,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 90.17) (xy 40.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c26b933d-3e0d-47a6-ac64-fc1a907233ea")
-	)
-	(wire
-		(pts
 			(xy 377.19 121.92) (xy 369.57 121.92)
 		)
 		(stroke
@@ -12152,6 +10598,16 @@
 			(type default)
 		)
 		(uuid "c59bc630-742e-490e-942b-690193f148a2")
+	)
+	(bus
+		(pts
+			(xy 44.45 133.35) (xy 44.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b2d89a-d10b-49ea-a5cd-30c333be824c")
 	)
 	(bus
 		(pts
@@ -12202,16 +10658,6 @@
 			(type default)
 		)
 		(uuid "ca7d94dc-58f2-499e-a93e-60717bb1afcc")
-	)
-	(wire
-		(pts
-			(xy 40.64 90.17) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb0db1e0-cc55-4d2c-8436-0d4f8b287475")
 	)
 	(wire
 		(pts
@@ -12415,16 +10861,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 82.55) (xy 40.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d4a67f-bade-43f3-a175-57586f66282d")
-	)
-	(wire
-		(pts
 			(xy 365.76 152.4) (xy 377.19 152.4)
 		)
 		(stroke
@@ -12482,16 +10918,6 @@
 			(type default)
 		)
 		(uuid "dbaa6778-38bd-4064-b84c-2f0a9596829d")
-	)
-	(wire
-		(pts
-			(xy 33.02 214.63) (xy 34.29 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd54137-4d24-48d7-9318-59727f7fb28c")
 	)
 	(wire
 		(pts
@@ -12665,16 +11091,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 123.19) (xy 36.83 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fd5d53-ef5e-4ab5-ad5d-8245fdd69054")
-	)
-	(wire
-		(pts
 			(xy 389.89 101.6) (xy 397.51 101.6)
 		)
 		(stroke
@@ -12722,16 +11138,6 @@
 			(type default)
 		)
 		(uuid "e7272bc0-3f8f-4a05-a591-0da87d0a9a96")
-	)
-	(wire
-		(pts
-			(xy 22.86 118.11) (xy 22.86 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e781c02d-2414-4fa6-bd8b-aabf9ce7488c")
 	)
 	(wire
 		(pts
@@ -12842,6 +11248,16 @@
 			(type default)
 		)
 		(uuid "ee8dc03a-93ad-4b59-902b-c163a6113c19")
+	)
+	(wire
+		(pts
+			(xy 46.99 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe78d62-ddd2-42c2-862b-4bd518cf994c")
 	)
 	(wire
 		(pts
@@ -12985,16 +11401,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 163.83) (xy 69.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84da323-4ff7-4585-ac3c-bbea46f4cd44")
-	)
-	(wire
-		(pts
 			(xy 245.11 111.76) (xy 271.78 111.76)
 		)
 		(stroke
@@ -13045,6 +11451,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 132.08) (xy 57.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb83d5e9-2d04-446e-89c0-ff00ae514e36")
+	)
+	(wire
+		(pts
 			(xy 377.19 137.16) (xy 365.76 137.16)
 		)
 		(stroke
@@ -13052,26 +11468,6 @@
 			(type default)
 		)
 		(uuid "fbdda66a-e1bc-473e-94ae-4db8f12de1af")
-	)
-	(wire
-		(pts
-			(xy 20.32 163.83) (xy 20.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2f711a-b131-42b2-879c-4446e6f20502")
-	)
-	(wire
-		(pts
-			(xy 31.75 115.57) (xy 36.83 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc913169-aee2-4309-9671-95b25a9acc2d")
 	)
 	(wire
 		(pts
@@ -13222,16 +11618,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d69c457-f0d2-403b-94bf-103498be68e1")
-	)
-	(label "~{LED2}"
-		(at 60.96 181.61 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e173c50-0f13-408b-b481-7fb582c232c7")
 	)
 	(label "XCVR.~{SHDN}"
 		(at 246.38 127 0)
@@ -13593,16 +11979,6 @@
 		)
 		(uuid "3ecdd1d8-510f-46b4-a26c-5d05fd7db631")
 	)
-	(label "P2_8"
-		(at 20.32 240.03 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f31dcc6-b8ca-4148-af4e-728f3abd4a28")
-	)
 	(label "ISP"
 		(at 187.96 111.76 0)
 		(effects
@@ -13852,16 +12228,6 @@
 			(justify right bottom)
 		)
 		(uuid "5bb4fad2-d233-4671-8ae4-06b93c1337fc")
-	)
-	(label "~{LED4}"
-		(at 36.83 143.51 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d7ded46-a425-4de7-886c-595195961112")
 	)
 	(label "MIXER.~{RESET}"
 		(at 163.83 193.04 0)
@@ -14183,6 +12549,16 @@
 		)
 		(uuid "8edb23c1-2ab6-486d-926e-d2270c243ded")
 	)
+	(label "~{LED2}"
+		(at 49.53 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f7118d3-297a-4eed-be56-aeec5b555636")
+	)
 	(label "ADC0_3"
 		(at 252.73 218.44 180)
 		(effects
@@ -14273,6 +12649,16 @@
 		)
 		(uuid "9a798a1c-d630-4031-94f6-290f916ca38f")
 	)
+	(label "~{LED5}"
+		(at 49.53 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b1884d5-8e5b-4498-87a6-912ae3f1224a")
+	)
 	(label "GPIO3_12"
 		(at 369.57 111.76 0)
 		(effects
@@ -14313,6 +12699,16 @@
 		)
 		(uuid "9f8c0ed7-68f1-4323-a96b-7e05a89027e6")
 	)
+	(label "~{LED1}"
+		(at 49.53 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a022ee13-ade0-474c-85b7-8f51cc2390f4")
+	)
 	(label "P2_9"
 		(at 187.96 116.84 0)
 		(effects
@@ -14322,16 +12718,6 @@
 			(justify left bottom)
 		)
 		(uuid "a21ac650-483d-478c-8d34-41b6c89b6a0f")
-	)
-	(label "~{RESET}"
-		(at 20.32 214.63 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2e20624-3f6b-432a-a0d2-9c99e17ad5b3")
 	)
 	(label "WAKEUP"
 		(at 397.51 104.14 180)
@@ -14492,6 +12878,16 @@
 			(justify right bottom)
 		)
 		(uuid "b06cf1fd-8d4f-42d9-b2bc-10c9125033c0")
+	)
+	(label "~{LED3}"
+		(at 49.53 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b48f16da-d1fa-475a-8848-5a8929775b9d")
 	)
 	(label "GPIO3_14"
 		(at 186.69 248.92 0)
@@ -14662,16 +13058,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb6cbd0f-8c59-4884-a082-e96f4bace483")
-	)
-	(label "~{LED3}"
-		(at 92.71 189.23 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc1f5c02-dc1a-42f7-baa4-63b81cf94bcc")
 	)
 	(label "SD_DAT2"
 		(at 186.69 68.58 0)
@@ -15093,16 +13479,6 @@
 		)
 		(uuid "fa6ec0fc-10f2-4fd8-9acb-5ed01a7af48b")
 	)
-	(label "~{LED1}"
-		(at 35.56 189.23 90)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb29b19d-dece-4cab-9484-fd7030bbba25")
-	)
 	(label "P1_CTRL2"
 		(at 163.83 223.52 0)
 		(effects
@@ -15420,6 +13796,17 @@
 		)
 		(uuid "2de7df0a-1250-4b1c-95d5-d72e2f465320")
 	)
+	(hierarchical_label "~{LED[1..4]}"
+		(shape output)
+		(at 36.83 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "319d036a-36c2-45cb-be3d-59c6a2f55888")
+	)
 	(hierarchical_label "VIN"
 		(shape output)
 		(at 396.24 127 0)
@@ -15530,6 +13917,17 @@
 		)
 		(uuid "6ddf39f9-2627-4827-a91f-e4e3fed6a2be")
 	)
+	(hierarchical_label "~{RESET}"
+		(shape passive)
+		(at 254 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74114df3-da8b-446f-80d3-345a362af508")
+	)
 	(hierarchical_label "XCVR{MAX2831}"
 		(shape bidirectional)
 		(at 264.16 121.92 0)
@@ -15584,6 +13982,17 @@
 			(justify left)
 		)
 		(uuid "94ff3e15-e396-4a5a-8f89-7914e66b4aef")
+	)
+	(hierarchical_label "P2_8"
+		(shape passive)
+		(at 168.91 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95cf9c3a-fd46-47d0-b301-244c0526ad40")
 	)
 	(hierarchical_label "SCT_CLK"
 		(shape input)
@@ -15799,25 +14208,6 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 19.05 67.31) (xy 19.05 259.08) (xy 74.93 259.08) (xy 74.93 196.85) (xy 110.49 196.85) (xy 110.49 67.31)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "9667b611-8e96-47b8-aea7-67687018d458")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
 				(xy 294.64 16.51) (xy 359.41 16.51) (xy 359.41 62.23) (xy 308.61 62.23) (xy 294.64 48.26)
 			)
 			(stroke
@@ -15855,41 +14245,6 @@
 		(property "Component Class" "Microcontroller"
 			(at 284.48 98.4301 90)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 35.56 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "634c4d7c-5483-4ad4-848c-3c07eab5e263")
-		(property "Netclass" ""
-			(at 242.57 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" "LED_SW"
-			(at 36.1899 64.77 0)
-			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -16701,121 +15056,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "P20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00004f83c276")
-		(property "Reference" "D5"
-			(at 64.77 173.0374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 64.77 175.5774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "praline:LED_Single_Xinglight_XL-3210_Horizontal"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/90b8e96b4421088.pdf"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "LED ORANGE 1204 SMD,1.5X3.2MM"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210UOC"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11c13fa0-e0d5-43e2-b552-98ffa5e7d6fc")
-		)
-		(pin "2"
-			(uuid "34cd5beb-928a-43da-a021-56f44f08bafd")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18539,236 +16779,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000503c519a")
-		(property "Reference" "R72"
-			(at 38.1 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470"
-			(at 38.1 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 470 OHM 5% 1/20W 0201"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201JR-07470RL"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e4ff7cb-ea29-4623-b823-94d792bb7b90")
-		)
-		(pin "2"
-			(uuid "cb26b834-4a00-48d9-9092-acaea9770bf4")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000503c51a8")
-		(property "Reference" "R75"
-			(at 39.37 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 39.37 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d520ae99-91db-4c8f-8e63-b8c99a781534")
-		)
-		(pin "2"
-			(uuid "01ea3cdc-7470-4342-8e77-3d4b90edcd99")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 90.17 248.92 90)
 		(mirror x)
 		(unit 1)
@@ -19459,122 +17469,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 209.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000503f999f")
-		(property "Reference" "R49"
-			(at 31.75 208.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 31.75 210.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80e72735-cb54-47d6-aeb0-e3740389dd62")
-		)
-		(pin "2"
-			(uuid "be2bdd3c-6b68-41fd-8efc-20abf906d2e8")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 181.61 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -19683,121 +17577,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 34.29 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000504786e0")
-		(property "Reference" "R7"
-			(at 31.75 243.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 31.75 246.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 34.29 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acb897c6-f4a5-4949-afaf-5f8f2d72b322")
-		)
-		(pin "2"
-			(uuid "fc1e199c-4085-4645-a634-0e6a8e2e1334")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19913,216 +17692,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "C158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 55.88 240.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005248e27d")
-		(property "Reference" "SW1"
-			(at 55.88 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWITCH"
-			(at 55.88 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "praline:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 55.88 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
-			(at 55.88 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 55.88 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "FSMRA3JH"
-			(at 55.88 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47a9f272-1218-45c0-9109-3b4a8bebb72d")
-		)
-		(pin "2"
-			(uuid "8883c80c-6e5d-4d15-b6a4-857e62ffa0f6")
-		)
-		(pin "SH"
-			(uuid "b2de5079-c87d-46da-b310-9b316b0d2c29")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 55.88 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005248ff4f")
-		(property "Reference" "SW2"
-			(at 55.88 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWITCH"
-			(at 55.88 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "praline:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
-			(at 55.88 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 24V"
-			(at 55.88 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 55.88 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "FSMRA3JH"
-			(at 55.88 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c540eaf-91fa-4ee8-9b14-62e803173c69")
-		)
-		(pin "2"
-			(uuid "05d5ac90-50bd-4959-bce6-8bbc2b257cb0")
-		)
-		(pin "SH"
-			(uuid "0074660a-6f78-4331-913e-e22dd519f1bd")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -20398,348 +17967,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "P22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 91.44 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000527dc2e9")
-		(property "Reference" "D2"
-			(at 95.25 127.3174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 95.25 129.8574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "praline:LED_Single_Xinglight_XL-3210_Horizontal"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202212/7a7994c6a7a4fd8.pdf"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "LED GREEN 1204 SMD,1.5X3.2MM"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210UGC"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "701bea23-7205-4b0b-b3fd-abd532c4f235")
-		)
-		(pin "2"
-			(uuid "9392381c-df66-43be-873f-d27df333f340")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 214.63 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000527ef888")
-		(property "Reference" "R19"
-			(at 29.21 218.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 29.21 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 33 OHM 5% 1/20W 0201"
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201JR-0733RL"
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 29.21 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60b262de-7fa3-45bf-b399-ea7c4e253ef9")
-		)
-		(pin "2"
-			(uuid "ef1a64e5-f7f9-425b-b712-7ee8dcdd964e")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 240.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000527f0529")
-		(property "Reference" "R30"
-			(at 29.21 233.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 29.21 236.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 33 OHM 5% 1/20W 0201"
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201JR-0733RL"
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 29.21 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22a1acb9-69fc-4826-98cc-8f055659f56f")
-		)
-		(pin "2"
-			(uuid "0e332806-1119-4c28-8ba3-b5a93e38522c")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -21207,466 +18434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005298fba8")
-		(property "Reference" "R73"
-			(at 63.5 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k"
-			(at 63.5 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 3K OHM 5% 1/16W 0402"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0402JR-073KL"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a09feca8-5089-40fc-b165-71a10c42b240")
-		)
-		(pin "2"
-			(uuid "d58cbd64-d479-4a9c-a1b4-4c2c272794b1")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005298fc35")
-		(property "Reference" "R76"
-			(at 68.58 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 68.58 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201FR-074K7L"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e91ecd06-a6b8-4498-9e27-5971a16d3e4e")
-		)
-		(pin "2"
-			(uuid "e89d6948-2309-4743-a892-23eec6935048")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005299055b")
-		(property "Reference" "R74"
-			(at 95.25 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 95.25 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 4.7K OHM 1% 1/20W 0201"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201FR-074K7L"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29c296d1-74a6-43f8-9653-773671b3d5f6")
-		)
-		(pin "2"
-			(uuid "dd0840a1-dc73-4dd4-bb23-55cc0e5b007d")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000529905c9")
-		(property "Reference" "R18"
-			(at 93.98 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22.6k"
-			(at 93.98 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 22.6K OHM 1% 1/20W 0201"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201FR-0722K6L"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dda287ea-0b9a-4ead-8f0d-76545c4e9c2d")
-		)
-		(pin "2"
-			(uuid "aa5b9f23-b2f0-429a-af0b-bf198b9d6ae4")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 93.98 259.08 270)
 		(unit 1)
@@ -21895,236 +18662,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 27.94 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "036bec05-c9f1-481f-a596-1764a36cdd00")
-		(property "Reference" "C80"
-			(at 31.75 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 31.75 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97ced514-b683-46a9-af4c-6e8a1415e198")
-		)
-		(pin "2"
-			(uuid "8a774d95-9ba8-4735-8822-65f0739f9b89")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0954ef24-2a80-4466-a9e5-c74904694b08")
-		(property "Reference" "R50"
-			(at 29.21 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 29.21 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 10K OHM 1/16W 5% 0402 SMD"
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 31.75 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eccf5d71-3385-4667-b4d2-95d52db5f426")
-		)
-		(pin "2"
-			(uuid "cac05ae2-8264-498b-be2f-51b4e3c5824a")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -22451,84 +18988,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113adb7b-7073-46a1-a274-5db81350a012")
-		(property "Reference" "#PWR0103"
-			(at 91.44 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e971610-a45b-4797-afb0-3b60d1e9a60e")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 369.57 116.84 270)
 		(unit 1)
 		(body_style 1)
@@ -22601,84 +19060,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0296")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VAA")
-		(at 91.44 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2215fffe-911b-448e-ac23-c13af88f7508")
-		(property "Reference" "#PWR066"
-			(at 91.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VAA"
-			(at 91.44 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 91.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8692862d-2a05-4c60-a637-28f67eee977f")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -23232,84 +19613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:3V3LED")
-		(at 60.96 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47aa442a-d852-4bf9-91b8-78dc9c985720")
-		(property "Reference" "#PWR095"
-			(at 60.96 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 60.96 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 60.96 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bc7a6a2-031f-42f3-8283-2fa7e758a1b2")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 274.32 219.71 0)
 		(unit 1)
@@ -23622,84 +19925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 218.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a29f05-d5f2-44e9-b02b-994cbd1e99d7")
-		(property "Reference" "#PWR0301"
-			(at 55.88 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fa882c7-da9f-4da7-9a1f-7b675ec247ac")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 264.16 193.04 0)
 		(unit 1)
@@ -23772,84 +19997,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "praline:3V3LED")
-		(at 34.29 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a3ced6d-fd8a-4733-8a51-4ff1d4bebc05")
-		(property "Reference" "#PWR0329"
-			(at 34.29 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 34.29 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 34.29 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cecab650-2820-4dd0-a2e3-bfe2b7369ecc")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -25118,314 +21265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 91.44 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "773cbbf3-b281-4cdc-b9c5-ad8d629c9cc4")
-		(property "Reference" "C162"
-			(at 95.25 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 95.25 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74ec5d13-4251-4fc0-a39c-049228a40ec0")
-		)
-		(pin "2"
-			(uuid "99045acf-576b-4bf2-a63f-61e4245ce8c6")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "773ec433-71a5-489d-adcb-f6fd96247ae8")
-		(property "Reference" "C81"
-			(at 44.45 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 44.45 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 40.64 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a965a66-0494-42c7-807d-9e38c0ea9a90")
-		)
-		(pin "2"
-			(uuid "dce6e8ad-3eab-4ead-8dc7-239e36c4557c")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "praline:3V3LED")
-		(at 92.71 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "777675d2-bfb7-4324-b510-c01eb9407139")
-		(property "Reference" "#PWR0130"
-			(at 92.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 92.71 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 92.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00ea9bd5-dfa2-43a4-aacb-ad20d129baa0")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 115.57 0)
 		(unit 1)
@@ -25498,162 +21337,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0254")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 248.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7800c20f-4807-404c-84f5-2c50ed8f48c9")
-		(property "Reference" "#PWR0193"
-			(at 34.29 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "235f278f-9e7f-4a02-94ff-62833f19a41f")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78c4f435-00ee-43f8-899d-64e13c5da3d7")
-		(property "Reference" "#PWR0105"
-			(at 66.04 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0745b9c0-23bb-48bf-b1ad-a8d37dafb9b6")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -25897,84 +21580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:3V3FPGA")
-		(at 66.04 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8032d4f1-7a81-43a2-8376-96830aae8fdd")
-		(property "Reference" "#PWR061"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3FPGA"
-			(at 66.04 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 66.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18763502-d170-4733-a739-6a76510b8e83")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 346.71 21.59 0)
 		(unit 1)
@@ -26047,84 +21652,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 27.94 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83cb70bb-09bb-4ed4-8468-f8d063a61012")
-		(property "Reference" "#PWR041"
-			(at 27.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaacdc81-5d24-4211-9618-6ac2312c416a")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -26288,121 +21815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 165.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ea2636c-043f-43a8-9529-ae5eddc929cf")
-		(property "Reference" "R125"
-			(at 27.94 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12k"
-			(at 27.94 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "RES 12K OHM 1% 1/20W 0201"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "RC0201FR-0712KL"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "any equivalent"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e07e77bf-2c5d-4810-a93b-a60b4bfaa880")
-		)
-		(pin "2"
-			(uuid "1af16ea8-fb86-4155-93fc-642febbcbeb3")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "R125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "praline:3V3AUX")
 		(at 354.33 177.8 90)
 		(unit 1)
@@ -26476,84 +21888,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fdeb89b-3ccf-4695-abd2-8020fb116e9d")
-		(property "Reference" "#PWR0300"
-			(at 55.88 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5476040f-e997-4fe0-9628-f0b32d72fff0")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -26634,649 +21968,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "praline:3V3FPGA")
-		(at 78.74 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93c678b3-f065-4ad0-8b81-cbe3bd192493")
-		(property "Reference" "#PWR063"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3FPGA"
-			(at 78.74 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 78.74 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c94dfee6-143b-4d8d-9585-11b4c43952fc")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "praline:3V3LED")
-		(at 60.96 240.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94b12f1a-0c03-41d9-96fb-c5bb15fe2362")
-		(property "Reference" "#PWR0308"
-			(at 57.15 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 64.77 240.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 60.96 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b61be842-2f38-4c65-a285-cebe75d6499e")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 63.5 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96606c47-ee50-4f4b-94cf-2d7ec62c6431")
-		(property "Reference" "D8"
-			(at 57.15 129.4129 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 57.15 131.9529 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
-			(at 63.5 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
-			(at 63.5 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
-			(at 63.5 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 63.5 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210SURUBC"
-			(at 63.5 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "989aad13-3bad-4971-aacf-2657c02e1c9a")
-		)
-		(pin "4"
-			(uuid "5f2e756f-8393-4b81-b9ab-46dfbb6e97ee")
-		)
-		(pin "2"
-			(uuid "40db934f-b15d-49a4-92a2-e5d23d0a5653")
-		)
-		(pin "1"
-			(uuid "e81529ac-1092-4cda-9995-8625b647f799")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 33.02 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e765292-1a26-41b9-ad55-28a93f1874d0")
-		(property "Reference" "D4"
-			(at 26.67 175.1329 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 26.67 177.6729 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
-			(at 33.02 177.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/f7c44c9c37b981e.pdf"
-			(at 33.02 177.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RED,YLW-GRN 1204 SMD"
-			(at 33.02 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 33.02 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210SURSYGC"
-			(at 33.02 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8e7d7d1c-51e1-4dda-9476-7e6c914ba9ee")
-		)
-		(pin "4"
-			(uuid "7d385328-2500-4f92-b01e-ebc03a434e97")
-		)
-		(pin "2"
-			(uuid "9dda7015-b2a7-4f2c-abd7-8cb3f0743656")
-		)
-		(pin "1"
-			(uuid "601ad436-5da9-4a8b-bd48-d725d3ae609a")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a485e9cc-9d2a-4888-9396-64bfd3475fea")
-		(property "Reference" "#PWR0106"
-			(at 91.44 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "286c8ec2-9014-4498-af8c-3058f7d3f561")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 34.29 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8905a59-a762-4bf3-9cde-e32fad4879c7")
-		(property "Reference" "D7"
-			(at 27.94 129.4129 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 27.94 131.9529 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
-			(at 34.29 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
-			(at 34.29 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
-			(at 34.29 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 34.29 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210SURUBC"
-			(at 34.29 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "13e79df1-7055-457e-b4fb-12aa64567d78")
-		)
-		(pin "4"
-			(uuid "75c33fd5-9c00-4ed8-98aa-b57d7a91bec2")
-		)
-		(pin "2"
-			(uuid "4dc0e21b-c934-4d1f-a576-229150b18363")
-		)
-		(pin "1"
-			(uuid "51c1c2a6-8daf-4985-b310-69bfdfd134b8")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "praline:3V3LED")
-		(at 27.94 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b02eab03-3d78-4a26-ace7-e2d588537311")
-		(property "Reference" "#PWR0293"
-			(at 27.94 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 27.94 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 27.94 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30d89570-3e83-46e7-a6aa-9a794dd711ee")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -27709,84 +22400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:3V3LED")
-		(at 36.83 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf97654e-8da0-419a-a8ab-269437ab6c17")
-		(property "Reference" "#PWR0143"
-			(at 36.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 36.83 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 36.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14a91712-2270-4cfb-8839-d1c2da9a8dc1")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 238.76 90)
 		(unit 1)
@@ -27860,199 +22473,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c78cd54f-1be9-48bf-bc82-88dff2f0be26")
-		(property "Reference" "#PWR067"
-			(at 78.74 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcd9c409-6b20-4aef-9005-ac4ddabe3a35")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c97f7735-e871-48bf-ac7d-216b6b6d9d26")
-		(property "Reference" "C110"
-			(at 57.15 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 57.15 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed2b7b03-d204-4d47-80b4-05adf5a11fd5")
-		)
-		(pin "2"
-			(uuid "d1ef1eb9-4ed8-4969-9716-b851a1d20fca")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -28420,231 +22840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 95.25 176.53 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da0597b9-9fb2-415b-aa79-e37d728e617a")
-		(property "Reference" "D6"
-			(at 102.87 175.1329 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 102.87 177.6729 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "praline:LED_Dual_Xinglight_XL-3210_Horizontal"
-			(at 95.25 177.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.xinglight.cn/uploadfile/202405/d1f88933723f.pdf"
-			(at 95.25 177.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RED,BLUE 1204 SMD,1.5X3.2MM"
-			(at 95.25 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Xinglight"
-			(at 95.25 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "XL-3210SURUBC"
-			(at 95.25 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bd961d2e-97b8-44e8-988d-06be2e81d224")
-		)
-		(pin "4"
-			(uuid "2b906fdf-05b7-4af4-8331-a849489a0912")
-		)
-		(pin "2"
-			(uuid "4dfbaa9f-ccfa-4f99-98fb-5020e0c82e60")
-		)
-		(pin "1"
-			(uuid "b7950e08-470c-4a9b-a551-a48df3c6d1be")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df8a65e2-83a6-410f-98ce-dd9e1421059a")
-		(property "Reference" "C124"
-			(at 69.85 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 69.85 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 66.04 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba36f01e-b4f5-4ac6-a842-8c6f227387de")
-		)
-		(pin "2"
-			(uuid "a6d58237-3422-4521-86db-1dc22b27d953")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "praline:3V3AUX")
 		(at 369.57 104.14 90)
 		(unit 1)
@@ -28802,121 +22997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 78.74 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecaf865f-3b44-4a64-b91a-3ea2fe25f0b4")
-		(property "Reference" "C140"
-			(at 82.55 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
-			(at 82.55 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 25V X5R 0402"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Part Number" "CL05A105KA5NQNC"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Substitution" "Murata GRM155R61E105KA12D"
-			(at 78.74 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97c4decc-4efc-4e34-95df-0ddd0d80de73")
-		)
-		(pin "2"
-			(uuid "7105430e-cc80-4c5c-834b-2e74647867e9")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "C140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 208.28 27.94 0)
 		(unit 1)
@@ -28995,84 +23075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "praline:3V3LED")
-		(at 35.56 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f009ffee-d95c-449f-b435-18e07ad9a0d1")
-		(property "Reference" "#PWR032"
-			(at 35.56 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 35.56 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3LED\""
-			(at 35.56 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c2d9e38-1f24-4374-ad5b-1af0ac77eba6")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 259.08 0)
 		(unit 1)
@@ -29145,163 +23147,6 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
 					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 214.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f350f403-fe53-4218-bea9-2d249782b1b4")
-		(property "Reference" "#PWR0278"
-			(at 67.31 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 214.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5251446f-df16-405f-8f3e-1a13d2a5d851")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR0278")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VAA")
-		(at 91.44 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f374438f-29a7-4dc2-8f6e-aafd2d625fc5")
-		(property "Reference" "#PWR065"
-			(at 91.44 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VAA"
-			(at 91.44 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "067cd450-b21b-49ef-86cb-93b5b87d659c")
-		)
-		(instances
-			(project "q-radio"
-				(path "/dba4afc6-760f-46cb-a936-032b76448f03/00000000-0000-0000-0000-00005037043e"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)

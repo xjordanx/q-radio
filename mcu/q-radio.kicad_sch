@@ -746,6 +746,36 @@
 				(justify left)
 			)
 		)
+		(pin "~{LED[1..4]}" output
+			(at 226.06 83.82 0)
+			(uuid "5f7bec3a-a9ac-462b-9679-8ff1c2c6bc32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2_8" passive
+			(at 226.06 78.74 0)
+			(uuid "7438d441-40bd-4eb8-a42d-85aef67d6430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET}" passive
+			(at 226.06 81.28 0)
+			(uuid "81e58a68-aa9f-40dc-bf9d-7afd893d8f99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"

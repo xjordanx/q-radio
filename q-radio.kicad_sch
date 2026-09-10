@@ -252,6 +252,18 @@
 		)
 	)
 	(junction
+		(at 182.88 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00fdbe2b-00b1-4bb6-b29f-4c2821e4457f")
+	)
+	(junction
+		(at 228.6 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fb6dc70-e9ef-400f-a44a-a77de18b10b8")
+	)
+	(junction
 		(at 17.78 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -268,18 +280,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7599aad6-e7f0-4f54-a007-37d232676485")
-	)
-	(junction
-		(at 182.88 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "953fa6ab-75ad-422d-b6ad-f3e8ce067434")
-	)
-	(junction
-		(at 228.6 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc597dfe-5398-4b62-b316-c68fdf08b54d")
 	)
 	(wire
 		(pts
@@ -330,6 +330,16 @@
 			(type default)
 		)
 		(uuid "098b2c53-2610-42d5-a725-5602b74ebb13")
+	)
+	(bus
+		(pts
+			(xy 226.06 83.82) (xy 254 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bab46ef-681e-40f6-90ca-2b0c663e851a")
 	)
 	(wire
 		(pts
@@ -1053,6 +1063,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 81.28) (xy 254 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed564c7-4675-4e92-b823-de1ff362114b")
+	)
+	(wire
+		(pts
 			(xy 86.36 109.22) (xy 78.74 109.22)
 		)
 		(stroke
@@ -1520,6 +1540,16 @@
 			(type default)
 		)
 		(uuid "dfabee2b-744b-4e1d-869f-5078803f0754")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 254 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03a32b9-9f6e-46d3-a24e-7858f86c0e94")
 	)
 	(bus
 		(pts
@@ -3339,6 +3369,36 @@
 				(justify left)
 			)
 		)
+		(pin "P2_8" passive
+			(at 226.06 78.74 0)
+			(uuid "9e4045ca-b4c8-4944-9963-d3af1794e387")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{LED[1..4]}" output
+			(at 226.06 83.82 0)
+			(uuid "c24df9cf-b036-494f-8865-e4bc44be84c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET}" passive
+			(at 226.06 81.28 0)
+			(uuid "3aec2710-81ba-4bd6-bf48-8dc892819be0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
@@ -4225,6 +4285,82 @@
 			(project "q-radio"
 				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 76.2)
+		(size 17.78 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f90fe95-b466-4b0e-861d-7ca93cc3e20f")
+		(property "Sheetname" "LED and SW"
+			(at 254 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_SW.kicad_sch"
+			(at 254 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P2_8" passive
+			(at 254 78.74 180)
+			(uuid "60db9921-3a7f-41f1-aa17-7c679d5ca04b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" passive
+			(at 254 81.28 180)
+			(uuid "8060b3fd-6fcc-4a60-a73b-3b5ea8351be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LED[1..4]}" input
+			(at 254 83.82 180)
+			(uuid "248c0363-2d52-4504-8bab-48ef010d1885")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "q-radio"
+				(path "/dba4afc6-760f-46cb-a936-032b76448f03"
+					(page "13")
 				)
 			)
 		)

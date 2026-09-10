@@ -255,7 +255,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${VERSION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1375,13 +1375,66 @@
       {
         "filename": "q-radio.kicad_sch",
         "name": "q-radio",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "dba4afc6-760f-46cb-a936-032b76448f03"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D2,D4-8,#PWR32,#PWR41,#PWR61,#PWR63,#PWR65-67,#PWR95,#PWR103,#PWR105-106,#PWR130,#PWR143,#PWR193,#PWR278,#PWR293,#PWR300-301,#PWR308,#PWR329,C80-81,C110,C124,C140,C162,R7,R18-19,R30,R49-50,R72-76,R125,SW1-2",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "dba4afc6-760f-46cb-a936-032b76448f03",
+      "q-radio"
+    ],
+    [
+      "00000000-0000-0000-0000-00005037043e",
+      "Microcontroller"
+    ],
+    [
+      "00000000-0000-0000-0000-000050370666",
+      "IF Transceiver"
+    ],
+    [
+      "00000000-0000-0000-0000-0000503bb638",
+      "RF Front End"
+    ],
+    [
+      "e983c194-621e-40aa-896b-a14f1ba8c8f7",
+      "FPGA"
+    ],
+    [
+      "786d04ae-a477-4586-9df0-2e24f8eeece5",
+      "Mixer"
+    ],
+    [
+      "03930949-b2dd-4151-b892-cf65af2345ca",
+      "ADC, DAC"
+    ],
+    [
+      "82363729-914a-4be2-9abc-c6e1e42dff36",
+      "Clock Generator"
+    ],
+    [
+      "582bbebf-22b2-4cb5-8b91-2c73dca44d28",
+      "Power"
+    ],
+    [
+      "b52297f1-63c0-4931-9c57-b3b41fe2150b",
+      "Switch Control"
+    ],
+    [
+      "6d5f4e7f-ee82-4199-9ff1-858fb0dc14cc",
+      "USB"
+    ],
+    [
+      "ff1d794b-c145-4e84-b14d-8e74ee8b4d43",
+      "Image Reject Filters"
+    ],
+    [
+      "8f90fe95-b466-4b0e-861d-7ca93cc3e20f",
+      "LED and SW"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

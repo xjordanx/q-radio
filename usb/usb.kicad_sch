@@ -2421,22 +2421,16 @@
 		)
 	)
 	(junction
-		(at 123.19 102.87)
+		(at 120.65 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b78cf80-15bc-4d33-890d-25f118116dd2")
+		(uuid "0db9d3b0-5435-4bfa-a269-5daa11301d3f")
 	)
 	(junction
-		(at 153.67 118.11)
+		(at 153.67 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f03ac31-505b-4440-a73a-d566337dac5a")
-	)
-	(junction
-		(at 128.27 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32409d46-0407-45a1-82b0-c198f98670c5")
+		(uuid "26069279-6ac8-4c6c-a845-3636089c7a6e")
 	)
 	(junction
 		(at 105.41 123.19)
@@ -2445,16 +2439,16 @@
 		(uuid "4cd2d78b-51d6-40d5-a7db-5b1e6f3b71c4")
 	)
 	(junction
-		(at 120.65 97.79)
+		(at 153.67 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f1ac5a5-6996-4af1-8ccf-e28d8ec6163a")
+		(uuid "4f52736e-b0f8-48e3-b896-448caff9995f")
 	)
 	(junction
-		(at 128.27 102.87)
+		(at 156.21 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69d2af90-da5e-47cf-b639-32ad6250ab95")
+		(uuid "5b7c2d09-4dca-46f1-a13a-90d3a9379297")
 	)
 	(junction
 		(at 105.41 85.09)
@@ -2469,16 +2463,16 @@
 		(uuid "786ca620-bdfd-4636-8fcf-2aa38baa453c")
 	)
 	(junction
-		(at 153.67 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d65bf7e-9ac0-464c-a00d-0900ed8fbe42")
-	)
-	(junction
 		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97787bc1-c776-4f00-85ac-41b2bdbcc7ac")
+	)
+	(junction
+		(at 123.19 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98912f85-e5f5-4120-8339-fa3aa18d5cca")
 	)
 	(junction
 		(at 149.86 55.88)
@@ -2493,10 +2487,16 @@
 		(uuid "b8e719cd-5ca3-416b-89e7-df5cc5137baf")
 	)
 	(junction
-		(at 156.21 123.19)
+		(at 128.27 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4644c87-14c8-46e4-9386-ee5b9f8b5dfc")
+		(uuid "c9895ed5-5d52-4b4b-81b7-78de65fb4ab1")
+	)
+	(junction
+		(at 128.27 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d674b6ab-bf7f-4b5b-b427-c6e2ada67f0d")
 	)
 	(junction
 		(at 162.56 66.04)
@@ -2558,13 +2558,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 102.87) (xy 123.19 113.03)
+			(xy 123.19 97.79) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e9913e7-7a17-4291-970e-c06e8ea9223f")
+		(uuid "0dad07c6-9a7f-4bee-b7ae-a1f0f4a8edbd")
 	)
 	(wire
 		(pts
@@ -2598,6 +2598,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2294e583-963c-4a32-8a73-d0776919fc42")
+	)
+	(wire
+		(pts
 			(xy 128.27 102.87) (xy 128.27 107.95)
 		)
 		(stroke
@@ -2625,6 +2635,16 @@
 			(type default)
 		)
 		(uuid "4229f3da-77e0-41fc-a31c-1fbb4b32ab1b")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2ddf99-d500-465e-a6e7-b589650255bd")
 	)
 	(wire
 		(pts
@@ -2698,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 123.19 102.87)
+			(xy 123.19 66.04) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2728,17 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 120.65 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a8190f5-9124-4421-8c12-6997e67ca1db")
-	)
-	(wire
-		(pts
-			(xy 120.65 97.79) (xy 120.65 110.49)
+			(xy 120.65 55.88) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2878,23 +2888,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 128.27 97.79)
+			(xy 120.65 102.87) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d19ecbe1-171f-45b1-95d5-3c1b32a811b9")
-	)
-	(wire
-		(pts
-			(xy 123.19 102.87) (xy 128.27 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d25d82c7-d999-4f68-a146-8f59cf2220a5")
+		(uuid "d69e90de-77e2-4991-a661-3d1330f25d62")
 	)
 	(wire
 		(pts
@@ -4203,8 +4203,7 @@
 	)
 	(symbol
 		(lib_id "Device:Filter_EMI_CommonMode")
-		(at 166.37 120.65 0)
-		(mirror y)
+		(at 166.37 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4214,7 +4213,7 @@
 		(dnp no)
 		(uuid "a62cf276-2cc7-46f5-9039-05ec33e02935")
 		(property "Reference" "FL1"
-			(at 166.37 115.57 0)
+			(at 165.608 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4224,7 +4223,7 @@
 			)
 		)
 		(property "Value" "CommonModeChoke"
-			(at 166.37 125.73 0)
+			(at 167.132 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4234,7 +4233,7 @@
 			)
 		)
 		(property "Footprint" "praline:L_CommonModeChoke_Murata_DLM0NS"
-			(at 166.37 119.634 0)
+			(at 166.37 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/en-global/products/productdata/8799424610334/EFLD0009.pdf"
-			(at 166.37 119.634 0)
+			(at 166.37 121.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

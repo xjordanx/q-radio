@@ -74,6 +74,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.25,
+          "width": 0.2
+        },
+        {
+          "gap": 0.133,
+          "via_gap": 0.133,
+          "width": 0.314
         }
       ],
       "drc_exclusions": [],
@@ -523,65 +533,75 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.3217,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "diff100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.133,
+        "diff_pair_width": 0.321,
+        "name": "diff85",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "diff90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       }
     ],
@@ -944,19 +964,19 @@
         "pattern": "Net-(U9-RF3)"
       },
       {
-        "netclass": "diff90",
+        "netclass": "diff85",
         "pattern": "/USB/D+"
       },
       {
-        "netclass": "diff90",
+        "netclass": "diff85",
         "pattern": "/USB/D-"
       },
       {
-        "netclass": "diff90",
+        "netclass": "diff85",
         "pattern": "/Microcontroller/USB_DATA.D+"
       },
       {
-        "netclass": "diff90",
+        "netclass": "diff85",
         "pattern": "/Microcontroller/USB_DATA.D-"
       },
       {

@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -160,10 +160,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2032,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.4064,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -212,7 +212,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.218719,
+        0.233832,
+        0.376885
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -523,35 +526,44 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.13335,
+        "diff_pair_width": 0.218719,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.13335,
+        "diff_pair_gap": 0.13335,
+        "diff_pair_width": 0.218719,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -559,17 +571,16 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.13335,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -580,8 +591,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       }
     ],
@@ -851,88 +862,28 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/AA_BYPASS_I+"
+        "netclass": "diff100",
+        "pattern": "*+"
       },
       {
         "netclass": "RF",
-        "pattern": "/ADC, DAC/AA_BYPASS_I-"
+        "pattern": "*+)"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "*-"
       },
       {
         "netclass": "RF",
-        "pattern": "/ADC, DAC/AA_BYPASS_Q+"
+        "pattern": "*-)"
       },
       {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/AA_BYPASS_Q-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/IA+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/IA-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/ID+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/ID-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/QA+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/QA-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/QD+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/QD-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/RXBB.I+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/RXBB.I-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/RXBB.Q+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/RXBB.Q-"
+        "netclass": "Power",
+        "pattern": "*V*"
       },
       {
         "netclass": "RF",
         "pattern": "/ADC, DAC/RXBB{IQ}"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/TXBB.I+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/TXBB.I-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/TXBB.Q+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/ADC, DAC/TXBB.Q-"
       },
       {
         "netclass": "RF",
@@ -956,22 +907,6 @@
       },
       {
         "netclass": "RF",
-        "pattern": "/IF Transceiver/RXIF+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/RXIF-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/RXIF_BALUN+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/RXIF_BALUN-"
-      },
-      {
-        "netclass": "RF",
         "pattern": "/IF Transceiver/RX_MIX_OUT"
       },
       {
@@ -981,22 +916,6 @@
       {
         "netclass": "RF",
         "pattern": "/IF Transceiver/TXIF"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/TXIF+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/TXIF-"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/TXIF_BALUN+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/IF Transceiver/TXIF_BALUN-"
       },
       {
         "netclass": "RF",
@@ -1015,28 +934,20 @@
         "pattern": "/Image Reject Filters/TX_MIX_OUT"
       },
       {
+        "netclass": "diff90",
+        "pattern": "/Microcontroller/USB_DATA.D+"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "/Microcontroller/USB_DATA.D-"
+      },
+      {
         "netclass": "RF",
         "pattern": "/Mixer/MIX_IN"
       },
       {
         "netclass": "RF",
-        "pattern": "/Mixer/MIX_IN+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/Mixer/MIX_IN-"
-      },
-      {
-        "netclass": "RF",
         "pattern": "/Mixer/MIX_OUT"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/Mixer/MIX_OUT+"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/Mixer/MIX_OUT-"
       },
       {
         "netclass": "RF",
@@ -1057,6 +968,18 @@
       {
         "netclass": "RF",
         "pattern": "/RF Front End/TX_AMP_OUT"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "/USB/D+"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "/USB/D-"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       },
       {
         "netclass": "RF",
@@ -1128,30 +1051,6 @@
       },
       {
         "netclass": "RF",
-        "pattern": "Net-(U3-D1+)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U3-D1-)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U34-D2+)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U34-D2-)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U35-D1+)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U35-D1-)"
-      },
-      {
-        "netclass": "RF",
         "pattern": "Net-(U38-RFIN)"
       },
       {
@@ -1188,51 +1087,11 @@
       },
       {
         "netclass": "RF",
-        "pattern": "Net-(U8-D2+)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U8-D2-)"
-      },
-      {
-        "netclass": "RF",
         "pattern": "Net-(U9-RF1)"
       },
       {
         "netclass": "RF",
         "pattern": "Net-(U9-RF3)"
-      },
-      {
-        "netclass": "diff90",
-        "pattern": "/USB/D+"
-      },
-      {
-        "netclass": "diff90",
-        "pattern": "/USB/D-"
-      },
-      {
-        "netclass": "diff90",
-        "pattern": "/Microcontroller/USB_DATA.D+"
-      },
-      {
-        "netclass": "diff90",
-        "pattern": "/Microcontroller/USB_DATA.D-"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "/Mixer/MIX_IN+"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "/Mixer/MIX_IN-"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "/Mixer/MIX_OUT+"
-      },
-      {
-        "netclass": "diff100",
-        "pattern": "/Mixer/MIX_OUT-"
       }
     ]
   },

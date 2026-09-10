@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -160,10 +160,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2032,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.4064,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -531,7 +531,6 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -540,7 +539,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.377273,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
@@ -549,9 +548,8 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.13335,
+        "diff_pair_width": 0.218941,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -569,7 +567,6 @@
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -782,7 +779,13 @@
       "Net-(L24-Pad1)": [
         "RF"
       ],
+      "Net-(T1-S2)": [
+        "RF"
+      ],
       "Net-(T2-S1)": [
+        "RF"
+      ],
+      "Net-(T2-S2)": [
         "RF"
       ],
       "Net-(U1-RF3)": [
@@ -840,6 +843,9 @@
         "RF"
       ],
       "Net-(U40-RFOUT)": [
+        "RF"
+      ],
+      "Net-(U5-RF1)": [
         "RF"
       ],
       "Net-(U8-D2+)": [
@@ -1239,6 +1245,10 @@
       {
         "netclass": "diff100",
         "pattern": "/Mixer/MIX_OUT-"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U5-RF1)"
       }
     ]
   },

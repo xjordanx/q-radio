@@ -14009,6 +14009,46 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 77.47 199.39) (xy 157.48 199.39) (xy 157.48 220.98) (xy 124.46 220.98) (xy 124.46 243.84) (xy 105.41 243.84)
+				(xy 105.41 264.16) (xy 77.47 264.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "3088c464-aaed-427d-a136-02d58723ba5a")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 337.82 118.11) (xy 292.1 118.11) (xy 292.1 132.08) (xy 270.51 132.08) (xy 265.43 137.16) (xy 265.43 189.23)
+				(xy 336.55 189.23) (xy 337.82 162.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "58621c44-1a74-4025-9927-65f3342ced2f")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 294.64 16.51) (xy 359.41 16.51) (xy 359.41 62.23) (xy 308.61 62.23) (xy 294.64 48.26)
 			)
 			(stroke
@@ -14019,6 +14059,76 @@
 				(type none)
 			)
 			(uuid "b91a8c08-aa42-4725-96f9-325af367eb38")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f2e43d1-90c7-47f2-a028-60da352f608a")
+		(property "Netclass" ""
+			(at 204.47 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "JUMPERS"
+			(at 84.5185 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 328.93 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31f3dd3d-2a76-4641-a1a4-14529c5ceaad")
+		(property "Netclass" ""
+			(at 105.41 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "JTAG"
+			(at 329.6285 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
 		)
 	)
 	(netclass_flag ""

@@ -6710,6 +6710,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 318.77 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "41"
 			(uuid "3c6dbd81-8958-47db-99a7-ecf821220563")
 		)
@@ -9625,6 +9635,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 205.74 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "41"
 			(uuid "3c6dbd81-8958-47db-99a7-ecf821220564")
 		)
@@ -11060,6 +11080,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 201.93 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "41"
 			(uuid "3c6dbd81-8958-47db-99a7-ecf821220565")
 		)
@@ -11697,6 +11727,16 @@
 		(property "Part Number" "ICE40UP5K-SG48ITR"
 			(at 201.93 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 201.93 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

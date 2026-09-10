@@ -6673,6 +6673,16 @@
 		)
 		(uuid "fef45f19-af12-4250-a4f6-1d33a4800895")
 	)
+	(label "VRM_IN"
+		(at 92.71 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13714bb3-e537-42b6-88af-b3bc5f0a10f3")
+	)
 	(label "VBUS"
 		(at 46.99 185.42 90)
 		(effects
@@ -6682,6 +6692,26 @@
 			(justify left bottom)
 		)
 		(uuid "2261a970-165f-472b-b9c5-f57a07d29b19")
+	)
+	(label "VSW_2"
+		(at 166.37 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80589af4-6e81-42d8-b9bc-45bd880d520a")
+	)
+	(label "VSW_1"
+		(at 166.37 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6b2f6d-47b5-49e7-9307-84b12a03f83f")
 	)
 	(label "VIN"
 		(at 39.37 189.23 90)
@@ -6899,6 +6929,26 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 224.79 152.4) (xy 226.06 151.13) (xy 226.06 128.27) (xy 229.87 124.46) (xy 280.67 124.46) (xy 280.67 161.29)
+				(xy 166.37 161.29) (xy 166.37 191.77) (xy 87.63 191.77) (xy 87.63 167.64) (xy 96.52 167.64) (xy 96.52 152.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "6edaf538-e8a9-495e-bb13-f036dd982cab")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 196.85 17.78) (xy 196.85 93.98) (xy 171.45 119.38) (xy 171.45 142.24) (xy 215.9 142.24) (xy 219.71 138.43)
 				(xy 219.71 125.73) (xy 223.52 121.92) (xy 280.67 121.92) (xy 280.67 17.78)
 			)
@@ -6954,6 +7004,41 @@
 		)
 		(property "Component Class" "VCC_AUX"
 			(at 79.3699 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47310941-f752-4d04-87d5-c3a2e82542a4")
+		(property "Netclass" ""
+			(at 82.55 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "VCC_RF"
+			(at 112.4585 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

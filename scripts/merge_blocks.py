@@ -29,7 +29,7 @@ REPORT = []
 
 def log(msg):
     REPORT.append(msg)
-    print(msg)
+    print(msg, flush=True)
 
 # ---------------------------------------------------------------- meta phase
 def phase_meta():
@@ -114,16 +114,31 @@ def phase_board(out_path):
     if multi:
         log("refs in multiple blocks -- MASTER placement kept: %s" % ", ".join(sorted(multi)))
 
+    net_cache = {}
     def master_net(name):
+        name = str(name)
+        if name in net_cache:
+            return net_cache[name]
         net = master.FindNet(name)
-        if net is None or net.GetNetCode() == 0 and name:
-            existing = master.FindNet(name)
-            if existing:
-                return existing
+        if net is not None and (net.GetNetCode() != 0 or not name):
+            net_cache[name] = net
+            return net
+        # Block projects name hierarchical nets by THEIR sheet; the master
+        # may know the same net under another sheet's prefix. Match by the
+        # leaf label when that is unambiguous.
+        leaf = name.rsplit("/", 1)[-1]
+        cands = [str(n) for n in master.GetNetsByName().keys()
+                 if str(n) and str(n).rsplit("/", 1)[-1] == leaf]
+        if len(cands) == 1:
+            net = master.FindNet(cands[0])
+            log("net MAPPED by label: %s -> %s" % (name, cands[0]))
+        else:
             ni = pcbnew.NETINFO_ITEM(master, name)
             master.Add(ni)
-            log("net CREATED in master: %s" % name)
-            return master.FindNet(name)
+            net = master.FindNet(name)
+            log("net CREATED in master (no unique match%s): %s"
+                % (", candidates: " + ", ".join(cands) if cands else "", name))
+        net_cache[name] = net
         return net
 
     totals = {"moved": 0, "tracks": 0, "arcs": 0, "vias": 0, "zones": 0,
@@ -158,11 +173,15 @@ def phase_board(out_path):
             net = master_net(t.GetNetname())
             if cls == "PCB_VIA":
                 item = pcbnew.PCB_VIA(master)
-                item.SetPosition(t.GetPosition())
-                item.SetWidth(t.GetWidth())
-                item.SetDrill(t.GetDrill())
                 item.SetViaType(t.GetViaType())
                 item.SetLayerPair(t.TopLayer(), t.BottomLayer())
+                # KiCad 10: via geometry is a per-layer padstack; copy it whole.
+                try:
+                    item.SetPadstack(t.Padstack())
+                except AttributeError:
+                    item.SetWidth(t.GetWidth(pcbnew.F_Cu))
+                    item.SetDrill(t.GetDrill())
+                item.SetPosition(t.GetPosition())
                 nv += 1
             elif cls == "PCB_ARC":
                 item = pcbnew.PCB_ARC(master)
@@ -190,7 +209,12 @@ def phase_board(out_path):
             if znames and znames <= SKIP_ZONE_LAYERS:
                 totals["zones_skipped_gnd"] += 1
                 continue
-            dz = z.Duplicate()
+            try:
+                dz = z.Duplicate(False)   # KiCad 10: addToParentGroup
+            except TypeError:
+                dz = z.Duplicate()
+            if hasattr(dz, "Cast"):
+                dz = dz.Cast()            # generic BOARD_ITEM -> ZONE
             master.Add(dz)
             dz.SetNet(master_net(z.GetNetname()))
             nz += 1

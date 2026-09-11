@@ -12,8 +12,13 @@
 #           - apply block footprint placements to master footprints (by ref);
 #             refs claimed by >1 block keep MASTER position (reported)
 #           - import tracks / arcs / vias with nets remapped by name
-#           - import copper zones (fills retained); skip rule areas; skip
-#             any zone confined to In1.GND.Cu / In4.GND.Cu
+#           - import copper zones (fills retained); skip any zone confined
+#             to In1.GND.Cu / In4.GND.Cu
+#           - block RULE AREAS replace the master's (KEEP_MASTER_RULE_AREAS
+#             are the only master ones retained)
+#           - blocks listed in ANCHORS are translated so the anchor ref lands
+#             on its master position (for blocks routed in a shifted frame)
+#           - cross-block footprint overlap check before saving
 #           - never import Edge.Cuts, graphics, text, dimensions, groups
 #           Master file is only written via --out (point it at a scratch
 #           path to test, at q-radio.kicad_pcb for the real run).
@@ -25,6 +30,11 @@ BLOCKS = ["adc-dac", "clock", "fpga", "frontend", "if-transceiver",
 MASTER_PCB = "q-radio.kicad_pcb"
 MASTER_PRO = "q-radio.kicad_pro"
 SKIP_ZONE_LAYERS = {"In1.GND.Cu", "In4.GND.Cu"}
+# Blocks whose candidate frame is shifted relative to the master: translate
+# the whole block so this reference lands exactly on its master position.
+ANCHORS = {"usb": "J1"}
+# Block rule areas OVERRIDE the master's; master keeps only these (no block owns them).
+KEEP_MASTER_RULE_AREAS = {"LED_SW", "legend"}
 REPORT = []
 
 def log(msg):
@@ -142,7 +152,12 @@ def phase_board(out_path):
         return net
 
     totals = {"moved": 0, "tracks": 0, "arcs": 0, "vias": 0, "zones": 0,
-              "zones_skipped_rule": 0, "zones_skipped_gnd": 0, "missing_ref": []}
+              "rule_areas_imported": 0, "zones_skipped_gnd": 0, "missing_ref": []}
+    block_refs = {}
+    # master rule areas to drop are collected now, removed just before save
+    # (removing zones mid-run destabilises subsequent LoadBoard calls).
+    master_rule_areas_to_drop = [z for z in master.Zones()
+                                 if z.GetIsRuleArea() and str(z.GetZoneName()) not in KEEP_MASTER_RULE_AREAS]
     for b in BLOCKS:
         bp = os.path.join(b, "q-radio.kicad_pcb")
         blk = pcbnew.LoadBoard(bp)
@@ -150,6 +165,17 @@ def phase_board(out_path):
         if blk_layers != master_layers:
             log("ERROR: %s layer table differs from master -- block SKIPPED" % b)
             continue
+        # translation for shifted block frames (anchor ref -> master position)
+        delta = pcbnew.VECTOR2I(0, 0)
+        if b in ANCHORS:
+            afp = blk.FindFootprintByReference(ANCHORS[b])
+            amf = master.FindFootprintByReference(ANCHORS[b])
+            if afp and amf:
+                delta = amf.GetPosition() - afp.GetPosition()
+                log("%s: translating block by (%.3f, %.3f) mm, anchored on %s"
+                    % (b, pcbnew.ToMM(delta.x), pcbnew.ToMM(delta.y), ANCHORS[b]))
+            else:
+                log("WARNING: %s anchor %s not found; no translation applied" % (b, ANCHORS[b]))
         moved = 0
         for fp in blk.GetFootprints():
             ref = fp.GetReferenceAsString()
@@ -164,8 +190,9 @@ def phase_board(out_path):
                     mfp.Flip(mfp.GetPosition(), pcbnew.FLIP_DIRECTION_LEFT_RIGHT)
                 except (TypeError, AttributeError):
                     mfp.Flip(mfp.GetPosition(), True)
-            mfp.SetPosition(fp.GetPosition())
+            mfp.SetPosition(fp.GetPosition() + delta)
             mfp.SetOrientation(fp.GetOrientation())
+            block_refs.setdefault(b, []).append(ref)
             moved += 1
         nt = na = nv = 0
         for t in blk.GetTracks():
@@ -181,44 +208,49 @@ def phase_board(out_path):
                 except AttributeError:
                     item.SetWidth(t.GetWidth(pcbnew.F_Cu))
                     item.SetDrill(t.GetDrill())
-                item.SetPosition(t.GetPosition())
+                item.SetPosition(t.GetPosition() + delta)
                 nv += 1
             elif cls == "PCB_ARC":
                 item = pcbnew.PCB_ARC(master)
-                item.SetStart(t.GetStart())
-                item.SetMid(t.GetMid())
-                item.SetEnd(t.GetEnd())
+                item.SetStart(t.GetStart() + delta)
+                item.SetMid(t.GetMid() + delta)
+                item.SetEnd(t.GetEnd() + delta)
                 item.SetWidth(t.GetWidth())
                 item.SetLayer(t.GetLayer())
                 na += 1
             else:
                 item = pcbnew.PCB_TRACK(master)
-                item.SetStart(t.GetStart())
-                item.SetEnd(t.GetEnd())
+                item.SetStart(t.GetStart() + delta)
+                item.SetEnd(t.GetEnd() + delta)
                 item.SetWidth(t.GetWidth())
                 item.SetLayer(t.GetLayer())
                 nt += 1
             item.SetNet(net)
             master.Add(item)
-        nz = 0
+        nz = nra = 0
         for z in blk.Zones():
-            if z.GetIsRuleArea():
-                totals["zones_skipped_rule"] += 1
-                continue
-            znames = layer_names(blk, z.GetLayerSet())
-            if znames and znames <= SKIP_ZONE_LAYERS:
-                totals["zones_skipped_gnd"] += 1
-                continue
+            is_rule = z.GetIsRuleArea()
+            if not is_rule:
+                znames = layer_names(blk, z.GetLayerSet())
+                if znames and znames <= SKIP_ZONE_LAYERS:
+                    totals["zones_skipped_gnd"] += 1
+                    continue
             try:
                 dz = z.Duplicate(False)   # KiCad 10: addToParentGroup
             except TypeError:
                 dz = z.Duplicate()
             if hasattr(dz, "Cast"):
                 dz = dz.Cast()            # generic BOARD_ITEM -> ZONE
+            if delta.x or delta.y:
+                dz.Move(delta)
             master.Add(dz)
-            dz.SetNet(master_net(z.GetNetname()))
-            nz += 1
-        log("%-15s moved:%d tracks:%d arcs:%d vias:%d zones:%d" % (b, moved, nt, na, nv, nz))
+            if is_rule:
+                nra += 1
+                totals["rule_areas_imported"] += 1
+            else:
+                dz.SetNet(master_net(z.GetNetname()))
+                nz += 1
+        log("%-15s moved:%d tracks:%d arcs:%d vias:%d zones:%d rule-areas:%d" % (b, moved, nt, na, nv, nz, nra))
         totals["moved"] += moved
         totals["tracks"] += nt
         totals["arcs"] += na
@@ -227,8 +259,36 @@ def phase_board(out_path):
     if totals["missing_ref"]:
         log("refs NOT found in master (skipped): %s" % ", ".join(totals["missing_ref"]))
     log("TOTALS: %s" % {k: v for k, v in totals.items() if k != "missing_ref"})
+    # Sanity check: footprints of different blocks must not overlap.
+    boxes = {}
+    for b, refs in block_refs.items():
+        for r in refs:
+            f = master.FindFootprintByReference(r)
+            if f:
+                boxes[r] = (b, f.GetBoundingBox())
+    pairs = {}
+    names = list(boxes)
+    for i in range(len(names)):
+        bi, boxi = boxes[names[i]]
+        for j in range(i + 1, len(names)):
+            bj, boxj = boxes[names[j]]
+            if bi != bj and boxi.Intersects(boxj):
+                pairs.setdefault(tuple(sorted((bi, bj))), []).append("%s/%s" % (names[i], names[j]))
+    if pairs:
+        for k, v in sorted(pairs.items()):
+            log("CROSS-BLOCK OVERLAP %s <> %s: %d footprint pairs, e.g. %s" % (k[0], k[1], len(v), ", ".join(v[:6])))
+    else:
+        log("cross-block footprint overlap check: none")
+    # Block rule areas override the master's: drop master's except the keep-list.
+    dropped = []
+    for z in master_rule_areas_to_drop:
+        dropped.append(str(z.GetZoneName()) or "(unnamed)")
+        master.Remove(z)
+    log("master rule areas REMOVED (%d): %s" % (len(dropped), ", ".join(dropped)))
+    log("master rule areas KEPT: %s" % ", ".join(sorted(KEEP_MASTER_RULE_AREAS)))
     pcbnew.SaveBoard(out_path, master)
     log("saved merged board: %s" % out_path)
+    del master_rule_areas_to_drop
 
 # ---------------------------------------------------------------------- main
 if __name__ == "__main__":

@@ -1,14 +1,14 @@
 ## Phase: board merge (pcbnew 10.0.5)
 refs in multiple blocks -- MASTER placement kept: FID1, FID2, FID3
-adc-dac         moved:49 tracks:397 arcs:0 vias:56 zones:5
-clock           moved:36 tracks:371 arcs:0 vias:54 zones:7
-fpga            moved:31 tracks:283 arcs:0 vias:41 zones:12
+adc-dac         moved:49 tracks:397 arcs:0 vias:56 zones:5 rule-areas:1
+clock           moved:36 tracks:371 arcs:0 vias:54 zones:7 rule-areas:1
+fpga            moved:31 tracks:283 arcs:0 vias:41 zones:12 rule-areas:1
 net MAPPED by label: /RF Front End/~{BIAS_EN} -> /Microcontroller/~{BIAS_EN}
 net MAPPED by label: /RF Front End/RX_EN -> /IF Transceiver/RX_EN
-frontend        moved:69 tracks:469 arcs:0 vias:64 zones:8
+frontend        moved:69 tracks:469 arcs:0 vias:64 zones:8 rule-areas:2
 net MAPPED by label: /IF Transceiver/XCVR_CLK -> /Clock Generator/XCVR_CLK
-if-transceiver  moved:39 tracks:312 arcs:0 vias:54 zones:6
-image-reject    moved:21 tracks:124 arcs:0 vias:14 zones:1
+if-transceiver  moved:39 tracks:312 arcs:0 vias:54 zones:6 rule-areas:1
+image-reject    moved:21 tracks:124 arcs:0 vias:14 zones:1 rule-areas:1
 net MAPPED by label: /Microcontroller/TRIGGER.OUT -> /Clock Generator/TRIGGER.OUT
 net MAPPED by label: /Microcontroller/TRIGGER.IN -> /Clock Generator/TRIGGER.IN
 net MAPPED by label: /Microcontroller/XCVR.RSSI -> /IF Transceiver/XCVR.RSSI
@@ -43,7 +43,7 @@ net MAPPED by label: /Microcontroller/SGPIO12 -> /FPGA/SGPIO12
 net MAPPED by label: /Microcontroller/SGPIO9 -> /FPGA/SGPIO9
 net MAPPED by label: /Microcontroller/SGPIO2 -> /FPGA/SGPIO2
 net MAPPED by label: /Microcontroller/XCVR.RXHP -> /IF Transceiver/XCVR.RXHP
-mcu             moved:45 tracks:1418 arcs:0 vias:176 zones:4
+mcu             moved:45 tracks:1418 arcs:0 vias:176 zones:4 rule-areas:3
 net MAPPED by label: /Mixer/RX_EN -> /IF Transceiver/RX_EN
 net MAPPED by label: /Mixer/MIXER.~{RESET} -> /Microcontroller/MIXER.~{RESET}
 net MAPPED by label: /Mixer/MIXER.~{EN} -> /Microcontroller/MIXER.~{EN}
@@ -51,7 +51,7 @@ net MAPPED by label: /Mixer/MIXER.SCLK -> /Microcontroller/MIXER.SCLK
 net MAPPED by label: /Mixer/MIXER.SDATA -> /Microcontroller/MIXER.SDATA
 net MAPPED by label: /Mixer/MIXER.ENBL -> /Microcontroller/MIXER.ENBL
 net MAPPED by label: /Mixer/MIX_CLK -> /Clock Generator/MIX_CLK
-mixer           moved:77 tracks:474 arcs:0 vias:48 zones:4
+mixer           moved:77 tracks:474 arcs:0 vias:48 zones:4 rule-areas:1
 net CREATED in master (no unique match): /Power/VRM_IN
 net MAPPED by label: /Power/MODE -> /Microcontroller/MODE
 net MAPPED by label: /Power/1V2_EN -> /Microcontroller/1V2_EN
@@ -59,14 +59,27 @@ net MAPPED by label: /Power/VBUS_SAFE -> /Microcontroller/VBUS_SAFE
 net MAPPED by label: /Power/~{3V3AUX_EN} -> /Microcontroller/~{3V3AUX_EN}
 net CREATED in master (no unique match): /Power/VSW_1
 net CREATED in master (no unique match): /Power/VSW_2
-power           moved:81 tracks:306 arcs:0 vias:93 zones:26
+power           moved:81 tracks:306 arcs:0 vias:93 zones:26 rule-areas:7
 net MAPPED by label: /Switch Control/RX_EN -> /IF Transceiver/RX_EN
 net MAPPED by label: /Switch Control/MIX_EN -> /Image Reject Filters/MIX_EN
 net MAPPED by label: /Switch Control/TX_EN -> /Microcontroller/TX_EN
-switch-control  moved:18 tracks:169 arcs:0 vias:25 zones:6
+switch-control  moved:18 tracks:169 arcs:0 vias:25 zones:6 rule-areas:2
+usb: translating block by (60.764, 1.826) mm, anchored on J1
 net MAPPED by label: /USB/ADC0_4 -> /Microcontroller/ADC0_4
 net MAPPED by label: /USB/VBUS -> /Power/VBUS
 net MAPPED by label: /USB/ADC0_7 -> /Microcontroller/ADC0_7
-usb             moved:10 tracks:127 arcs:0 vias:13 zones:2
-TOTALS: {'moved': 476, 'tracks': 4450, 'arcs': 0, 'vias': 638, 'zones': 81, 'zones_skipped_rule': 20, 'zones_skipped_gnd': 22}
+usb             moved:10 tracks:127 arcs:0 vias:13 zones:2 rule-areas:0
+TOTALS: {'moved': 476, 'tracks': 4450, 'arcs': 0, 'vias': 638, 'zones': 81, 'rule_areas_imported': 20, 'zones_skipped_gnd': 22}
+CROSS-BLOCK OVERLAP adc-dac <> clock: 1 footprint pairs, e.g. U36/R105
+CROSS-BLOCK OVERLAP adc-dac <> if-transceiver: 1 footprint pairs, e.g. U35/C92
+CROSS-BLOCK OVERLAP clock <> if-transceiver: 1 footprint pairs, e.g. R41/R149
+CROSS-BLOCK OVERLAP clock <> mcu: 2 footprint pairs, e.g. D9/P20, P2/P20
+CROSS-BLOCK OVERLAP clock <> switch-control: 7 footprint pairs, e.g. C119/U26, C120/R95, C120/U26, U19/C24, U19/R96, U19/R97
+CROSS-BLOCK OVERLAP fpga <> power: 3 footprint pairs, e.g. RN4/U32, RN3/C23, RN3/U32
+CROSS-BLOCK OVERLAP frontend <> image-reject: 7 footprint pairs, e.g. C201/L18, C201/L16, C201/L17, C201/C96, C201/C91, C201/C101
+CROSS-BLOCK OVERLAP if-transceiver <> switch-control: 1 footprint pairs, e.g. C86/U39
+CROSS-BLOCK OVERLAP mcu <> power: 8 footprint pairs, e.g. P26/C126, P26/L10, P28/C167, R63/C126, R66/C126, R66/C127
+CROSS-BLOCK OVERLAP mcu <> usb: 1 footprint pairs, e.g. P20/J1
+master rule areas REMOVED (17): Microcontroller, VCC_CLK, USB, IF Transceiver, POWER_IN, IR Filters, ADC, DAC, VCC_FPGA, Clock Generator, Mixer, FPGA, VCC_AUX, RF Front End, VCC_LED, MAIN_VRM, FLASH, SW Control
+master rule areas KEPT: LED_SW, legend
 saved merged board: q-radio.kicad_pcb

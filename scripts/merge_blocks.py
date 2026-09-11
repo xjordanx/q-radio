@@ -33,6 +33,10 @@ SKIP_ZONE_LAYERS = {"In1.GND.Cu", "In4.GND.Cu"}
 # Blocks whose candidate frame is shifted relative to the master: translate
 # the whole block so this reference lands exactly on its master position.
 ANCHORS = {"usb": "J1"}
+# Extra translation per block in mm, KiCad board coordinates (+Y is DOWN on
+# screen), applied after the anchor translation. Used to park a block outside
+# the outline for manual placement.
+EXTRA_OFFSET_MM = {"switch-control": (0.0, 12.7)}   # 500 mil below
 # Block rule areas OVERRIDE the master's; master keeps only these (no block owns them).
 KEEP_MASTER_RULE_AREAS = {"LED_SW", "legend"}
 REPORT = []
@@ -109,6 +113,8 @@ def phase_board(out_path):
     import pcbnew
     log("## Phase: board merge (pcbnew %s)" % pcbnew.GetBuildVersion())
     master = pcbnew.LoadBoard(MASTER_PCB)
+    ob = master.GetBoardEdgesBoundingBox()
+    log("master outline bbox=(%.1f,%.1f)-(%.1f,%.1f) mm" % (pcbnew.ToMM(ob.GetLeft()), pcbnew.ToMM(ob.GetTop()), pcbnew.ToMM(ob.GetRight()), pcbnew.ToMM(ob.GetBottom())))
     men = master.GetEnabledLayers()
     master_layers = [master.GetLayerName(l) for l in men.Seq()]
 
@@ -176,6 +182,10 @@ def phase_board(out_path):
                     % (b, pcbnew.ToMM(delta.x), pcbnew.ToMM(delta.y), ANCHORS[b]))
             else:
                 log("WARNING: %s anchor %s not found; no translation applied" % (b, ANCHORS[b]))
+        if b in EXTRA_OFFSET_MM:
+            ox, oy = EXTRA_OFFSET_MM[b]
+            delta = delta + pcbnew.VECTOR2I(pcbnew.FromMM(ox), pcbnew.FromMM(oy))
+            log("%s: extra offset (%.3f, %.3f) mm applied (KiCad +Y = down)" % (b, ox, oy))
         moved = 0
         for fp in blk.GetFootprints():
             ref = fp.GetReferenceAsString()
@@ -250,7 +260,14 @@ def phase_board(out_path):
             else:
                 dz.SetNet(master_net(z.GetNetname()))
                 nz += 1
-        log("%-15s moved:%d tracks:%d arcs:%d vias:%d zones:%d rule-areas:%d" % (b, moved, nt, na, nv, nz, nra))
+        bx = [master.FindFootprintByReference(r).GetBoundingBox() for r in block_refs.get(b, [])]
+        if bx:
+            log("%-15s moved:%d tracks:%d arcs:%d vias:%d zones:%d rule-areas:%d  fp-bbox=(%.1f,%.1f)-(%.1f,%.1f) mm" % (
+                b, moved, nt, na, nv, nz, nra,
+                pcbnew.ToMM(min(x.GetLeft() for x in bx)), pcbnew.ToMM(min(x.GetTop() for x in bx)),
+                pcbnew.ToMM(max(x.GetRight() for x in bx)), pcbnew.ToMM(max(x.GetBottom() for x in bx))))
+        else:
+            log("%-15s moved:%d tracks:%d arcs:%d vias:%d zones:%d rule-areas:%d" % (b, moved, nt, na, nv, nz, nra))
         totals["moved"] += moved
         totals["tracks"] += nt
         totals["arcs"] += na

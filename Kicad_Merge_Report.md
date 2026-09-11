@@ -1,9 +1,20 @@
 # QRadio block merge report
 
-Branch: `variant/rfpp4-div` · Executed 2026-09-10/11 per `Kicad_Merge_Prompt.md`
+Branch: `variant/rfpp4-div` · Executed 2026-09-10/11 per `Kicad_Merge_Prompt.md` · **Revision 2** (re-merge)
 Tool: `scripts/merge_blocks.py` (KiCad 10.0.5 pcbnew API, headless) · Full run log: `merge-board-run.log`
 
-Commits: `14da67d` phase 1 (schematics + metadata) · `b8e61af` phase 2 (board merge) · `6fd1b2a` zone refill
+Commits: `14da67d` phase 1 (schematics + metadata) · `9261c25` phase 2 re-merge (supersedes `b8e61af`/`6fd1b2a`)
+
+## 0. Revision 2 — what went wrong in the first merge and what changed
+
+The first merge placed the **usb block on top of the FPGA region** and left **clock and switch-control overlapping**. Root causes, from measurement (not assumption):
+
+- **usb**: the block was routed in a frame shifted (60.764, 1.826) mm from the master (J1 and the block outline had been moved before upload; Quilter placed the rest around them). The first merge imported raw coordinates. Fix: the tool now translates configured blocks so an anchor reference lands exactly on its master position (`ANCHORS = {"usb": "J1"}`) — J1 is back at its board-edge position with Quilter's arrangement preserved around it.
+- **clock ↔ switch-control**: not a frame problem. The clock block's own `CLOCK` rule area (x 110.7–136.1) is wider than the master's `Clock Generator` region (118.4–136.1) and overlaps the switch-control block's region (84.1–117.9); both Quilter runs placed parts in the shared 7 mm strip. No translation resolves it — see to-do 4.
+- **Rule areas**: per Ben's direction, block rule areas now **override** the master's — 17 master rule areas removed, 20 block rule areas imported; master keeps only `LED_SW` and `legend` (no block owns them). This also clears the `items_not_allowed` wall (199 → 1).
+- The tool now runs a **cross-block footprint overlap check** before saving, so a misplaced block can never again pass silently.
+
+
 
 ## 1. Pre-merge findings (deviations from the instructions, resolved from evidence)
 
@@ -41,26 +52,36 @@ Of these, git shows content changes only in **clock, fpga, image_reject, mixer, 
 | usb | 10 | 127 | 13 | 2 |
 | **Total** | **476** | **4450** | **638** | **81** |
 
-Skipped from blocks by design: 20 rule areas (master keeps its own), 22 In1/In4 GND zones, all Edge.Cuts, graphics, text, dimensions and groups. Zone fills imported as-is, then **all 102 copper zones refilled** headlessly after the merge (stale master fills had overlapped the moved parts).
+Skipped from blocks by design: 22 In1/In4 GND zones, all Edge.Cuts, graphics, text, dimensions and groups. Imported: 20 block rule areas (replacing 17 master ones). usb translated by (60.764, 1.826) mm. Zone fills imported as-is, then all copper zones refilled headlessly after the merge.
+
+Cross-block footprint overlaps detected by the tool (bounding-box test, so near-touching pairs are included; courtyard DRC is the authority):
+
+| Blocks | Pairs | Examples |
+|---|---|---|
+| clock ↔ switch-control | 7 | C119/U26, C120/U26, U19/C24, U19/R96 |
+| mcu ↔ power | 8 | P26/C126, P26/L10, P28/C167, R63/C126 |
+| frontend ↔ image-reject | 7 | C201 vs L16/L17/L18/C91/C96/C101 |
+| fpga ↔ power | 3 | RN4/U32, RN3/C23, RN3/U32 |
+| clock ↔ mcu | 2 | D9/P20, P2/P20 |
+| adc-dac ↔ clock, adc-dac ↔ if-transceiver, clock ↔ if-transceiver, if-transceiver ↔ switch-control, mcu ↔ usb | 1 each | U36/R105, U35/C92, R41/R149, C86/U39, P20/J1 |
 
 Net remapping (block-local hierarchical names → master nets, matched by label leaf): **54 mapped**, e.g. `/Power/1V2_EN → /Microcontroller/1V2_EN`, `/Mixer/RX_EN → /IF Transceiver/RX_EN`, `/USB/VBUS → /Power/VBUS` (full list in the run log). **3 created** because master's netlist predates the edited power sheet: `/Power/VRM_IN`, `/Power/VSW_1`, `/Power/VSW_2` — expected to resolve at schematic update.
 
-## 4. DRC snapshot (headless, after refill, BEFORE schematic update)
+## 4. DRC snapshot (headless, after refill, BEFORE schematic update) — revision 2
 
-1398 violations, 230 unconnected. kicad-cli caps each category at 199, so counts of 199 mean "≥199". Interpretation:
+1038 violations, 226 unconnected (first merge: 1398 / 230). kicad-cli caps each category at 199, so 199 means "≥199". Interpretation:
 
-- `shorting_items` ≥199 — dominant cause is pads carrying the **old netlist** while imported tracks carry the block netlist (e.g. GND pad vs `/Clock Generator/CLK0` track). Expected to largely vanish after Update PCB from Schematic. A distinct real cluster: `3V3LED ↔ /USB/D+`, `3V3LED ↔ /USB/D-`, `/USB/CC1 ↔ CC2` — the **pre-placed LED-SW block physically overlaps usb block routing**. 23 via↔via overlaps also present.
-- `items_not_allowed` ≥199 (all tracks) — master's Quilter placement rule areas still forbid tracks.
-- `track_width` ≥199 — tracks at **0.1233 mm** vs master min 0.127 (GND 75, clock nets…). Quilter output; decide whether to accept.
-- `clearance` 164, `hole_clearance` 31, `courtyards_overlap` 50, `zones_intersect` 8, `copper_edge_clearance` 18, `tracks_crossing` 14, `pth_inside_courtyard` 9, `via_dangling` 44, `track_dangling` 16, `isolated_copper` 7, `unresolved_variable` 8.
-- 230 unconnected = LED-SW block (never routed) + inter-block connections (the purpose of the final routing pass).
+- `shorting_items` 163 — dominant cause is pads carrying the **old netlist** while imported tracks carry the block netlist. Expected to largely vanish after Update PCB from Schematic; what remains sits on the block seams listed above.
+- `track_width` ≥199 — tracks at **0.1233 mm** vs master min 0.127 (mostly GND and clock nets). Quilter output; decide whether to accept.
+- `clearance` 81, `courtyards_overlap` 31, `hole_clearance` 20, `copper_edge_clearance` 18, `tracks_crossing` 15, `zones_intersect` 8, `pth_inside_courtyard` 8, `via_dangling` 43, `track_dangling` 16, `isolated_copper` 7, `unresolved_variable` 8, `items_not_allowed` 1.
+- 226 unconnected = LED-SW block (never routed) + inter-block connections (the purpose of the final routing pass).
 
 ## 5. TO-DO — items requiring human attention (in order)
 
 1. **Update PCB from Schematic** (Tools → Update PCB from Schematic, keep "re-link footprints by UUID") — first, before judging anything else. Confirm `/Power/VRM_IN`, `VSW_1`, `VSW_2` bind to pads, and that no footprint is reported as missing/extra (block sheet edits vs master board).
 2. Refill zones and re-run DRC after (1); re-triage the shorting list — what remains is real.
-3. **Master rule areas**: the Quilter placement regions (≈197 rule areas) forbid tracks → remove them or clear their "keep out tracks/vias" flags now that placement is done.
-4. **LED-SW ↔ usb collision**: pre-placed LED-SW parts/tracks overlap usb routing (3V3LED vs D+/D-, CC1/CC2). Move LED-SW or reroute usb's D± locally; also review the 50 courtyard overlaps in that area.
+3. **Rule areas**: block rule areas now define the regions (master's replaced). One `items_not_allowed` remains — check which imported area still forbids that item, and decide whether the imported placement rule areas should be deleted outright now that placement is final.
+4. **Block region conflicts** (table in §3): clock ↔ switch-control (the `CLOCK` block region overlaps `/Switch Control/` by ~7 mm; both placed parts there), mcu ↔ power (P26/P28 headers vs power's C126/L10/C167), frontend ↔ image-reject (C201 vs the filter inductors/caps), fpga ↔ power (RN3/RN4 vs U32). Resolve by nudging parts locally or re-running one block with a corrected region; the 31 courtyard overlaps are the DRC view of the same conflicts.
 5. **Same-net zone overlaps** (8 `zones_intersect`): block power pours meeting master pours on the same net/layer — merge outlines or assign priorities.
 6. **Track width policy**: accept Quilter's 0.1233 mm tracks (lower `min_track_width` to 0.12) or widen — ~200 segments, mostly GND and clock nets.
 7. **Block seams**: 23 via↔via overlaps, 14 crossing tracks, 44 dangling vias, 16 dangling tracks — clean during the inter-block routing pass.

@@ -1,9 +1,13 @@
 # QRadio block merge report
 
-Branch: `variant/rfpp4-div` · Executed 2026-09-10/11 per `Kicad_Merge_Prompt.md` · **Revision 2** (re-merge)
+Branch: `variant/rfpp4-div` · Executed 2026-09-10/11 per `Kicad_Merge_Prompt.md` · **Revision 3**
 Tool: `scripts/merge_blocks.py` (KiCad 10.0.5 pcbnew API, headless) · Full run log: `merge-board-run.log`
 
-Commits: `14da67d` phase 1 (schematics + metadata) · `9261c25` phase 2 re-merge (supersedes `b8e61af`/`6fd1b2a`)
+Commits: `14da67d` phase 1 (schematics + metadata) · `dae05fc` phase 2 re-merge rev 3 (supersedes `9261c25`, `b8e61af`, `6fd1b2a`)
+
+## 0a. Revision 3 — switch-control parked for manual placement
+
+Per Ben's direction, the **switch-control block is translated +12.7 mm (500 mil) in Y** — KiCad +Y is down, so it now sits *below* the board outline (footprint bbox y 176.3–183.0 mm vs outline bottom 175.2 mm), clear of the clock region, ready to be moved into a fitting position by hand. Its routing, vias, zones and two rule areas moved with it. The clock↔switch-control and if-transceiver↔switch-control overlaps are gone; the remaining cross-block overlaps (mcu↔power 8, frontend↔image-reject 7, fpga↔power 3, clock↔mcu 2, four single pairs) are unchanged and still need attention. DRC after refill: **817 violations / 237 unconnected** (rev 2: 1038 / 226; the unconnected rise is switch-control's inter-block leads now spanning the gap). Tool: `EXTRA_OFFSET_MM` per-block offsets and per-block bbox logging added.
 
 ## 0. Revision 2 — what went wrong in the first merge and what changed
 
@@ -81,7 +85,7 @@ Net remapping (block-local hierarchical names → master nets, matched by label 
 1. **Update PCB from Schematic** (Tools → Update PCB from Schematic, keep "re-link footprints by UUID") — first, before judging anything else. Confirm `/Power/VRM_IN`, `VSW_1`, `VSW_2` bind to pads, and that no footprint is reported as missing/extra (block sheet edits vs master board).
 2. Refill zones and re-run DRC after (1); re-triage the shorting list — what remains is real.
 3. **Rule areas**: block rule areas now define the regions (master's replaced). One `items_not_allowed` remains — check which imported area still forbids that item, and decide whether the imported placement rule areas should be deleted outright now that placement is final.
-4. **Block region conflicts** (table in §3): clock ↔ switch-control (the `CLOCK` block region overlaps `/Switch Control/` by ~7 mm; both placed parts there), mcu ↔ power (P26/P28 headers vs power's C126/L10/C167), frontend ↔ image-reject (C201 vs the filter inductors/caps), fpga ↔ power (RN3/RN4 vs U32). Resolve by nudging parts locally or re-running one block with a corrected region; the 31 courtyard overlaps are the DRC view of the same conflicts.
+4. **Block region conflicts** (table in §3): switch-control is parked below the outline — move it into place (its 2 rule areas moved with it; delete or reshape them once positioned); mcu ↔ power (P26/P28 headers vs power's C126/L10/C167), frontend ↔ image-reject (C201 vs the filter inductors/caps), fpga ↔ power (RN3/RN4 vs U32). Resolve by nudging parts locally or re-running one block with a corrected region; the 31 courtyard overlaps are the DRC view of the same conflicts.
 5. **Same-net zone overlaps** (8 `zones_intersect`): block power pours meeting master pours on the same net/layer — merge outlines or assign priorities.
 6. **Track width policy**: accept Quilter's 0.1233 mm tracks (lower `min_track_width` to 0.12) or widen — ~200 segments, mostly GND and clock nets.
 7. **Block seams**: 23 via↔via overlaps, 14 crossing tracks, 44 dangling vias, 16 dangling tracks — clean during the inter-block routing pass.

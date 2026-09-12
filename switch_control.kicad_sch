@@ -7,7 +7,7 @@
 	(title_block
 		(title "${TITLE}")
 		(date "${DATE}")
-		(rev "${VERSION}")
+		(rev "1")
 		(company "${COPYRIGHT}")
 		(comment 1 "${LICENSE}")
 	)
@@ -2941,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "864cb05a-ad91-4f20-8c1e-e2042e4ae7b2")
+	)
+	(wire
+		(pts
+			(xy 71.12 151.13) (xy 106.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87649c73-1607-4815-80ba-cc1be7ecb380")
 	)
 	(wire
 		(pts

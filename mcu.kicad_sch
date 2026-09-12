@@ -7,7 +7,7 @@
 	(title_block
 		(title "${TITLE}")
 		(date "${DATE}")
-		(rev "${VERSION}")
+		(rev "1")
 		(company "${COPYRIGHT}")
 		(comment 1 "${LICENSE}")
 	)
@@ -12649,7 +12649,7 @@
 		)
 		(uuid "9a798a1c-d630-4031-94f6-290f916ca38f")
 	)
-	(label "~{LED5}"
+	(label "~{LED4}"
 		(at 49.53 143.51 0)
 		(effects
 			(font

@@ -7,7 +7,7 @@
 	(title_block
 		(title "${TITLE}")
 		(date "${DATE}")
-		(rev "${VERSION}")
+		(rev "1")
 		(company "${COPYRIGHT}")
 		(comment 1 "${LICENSE}")
 	)
@@ -4745,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 52.07) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000d014e-7f97-470c-879d-f042acc0ead3")
+	)
+	(wire
+		(pts
 			(xy 237.49 33.02) (xy 236.22 33.02)
 		)
 		(stroke
@@ -5052,16 +5062,6 @@
 			(type default)
 		)
 		(uuid "1caef99d-ae8e-4396-9e58-371f5667efcb")
-	)
-	(wire
-		(pts
-			(xy 166.37 59.69) (xy 166.37 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e21f7d5-82b5-46a2-a9f3-b29a59582007")
 	)
 	(wire
 		(pts

@@ -7,7 +7,7 @@
 	(title_block
 		(title "${TITLE}")
 		(date "${DATE}")
-		(rev "${VERSION}")
+		(rev "1")
 		(company "${COPYRIGHT}")
 		(comment 1 "${LICENSE}")
 	)

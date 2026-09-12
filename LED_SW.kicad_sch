@@ -5,6 +5,8 @@
 	(uuid "ed90a626-8816-413a-a7b3-6aafa358210f")
 	(paper "A4" portrait)
 	(title_block
+		(title "${TITLE}")
+		(rev "1")
 		(company "${COPYRIGHT}")
 		(comment 1 "${LICENSE}")
 	)

@@ -1,0 +1,14 @@
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Cu.gtl'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-In1_GND_Cu.g1'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-In2_PWR_Cu.g2'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-In3_Cu.g3'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-In4_GND_Cu.g4'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-B_Cu.gbl'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Paste.gtp'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Silkscreen.gto'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Mask.gts'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-B_Mask.gbs'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-Edge_Cuts.gm1'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Courtyard.gbr'.
+Plotted to 'C:\ECAD\Designs\QRadio\JLCPCB\gerber_drill\q-radio-F_Fab.gbr'.
+Info: Done.

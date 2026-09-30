@@ -133,10 +133,6 @@
         [
           "pth_inside_courtyard|174800000|149200000|00cbfb16-a64b-4104-92fc-3fe47d060d76|00000000-0000-0000-0000-00005787e7b0",
           ""
-        ],
-        [
-          "silk_over_copper|174395074|146650000|f7759e93-cfb2-4121-92b4-d4f42307c662|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -225,7 +221,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.12,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2032,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
@@ -285,6 +281,7 @@
         0.25,
         0.3,
         0.35,
+        0.3556,
         0.364,
         0.4,
         0.45,
@@ -324,16 +321,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
+          "diameter": 0.4064,
+          "drill": 0.2032
         }
       ],
       "zones_allow_external_fillets": false,
@@ -623,8 +612,98 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.175,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "AnalogTop",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3556,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.175,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "Clock50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3556,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.175,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "LocalPower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.175,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "PlanePower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.175,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.3,
+        "name": "RF50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3556,
+        "tuning_profile": "",
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       },
       {
@@ -639,8 +718,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.3
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032
       },
       {
         "bus_width": 12,
@@ -656,8 +735,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
         "wire_width": 6
       }
     ],
@@ -698,6 +777,686 @@
       {
         "netclass": "diff100",
         "pattern": "*/MIX_OUT-"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/AA_BYPASS_I\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/AA_BYPASS_I\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/AA_BYPASS_Q\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/AA_BYPASS_Q\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/IA\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/IA\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/ID\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/ID\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/QA\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/QA\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/QD\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/QD\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/RXBB\\.I\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/RXBB\\.I\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/RXBB\\.Q\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/RXBB\\.Q\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/TXBB\\.I\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/TXBB\\.I\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/TXBB\\.Q\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/ADC,\\ DAC/TXBB\\.Q\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/RXIF\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/RXIF\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/RXIF_BALUN\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/RXIF_BALUN\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/TXIF\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/TXIF\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/TXIF_BALUN\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/IF\\ Transceiver/TXIF_BALUN\\-$"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "^/Microcontroller/USB_DATA\\.D\\+$"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "^/Microcontroller/USB_DATA\\.D\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/Mixer/MIX_IN\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/Mixer/MIX_IN\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/Mixer/MIX_OUT\\+$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^/Mixer/MIX_OUT\\-$"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "^/USB/D\\+$"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "^/USB/D\\-$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U34\\-D2\\+\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U34\\-D2\\-\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U35\\-D1\\+\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U35\\-D1\\-\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(L23\\-Pad1\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(L24\\-Pad1\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U8\\-D2\\+\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U8\\-D2\\-\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U3\\-D1\\+\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(U3\\-D1\\-\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(L21\\-Pad1\\)$"
+      },
+      {
+        "netclass": "diff100",
+        "pattern": "^Net\\-\\(L22\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(D1\\-A1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(D14\\-K\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U14\\-ANT\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U40\\-RFIN\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U40\\-RFOUT\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C50\\-Pad2\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/RF\\ Front\\ End/AMP_BYPASS$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/RF\\ Front\\ End/RX_AMP_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/RF\\ Front\\ End/RX_AMP_OUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/RF\\ Front\\ End/TX_AMP_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/RF\\ Front\\ End/TX_AMP_OUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Image\\ Reject\\ Filters/RF$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/MIX_BYPASS$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/RX_MIX_OUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/TX_MIX_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(FL2\\-IN\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(FL3\\-IN\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/TXIF$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/RXIF$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/TUNE$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/CPOUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Clock\\ Generator/MIX_CLK$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Image\\ Reject\\ Filters/RX_MIX_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Image\\ Reject\\ Filters/TX_MIX_OUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U25\\-RFIN\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U25\\-RFOUT\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U38\\-RFIN\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U38\\-RFOUT\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C211\\-Pad2\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U9\\-RF1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U5\\-RF1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Mixer/MIX_OUT$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Mixer/MIX_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/Mixer/REF_IN$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(T2\\-S1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(T1\\-S1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U1\\-RF3\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U1\\-RF4\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(U9\\-RF3\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C101\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C101\\-Pad2\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C103\\-Pad2\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C54\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C56\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C188\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^Net\\-\\(C67\\-Pad1\\)$"
+      },
+      {
+        "netclass": "RF50",
+        "pattern": "^/IF\\ Transceiver/IF$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(T1\\-S2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(T2\\-S2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C78\\-Pad2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C192\\-Pad2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(L6\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C198\\-Pad2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C202\\-Pad2\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C203\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C191\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C195\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C207\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C210\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C139\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^/ADC,\\ DAC/REFP$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^/ADC,\\ DAC/REFN$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(D15\\-K\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(Q1B\\-D\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(U21\\-SW1\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(U21\\-SW2\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(Q3\\-D\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(Q6\\-D\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(D11\\-K\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(D13\\-A\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^/Microcontroller/VBUS_SAFE$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^Net\\-\\(D10\\-A\\)$"
+      },
+      {
+        "netclass": "LocalPower",
+        "pattern": "^/RF\\ Front\\ End/BIAS$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/ADC,\\ DAC/AFE_CLK$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/AUX_CLK1$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/AUX_CLK2$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK0$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK1$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK2$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK3$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK4$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK5$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK6$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLK7$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/CLKIN$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/FPGA_CLK$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/MCU_CLK$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/P1$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/P1_CLKIN$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/P2$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/P22_CLKIN$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/P2_5$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/SCT_CLK$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/TRIGGER\\.IN$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/TRIGGER\\.OUT$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/XA$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/Clock\\ Generator/XCVR_CLK$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^/IF\\ Transceiver/XTAL$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^Net\\-\\(C115\\-Pad1\\)$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^Net\\-\\(R108\\-Pad2\\)$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^Net\\-\\(U30\\-Pad4\\)$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^Net\\-\\(U33\\-A\\)$"
+      },
+      {
+        "netclass": "Clock50",
+        "pattern": "^Net\\-\\(X1\\-OUT\\)$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^\\+1V2$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^\\+2V5$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^\\+5V$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^/FPGA/VCCPLL$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^/Microcontroller/VBAT$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^/Power/VBUS$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^/Power/VIN$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^1V2FPGA$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^2V5FPGA$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^2V5RF$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^3V3AUX$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^3V3CLK$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^3V3FPGA$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^3V3LED$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^VAA$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^VCC$"
+      },
+      {
+        "netclass": "PlanePower",
+        "pattern": "^GND$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C202\\-Pad1\\)$"
+      },
+      {
+        "netclass": "AnalogTop",
+        "pattern": "^Net\\-\\(C203\\-Pad2\\)$"
       }
     ]
   },

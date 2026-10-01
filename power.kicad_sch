@@ -6899,7 +6899,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 200.66 13.97) (xy 106.68 13.97) (xy 106.68 85.09) (xy 200.66 85.09)
+				(xy 200.66 13.97) (xy 83.82 13.97) (xy 83.82 85.09) (xy 200.66 85.09)
 			)
 			(stroke
 				(width 0)
@@ -6918,7 +6918,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 105.41 13.97) (xy 20.32 13.97) (xy 20.32 121.92) (xy 106.68 121.92) (xy 106.68 15.24)
+				(xy 20.32 13.97) (xy 20.32 121.92) (xy 83.82 120.65) (xy 83.82 13.97)
 			)
 			(stroke
 				(width 0)
@@ -6968,7 +6968,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 86.36 121.92 0)
+		(at 83.82 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6978,7 +6978,7 @@
 		)
 		(uuid "8dcc5440-514e-41e8-8294-748e87a572f4")
 		(property "Netclass" ""
-			(at 106.68 74.93 0)
+			(at 104.14 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6988,7 +6988,7 @@
 			)
 		)
 		(property "Component Class" "PWR_PROT"
-			(at 87.4979 119.38 0)
+			(at 84.9579 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -26435,7 +26435,7 @@
 			)
 		)
 		(component_classes
-			(class "PWR_PROT")
+			(class "DC-DC")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/1f4af977-8e29-41c1-8247-b9bb7fc0a23e")
@@ -36304,6 +36304,7 @@
 			)
 		)
 		(component_classes
+			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/603715de-f6ee-4a7c-b5e6-0a251e5b8685")
@@ -64678,6 +64679,7 @@
 			)
 		)
 		(component_classes
+			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -78641,6 +78643,7 @@
 			)
 		)
 		(component_classes
+			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "R_*")
@@ -102797,6 +102800,7 @@
 			)
 		)
 		(component_classes
+			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
@@ -110605,7 +110609,6 @@
 		)
 		(component_classes
 			(class "DC-DC")
-			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/045d7fb2-788a-4ab4-ad9f-10b7833270be")
@@ -116578,6 +116581,7 @@
 			)
 		)
 		(component_classes
+			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/9df45cab-0e98-4158-9431-e33ae0761fd4")
@@ -137261,7 +137265,7 @@
 			)
 		)
 		(component_classes
-			(class "PWR_PROT")
+			(class "DC-DC")
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/a699f7c2-4abc-45e3-a4ac-0266e5a0a5f6")
@@ -143481,7 +143485,7 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "cc2c2bb1-37ab-47a6-8ee7-73ef6f8cf8a6")
-		(name "Power")
+		(name "DC-DC")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)

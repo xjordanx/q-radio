@@ -4720,6 +4720,12 @@
 		(uuid "d7a1666b-b896-45a1-98e0-e868f67ee4b1")
 	)
 	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc6ebc07-f463-49bc-b932-d5177427895b")
+	)
+	(junction
 		(at 166.37 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5845,6 +5851,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 68.58) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f1d605-64e0-4284-bbdc-8abb802f36b3")
+	)
+	(wire
+		(pts
 			(xy 91.44 46.99) (xy 101.6 46.99)
 		)
 		(stroke
@@ -6683,6 +6699,66 @@
 		)
 		(uuid "2261a970-165f-472b-b9c5-f57a07d29b19")
 	)
+	(label "3V3Q3"
+		(at 121.92 166.37 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2dbed4-b678-4613-8f2d-37d5a524dce2")
+	)
+	(label "VINQ5"
+		(at 83.82 68.58 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "71bbc2ec-7af7-47d7-9ec8-d170609b0d9b")
+	)
+	(label "VSW2"
+		(at 166.37 43.18 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "944455c4-691d-476f-bd5a-822bf87eabfc")
+	)
+	(label "VCCQ6"
+		(at 237.49 33.02 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b0e6b2-e2e6-4175-bd23-10b293f7bef0")
+	)
+	(label "VSW1"
+		(at 166.37 57.15 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "aedeab57-63b4-4248-b1db-f244cffe3027")
+	)
+	(label "VIND"
+		(at 92.71 46.99 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8bcfb14-5037-4050-890b-fde2cc8ff3a7")
+	)
 	(label "VIN"
 		(at 39.37 189.23 90)
 		(effects
@@ -6815,6 +6891,114 @@
 			(justify left)
 		)
 		(uuid "f96a6de0-59b3-48dc-a74b-b9235ad184b0")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 200.66 13.97) (xy 106.68 13.97) (xy 106.68 85.09) (xy 200.66 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0c3bc585-93f3-4836-ade1-6ce5631d8da1")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 105.41 13.97) (xy 20.32 13.97) (xy 20.32 121.92) (xy 106.68 121.92) (xy 106.68 15.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "2747b15e-2514-467f-97d9-45d094b6c8db")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 118.11 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "828e6581-0f01-48cd-802f-728d5b882dd8")
+		(property "Netclass" ""
+			(at 1.27 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "DC-DC"
+			(at 119.2479 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 86.36 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dcc5440-514e-41e8-8294-748e87a572f4")
+		(property "Netclass" ""
+			(at 106.68 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "PWR_PROT"
+			(at 87.4979 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

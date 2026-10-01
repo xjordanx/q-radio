@@ -61,7 +61,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -665,7 +665,275 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ADC, DAC/DA0": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA1": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA2": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA3": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA4": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA5": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA6": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA7": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DA[0..7]": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD0": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD1": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD2": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD3": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD4": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD5": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD6": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD7": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD8": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD9": [
+        "ADDA"
+      ],
+      "/ADC, DAC/DD[0..9]": [
+        "ADDA"
+      ],
+      "/ADC, DAC/RXBB.I+": [
+        "RF"
+      ],
+      "/ADC, DAC/RXBB.I-": [
+        "RF"
+      ],
+      "/ADC, DAC/RXBB.Q+": [
+        "RF"
+      ],
+      "/ADC, DAC/RXBB.Q-": [
+        "RF"
+      ],
+      "/ADC, DAC/RXBB{IQ}": [
+        "RF"
+      ],
+      "/ADC, DAC/TXBB.I+": [
+        "RF"
+      ],
+      "/ADC, DAC/TXBB.I-": [
+        "RF"
+      ],
+      "/ADC, DAC/TXBB.Q+": [
+        "RF"
+      ],
+      "/ADC, DAC/TXBB.Q-": [
+        "RF"
+      ],
+      "/ADC, DAC/TXBB{IQ}": [
+        "RF"
+      ],
+      "/IF Transceiver/CPOUT": [
+        "RF"
+      ],
+      "/IF Transceiver/IF": [
+        "RF"
+      ],
+      "/IF Transceiver/MIX_BYPASS": [
+        "RF"
+      ],
+      "/IF Transceiver/RXIF": [
+        "RF"
+      ],
+      "/IF Transceiver/RXIF+": [
+        "RF"
+      ],
+      "/IF Transceiver/RXIF-": [
+        "RF"
+      ],
+      "/IF Transceiver/RXIF_BALUN+": [
+        "RF"
+      ],
+      "/IF Transceiver/RXIF_BALUN-": [
+        "RF"
+      ],
+      "/IF Transceiver/RX_MIX_OUT": [
+        "RF"
+      ],
+      "/IF Transceiver/TUNE": [
+        "RF"
+      ],
+      "/IF Transceiver/TXIF": [
+        "RF"
+      ],
+      "/IF Transceiver/TXIF+": [
+        "RF"
+      ],
+      "/IF Transceiver/TXIF-": [
+        "RF"
+      ],
+      "/IF Transceiver/TXIF_BALUN+": [
+        "RF"
+      ],
+      "/IF Transceiver/TXIF_BALUN-": [
+        "RF"
+      ],
+      "/IF Transceiver/TX_MIX_IN": [
+        "RF"
+      ],
+      "/Image Reject Filters/RF": [
+        "RF"
+      ],
+      "/Image Reject Filters/RX_MIX_IN": [
+        "RF"
+      ],
+      "/Image Reject Filters/TX_MIX_OUT": [
+        "RF"
+      ],
+      "/Mixer/MIX_IN": [
+        "RF"
+      ],
+      "/Mixer/MIX_IN+": [
+        "RF"
+      ],
+      "/Mixer/MIX_IN-": [
+        "RF"
+      ],
+      "/Mixer/MIX_OUT": [
+        "RF"
+      ],
+      "/Mixer/MIX_OUT+": [
+        "RF"
+      ],
+      "/Mixer/MIX_OUT-": [
+        "RF"
+      ],
+      "/RF Front End/AMP_BYPASS": [
+        "RF"
+      ],
+      "/RF Front End/RX_AMP_IN": [
+        "RF"
+      ],
+      "/RF Front End/RX_AMP_OUT": [
+        "RF"
+      ],
+      "/RF Front End/TX_AMP_IN": [
+        "RF"
+      ],
+      "/RF Front End/TX_AMP_OUT": [
+        "RF"
+      ],
+      "Net-(C101-Pad1)": [
+        "RF"
+      ],
+      "Net-(C101-Pad2)": [
+        "RF"
+      ],
+      "Net-(C103-Pad2)": [
+        "RF"
+      ],
+      "Net-(C13-Pad1)": [
+        "RF"
+      ],
+      "Net-(C188-Pad1)": [
+        "RF"
+      ],
+      "Net-(C211-Pad2)": [
+        "RF"
+      ],
+      "Net-(C50-Pad2)": [
+        "RF"
+      ],
+      "Net-(C54-Pad1)": [
+        "RF"
+      ],
+      "Net-(C56-Pad1)": [
+        "RF"
+      ],
+      "Net-(D1-A1)": [
+        "RF"
+      ],
+      "Net-(D14-K)": [
+        "RF"
+      ],
+      "Net-(FL2-IN)": [
+        "RF"
+      ],
+      "Net-(FL3-IN)": [
+        "RF"
+      ],
+      "Net-(T1-S1)": [
+        "RF"
+      ],
+      "Net-(T2-S1)": [
+        "RF"
+      ],
+      "Net-(U1-RF3)": [
+        "RF"
+      ],
+      "Net-(U1-RF4)": [
+        "RF"
+      ],
+      "Net-(U14-ANT)": [
+        "RF"
+      ],
+      "Net-(U25-RFOUT)": [
+        "RF"
+      ],
+      "Net-(U38-RFIN)": [
+        "RF"
+      ],
+      "Net-(U38-RFOUT)": [
+        "RF"
+      ],
+      "Net-(U4-LFILT1)": [
+        "RF"
+      ],
+      "Net-(U4-LFILT2)": [
+        "RF"
+      ],
+      "Net-(U4-LFILT3)": [
+        "RF"
+      ],
+      "Net-(U40-RFIN)": [
+        "RF"
+      ],
+      "Net-(U40-RFOUT)": [
+        "RF"
+      ],
+      "Net-(U5-RF1)": [
+        "RF"
+      ],
+      "Net-(U9-RF1)": [
+        "RF"
+      ],
+      "Net-(U9-RF3)": [
+        "RF"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "diff90",

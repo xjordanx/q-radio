@@ -20686,6 +20686,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/274c1983-d911-4f36-a8bc-30c02870a38e")
 		(sheetname "/Clock Generator/")
@@ -21673,6 +21676,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/76176360-f298-4f65-9c11-c8f50e71c36a")
 		(sheetname "/Clock Generator/")
@@ -21921,6 +21927,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/1ace9f9d-53bb-4a21-b3c5-c6f217298548")
@@ -22171,6 +22180,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/0b300e11-3a1c-4301-b3e2-0ab8f6b30fc3")
 		(sheetname "/Clock Generator/")
@@ -22419,6 +22431,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/951f0bd8-a9f4-45d1-bd06-fc766ee7f10a")
@@ -26594,7 +26609,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005787e4b1")
-		(at 234.6266 95.4154)
+		(at 262.27 103.55)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C144"
@@ -36304,7 +36319,6 @@
 			)
 		)
 		(component_classes
-			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/603715de-f6ee-4a7c-b5e6-0a251e5b8685")
@@ -41302,6 +41316,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/d576738f-b8cc-4b0c-acef-1feacc7e4030")
 		(sheetname "/Clock Generator/")
@@ -41550,6 +41567,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/b8c741a9-9516-46c1-806e-a01fd955fc64")
@@ -42039,6 +42059,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/6b2a5ded-aa21-4a73-a7c5-fd614012f5f1")
 		(sheetname "/Clock Generator/")
@@ -42280,6 +42303,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/1e7332e6-a0ba-4142-9fe4-374cc479d317")
 		(sheetname "/Clock Generator/")
@@ -42520,6 +42546,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/433fe575-8729-451d-985c-fdd5bcb756e4")
@@ -49049,6 +49078,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/0ab9cb34-a800-49c0-856e-a2359d40485f")
 		(sheetname "/Clock Generator/")
@@ -49547,6 +49579,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/9ed22d1c-81b1-4441-941b-d51102a63a8e")
 		(sheetname "/Clock Generator/")
@@ -49795,6 +49830,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/deb7298a-01c3-46ba-bbf7-f61afd150c42")
@@ -59126,6 +59164,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "QFN*1EP*4x4mm*P0.5mm*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/d6436e3b-078b-4a3d-aea9-f32a8b17d7a2")
 		(sheetname "/Clock Generator/")
@@ -59651,7 +59692,7 @@
 	(footprint "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005787ef1c")
-		(at 237.2266 92.0154 180)
+		(at 261.175 98.625 180)
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
 		(property "Reference" "U20"
@@ -64203,6 +64244,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/58fa0373-8537-47cd-90a2-e9b66e15c605")
 		(sheetname "/Clock Generator/")
@@ -64680,7 +64724,6 @@
 		)
 		(component_classes
 			(class "DC-DC")
-			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/25758b40-1093-43cc-bd84-3e20cd6358ba")
@@ -66876,6 +66919,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "*SC?70*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/f4e3bfca-d9df-40cc-8d82-e51c032ed2a6")
@@ -70194,6 +70240,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/c25f0b22-f42f-4537-a2ef-a29068fbaef0")
@@ -73751,6 +73800,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "*SC?70*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/4a49a0a7-2463-4ec8-88d2-5e2d911d8649")
@@ -78643,7 +78695,6 @@
 			)
 		)
 		(component_classes
-			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "R_*")
@@ -90265,6 +90316,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/b3f26f19-2f60-4093-b466-e51c66d7c979")
 		(sheetname "/Clock Generator/")
@@ -96363,6 +96417,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/7951cbd6-ba95-48c9-be23-fd83488f4f4c")
 		(sheetname "/Clock Generator/")
@@ -96605,6 +96662,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/232896a8-43c1-4355-94f6-fefcf461c560")
@@ -102066,6 +102126,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/17371fac-4fdc-45c2-a12d-cfba07b8d896")
 		(sheetname "/Clock Generator/")
@@ -102801,7 +102864,6 @@
 		)
 		(component_classes
 			(class "DC-DC")
-			(class "PWR_PROT")
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/092910a4-8639-4d1c-83c7-f36d34efa569")
@@ -103056,6 +103118,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*TG2520*2.5x2.0mm*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/9f3d70ec-3f85-4522-9e31-600024f1eca4")
@@ -114508,6 +114573,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/d6c23c9c-ba53-44be-9891-728d9fd48878")
 		(sheetname "/Clock Generator/")
@@ -116581,7 +116649,6 @@
 			)
 		)
 		(component_classes
-			(class "DC-DC")
 			(class "PWR_PROT")
 		)
 		(path "/582bbebf-22b2-4cb5-8b91-2c73dca44d28/9df45cab-0e98-4158-9431-e33ae0761fd4")
@@ -120772,6 +120839,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SOIC*5.3x10.2mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/219a55d6-675f-4a16-b0a7-ee21934bce2b")
 		(sheetname "/Clock Generator/")
@@ -124926,6 +124996,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "*SC?70*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/7f95fd3e-8e6e-4da6-9079-b5e9f4cb4bed")
 		(sheetname "/Clock Generator/")
@@ -128018,6 +128091,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/224d2ea2-a1be-49f6-96dc-69877eaeadaa")
 		(sheetname "/Clock Generator/")
@@ -128758,6 +128834,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/af5b134c-015b-4b01-b527-ebec32547286")
@@ -129791,6 +129870,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/bc3f4853-effb-4d81-ba91-3c98d53ad5e2")
@@ -131524,6 +131606,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/4537bdab-e80c-40b4-a4d9-7a50b6413047")
@@ -140532,6 +140617,9 @@
 				)
 			)
 		)
+		(component_classes
+			(class "Clock")
+		)
 		(property ki_fp_filters "R_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/d99f6eea-90ff-48b9-9a1e-ef6cda73df20")
 		(sheetname "/Clock Generator/")
@@ -141285,6 +141373,9 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(component_classes
+			(class "Clock")
 		)
 		(property ki_fp_filters "C_*")
 		(path "/82363729-914a-4be2-9abc-c6e1e42dff36/cbb723c5-f330-4a52-aa85-7a35cf263ae7")
@@ -143143,7 +143234,7 @@
 	(zone
 		(layer "F.Cu")
 		(uuid "073ecbdf-fc90-426b-b9f0-e4699c9f53fa")
-		(name "Microcontroller")
+		(name "MCU")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -143344,7 +143435,7 @@
 		)
 		(placement
 			(enabled yes)
-			(sheetname "/Clock Generator/")
+			(component_class "Clock")
 		)
 		(fill
 			(thermal_gap 0.5)

@@ -5237,6 +5237,62 @@
 		)
 		(uuid "fdc29206-f693-4bbf-b9d5-64a06772a248")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 57.15 15.24) (xy 243.84 15.24) (xy 243.84 115.57) (xy 270.51 115.57) (xy 270.51 165.1) (xy 172.72 165.1)
+				(xy 172.72 190.5) (xy 17.78 190.5) (xy 17.78 43.18) (xy 57.15 43.18)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c49f62a6-6b1e-47f4-9929-d4833097439d")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 30.48 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d266e8d-6c16-49e0-ade3-e61690d6d757")
+		(property "Netclass" ""
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Clock"
+			(at 31.6179 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 82.55 72.39 0)
